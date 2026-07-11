@@ -1,0 +1,74 @@
+site_name: Мой греческий
+site_description: Персональная вики по изучению новогреческого языка
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.action.edit
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+
+plugins:
+  - search:
+      lang:
+        - ru
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Главная: index.md
+  - Маршрут обучения: learning-path.md
+  - Уроки:
+      - lessons/index.md
+  - Справочник:
+      - reference/index.md
+      - Алфавит и чтение: reference/alphabet-and-reading.md
+      - Грамматика: reference/grammar/index.md
+  - Словарь:
+      - vocabulary/index.md
+  - Коротко для памяти:
+      - memory/index.md
+  - Практика:
+      - exercises/index.md
+      - Домашние задания: homework/index.md
+      - Тренажёры: training/index.md
+  - Источники:
+      - sources/index.md
+  - Шаблоны:
+      - Урок: page-templates/lesson.md
+      - Упражнение: page-templates/exercise.md
+      - Домашнее задание: page-templates/homework.md
+      - Источник: page-templates/source.md
+      - Словарь: page-templates/vocabulary.md

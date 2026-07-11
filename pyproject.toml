@@ -1,0 +1,11 @@
+[project]
+name = "greek"
+version = "0.1.0"
+description = "Personal Greek language learning wiki"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs-material>=9.6,<10",
+]
+
+[dependency-groups]
+dev = []
