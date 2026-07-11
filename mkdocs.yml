@@ -52,20 +52,30 @@ nav:
   - Маршрут обучения: learning-path.md
   - Уроки:
       - lessons/index.md
+      - Урок 01 — алфавит и приветствия: lessons/lesson-01-alphabet-and-greetings.md
   - Справочник:
       - reference/index.md
+      - Как читать транскрипцию: reference/transcription.md
       - Алфавит и чтение: reference/alphabet-and-reading.md
+      - Приветствия и знакомство: reference/greetings-and-introductions.md
       - Грамматика: reference/grammar/index.md
   - Словарь:
       - vocabulary/index.md
+      - Общий словарь: vocabulary/all.md
+      - Урок 01 — новые слова: vocabulary/lesson-01.md
   - Коротко для памяти:
       - memory/index.md
+      - Урок 01: memory/lesson-01.md
   - Практика:
       - exercises/index.md
-      - Домашние задания: homework/index.md
+      - Домашние задания:
+          - homework/index.md
+          - К уроку 01: homework/lesson-01-alphabet.md
       - Тренажёры: training/index.md
   - Источники:
       - sources/index.md
+      - Ταξίδι στην Ελλάδα 1: sources/taxidi-stin-ellada-1.md
+      - Материалы урока 01: sources/lesson-01-materials.md
   - Шаблоны:
       - Урок: page-templates/lesson.md
       - Упражнение: page-templates/exercise.md

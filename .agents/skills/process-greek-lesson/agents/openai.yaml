@@ -1,0 +1,4 @@
+interface:
+  display_name: "Разбор урока греческого"
+  short_description: "Разбирает материалы урока в Markdown-вики"
+  default_prompt: "Используй $process-greek-lesson, чтобы разобрать новые материалы урока и обновить греческую вики."
