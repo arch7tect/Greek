@@ -53,29 +53,50 @@ nav:
   - Уроки:
       - lessons/index.md
       - Урок 01 — алфавит и приветствия: lessons/lesson-01-alphabet-and-greetings.md
+      - Урок 02 — είμαι, знакомство и происхождение: lessons/lesson-02-eimai-and-origin.md
+      - Урок 03 — местоимения и знакомство в классе: lessons/lesson-03-pronouns-and-classroom-dialogue.md
+      - Урок 04 — числа и место жительства: lessons/lesson-04-numbers-and-residence.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
       - Алфавит и чтение: reference/alphabet-and-reading.md
       - Приветствия и знакомство: reference/greetings-and-introductions.md
+      - Числа от 0 до 10: reference/numbers-0-10.md
       - Грамматика: reference/grammar/index.md
+      - Глагол είμαι — «быть»: reference/grammar/eimai.md
+      - Личные местоимения: reference/grammar/personal-pronouns.md
+      - Происхождение и место жительства: reference/grammar/origin-and-residence.md
   - Словарь:
       - vocabulary/index.md
       - Общий словарь: vocabulary/all.md
       - Урок 01 — новые слова: vocabulary/lesson-01.md
+      - Урок 02 — новые слова: vocabulary/lesson-02.md
+      - Урок 03 — новые слова: vocabulary/lesson-03.md
+      - Урок 04 — новые слова: vocabulary/lesson-04.md
   - Коротко для памяти:
       - memory/index.md
       - Урок 01: memory/lesson-01.md
+      - Урок 02: memory/lesson-02.md
+      - Урок 03: memory/lesson-03.md
+      - Урок 04: memory/lesson-04.md
   - Практика:
       - exercises/index.md
       - Домашние задания:
           - homework/index.md
           - К уроку 01: homework/lesson-01-alphabet.md
+          - К уроку 02: homework/lesson-02-listening-and-stress.md
+          - К уроку 03: homework/lesson-03-pronouns-and-eimai.md
+          - К уроку 04: homework/lesson-04-eimai-residence-and-numbers.md
       - Тренажёры: training/index.md
   - Источники:
       - sources/index.md
       - Ταξίδι στην Ελλάδα 1: sources/taxidi-stin-ellada-1.md
+      - Рабочая тетрадь Ταξίδι στην Ελλάδα 1+: sources/taxidi-stin-ellada-1-workbook.md
+      - Αυτό ακριβώς!: sources/afto-akrivos-a.md
       - Материалы урока 01: sources/lesson-01-materials.md
+      - Материалы урока 02: sources/lesson-02-materials.md
+      - Материалы урока 03: sources/lesson-03-materials.md
+      - Материалы урока 04: sources/lesson-04-materials.md
   - Шаблоны:
       - Урок: page-templates/lesson.md
       - Упражнение: page-templates/exercise.md
