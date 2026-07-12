@@ -86,6 +86,13 @@ inflate the dictionary with every word visible in an explanation or slide.
   until verified.
 - After verification, update both the lesson dictionary and cumulative
   dictionary, then confirm that stated totals equal actual data rows.
+- After changing `docs/vocabulary/all.md`, run
+  `scripts/build_vocabulary_data.py`. Review the per-lesson totals and keep the
+  regenerated `docs/assets/data/vocabulary-data.js` with the working changes;
+  do not commit it or any other file unless the user explicitly requests a
+  commit. When a new word belongs in the first learning pass, add its exact
+  dictionary entry to `assets/core-vocabulary.txt`; do not duplicate the full
+  word data there.
 
 ## Validate
 
@@ -93,9 +100,11 @@ inflate the dictionary with every word visible in an explanation or slide.
    ambiguity resolved during the run.
 2. Run `uv run mkdocs build --strict` and fix broken configuration, navigation,
    links, and anchors.
-3. Check modified authored files for trailing whitespace and run
+3. Run `scripts/build_vocabulary_data.py` and confirm it reports the same total
+   as the cumulative dictionary whenever vocabulary or its priority changes.
+4. Check modified authored files for trailing whitespace and run
    `git diff --check -- docs mkdocs.yml .agents/skills AGENTS.md CONTRIBUTING.md README.md inbox/README.md materials/README.md`.
-4. Inspect `git status --short` and ensure no temporary output is tracked.
-5. Report created pages, vocabulary counts, unresolved items, validation result,
+5. Inspect `git status --short` and ensure no temporary output is tracked.
+6. Report created pages, vocabulary counts, unresolved items, validation result,
    and commit status. Do not claim that a lesson was completed or homework was
    done unless the materials establish it.
