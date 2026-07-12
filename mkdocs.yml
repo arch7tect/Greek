@@ -86,14 +86,16 @@ nav:
           - К уроку 02: homework/lesson-02-listening-and-stress.md
           - К уроку 03: homework/lesson-03-pronouns-and-eimai.md
           - К уроку 04: homework/lesson-04-eimai-residence-and-numbers.md
-      - Тренажёры: training/index.md
+      - Тренажёры:
+          - training/index.md
+          - Буквы и буквосочетания: training/alphabet-and-combinations.md
   - Учебники:
       - books/index.md
       - Ταξίδι στην Ελλάδα 1: books/taxidi-stin-ellada-1.md
       - Рабочая тетрадь Ταξίδι στην Ελλάδα 1+: books/taxidi-stin-ellada-1-workbook.md
       - Αυτό ακριβώς!: books/afto-akrivos-a.md
-  - Шаблоны:
-      - Урок: page-templates/lesson.md
-      - Домашнее задание: page-templates/homework.md
-      - Учебник: page-templates/book.md
-      - Словарь: page-templates/vocabulary.md
+extra_css:
+  - assets/stylesheets/alphabet-trainer.css
+
+extra_javascript:
+  - assets/javascripts/alphabet-trainer.js

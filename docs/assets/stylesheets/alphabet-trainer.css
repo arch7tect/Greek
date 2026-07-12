@@ -1,0 +1,148 @@
+.alphabet-trainer {
+  max-width: 48rem;
+  margin: 1.5rem 0;
+}
+
+.alphabet-trainer__controls,
+.alphabet-trainer__progress {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.alphabet-trainer__controls label {
+  display: grid;
+  gap: 0.25rem;
+  font-weight: 600;
+}
+
+.alphabet-trainer select,
+.alphabet-trainer button {
+  font: inherit;
+}
+
+.alphabet-trainer select,
+.alphabet-trainer__controls button,
+.alphabet-trainer__unknown,
+.alphabet-trainer__next {
+  min-height: 2.5rem;
+  padding: 0.5rem 0.8rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.alphabet-trainer__progress {
+  margin: 1rem 0 0.75rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+}
+
+.alphabet-trainer__question {
+  padding: 1.25rem;
+  background: var(--md-code-bg-color);
+  border-radius: 0.4rem;
+}
+
+.alphabet-trainer__label,
+.alphabet-trainer__context {
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+}
+
+.alphabet-trainer__prompt {
+  min-height: 4.5rem;
+  display: grid;
+  place-items: center;
+  margin: 0.25rem 0;
+  color: var(--md-default-fg-color);
+  font-size: clamp(2.2rem, 8vw, 4rem);
+  font-weight: 600;
+  text-align: center;
+}
+
+.alphabet-trainer__context {
+  min-height: 1.5rem;
+  text-align: center;
+}
+
+.alphabet-trainer__choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.alphabet-trainer__choice {
+  min-height: 3.25rem;
+  display: grid;
+  grid-template-columns: 1.5rem 1fr;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.alphabet-trainer__choice:hover:not(:disabled),
+.alphabet-trainer__choice:focus-visible,
+.alphabet-trainer__controls button:hover,
+.alphabet-trainer__unknown:hover,
+.alphabet-trainer__next:hover {
+  border-color: var(--md-typeset-a-color);
+}
+
+.alphabet-trainer__choice span {
+  color: var(--md-default-fg-color--light);
+}
+
+.alphabet-trainer__choice.is-correct {
+  border: 2px solid var(--md-primary-fg-color);
+}
+
+.alphabet-trainer__choice.is-wrong {
+  border-style: dashed;
+  text-decoration: line-through;
+}
+
+.alphabet-trainer button:disabled {
+  cursor: default;
+}
+
+.alphabet-trainer__unknown {
+  margin-top: 0.75rem;
+}
+
+.alphabet-trainer__feedback {
+  min-height: 3rem;
+  padding: 0.8rem 0;
+  font-weight: 600;
+}
+
+.alphabet-trainer__next {
+  border-color: var(--md-primary-fg-color);
+}
+
+@media (max-width: 36rem) {
+  .alphabet-trainer__choices {
+    grid-template-columns: 1fr;
+  }
+
+  .alphabet-trainer__controls {
+    align-items: stretch;
+  }
+
+  .alphabet-trainer__controls label,
+  .alphabet-trainer__controls select,
+  .alphabet-trainer__controls button {
+    width: 100%;
+  }
+}
