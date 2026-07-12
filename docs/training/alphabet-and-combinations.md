@@ -36,6 +36,7 @@
   <noscript>Для работы тренажёра нужно разрешить JavaScript.</noscript>
 </div>
 
+<script src="../../assets/javascripts/trainer-engine.js"></script>
 <script src="../../assets/javascripts/alphabet-trainer.js"></script>
 
 Клавиши `1`–`4` выбирают вариант, `Enter` открывает следующую карточку.
