@@ -20,10 +20,10 @@
 
 ## Мини-диалог
 
-> — Γεια σου! Πώς σε λένε; `[ʝa su! pos se ˈlene?]`<br>
+> — Γεια σου! Πώς σε λένε; `[ya su! pos se ˈlene?]`<br>
 > — Με λένε ... Εσένα; `[me ˈlene ... eˈsena?]`<br>
 > — Με λένε ... Τα λέμε! `[me ˈlene ... ta ˈleme!]`<br>
-> — Γεια! `[ʝa!]`
+> — Γεια! `[ya!]`
 
 Полные страницы: [алфавит и чтение](../reference/alphabet-and-reading.md),
 [приветствия и знакомство](../reference/greetings-and-introductions.md),

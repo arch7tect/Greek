@@ -11,8 +11,10 @@ Core requirements:
 - Include the article in a noun's transcription.
 - Transcribe pronunciation rather than spelling.
 - Use `a e i o u` without vowel-length marks.
-- Use the Greek additions defined in the reference page, including
-  `θ, ð, ɣ, ʝ, x, ç, c, ŋ, ts, dz, ks, ps`.
+- Use the project symbols defined in the reference page, including
+  `θ, ð, ɣ, y, h, k, ŋ, ts, dz, ks, ps`.
+- Treat this as a beginner-oriented system, not IPA: write `k` for every `κ`,
+  `h` for every `χ`, and `y` for soft `γ` and the short «й»-like glide.
 - Keep transcription adjacent to words, phrases, dialogue lines, examples, and
   inflected forms. Prefer a dedicated table column.
 - Verify stress from Greek spelling or course audio. Mark uncertainty as
