@@ -41,6 +41,31 @@
     };
   };
 
+  const normalizeCardProgress = (progress) => ({
+    errors: Number.isInteger(progress?.errors) && progress.errors > 0 ? progress.errors : 0,
+    streak: Number.isInteger(progress?.streak) && progress.streak > 0 ? progress.streak : 0
+  });
+
+  const updateCardProgress = (progress, isCorrect) => {
+    const current = normalizeCardProgress(progress);
+    if (!isCorrect) return { errors: current.errors + 1, streak: 0 };
+    const streak = current.streak + 1;
+    return { errors: streak >= 2 ? 0 : current.errors, streak };
+  };
+
+  const weakCards = (cards, progress) => cards.filter((card) => (
+    normalizeCardProgress(progress?.[card.id]).errors > 0
+  ));
+
+  const orderCards = (cards, progress, random = Math.random) => {
+    const weakIds = new Set(weakCards(cards, progress).map((card) => card.id));
+    const weak = cards.filter((card) => weakIds.has(card.id));
+    const other = cards.filter((card) => !weakIds.has(card.id));
+    return [...shuffle(weak, random), ...shuffle(other, random)];
+  };
+
+  const countWeakCards = (cards, progress) => weakCards(cards, progress).length;
+
   const validateDatasets = (datasets) => {
     Object.entries(datasets).forEach(([mode, cards]) => {
       const ids = new Set();
@@ -59,7 +84,8 @@
     defaultMode,
     modeDataKey,
     elements,
-    detailSeparator = " "
+    detailSeparator = " ",
+    storageKey = null
   }) => {
     validateDatasets(datasets);
     const {
@@ -74,6 +100,8 @@
       feedback,
       next
     } = elements;
+    const store = storageKey ? createStore(storageKey) : null;
+    let progressState = store?.get() || {};
     let queue = [];
     let activeMode = defaultMode;
     let current = null;
@@ -81,6 +109,10 @@
     let attempts = 0;
     let correct = 0;
     let initialCount = 0;
+
+    const modeProgress = () => (
+      isRecord(progressState[activeMode]) ? progressState[activeMode] : {}
+    );
 
     const choiceValues = () => [...new Set(datasets[activeMode].map((item) => item.answer))];
 
@@ -98,8 +130,22 @@
       unknown.hidden = true;
       next.hidden = true;
       const accuracy = attempts ? Math.round((correct / attempts) * 100) : 0;
-      feedback.textContent = `Пройдено карточек: ${initialCount}. Точность ответов: ${accuracy}%.`;
+      const weakCount = countWeakCards(datasets[activeMode], modeProgress());
+      const weakSummary = weakCount
+        ? ` Слабых карточек: ${weakCount} — в следующей сессии они будут в начале.`
+        : "";
+      feedback.textContent = (
+        `Пройдено карточек: ${initialCount}. Точность ответов: ${accuracy}%.${weakSummary}`
+      );
       updateStatus();
+    };
+
+    const saveAnswerProgress = (isCorrect) => {
+      if (!store) return;
+      const currentMode = modeProgress();
+      currentMode[current.id] = updateCardProgress(currentMode[current.id], isCorrect);
+      progressState[activeMode] = currentMode;
+      store.set(progressState);
     };
 
     const answer = (value) => {
@@ -107,6 +153,7 @@
       answered = true;
       attempts += 1;
       const isCorrect = value === current.answer;
+      saveAnswerProgress(isCorrect);
       if (isCorrect) {
         correct += 1;
         feedback.textContent = `Верно.${detailSeparator}${current.detail}`;
@@ -159,7 +206,8 @@
     };
 
     const start = () => {
-      queue = shuffle(datasets[activeMode]);
+      const cards = datasets[activeMode];
+      queue = store ? orderCards(cards, modeProgress()) : shuffle(cards);
       initialCount = queue.length;
       current = null;
       attempts = 0;
@@ -200,6 +248,9 @@
   const api = {
     shuffle,
     createStore,
+    updateCardProgress,
+    orderCards,
+    countWeakCards,
     createQuiz
   };
 

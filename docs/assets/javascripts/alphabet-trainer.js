@@ -85,6 +85,7 @@
     datasets,
     defaultMode: "letter-to-sound",
     modeDataKey: "mode",
+    storageKey: "greek-trainer:alphabet:v1",
     elements: {
       modeButtons: [...root.querySelectorAll("[data-mode]")],
       restart: root.querySelector("#alphabet-trainer-restart"),

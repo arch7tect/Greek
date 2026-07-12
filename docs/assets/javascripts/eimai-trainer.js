@@ -40,6 +40,7 @@
     defaultMode: "pronoun-to-form",
     modeDataKey: "eimaiMode",
     detailSeparator: "\n",
+    storageKey: "greek-trainer:eimai:v1",
     elements: {
       modeButtons: [...root.querySelectorAll("[data-eimai-mode]")],
       restart: root.querySelector("#eimai-trainer-restart"),

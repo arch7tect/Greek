@@ -31,6 +31,9 @@ jobs:
       - name: Install locked dependencies
         run: uv sync --locked
 
+      - name: Test trainer engine
+        run: node --test tests/*.test.mjs
+
       - name: Check generated vocabulary
         run: uv run --frozen .agents/skills/process-greek-lesson/scripts/build_vocabulary_data.py --check
 
