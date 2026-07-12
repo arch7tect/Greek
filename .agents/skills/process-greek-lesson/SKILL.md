@@ -1,6 +1,6 @@
 ---
 name: process-greek-lesson
-description: Process Greek lesson materials into this repository's MkDocs wiki. Use when new PDFs, images, text files, homework, handwriting sheets, or audio recordings appear under inbox/lessons or inbox/homework; when asked to analyze or recheck a lesson; or when lesson knowledge, sources, homework, memory notes, per-lesson vocabulary, and the cumulative dictionary must be created or updated. Do not use for general Greek questions unrelated to supplied course materials.
+description: Process Greek lesson materials into this repository's MkDocs wiki. Use when new PDFs, images, text files, homework, handwriting sheets, or audio recordings appear under inbox/lessons or inbox/homework; when asked to analyze or recheck a lesson; or when lesson knowledge, material traceability, homework, memory notes, per-lesson vocabulary, and the cumulative dictionary must be created or updated. Do not use for general Greek questions unrelated to supplied course materials.
 ---
 
 # Process a Greek lesson
@@ -11,7 +11,7 @@ zero-padded lesson number. Distinguish verified content from inference.
 ## Prepare
 
 1. Locate the repository root by `mkdocs.yml` and work from it.
-2. Read `CONTRIBUTING.md`, current lesson/source/vocabulary indexes, and
+2. Read `CONTRIBUTING.md`, current lesson/book/vocabulary indexes, and
    [references/wiki-schema.md](references/wiki-schema.md) completely before
    editing the wiki. Read
    [references/transcription.md](references/transcription.md) completely before
@@ -20,8 +20,8 @@ zero-padded lesson number. Distinguish verified content from inference.
    commit unless the user explicitly requests it.
 4. Inventory the relevant lesson and homework folders with `rg --files` and
    inspect each file's format, size, page count, dimensions, or duration.
-5. Keep every raw file in `inbox/`. Use `lesson-NN-<type>.<ext>` names when the
-   user authorizes normalization; never rewrite source contents.
+5. Treat `inbox/` as the unprocessed queue. Use `lesson-NN-<type>.<ext>` names
+   when the user authorizes normalization; never rewrite source contents.
 
 ## Inspect every source
 
@@ -44,12 +44,14 @@ corrections over a textbook or automated transcription and mark the correction.
 
 Create or update only the pages justified by the material:
 
-1. A source card describing all files, technical quality, processed ranges, and
-   resulting pages.
-2. A numbered lesson page describing goals, material actually covered,
+1. A numbered lesson page describing goals, material actually covered,
    practice, homework, uncertainties, and repetition tasks. Explain how a
    beginner chooses between contrasting forms; include usage context and a
-   common mistake instead of only listing translations.
+   common mistake instead of only listing translations. Its «Материалы и
+   качество» section lists exact original paths, technical quality, processed
+   ranges, numbering discrepancies, and resulting pages.
+2. A book card in `docs/books/` only for a reusable textbook, workbook, or
+   reference book. Do not create a separate card for one lesson's files.
 3. Stable reference pages for reusable pronunciation, grammar, or communication
    rules. Keep a fact in one canonical page and link to it elsewhere.
 4. A homework page preserving exercise numbers, book and PDF page numbers,
@@ -62,6 +64,11 @@ Create or update only the pages justified by the material:
 
 Update section indexes, `mkdocs.yml`, the learning path, and reciprocal links.
 Use explicit ASCII anchor IDs for headings targeted from other pages.
+
+After the lesson pages are complete, move each processed original without
+changing its contents from `inbox/<area>/...` to the matching canonical path
+under `materials/<area>/...`. Update all recorded paths. Leave in `inbox/` only
+files that remain unprocessed or whose lesson assignment is unresolved.
 
 ## Extract vocabulary conservatively
 
@@ -87,7 +94,7 @@ inflate the dictionary with every word visible in an explanation or slide.
 2. Run `uv run mkdocs build --strict` and fix broken configuration, navigation,
    links, and anchors.
 3. Check modified authored files for trailing whitespace and run
-   `git diff --check -- docs mkdocs.yml .agents/skills`.
+   `git diff --check -- docs mkdocs.yml .agents/skills AGENTS.md CONTRIBUTING.md README.md inbox/README.md materials/README.md`.
 4. Inspect `git status --short` and ensure no temporary output is tracked.
 5. Report created pages, vocabulary counts, unresolved items, validation result,
    and commit status. Do not claim that a lesson was completed or homework was

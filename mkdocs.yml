@@ -88,18 +88,14 @@ nav:
           - К уроку 03: homework/lesson-03-pronouns-and-eimai.md
           - К уроку 04: homework/lesson-04-eimai-residence-and-numbers.md
       - Тренажёры: training/index.md
-  - Источники:
-      - sources/index.md
-      - Ταξίδι στην Ελλάδα 1: sources/taxidi-stin-ellada-1.md
-      - Рабочая тетрадь Ταξίδι στην Ελλάδα 1+: sources/taxidi-stin-ellada-1-workbook.md
-      - Αυτό ακριβώς!: sources/afto-akrivos-a.md
-      - Материалы урока 01: sources/lesson-01-materials.md
-      - Материалы урока 02: sources/lesson-02-materials.md
-      - Материалы урока 03: sources/lesson-03-materials.md
-      - Материалы урока 04: sources/lesson-04-materials.md
+  - Учебники:
+      - books/index.md
+      - Ταξίδι στην Ελλάδα 1: books/taxidi-stin-ellada-1.md
+      - Рабочая тетрадь Ταξίδι στην Ελλάδα 1+: books/taxidi-stin-ellada-1-workbook.md
+      - Αυτό ακριβώς!: books/afto-akrivos-a.md
   - Шаблоны:
       - Урок: page-templates/lesson.md
       - Упражнение: page-templates/exercise.md
       - Домашнее задание: page-templates/homework.md
-      - Источник: page-templates/source.md
+      - Учебник: page-templates/book.md
       - Словарь: page-templates/vocabulary.md

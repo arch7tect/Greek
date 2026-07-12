@@ -4,10 +4,13 @@
 
 | Content | Path pattern |
 |---|---|
-| Raw lesson files | `inbox/lessons/NN/` |
-| Raw homework files | `inbox/homework/NN/` |
+| Incoming lesson files | `inbox/lessons/NN/` |
+| Incoming homework files | `inbox/homework/NN/` |
+| Processed lesson originals | `materials/lessons/NN/` |
+| Processed homework originals | `materials/homework/NN/` |
+| Processed books | `materials/books/` |
 | Lesson | `docs/lessons/lesson-NN-topic.md` |
-| Source card | `docs/sources/lesson-NN-materials.md` |
+| Book card | `docs/books/book-title.md` |
 | Homework | `docs/homework/lesson-NN-topic.md` |
 | Lesson vocabulary | `docs/vocabulary/lesson-NN.md` |
 | Cumulative vocabulary | `docs/vocabulary/all.md` |
@@ -18,14 +21,19 @@
 Use existing pages rather than creating near-duplicates. Start from templates in
 `docs/page-templates/` when applicable.
 
-## Source card requirements
+## Material traceability requirements
 
-- List exact raw paths, file sizes, page/slide counts or audio durations.
+- Put the lesson-specific inventory in a «Материалы и качество» section on the
+  lesson page; do not create a separate lesson source card.
+- List exact paths under `materials/`, file sizes, page/slide counts or audio
+  durations.
 - State whether each PDF is a scan, has a usable text layer, or has broken font
   mapping.
 - Map source ranges to resulting wiki pages.
 - Record OCR/transcription quality and every unresolved discrepancy.
 - When book numbering differs from PDF numbering, record both.
+- Create a card in `docs/books/` only for a reusable book. Track all processed
+  page ranges and resulting wiki pages there.
 
 ## Lesson page requirements
 
@@ -39,7 +47,7 @@ Use existing pages rather than creating near-duplicates. Start from templates in
   common mistake. Do not leave pairs such as `σου/σας` as unexplained lists.
 - Do not equate presence in a presentation with proof that it was covered. Mark
   this distinction when the actual scope is unknown.
-- Link canonical rules, vocabulary, homework, source card, and memory note.
+- Link canonical rules, vocabulary, homework, relevant books, and memory note.
 
 ## Reference-page requirements
 
@@ -83,7 +91,7 @@ raw source inventories do not require it.
 - Update the relevant section index.
 - Add pages to `mkdocs.yml` in lesson order.
 - Update `docs/learning-path.md` only with evidence-backed progress.
-- Add reciprocal links among lesson, sources, homework, references, vocabulary,
+- Add reciprocal links among lesson, books, homework, references, vocabulary,
   and memory note.
 - Prefer explicit anchors like `{ #lesson-02-ex-4 }`; Cyrillic automatic slugs
   may not resolve under strict MkDocs checks.

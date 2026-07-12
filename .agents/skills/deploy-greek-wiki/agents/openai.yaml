@@ -1,0 +1,4 @@
+interface:
+  display_name: "Публикация греческой вики"
+  short_description: "Собирает и публикует MkDocs-вики на сервер"
+  default_prompt: "Используй $deploy-greek-wiki, чтобы безопасно опубликовать текущую версию греческой вики."

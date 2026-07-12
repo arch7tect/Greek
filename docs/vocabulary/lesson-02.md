@@ -135,4 +135,4 @@
 ## Источники
 
 - [Домашнее задание к уроку 02](../homework/lesson-02-listening-and-stress.md).
-- [Карточка материалов урока](../sources/lesson-02-materials.md).
+- [Материалы урока](../lessons/lesson-02-eimai-and-origin.md#lesson-02-materials).

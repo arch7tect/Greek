@@ -103,6 +103,6 @@
 
 ## Источники
 
-- [Материалы урока 01](../sources/lesson-01-materials.md), слайды 2–13.
-- [Ταξίδι στην Ελλάδα 1](../sources/taxidi-stin-ellada-1.md), печатные страницы
+- [Материалы урока 01](../lessons/lesson-01-alphabet-and-greetings.md#lesson-01-materials), слайды 2–13.
+- [Ταξίδι στην Ελλάδα 1](../books/taxidi-stin-ellada-1.md), печатные страницы
   13–20.

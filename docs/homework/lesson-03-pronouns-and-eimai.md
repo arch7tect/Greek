@@ -4,7 +4,7 @@
 
 **Связанный урок:** [Урок 03 — местоимения и знакомство в классе](../lessons/lesson-03-pronouns-and-classroom-dialogue.md)
 
-**Рабочая тетрадь:** [Ταξίδι στην Ελλάδα 1+ — Βιβλίο Ασκήσεων](../sources/taxidi-stin-ellada-1-workbook.md)
+**Рабочая тетрадь:** [Ταξίδι στην Ελλάδα 1+ — Βιβλίο Ασκήσεων](../books/taxidi-stin-ellada-1-workbook.md)
 
 ## Задание
 

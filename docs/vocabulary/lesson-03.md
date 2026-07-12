@@ -63,6 +63,6 @@
 ## Источники
 
 - [Домашнее задание к уроку 03](../homework/lesson-03-pronouns-and-eimai.md).
-- [Материалы урока 03](../sources/lesson-03-materials.md).
-- [Рабочая тетрадь](../sources/taxidi-stin-ellada-1-workbook.md), PDF-страницы
+- [Материалы урока 03](../lessons/lesson-03-pronouns-and-classroom-dialogue.md#lesson-03-materials).
+- [Рабочая тетрадь](../books/taxidi-stin-ellada-1-workbook.md), PDF-страницы
   2–3, печатные страницы 10–11.

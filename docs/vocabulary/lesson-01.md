@@ -80,5 +80,5 @@
 ## Источники
 
 - [Домашнее задание к уроку 01](../homework/lesson-01-alphabet.md).
-- [Карточка материалов урока](../sources/lesson-01-materials.md), изображения
+- [Материалы урока](../lessons/lesson-01-alphabet-and-greetings.md#lesson-01-materials), изображения
   печатных страниц 16 и 20.

@@ -43,6 +43,6 @@ answer. Keep model output under `tmp/`.
 
 ## Record evidence
 
-Add each audio file to the lesson source card with duration, mapped exercise,
-recognition method, and verification notes. Update homework and vocabulary only
-after the mapping is established.
+Add each audio file to the lesson page's «Материалы и качество» section with
+duration, mapped exercise, recognition method, and verification notes. Update
+homework and vocabulary only after the mapping is established.

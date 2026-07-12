@@ -93,8 +93,8 @@
 
 ## Источник
 
-[Материалы урока 01](../sources/lesson-01-materials.md), слайды 10 и 24;
-[материалы урока 02](../sources/lesson-02-materials.md), слайды 2, 4, 7 и
-аудиодиалог; [материалы урока 03](../sources/lesson-03-materials.md), слайды 7 и
-13 и аудиодиалог; [материалы урока 04](../sources/lesson-04-materials.md),
+[Материалы урока 01](../lessons/lesson-01-alphabet-and-greetings.md#lesson-01-materials), слайды 10 и 24;
+[материалы урока 02](../lessons/lesson-02-eimai-and-origin.md#lesson-02-materials), слайды 2, 4, 7 и
+аудиодиалог; [материалы урока 03](../lessons/lesson-03-pronouns-and-classroom-dialogue.md#lesson-03-materials), слайды 7 и
+13 и аудиодиалог; [материалы урока 04](../lessons/lesson-04-numbers-and-residence.md#lesson-04-materials),
 слайды 2, 11 и 14.

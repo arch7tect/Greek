@@ -79,5 +79,5 @@
 
 ## Источники
 
-- [Материалы урока 02](../../sources/lesson-02-materials.md).
-- [Материалы урока 04](../../sources/lesson-04-materials.md), слайды 6–11.
+- [Материалы урока 02](../../lessons/lesson-02-eimai-and-origin.md#lesson-02-materials).
+- [Материалы урока 04](../../lessons/lesson-04-numbers-and-residence.md#lesson-04-materials), слайды 6–11.

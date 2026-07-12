@@ -4,7 +4,7 @@
 
 **Связанный урок:** [Урок 01 — алфавит и приветствия](../lessons/lesson-01-alphabet-and-greetings.md)
 
-**Учебник:** [Ταξίδι στην Ελλάδα 1](../sources/taxidi-stin-ellada-1.md)
+**Учебник:** [Ταξίδι στην Ελλάδα 1](../books/taxidi-stin-ellada-1.md)
 
 ## Задание
 
@@ -61,4 +61,4 @@
 
 ## Исходные файлы
 
-Карточка и изображения: [материалы урока 01](../sources/lesson-01-materials.md).
+Оригиналы и качество: [материалы урока 01](../lessons/lesson-01-alphabet-and-greetings.md#lesson-01-materials).

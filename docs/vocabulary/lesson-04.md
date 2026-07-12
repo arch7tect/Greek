@@ -63,5 +63,5 @@
 ## Источники
 
 - [Домашнее задание к уроку 04](../homework/lesson-04-eimai-residence-and-numbers.md).
-- [Материалы урока 04](../sources/lesson-04-materials.md).
-- [Грамматический учебник](../sources/afto-akrivos-a.md), PDF 132 / печатная 142.
+- [Материалы урока 04](../lessons/lesson-04-numbers-and-residence.md#lesson-04-materials).
+- [Грамматический учебник](../books/afto-akrivos-a.md), PDF 132 / печатная 142.

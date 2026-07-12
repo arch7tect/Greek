@@ -63,6 +63,6 @@
 
 ## Источники
 
-- [Материалы урока 02](../../sources/lesson-02-materials.md).
-- [Материалы урока 03](../../sources/lesson-03-materials.md).
-- [Материалы урока 04](../../sources/lesson-04-materials.md).
+- [Материалы урока 02](../../lessons/lesson-02-eimai-and-origin.md#lesson-02-materials).
+- [Материалы урока 03](../../lessons/lesson-03-pronouns-and-classroom-dialogue.md#lesson-03-materials).
+- [Материалы урока 04](../../lessons/lesson-04-numbers-and-residence.md#lesson-04-materials).

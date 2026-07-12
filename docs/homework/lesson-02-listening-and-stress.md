@@ -4,7 +4,7 @@
 
 **Связанный урок:** [Урок 02 — `είμαι` `[ˈime]`, знакомство и происхождение](../lessons/lesson-02-eimai-and-origin.md)
 
-**Учебник:** [Ταξίδι στην Ελλάδα 1](../sources/taxidi-stin-ellada-1.md)
+**Учебник:** [Ταξίδι στην Ελλάδα 1](../books/taxidi-stin-ellada-1.md)
 
 ## Задание
 

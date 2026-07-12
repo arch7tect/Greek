@@ -4,7 +4,7 @@
 
 **Тип:** таблицы и упражнения по морфологии и синтаксису
 
-**Файл:** `inbox/books/afto-akrivos-a.pdf`
+**Файл:** `materials/books/afto-akrivos-a.pdf`
 
 **Объём:** 218 PDF-страниц, 62,5 МБ
 

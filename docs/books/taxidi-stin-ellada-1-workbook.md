@@ -4,7 +4,7 @@
 
 **Тип:** рабочая тетрадь
 
-**Файл:** `inbox/books/taxidi-stin-ellada-1-workbook.pdf`
+**Файл:** `materials/books/taxidi-stin-ellada-1-workbook.pdf`
 
 **Объём:** 110 PDF-страниц, 22,2 МБ
 
