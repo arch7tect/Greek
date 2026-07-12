@@ -150,6 +150,7 @@
   min-height: 3rem;
   padding: 0.8rem 0;
   font-weight: 600;
+  white-space: pre-line;
 }
 
 .alphabet-trainer__next {
