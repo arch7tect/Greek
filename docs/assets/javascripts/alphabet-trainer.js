@@ -204,9 +204,12 @@
   next.addEventListener("click", showQuestion);
   document.addEventListener("keydown", (event) => {
     if (!root.isConnected) return;
+    if (["INPUT", "SELECT", "TEXTAREA"].includes(event.target.tagName) || event.target.isContentEditable) return;
     if (!answered && /^[1-4]$/.test(event.key)) {
+      event.preventDefault();
       choices.querySelectorAll("button")[Number(event.key) - 1]?.click();
-    } else if (answered && event.key === "Enter") {
+    } else if (answered && event.key === "Enter" && event.target.tagName !== "BUTTON") {
+      event.preventDefault();
       next.click();
     }
   });

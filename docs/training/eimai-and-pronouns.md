@@ -36,6 +36,8 @@
   <noscript>Для работы тренажёра нужно разрешить JavaScript.</noscript>
 </div>
 
+<script src="../../assets/javascripts/eimai-trainer.js"></script>
+
 Клавиши `1`–`4` выбирают вариант, `Enter` открывает следующую карточку.
 
 Перед тренировкой можно повторить таблицу

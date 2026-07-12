@@ -9,5 +9,3 @@
 - [Урок 02 — `είμαι` `[ˈime]`, знакомство и происхождение](lesson-02-eimai-and-origin.md)
 - [Урок 03 — местоимения и знакомство в классе](lesson-03-pronouns-and-classroom-dialogue.md)
 - [Урок 04 — числа и место жительства](lesson-04-numbers-and-residence.md)
-
-Для новой страницы используется [шаблон урока](../page-templates/lesson.md).

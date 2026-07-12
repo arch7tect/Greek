@@ -14,5 +14,3 @@
   задано.
 - [К уроку 04 — `είμαι` `[ˈime]`, место жительства и числа](lesson-04-eimai-residence-and-numbers.md) —
   задано.
-
-Для нового задания используется [шаблон](../page-templates/homework.md).

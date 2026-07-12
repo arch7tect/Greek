@@ -1,5 +1,7 @@
 site_name: Мой греческий
 site_description: Персональная вики по изучению новогреческого языка
+exclude_docs: |
+  page-templates/**
 
 theme:
   name: material
@@ -97,8 +99,4 @@ nav:
       - Рабочая тетрадь Ταξίδι στην Ελλάδα 1+: books/taxidi-stin-ellada-1-workbook.md
       - Αυτό ακριβώς!: books/afto-akrivos-a.md
 extra_css:
-  - assets/stylesheets/alphabet-trainer.css
-
-extra_javascript:
-  - assets/javascripts/alphabet-trainer.js
-  - assets/javascripts/eimai-trainer.js
+  - assets/stylesheets/trainers.css
