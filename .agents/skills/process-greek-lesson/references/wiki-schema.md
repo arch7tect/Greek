@@ -59,19 +59,27 @@ Use existing pages rather than creating near-duplicates. Start from templates in
 
 ## Vocabulary requirements
 
-The lesson vocabulary page groups words by exact exercise. Use columns such as:
+The lesson vocabulary page is the only manually edited vocabulary source. Group
+words by exact exercise and end every vocabulary table with `Основное`:
 
-| Слово | Транскрипция | Значение | Форма | Метка или статус |
+| Слово | Транскрипция | Значение | Форма / примечание | Основное |
 |---|---|---|---|---|
 
-The cumulative dictionary has one row per active word:
+Use `да` for the first learning pass and `—` for the full trainer set only.
+Additional columns such as a source label or verification status may appear
+before `Основное`.
+
+Generate the cumulative dictionary and trainer data with
+`scripts/build_vocabulary_data.py`; do not edit them manually. The cumulative
+dictionary has one row per active word:
 
 | Слово | Транскрипция | Значение | Форма / примечание | Впервые встретилось |
 |---|---|---|---|---|
 
 Link `Впервые встретилось` to an explicit ASCII anchor on the lesson dictionary
 section. Avoid duplicate lemmas; enrich the existing row when a later lesson
-adds a meaning or form. Count table data rows mechanically after edits.
+adds a meaning or form. State each lesson's active vocabulary total in prose;
+the generator validates it against the table rows.
 
 Follow `references/transcription.md`. Add transcription to learner-facing Greek
 words, phrases, dialogues, and examples. Bibliographic titles, author names, and

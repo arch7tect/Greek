@@ -56,7 +56,9 @@ Create or update only the pages justified by the material:
    rules. Keep a fact in one canonical page and link to it elsewhere.
 4. A homework page preserving exercise numbers, book and PDF page numbers,
    completion state, media, and verification status.
-5. A per-lesson vocabulary page and the cumulative vocabulary page.
+5. A per-lesson vocabulary page. Treat it as the only manually edited
+   vocabulary source; generate the cumulative dictionary and trainer data from
+   it.
 6. A one-screen memory note when the lesson contains material worth quick
    recall.
 7. Training material only when enough verified content exists; do not invent
@@ -84,15 +86,16 @@ inflate the dictionary with every word visible in an explanation or slide.
 - Cite lesson, printed/PDF page, and exercise for every batch.
 - Hold incomplete or audio-dependent forms outside the cumulative dictionary
   until verified.
-- After verification, update both the lesson dictionary and cumulative
-  dictionary, then confirm that stated totals equal actual data rows.
-- After changing `docs/vocabulary/all.md`, run
-  `scripts/build_vocabulary_data.py`. Review the per-lesson totals and keep the
-  regenerated `docs/assets/data/vocabulary-data.js` with the working changes;
-  do not commit it or any other file unless the user explicitly requests a
-  commit. When a new word belongs in the first learning pass, add its exact
-  dictionary entry to `assets/core-vocabulary.txt`; do not duplicate the full
-  word data there.
+- Put `Основное` last in every lesson vocabulary table. Use `да` for the first
+  learning pass and `—` for the full set only; keep this choice visible to the
+  learner on the lesson page.
+- After verification, update only the lesson dictionary by hand and confirm
+  that its stated total equals its actual data rows. Do not edit
+  `docs/vocabulary/all.md` or `docs/assets/data/vocabulary-data.js` manually.
+- Run `scripts/build_vocabulary_data.py` after changing lesson vocabulary or
+  priority. It generates both derived files. Review the per-lesson totals and
+  keep the generated files with the working changes; do not commit any file
+  unless the user explicitly requests a commit.
 
 ## Validate
 
@@ -100,8 +103,8 @@ inflate the dictionary with every word visible in an explanation or slide.
    ambiguity resolved during the run.
 2. Run `uv run mkdocs build --strict` and fix broken configuration, navigation,
    links, and anchors.
-3. Run `scripts/build_vocabulary_data.py` and confirm it reports the same total
-   as the cumulative dictionary whenever vocabulary or its priority changes.
+3. Run `scripts/build_vocabulary_data.py --check` and confirm all generated
+   vocabulary files are current whenever vocabulary or its priority changes.
 4. Check modified authored files for trailing whitespace and run
    `git diff --check -- docs mkdocs.yml .agents/skills AGENTS.md CONTRIBUTING.md README.md inbox/README.md materials/README.md`.
 5. Inspect `git status --short` and ensure no temporary output is tracked.
