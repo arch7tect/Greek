@@ -6,14 +6,14 @@
 
 <div id="alphabet-trainer" class="alphabet-trainer" aria-label="Тренажёр греческого алфавита">
   <div class="alphabet-trainer__controls">
-    <label for="alphabet-trainer-mode">
-      Режим
-      <select id="alphabet-trainer-mode">
-        <option value="letter-to-sound">Буква → звук</option>
-        <option value="sound-to-letter">Звук → буква</option>
-        <option value="combinations">Буквосочетание → чтение</option>
-      </select>
-    </label>
+    <fieldset class="alphabet-trainer__mode-fieldset">
+      <legend>Режим тренировки</legend>
+      <div class="alphabet-trainer__modes">
+        <button type="button" data-mode="letter-to-sound" aria-pressed="true">Буква → звук</button>
+        <button type="button" data-mode="sound-to-letter" aria-pressed="false">Звук → буква</button>
+        <button type="button" data-mode="combinations" aria-pressed="false">Буквосочетания</button>
+      </div>
+    </fieldset>
     <button id="alphabet-trainer-restart" type="button">Начать заново</button>
   </div>
 

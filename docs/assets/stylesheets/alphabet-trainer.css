@@ -12,18 +12,10 @@
   flex-wrap: wrap;
 }
 
-.alphabet-trainer__controls label {
-  display: grid;
-  gap: 0.25rem;
-  font-weight: 600;
-}
-
-.alphabet-trainer select,
 .alphabet-trainer button {
   font: inherit;
 }
 
-.alphabet-trainer select,
 .alphabet-trainer__controls button,
 .alphabet-trainer__unknown,
 .alphabet-trainer__next {
@@ -34,6 +26,35 @@
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 0.25rem;
   cursor: pointer;
+}
+
+.alphabet-trainer__mode-fieldset {
+  min-width: 0;
+  flex: 1 1 32rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.alphabet-trainer__mode-fieldset legend {
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.alphabet-trainer__modes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.alphabet-trainer__modes button {
+  width: 100%;
+}
+
+.alphabet-trainer__modes button[aria-pressed="true"] {
+  color: var(--md-primary-bg-color);
+  background: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
 }
 
 .alphabet-trainer__progress {
@@ -140,9 +161,11 @@
     align-items: stretch;
   }
 
-  .alphabet-trainer__controls label,
-  .alphabet-trainer__controls select,
   .alphabet-trainer__controls button {
     width: 100%;
+  }
+
+  .alphabet-trainer__modes {
+    grid-template-columns: 1fr;
   }
 }

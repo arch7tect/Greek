@@ -80,7 +80,7 @@
     combinations
   };
 
-  const mode = root.querySelector("#alphabet-trainer-mode");
+  const modeButtons = [...root.querySelectorAll("[data-mode]")];
   const restart = root.querySelector("#alphabet-trainer-restart");
   const progress = root.querySelector("#alphabet-trainer-progress");
   const score = root.querySelector("#alphabet-trainer-score");
@@ -92,6 +92,7 @@
   const next = root.querySelector("#alphabet-trainer-next");
 
   let queue = [];
+  let activeMode = "letter-to-sound";
   let current = null;
   let answered = false;
   let attempts = 0;
@@ -107,7 +108,7 @@
     return result;
   };
 
-  const choiceValues = () => [...new Set(datasets[mode.value].map((item) => item.answer))];
+  const choiceValues = () => [...new Set(datasets[activeMode].map((item) => item.answer))];
 
   const updateStatus = () => {
     const currentCard = current && !answered ? 1 : 0;
@@ -181,7 +182,7 @@
   };
 
   const start = () => {
-    queue = shuffle(datasets[mode.value]);
+    queue = shuffle(datasets[activeMode]);
     initialCount = queue.length;
     current = null;
     attempts = 0;
@@ -189,7 +190,15 @@
     showQuestion();
   };
 
-  mode.addEventListener("change", start);
+  modeButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeMode = button.dataset.mode;
+      modeButtons.forEach((candidate) => {
+        candidate.setAttribute("aria-pressed", String(candidate === button));
+      });
+      start();
+    });
+  });
   restart.addEventListener("click", start);
   unknown.addEventListener("click", () => answer(null));
   next.addEventListener("click", showQuestion);
