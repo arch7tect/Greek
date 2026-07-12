@@ -80,7 +80,6 @@ nav:
       - Урок 03: memory/lesson-03.md
       - Урок 04: memory/lesson-04.md
   - Практика:
-      - exercises/index.md
       - Домашние задания:
           - homework/index.md
           - К уроку 01: homework/lesson-01-alphabet.md
@@ -95,7 +94,6 @@ nav:
       - Αυτό ακριβώς!: books/afto-akrivos-a.md
   - Шаблоны:
       - Урок: page-templates/lesson.md
-      - Упражнение: page-templates/exercise.md
       - Домашнее задание: page-templates/homework.md
       - Учебник: page-templates/book.md
       - Словарь: page-templates/vocabulary.md
