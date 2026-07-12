@@ -5,6 +5,8 @@
 **Связанные уроки:** [урок 02](../../lessons/lesson-02-eimai-and-origin.md),
 [урок 03](../../lessons/lesson-03-pronouns-and-classroom-dialogue.md)
 
+Практика: [тренажёр `είμαι` `[ˈime]` и личных местоимений](../../training/eimai-and-pronouns.md).
+
 ## Кто выполняет действие
 
 | Число | Лицо | Местоимение | Транскрипция | Перевод |

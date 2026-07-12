@@ -89,6 +89,7 @@ nav:
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md
+          - είμαι и личные местоимения: training/eimai-and-pronouns.md
   - Учебники:
       - books/index.md
       - Ταξίδι στην Ελλάδα 1: books/taxidi-stin-ellada-1.md
@@ -99,3 +100,4 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/alphabet-trainer.js
+  - assets/javascripts/eimai-trainer.js

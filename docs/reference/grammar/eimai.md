@@ -63,6 +63,7 @@
 
 ## Связанные материалы
 
+- [Тренажёр `είμαι` `[ˈime]` и личных местоимений](../../training/eimai-and-pronouns.md)
 - [Урок 02 — `είμαι` и знакомство](../../lessons/lesson-02-eimai-and-origin.md)
 - [Урок 03 — местоимения и знакомство в классе](../../lessons/lesson-03-pronouns-and-classroom-dialogue.md)
 - [Личные местоимения](personal-pronouns.md)
