@@ -55,6 +55,7 @@
 </div>
 
 <script src="../../assets/data/vocabulary-data.js"></script>
+<script src="../../assets/javascripts/trainer-engine.js"></script>
 <script src="../../assets/javascripts/vocabulary-trainer.js"></script>
 
 Оценка «Не помню» возвращает карточку в текущую сессию, «Сомневаюсь» — в

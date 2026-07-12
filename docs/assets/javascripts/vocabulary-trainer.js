@@ -3,6 +3,7 @@
   if (!root) return;
 
   const vocabulary = window.GREEK_VOCABULARY;
+  const { createStore, shuffle } = window.GreekTrainer;
   if (!vocabulary?.words?.length) {
     root.textContent = "Не удалось загрузить словарь тренажёра.";
     return;
@@ -36,6 +37,7 @@
   const answer = root.querySelector("#vocabulary-trainer-answer");
   const ratings = root.querySelector("#vocabulary-trainer-ratings");
   const storageKey = "greek-vocabulary-progress-v2";
+  const progressStore = createStore(storageKey);
   const day = 24 * 60 * 60 * 1000;
   const intervals = [1, 3, 7, 14, 30];
 
@@ -47,32 +49,7 @@
   let queue = [];
   let current = null;
   let shownCount = 0;
-  let progressState = loadProgress();
-
-  function loadProgress() {
-    try {
-      return JSON.parse(localStorage.getItem(storageKey) || "{}");
-    } catch {
-      return {};
-    }
-  }
-
-  function saveProgress() {
-    try {
-      localStorage.setItem(storageKey, JSON.stringify(progressState));
-    } catch {
-      // The trainer still works when browser storage is unavailable.
-    }
-  }
-
-  function shuffle(items) {
-    const result = [...items];
-    for (let i = result.length - 1; i > 0; i -= 1) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [result[i], result[j]] = [result[j], result[i]];
-    }
-    return result;
-  }
+  let progressState = progressStore.get();
 
   function selectedWords() {
     return vocabulary.words.filter((word) => (
@@ -190,7 +167,7 @@
       const level = Math.min(previous.level + 1, intervals.length);
       progressState[current.id] = { level, due: Date.now() + intervals[level - 1] * day };
     }
-    saveProgress();
+    progressStore.set(progressState);
     current = null;
     showCard();
   }
