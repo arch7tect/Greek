@@ -44,6 +44,36 @@ test("alphabet datasets retain their card counts and stable ids", async () => {
 });
 
 
+test("numbers datasets retain their card counts and stable ids", async () => {
+  const config = await loadConfig(
+    "docs/assets/data/numbers-data.js",
+    "docs/assets/javascripts/numbers-trainer.js"
+  );
+
+  assert.deepEqual(
+    Object.fromEntries(Object.entries(config.datasets).map(([mode, cards]) => [mode, cards.length])),
+    { "digit-to-word": 11, "word-to-digit": 11, addresses: 3 }
+  );
+  assert.equal(config.storageKey, "greek-trainer:numbers:v1");
+  assertStableIds(config.datasets);
+});
+
+
+test("accusative datasets retain their card counts and stable ids", async () => {
+  const config = await loadConfig(
+    "docs/assets/data/accusative-data.js",
+    "docs/assets/javascripts/accusative-trainer.js"
+  );
+
+  assert.deepEqual(
+    Object.fromEntries(Object.entries(config.datasets).map(([mode, cards]) => [mode, cards.length])),
+    { apo: 13, se: 11 }
+  );
+  assert.equal(config.storageKey, "greek-trainer:accusative:v1");
+  assertStableIds(config.datasets);
+});
+
+
 test("eimai datasets retain their card counts and stable ids", async () => {
   const config = await loadConfig(
     "docs/assets/data/eimai-data.js",

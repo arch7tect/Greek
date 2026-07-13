@@ -24,6 +24,7 @@
       <div class="trainer__modes vocabulary-trainer__two-modes">
         <button type="button" data-vocabulary-direction="greek-to-russian" aria-pressed="true">Греческий → русский</button>
         <button type="button" data-vocabulary-direction="russian-to-greek" aria-pressed="false">Русский → греческий</button>
+        <button type="button" data-vocabulary-direction="article" aria-pressed="false">Артикль</button>
       </div>
     </fieldset>
 
@@ -64,6 +65,14 @@
 
 В направлении **греческий → русский** подсказка показывает транскрипцию. В
 обратном направлении её нет: транскрипция раскрыла бы греческий ответ.
+
+Направление **«Артикль»** показывает слово с пропуском на месте артикля:
+нужно вспомнить `ο` `[o]`, `η` `[i]` или `το` `[to]` (во множественном числе
+`οι` `[i]` или `τα` `[ta]`). В набор попадают только слова, записанные с
+артиклем; транскрипция в задании не показывается, потому что она начинается
+с артикля и раскрыла бы ответ. Род существительного — основа для выбора
+винительных форм в
+[тренажёре `από` `[aˈpo]` и `σε` `[se]`](accusative-after-apo-se.md).
 
 Состав наборов автоматически строится из [общего словаря](../vocabulary/all.md).
 Имена людей не включаются.

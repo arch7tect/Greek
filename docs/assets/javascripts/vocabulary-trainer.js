@@ -40,6 +40,7 @@
   const progressStore = createStore(storageKey);
   const day = 24 * 60 * 60 * 1000;
   const intervals = [1, 3, 7, 14, 30];
+  const articlePattern = /^(ο|η|το|οι|τα)\s+/;
 
   const firstLesson = lessonButtons[0]?.dataset.vocabularyLesson;
   let activeLesson = new URLSearchParams(window.location.search).get("lesson") || firstLesson;
@@ -53,7 +54,9 @@
 
   function selectedWords() {
     return vocabulary.words.filter((word) => (
-      word.lesson === activeLesson && (activeScope === "all" || word.core)
+      word.lesson === activeLesson
+      && (activeScope === "all" || word.core)
+      && (activeDirection !== "article" || articlePattern.test(word.greek))
     ));
   }
 
@@ -103,6 +106,10 @@
     return `${word.greek}\n${word.transcription}\n${word.meaning}\n${word.note}`;
   }
 
+  function articlePrompt(word) {
+    return word.greek.replace(articlePattern, "___ ");
+  }
+
   function finish() {
     current = null;
     promptLabel.textContent = shownCount ? "Сессия завершена" : "На сегодня всё";
@@ -126,9 +133,15 @@
     current = queue.shift();
     shownCount += 1;
     const greekFirst = activeDirection === "greek-to-russian";
-    promptLabel.textContent = greekFirst ? "Вспомните значение" : "Вспомните греческое слово";
-    prompt.textContent = greekFirst ? current.greek : current.meaning;
-    context.textContent = `Урок ${current.lesson}`;
+    if (activeDirection === "article") {
+      promptLabel.textContent = "Вспомните артикль";
+      prompt.textContent = articlePrompt(current);
+      context.textContent = `${current.meaning} · Урок ${current.lesson}`;
+    } else {
+      promptLabel.textContent = greekFirst ? "Вспомните значение" : "Вспомните греческое слово";
+      prompt.textContent = greekFirst ? current.greek : current.meaning;
+      context.textContent = `Урок ${current.lesson}`;
+    }
     hint.hidden = !greekFirst;
     hintText.textContent = "";
     reveal.hidden = false;

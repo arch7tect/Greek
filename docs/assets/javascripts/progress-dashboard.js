@@ -36,6 +36,8 @@
   const sections = [
     quizSection(window.GREEK_ALPHABET_DATA, "Буквы и буквосочетания", "../training/alphabet-and-combinations/"),
     quizSection(window.GREEK_EIMAI_DATA, "είμαι [ˈime] и местоимения", "../training/eimai-and-pronouns/"),
+    quizSection(window.GREEK_NUMBERS_DATA, "Числа от 0 до 10", "../training/numbers/"),
+    quizSection(window.GREEK_ACCUSATIVE_DATA, "Винительный после από [aˈpo] и σε [se]", "../training/accusative-after-apo-se/"),
     vocabularySection()
   ].filter(Boolean);
   if (!sections.length) return;

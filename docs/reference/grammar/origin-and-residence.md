@@ -5,6 +5,8 @@
 **Связанные уроки:** [урок 02](../../lessons/lesson-02-eimai-and-origin.md),
 [урок 04](../../lessons/lesson-04-numbers-and-residence.md)
 
+Практика: [тренажёр винительного после `από` `[aˈpo]` и `σε` `[se]`](../../training/accusative-after-apo-se.md).
+
 ## Два разных вопроса
 
 | Вопрос | Транскрипция | О чём спрашивают | Ответ-модель |
