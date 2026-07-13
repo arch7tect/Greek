@@ -1,11 +1,11 @@
 /* Shared presentation for all interactive trainers. */
-.alphabet-trainer {
+.trainer {
   max-width: 48rem;
   margin: 1.5rem 0;
 }
 
-.alphabet-trainer__controls,
-.alphabet-trainer__progress {
+.trainer__controls,
+.trainer__progress {
   display: flex;
   align-items: end;
   justify-content: space-between;
@@ -13,13 +13,13 @@
   flex-wrap: wrap;
 }
 
-.alphabet-trainer button {
+.trainer button {
   font: inherit;
 }
 
-.alphabet-trainer__controls button,
-.alphabet-trainer__unknown,
-.alphabet-trainer__next {
+.trainer__controls button,
+.trainer__unknown,
+.trainer__next {
   min-height: 2.5rem;
   padding: 0.5rem 0.8rem;
   color: var(--md-default-fg-color);
@@ -29,7 +29,7 @@
   cursor: pointer;
 }
 
-.alphabet-trainer__mode-fieldset {
+.trainer__mode-fieldset {
   min-width: 0;
   flex: 1 1 32rem;
   margin: 0;
@@ -37,46 +37,46 @@
   border: 0;
 }
 
-.alphabet-trainer__mode-fieldset legend {
+.trainer__mode-fieldset legend {
   margin-bottom: 0.3rem;
   font-weight: 600;
 }
 
-.alphabet-trainer__modes {
+.trainer__modes {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.5rem;
 }
 
-.alphabet-trainer__modes button {
+.trainer__modes button {
   width: 100%;
 }
 
-.alphabet-trainer__modes button[aria-pressed="true"] {
+.trainer__modes button[aria-pressed="true"] {
   color: var(--md-primary-bg-color);
   background: var(--md-primary-fg-color);
   border-color: var(--md-primary-fg-color);
 }
 
-.alphabet-trainer__progress {
+.trainer__progress {
   margin: 1rem 0 0.75rem;
   color: var(--md-default-fg-color--light);
   font-size: 0.8rem;
 }
 
-.alphabet-trainer__question {
+.trainer__question {
   padding: 1.25rem;
   background: var(--md-code-bg-color);
   border-radius: 0.4rem;
 }
 
-.alphabet-trainer__label,
-.alphabet-trainer__context {
+.trainer__label,
+.trainer__context {
   margin: 0;
   color: var(--md-default-fg-color--light);
 }
 
-.alphabet-trainer__prompt {
+.trainer__prompt {
   min-height: 4.5rem;
   display: grid;
   place-items: center;
@@ -87,27 +87,27 @@
   text-align: center;
 }
 
-#eimai-trainer .alphabet-trainer__prompt {
+#eimai-trainer .trainer__prompt {
   font-size: clamp(1.6rem, 5vw, 2.5rem);
 }
 
-#vocabulary-trainer .alphabet-trainer__prompt {
+#vocabulary-trainer .trainer__prompt {
   font-size: clamp(1.8rem, 5vw, 2.8rem);
 }
 
-.alphabet-trainer__context {
+.trainer__context {
   min-height: 1.5rem;
   text-align: center;
 }
 
-.alphabet-trainer__choices {
+.trainer__choices {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.65rem;
   margin-top: 1rem;
 }
 
-.alphabet-trainer__choice {
+.trainer__choice {
   min-height: 3.25rem;
   display: grid;
   grid-template-columns: 1.5rem 1fr;
@@ -122,43 +122,43 @@
   text-align: left;
 }
 
-.alphabet-trainer__choice:hover:not(:disabled),
-.alphabet-trainer__choice:focus-visible,
-.alphabet-trainer__controls button:hover,
-.alphabet-trainer__unknown:hover,
-.alphabet-trainer__next:hover {
+.trainer__choice:hover:not(:disabled),
+.trainer__choice:focus-visible,
+.trainer__controls button:hover,
+.trainer__unknown:hover,
+.trainer__next:hover {
   border-color: var(--md-typeset-a-color);
 }
 
-.alphabet-trainer__choice span {
+.trainer__choice span {
   color: var(--md-default-fg-color--light);
 }
 
-.alphabet-trainer__choice.is-correct {
+.trainer__choice.is-correct {
   border: 2px solid var(--md-primary-fg-color);
 }
 
-.alphabet-trainer__choice.is-wrong {
+.trainer__choice.is-wrong {
   border-style: dashed;
   text-decoration: line-through;
 }
 
-.alphabet-trainer button:disabled {
+.trainer button:disabled {
   cursor: default;
 }
 
-.alphabet-trainer__unknown {
+.trainer__unknown {
   margin-top: 0.75rem;
 }
 
-.alphabet-trainer__feedback {
+.trainer__feedback {
   min-height: 3rem;
   padding: 0.8rem 0;
   font-weight: 600;
   white-space: pre-line;
 }
 
-.alphabet-trainer__next {
+.trainer__next {
   border-color: var(--md-primary-fg-color);
 }
 
@@ -218,19 +218,19 @@
 }
 
 @media (max-width: 36rem) {
-  .alphabet-trainer__choices {
+  .trainer__choices {
     grid-template-columns: 1fr;
   }
 
-  .alphabet-trainer__controls {
+  .trainer__controls {
     align-items: stretch;
   }
 
-  .alphabet-trainer__controls button {
+  .trainer__controls button {
     width: 100%;
   }
 
-  .alphabet-trainer__modes {
+  .trainer__modes {
     grid-template-columns: 1fr;
   }
 

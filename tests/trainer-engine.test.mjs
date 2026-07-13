@@ -8,7 +8,9 @@ const {
   createStore,
   updateCardProgress,
   orderCards,
-  countWeakCards
+  countWeakCards,
+  summarizeQuizProgress,
+  summarizeVocabularyProgress
 } = GreekTrainer;
 
 
@@ -87,6 +89,41 @@ test("the store preserves the vocabulary progress format without a wrapper", () 
   assert.deepEqual(store.get(), { word: { level: 2, due: 123 } });
   store.set({ word: { level: 3, due: 456 } });
   assert.deepEqual(JSON.parse(saved), { word: { level: 3, due: 456 } });
+});
+
+test("the quiz summary counts only existing cards as confident or weak", () => {
+  const cards = [{ id: "alpha" }, { id: "beta" }, { id: "gamma" }];
+  const progress = {
+    alpha: { errors: 0, streak: 2 },
+    beta: { errors: 1, streak: 0 },
+    removed: { errors: 5, streak: 0 }
+  };
+
+  assert.deepEqual(
+    summarizeQuizProgress(cards, progress),
+    { total: 3, confident: 1, weak: 1 }
+  );
+});
+
+test("the quiz summary treats missing progress as untouched", () => {
+  assert.deepEqual(
+    summarizeQuizProgress([{ id: "alpha" }], undefined),
+    { total: 1, confident: 0, weak: 0 }
+  );
+});
+
+test("the vocabulary summary counts started, learned, and due words", () => {
+  const words = [{ id: "α" }, { id: "β" }, { id: "γ" }];
+  const progress = {
+    "α": { level: 1, due: 100 },
+    "β": { level: 0, due: 0 },
+    removed: { level: 3, due: 0 }
+  };
+
+  assert.deepEqual(
+    summarizeVocabularyProgress(words, progress, 50),
+    { total: 3, started: 2, learned: 1, due: 1 }
+  );
 });
 
 test("a weak card remains first after the store is recreated", () => {

@@ -66,6 +66,31 @@
 
   const countWeakCards = (cards, progress) => weakCards(cards, progress).length;
 
+  const summarizeQuizProgress = (cards, progress) => {
+    let confident = 0;
+    let weak = 0;
+    cards.forEach((card) => {
+      const current = normalizeCardProgress(progress?.[card.id]);
+      if (current.errors > 0) weak += 1;
+      else if (current.streak > 0) confident += 1;
+    });
+    return { total: cards.length, confident, weak };
+  };
+
+  const summarizeVocabularyProgress = (words, progress, now) => {
+    let started = 0;
+    let learned = 0;
+    let due = 0;
+    words.forEach((word) => {
+      const entry = progress?.[word.id];
+      if (!isRecord(entry)) return;
+      started += 1;
+      if (Number.isInteger(entry.level) && entry.level >= 1) learned += 1;
+      if (typeof entry.due === "number" && entry.due <= now) due += 1;
+    });
+    return { total: words.length, started, learned, due };
+  };
+
   const validateDatasets = (datasets) => {
     Object.entries(datasets).forEach(([mode, cards]) => {
       const ids = new Set();
@@ -195,7 +220,7 @@
       choices.replaceChildren(...variants.map((value, index) => {
         const button = document.createElement("button");
         button.type = "button";
-        button.className = "alphabet-trainer__choice";
+        button.className = "trainer__choice";
         button.dataset.answer = value;
         button.innerHTML = `<span>${index + 1}</span><strong></strong>`;
         button.querySelector("strong").textContent = value;
@@ -251,6 +276,8 @@
     updateCardProgress,
     orderCards,
     countWeakCards,
+    summarizeQuizProgress,
+    summarizeVocabularyProgress,
     createQuiz
   };
 

@@ -4,8 +4,7 @@ import test from "node:test";
 import vm from "node:vm";
 
 
-const loadConfig = async (path) => {
-  const source = await readFile(path, "utf8");
+const loadConfig = async (dataPath, trainerPath) => {
   let config;
   const root = {
     querySelectorAll: () => [],
@@ -15,7 +14,8 @@ const loadConfig = async (path) => {
     document: { getElementById: () => root },
     window: { GreekTrainer: { createQuiz: (value) => { config = value; } } }
   };
-  vm.runInNewContext(source, context, { filename: path });
+  vm.runInNewContext(await readFile(dataPath, "utf8"), context, { filename: dataPath });
+  vm.runInNewContext(await readFile(trainerPath, "utf8"), context, { filename: trainerPath });
   return config;
 };
 
@@ -30,7 +30,10 @@ const assertStableIds = (datasets) => {
 
 
 test("alphabet datasets retain their card counts and stable ids", async () => {
-  const config = await loadConfig("docs/assets/javascripts/alphabet-trainer.js");
+  const config = await loadConfig(
+    "docs/assets/data/alphabet-data.js",
+    "docs/assets/javascripts/alphabet-trainer.js"
+  );
 
   assert.deepEqual(
     Object.fromEntries(Object.entries(config.datasets).map(([mode, cards]) => [mode, cards.length])),
@@ -42,7 +45,10 @@ test("alphabet datasets retain their card counts and stable ids", async () => {
 
 
 test("eimai datasets retain their card counts and stable ids", async () => {
-  const config = await loadConfig("docs/assets/javascripts/eimai-trainer.js");
+  const config = await loadConfig(
+    "docs/assets/data/eimai-data.js",
+    "docs/assets/javascripts/eimai-trainer.js"
+  );
 
   assert.deepEqual(
     Object.fromEntries(Object.entries(config.datasets).map(([mode, cards]) => [mode, cards.length])),
