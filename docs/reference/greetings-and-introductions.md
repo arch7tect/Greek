@@ -7,6 +7,8 @@
 [урок 03](../lessons/lesson-03-pronouns-and-classroom-dialogue.md),
 [урок 04](../lessons/lesson-04-numbers-and-residence.md)
 
+Практика: [тренажёр приветствий и знакомства](../training/greetings.md).
+
 ## Поздороваться
 
 | По-гречески | Транскрипция | Значение и употребление |

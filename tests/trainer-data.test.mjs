@@ -74,6 +74,21 @@ test("accusative datasets retain their card counts and stable ids", async () => 
 });
 
 
+test("greetings datasets retain their card counts and stable ids", async () => {
+  const config = await loadConfig(
+    "docs/assets/data/greetings-data.js",
+    "docs/assets/javascripts/greetings-trainer.js"
+  );
+
+  assert.deepEqual(
+    Object.fromEntries(Object.entries(config.datasets).map(([mode, cards]) => [mode, cards.length])),
+    { greet: 12, meet: 10, "how-are-you": 6 }
+  );
+  assert.equal(config.storageKey, "greek-trainer:greetings:v1");
+  assertStableIds(config.datasets);
+});
+
+
 test("eimai datasets retain their card counts and stable ids", async () => {
   const config = await loadConfig(
     "docs/assets/data/eimai-data.js",

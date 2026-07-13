@@ -26,6 +26,7 @@
 <script src="../assets/data/eimai-data.js"></script>
 <script src="../assets/data/numbers-data.js"></script>
 <script src="../assets/data/accusative-data.js"></script>
+<script src="../assets/data/greetings-data.js"></script>
 <script src="../assets/data/vocabulary-data.js"></script>
 <script src="../assets/javascripts/trainer-engine.js"></script>
 <script src="../assets/javascripts/progress-dashboard.js"></script>

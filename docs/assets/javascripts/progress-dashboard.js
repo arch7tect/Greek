@@ -38,6 +38,7 @@
     quizSection(window.GREEK_EIMAI_DATA, "είμαι [ˈime] и местоимения", "../training/eimai-and-pronouns/"),
     quizSection(window.GREEK_NUMBERS_DATA, "Числа от 0 до 10", "../training/numbers/"),
     quizSection(window.GREEK_ACCUSATIVE_DATA, "Винительный после από [aˈpo] и σε [se]", "../training/accusative-after-apo-se/"),
+    quizSection(window.GREEK_GREETINGS_DATA, "Приветствия и знакомство", "../training/greetings/"),
     vocabularySection()
   ].filter(Boolean);
   if (!sections.length) return;
