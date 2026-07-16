@@ -96,7 +96,8 @@
   font-size: clamp(1.8rem, 5vw, 2.8rem);
 }
 
-#accusative-trainer .trainer__prompt {
+#accusative-trainer .trainer__prompt,
+#verbs-a-trainer .trainer__prompt {
   font-size: clamp(1.6rem, 5vw, 2.5rem);
 }
 

@@ -66,6 +66,15 @@
 
   const countWeakCards = (cards, progress) => weakCards(cards, progress).length;
 
+  const buildChoices = (card, modeValues, random = Math.random) => {
+    const pool = card.choices || modeValues;
+    const distractors = shuffle(
+      pool.filter((value) => value !== card.answer),
+      random
+    ).slice(0, 3);
+    return shuffle([card.answer, ...distractors], random);
+  };
+
   const summarizeQuizProgress = (cards, progress) => {
     let confident = 0;
     let weak = 0;
@@ -212,10 +221,7 @@
       next.hidden = true;
       unknown.hidden = false;
 
-      const distractors = shuffle(
-        choiceValues().filter((value) => value !== current.answer)
-      ).slice(0, 3);
-      const variants = shuffle([current.answer, ...distractors]);
+      const variants = buildChoices(current, choiceValues());
       const document = root.ownerDocument;
       choices.replaceChildren(...variants.map((value, index) => {
         const button = document.createElement("button");
@@ -276,6 +282,7 @@
     updateCardProgress,
     orderCards,
     countWeakCards,
+    buildChoices,
     summarizeQuizProgress,
     summarizeVocabularyProgress,
     createQuiz

@@ -9,6 +9,7 @@ const {
   updateCardProgress,
   orderCards,
   countWeakCards,
+  buildChoices,
   summarizeQuizProgress,
   summarizeVocabularyProgress
 } = GreekTrainer;
@@ -124,6 +125,22 @@ test("the vocabulary summary counts started, learned, and due words", () => {
     summarizeVocabularyProgress(words, progress, 50),
     { total: 3, started: 2, learned: 1, due: 1 }
   );
+});
+
+test("per-card choice pools override the mode-wide answer pool", () => {
+  const card = { answer: "b", choices: ["a", "b", "c", "d", "e", "f"] };
+  const variants = buildChoices(card, ["x", "y", "z"], () => 0.5);
+
+  assert.equal(variants.length, 4);
+  assert.ok(variants.includes("b"));
+  variants.forEach((value) => assert.ok(card.choices.includes(value)));
+});
+
+test("cards without a choice pool draw distractors from the mode answers", () => {
+  const variants = buildChoices({ answer: "b" }, ["a", "b", "c", "d"], () => 0.5);
+
+  assert.equal(variants.length, 4);
+  assert.deepEqual([...variants].sort(), ["a", "b", "c", "d"]);
 });
 
 test("a weak card remains first after the store is recreated", () => {

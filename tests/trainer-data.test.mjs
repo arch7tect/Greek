@@ -82,9 +82,28 @@ test("greetings datasets retain their card counts and stable ids", async () => {
 
   assert.deepEqual(
     Object.fromEntries(Object.entries(config.datasets).map(([mode, cards]) => [mode, cards.length])),
-    { greet: 12, meet: 10, "how-are-you": 6 }
+    { greet: 12, meet: 10, "how-are-you": 10 }
   );
   assert.equal(config.storageKey, "greek-trainer:greetings:v1");
+  assertStableIds(config.datasets);
+});
+
+
+test("first-conjugation datasets retain their card counts and stable ids", async () => {
+  const config = await loadConfig(
+    "docs/assets/data/verbs-a-data.js",
+    "docs/assets/javascripts/verbs-a-trainer.js"
+  );
+
+  assert.deepEqual(
+    Object.fromEntries(Object.entries(config.datasets).map(([mode, cards]) => [mode, cards.length])),
+    { endings: 6, meno: 6, phrases: 21 }
+  );
+  assert.equal(config.storageKey, "greek-trainer:verbs-a:v1");
+  config.datasets.phrases.forEach((card) => {
+    assert.equal(card.choices.length, 6);
+    assert.ok(card.choices.includes(card.answer));
+  });
   assertStableIds(config.datasets);
 });
 
