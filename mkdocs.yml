@@ -58,6 +58,7 @@ nav:
       - Урок 02 — είμαι, знакомство и происхождение: lessons/lesson-02-eimai-and-origin.md
       - Урок 03 — местоимения и знакомство в классе: lessons/lesson-03-pronouns-and-classroom-dialogue.md
       - Урок 04 — числа и место жительства: lessons/lesson-04-numbers-and-residence.md
+      - Урок 05 — Τι κάνεις; и глаголы первого спряжения: lessons/lesson-05-ti-kaneis-and-verbs-a.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -68,6 +69,7 @@ nav:
       - Глагол είμαι — «быть»: reference/grammar/eimai.md
       - Личные местоимения: reference/grammar/personal-pronouns.md
       - Происхождение и место жительства: reference/grammar/origin-and-residence.md
+      - Настоящее время, первое спряжение: reference/grammar/present-tense-a.md
   - Словарь:
       - vocabulary/index.md
       - Общий словарь: vocabulary/all.md
@@ -75,12 +77,14 @@ nav:
       - Урок 02 — новые слова: vocabulary/lesson-02.md
       - Урок 03 — новые слова: vocabulary/lesson-03.md
       - Урок 04 — новые слова: vocabulary/lesson-04.md
+      - Урок 05 — новые слова: vocabulary/lesson-05.md
   - Коротко для памяти:
       - memory/index.md
       - Урок 01: memory/lesson-01.md
       - Урок 02: memory/lesson-02.md
       - Урок 03: memory/lesson-03.md
       - Урок 04: memory/lesson-04.md
+      - Урок 05: memory/lesson-05.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -88,6 +92,7 @@ nav:
           - К уроку 02: homework/lesson-02-listening-and-stress.md
           - К уроку 03: homework/lesson-03-pronouns-and-eimai.md
           - К уроку 04: homework/lesson-04-eimai-residence-and-numbers.md
+          - К уроку 05: homework/lesson-05-verbs-and-matching.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md

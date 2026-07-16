@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 170,
-  "core": 102,
+  "total": 208,
+  "core": 122,
   "lessons": {
     "01": {
       "total": 46,
@@ -18,6 +18,10 @@ window.GREEK_VOCABULARY = {
     "04": {
       "total": 27,
       "core": 23
+    },
+    "05": {
+      "total": 38,
+      "core": 20
     }
   },
   "words": [
@@ -1549,6 +1553,348 @@ window.GREEK_VOCABULARY = {
       "transcription": "[ˈtora]",
       "meaning": "сейчас",
       "note": "наречие",
+      "core": true
+    },
+    {
+      "id": "η Αθήνα",
+      "lesson": "05",
+      "greek": "η Αθήνα",
+      "transcription": "[i aˈθina]",
+      "meaning": "Афины",
+      "note": "στην Αθήνα [stin aˈθina]",
+      "core": true
+    },
+    {
+      "id": "η Αλβανία",
+      "lesson": "05",
+      "greek": "η Αλβανία",
+      "transcription": "[i alvaˈnia]",
+      "meaning": "Албания",
+      "note": "страна",
+      "core": false
+    },
+    {
+      "id": "η αρχαιολογία",
+      "lesson": "05",
+      "greek": "η αρχαιολογία",
+      "transcription": "[i arheoloˈyia]",
+      "meaning": "археология",
+      "note": "учебный предмет",
+      "core": false
+    },
+    {
+      "id": "η άσκηση",
+      "lesson": "05",
+      "greek": "η άσκηση",
+      "transcription": "[i ˈaskisi]",
+      "meaning": "упражнение",
+      "note": "οι ασκήσεις [i asˈkisis]",
+      "core": true
+    },
+    {
+      "id": "η Αυστρία",
+      "lesson": "05",
+      "greek": "η Αυστρία",
+      "transcription": "[i afˈstria]",
+      "meaning": "Австрия",
+      "note": "страна",
+      "core": false
+    },
+    {
+      "id": "βλέπω",
+      "lesson": "05",
+      "greek": "βλέπω",
+      "transcription": "[ˈvlepo]",
+      "meaning": "смотреть; видеть",
+      "note": "глагол",
+      "core": true
+    },
+    {
+      "id": "η βόλτα",
+      "lesson": "05",
+      "greek": "η βόλτα",
+      "transcription": "[i ˈvolta]",
+      "meaning": "прогулка",
+      "note": "πηγαίνω βόλτα [piˈyeno ˈvolta] — гулять",
+      "core": false
+    },
+    {
+      "id": "η Γεωργία",
+      "lesson": "05",
+      "greek": "η Γεωργία",
+      "transcription": "[i yeorˈyia]",
+      "meaning": "Грузия",
+      "note": "страна",
+      "core": false
+    },
+    {
+      "id": "γιατί",
+      "lesson": "05",
+      "greek": "γιατί",
+      "transcription": "[yaˈti]",
+      "meaning": "почему; потому что",
+      "note": "и вопрос, и ответ",
+      "core": true
+    },
+    {
+      "id": "το διάλειμμα",
+      "lesson": "05",
+      "greek": "το διάλειμμα",
+      "transcription": "[to ˈðialima]",
+      "meaning": "перерыв; перемена",
+      "note": "τα διαλείμματα [ta ðiaˈlimata]",
+      "core": false
+    },
+    {
+      "id": "τα ελληνικά",
+      "lesson": "05",
+      "greek": "τα ελληνικά",
+      "transcription": "[ta eliniˈka]",
+      "meaning": "греческий язык",
+      "note": "только множественное число",
+      "core": true
+    },
+    {
+      "id": "έτσι κι έτσι",
+      "lesson": "05",
+      "greek": "έτσι κι έτσι",
+      "transcription": "[ˈetsi ki ˈetsi]",
+      "meaning": "так себе",
+      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
+      "core": true
+    },
+    {
+      "id": "η εφημερίδα",
+      "lesson": "05",
+      "greek": "η εφημερίδα",
+      "transcription": "[i efimeˈriða]",
+      "meaning": "газета",
+      "note": "οι εφημερίδες [i efimeˈriðes]",
+      "core": false
+    },
+    {
+      "id": "έχω",
+      "lesson": "05",
+      "greek": "έχω",
+      "transcription": "[ˈeho]",
+      "meaning": "иметь",
+      "note": "глагол",
+      "core": true
+    },
+    {
+      "id": "η Θεσσαλονίκη",
+      "lesson": "05",
+      "greek": "η Θεσσαλονίκη",
+      "transcription": "[i θesaloˈniki]",
+      "meaning": "Салоники",
+      "note": "город",
+      "core": false
+    },
+    {
+      "id": "κάθε",
+      "lesson": "05",
+      "greek": "κάθε",
+      "transcription": "[ˈkaθe]",
+      "meaning": "каждый",
+      "note": "κάθε μέρα [ˈkaθe ˈmera] — каждый день",
+      "core": true
+    },
+    {
+      "id": "καλούτσικα",
+      "lesson": "05",
+      "greek": "καλούτσικα",
+      "transcription": "[kaˈlutsika]",
+      "meaning": "неплохо; так, ничего",
+      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
+      "core": false
+    },
+    {
+      "id": "η Κρήτη",
+      "lesson": "05",
+      "greek": "η Κρήτη",
+      "transcription": "[i ˈkriti]",
+      "meaning": "Крит",
+      "note": "остров; στην Κρήτη [stin ˈkriti]",
+      "core": false
+    },
+    {
+      "id": "η Κυψέλη",
+      "lesson": "05",
+      "greek": "η Κυψέλη",
+      "transcription": "[i kiˈpseli]",
+      "meaning": "Кипсели",
+      "note": "район Афин",
+      "core": false
+    },
+    {
+      "id": "λέγομαι",
+      "lesson": "05",
+      "greek": "λέγομαι",
+      "transcription": "[ˈleɣome]",
+      "meaning": "зваться; меня зовут",
+      "note": "Λέγομαι Γιώργος [ˈleɣome ˈyorɣos]",
+      "core": true
+    },
+    {
+      "id": "μαζί",
+      "lesson": "05",
+      "greek": "μαζί",
+      "transcription": "[maˈzi]",
+      "meaning": "вместе",
+      "note": "наречие",
+      "core": true
+    },
+    {
+      "id": "μαθαίνω",
+      "lesson": "05",
+      "greek": "μαθαίνω",
+      "transcription": "[maˈθeno]",
+      "meaning": "учить; изучать",
+      "note": "глагол",
+      "core": true
+    },
+    {
+      "id": "με λένε",
+      "lesson": "05",
+      "greek": "με λένε",
+      "transcription": "[me ˈlene]",
+      "meaning": "меня зовут",
+      "note": "Πώς τον / τη λένε; [pos ton / ti ˈlene?] — как его / её зовут?",
+      "core": true
+    },
+    {
+      "id": "μια χαρά",
+      "lesson": "05",
+      "greek": "μια χαρά",
+      "transcription": "[mya haˈra]",
+      "meaning": "прекрасно; отлично",
+      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
+      "core": true
+    },
+    {
+      "id": "ξέρω",
+      "lesson": "05",
+      "greek": "ξέρω",
+      "transcription": "[ˈksero]",
+      "meaning": "знать",
+      "note": "глагол; ср. фразу δεν ξέρω [ðen ˈksero]",
+      "core": true
+    },
+    {
+      "id": "η Ουκρανία",
+      "lesson": "05",
+      "greek": "η Ουκρανία",
+      "transcription": "[i ukraˈnia]",
+      "meaning": "Украина",
+      "note": "страна",
+      "core": false
+    },
+    {
+      "id": "όχι και τόσο καλά",
+      "lesson": "05",
+      "greek": "όχι και τόσο καλά",
+      "transcription": "[ˈohi ke ˈtoso kaˈla]",
+      "meaning": "не так уж хорошо",
+      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
+      "core": false
+    },
+    {
+      "id": "το Πακιστάν",
+      "lesson": "05",
+      "greek": "το Πακιστάν",
+      "transcription": "[to pakiˈstan]",
+      "meaning": "Пакистан",
+      "note": "несклоняемое",
+      "core": false
+    },
+    {
+      "id": "τα Πατήσια",
+      "lesson": "05",
+      "greek": "τα Πατήσια",
+      "transcription": "[ta paˈtisya]",
+      "meaning": "Патисия",
+      "note": "район Афин",
+      "core": false
+    },
+    {
+      "id": "ο Πειραιάς",
+      "lesson": "05",
+      "greek": "ο Πειραιάς",
+      "transcription": "[o pireˈas]",
+      "meaning": "Пирей",
+      "note": "στον Πειραιά [ston pireˈa]",
+      "core": false
+    },
+    {
+      "id": "πηγαίνω",
+      "lesson": "05",
+      "greek": "πηγαίνω",
+      "transcription": "[piˈyeno]",
+      "meaning": "идти; ехать",
+      "note": "глагол",
+      "core": true
+    },
+    {
+      "id": "πότε",
+      "lesson": "05",
+      "greek": "πότε",
+      "transcription": "[ˈpote]",
+      "meaning": "когда?",
+      "note": "вопросительное слово; ср. союз όταν [ˈotan]",
+      "core": true
+    },
+    {
+      "id": "πρώτος / πρώτη / πρώτο",
+      "lesson": "05",
+      "greek": "πρώτος / πρώτη / πρώτο",
+      "transcription": "[ˈprotos / ˈproti / ˈproto]",
+      "meaning": "первый",
+      "note": "прилагательное",
+      "core": true
+    },
+    {
+      "id": "σήμερα",
+      "lesson": "05",
+      "greek": "σήμερα",
+      "transcription": "[ˈsimera]",
+      "meaning": "сегодня",
+      "note": "наречие",
+      "core": true
+    },
+    {
+      "id": "το σουβλάκι",
+      "lesson": "05",
+      "greek": "το σουβλάκι",
+      "transcription": "[to suˈvlaki]",
+      "meaning": "сувлаки",
+      "note": "τα σουβλάκια [ta suˈvlakya]",
+      "core": false
+    },
+    {
+      "id": "σπουδάζω",
+      "lesson": "05",
+      "greek": "σπουδάζω",
+      "transcription": "[spuˈðazo]",
+      "meaning": "учиться; изучать в вузе",
+      "note": "глагол",
+      "core": true
+    },
+    {
+      "id": "η Φιλοθέη",
+      "lesson": "05",
+      "greek": "η Φιλοθέη",
+      "transcription": "[i filoˈθei]",
+      "meaning": "Филотеи",
+      "note": "район Афин",
+      "core": false
+    },
+    {
+      "id": "χάλια",
+      "lesson": "05",
+      "greek": "χάλια",
+      "transcription": "[ˈhalya]",
+      "meaning": "ужасно; очень плохо",
+      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
       "core": true
     }
   ]
