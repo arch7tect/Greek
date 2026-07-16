@@ -57,7 +57,7 @@
 
 > — Καλημέρα, Σεργκέι! Τι κάνεις; `[kaliˈmera, serˈɣei! ti ˈkanis?]`<br>
 > — Καλημέρα, Ιουλία! Πολύ καλά, ευχαριστώ. Εσύ; `[kaliˈmera, iuˈlia! poˈli kaˈla, efhariˈsto. eˈsi?]`<br>
-> — Καλά! Αλήθεια, πού μένεις; `[kaˈla! aˈliθia, pu ˈmenis?]`<br>
+> — Καλά! Αλήθεια, πού μένεις; `[kaˈla! aˈliθya, pu ˈmenis?]`<br>
 > — Μένω στην Καισαριανή. Εσύ; `[ˈmeno stin kesariaˈni. eˈsi?]`<br>
 > — Εγώ μένω στο Παγκράτι. `[eˈɣo ˈmeno sto paŋˈgrati.]`<br>
 > — Μένουμε πολύ κοντά! Εγώ μένω Λυδίας 10. `[ˈmenume poˈli koˈnda! eˈɣo ˈmeno liˈðias ˈðeka.]`<br>

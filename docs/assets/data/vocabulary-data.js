@@ -130,7 +130,7 @@ window.GREEK_VOCABULARY = {
       "greek": "το θυμάρι",
       "transcription": "[to θiˈmari]",
       "meaning": "тимьян",
-      "note": "τα θυμάρια [ta θiˈmaria]",
+      "note": "τα θυμάρια [ta θiˈmarya]",
       "core": false
     },
     {
@@ -220,7 +220,7 @@ window.GREEK_VOCABULARY = {
       "greek": "το μολύβι",
       "transcription": "[to moˈlivi]",
       "meaning": "карандаш",
-      "note": "τα μολύβια [ta moˈlivia]",
+      "note": "τα μολύβια [ta moˈlivya]",
       "core": true
     },
     {
@@ -265,7 +265,7 @@ window.GREEK_VOCABULARY = {
       "greek": "το πιθάρι",
       "transcription": "[to piˈθari]",
       "meaning": "большой глиняный кувшин",
-      "note": "τα πιθάρια [ta piˈθaria]",
+      "note": "τα πιθάρια [ta piˈθarya]",
       "core": false
     },
     {
@@ -1325,9 +1325,9 @@ window.GREEK_VOCABULARY = {
       "id": "η αλήθεια",
       "lesson": "04",
       "greek": "η αλήθεια",
-      "transcription": "[i aˈliθia]",
+      "transcription": "[i aˈliθya]",
       "meaning": "правда",
-      "note": "οι αλήθειες [i aˈliθies]; в диалоге «кстати / правда»",
+      "note": "οι αλήθειες [i aˈliθyes]; в диалоге «кстати / правда»",
       "core": true
     },
     {
@@ -1640,9 +1640,9 @@ window.GREEK_VOCABULARY = {
       "id": "το διάλειμμα",
       "lesson": "05",
       "greek": "το διάλειμμα",
-      "transcription": "[to ˈðialima]",
+      "transcription": "[to ˈðyalima]",
       "meaning": "перерыв; перемена",
-      "note": "τα διαλείμματα [ta ðiaˈlimata]",
+      "note": "τα διαλείμματα [ta ðyaˈlimata]",
       "core": false
     },
     {
