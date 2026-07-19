@@ -29,7 +29,7 @@ window.GREEK_ALPHABET_DATA = {
         ["chi", "Χ χ", "[h]", "χι [hi]", "Греческое «х»; перед e и i звучит мягче, но пишем [h]."],
         ["psi", "Ψ ψ", "[ps]", "ψι [psi]", "Два звука: [p] + [s]."],
         ["omega", "Ω ω", "[o]", "ωμέγα [oˈmeɣa]", "Один из способов записать звук [o]."]
-      ].map(([id, prompt, answer, name, hint]) => ({ id, prompt, answer, detail: `${name}. ${hint}` }))
+      ].map(([id, prompt, answer, name, hint]) => ({ id, lesson: "01", prompt, answer, detail: `${name}. ${hint}` }))
     },
     {
       key: "sound-to-letter",
@@ -56,7 +56,7 @@ window.GREEK_ALPHABET_DATA = {
         ["f", "[f]", "Φ φ", "φι [fi]"],
         ["h", "[h]", "Χ χ", "χι [hi]"],
         ["ps", "[ps]", "Ψ ψ", "ψι [psi]"]
-      ].map(([id, prompt, answer, detail]) => ({ id, prompt, answer, detail }))
+      ].map(([id, prompt, answer, detail]) => ({ id, lesson: "01", prompt, answer, detail }))
     },
     {
       key: "combinations",
@@ -80,7 +80,7 @@ window.GREEK_ALPHABET_DATA = {
         ["gg", "γγ", "[ŋg]", "Внутри слова: άγγελος [ˈaŋgelos]."],
         ["ts", "τσ", "[ts]", "Как в τσάντα [ˈtsanda]."],
         ["tz", "τζ", "[dz] или [ndz]", "Как в τζάμι [ˈdzami] и ταξιτζής [taksiˈdzis]."]
-      ].map(([id, prompt, answer, detail, context = ""]) => ({ id, prompt, answer, detail, context }))
+      ].map(([id, prompt, answer, detail, context = ""]) => ({ id, lesson: "01", prompt, answer, detail, context }))
     }
   ]
 };

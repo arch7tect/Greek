@@ -10,6 +10,7 @@ const {
   orderCards,
   countWeakCards,
   buildChoices,
+  filterByLesson,
   summarizeQuizProgress,
   summarizeVocabularyProgress
 } = GreekTrainer;
@@ -141,6 +142,19 @@ test("cards without a choice pool draw distractors from the mode answers", () =>
 
   assert.equal(variants.length, 4);
   assert.deepEqual([...variants].sort(), ["a", "b", "c", "d"]);
+});
+
+test("the lesson filter keeps cards up to the chosen lesson", () => {
+  const cards = [
+    { id: "a", lesson: "01" },
+    { id: "b", lesson: "04" },
+    { id: "c", lesson: "06" },
+    { id: "d" }
+  ];
+
+  assert.deepEqual(filterByLesson(cards, "04").map((card) => card.id), ["a", "b", "d"]);
+  assert.equal(filterByLesson(cards, "all").length, 4);
+  assert.equal(filterByLesson(cards, undefined).length, 4);
 });
 
 test("a weak card remains first after the store is recreated", () => {

@@ -25,6 +25,7 @@ const assertStableIds = (datasets) => {
     const ids = cards.map((card) => card.id);
     assert.ok(ids.every(Boolean));
     assert.equal(new Set(ids).size, ids.length);
+    cards.forEach((card) => assert.match(card.lesson, /^\d{2}$/));
   });
 };
 

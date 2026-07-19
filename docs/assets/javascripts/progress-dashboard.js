@@ -2,18 +2,31 @@
   const root = document.getElementById("learning-progress");
   if (!root || !window.GreekTrainer) return;
 
-  const { createStore, summarizeQuizProgress, summarizeVocabularyProgress } = window.GreekTrainer;
+  const {
+    createStore,
+    summarizeQuizProgress,
+    summarizeVocabularyProgress,
+    filterByLesson,
+    getLessonLimit
+  } = window.GreekTrainer;
+  const lessonLimit = getLessonLimit();
 
   const quizSection = (data, title, href) => {
     if (!data) return null;
     const progress = createStore(data.storageKey).get();
-    const lines = data.modes.map((mode) => {
-      const summary = summarizeQuizProgress(mode.cards, progress[mode.key]);
+    const modes = data.modes
+      .map((mode) => ({ mode, cards: filterByLesson(mode.cards, lessonLimit) }))
+      .filter(({ cards }) => cards.length > 0);
+    if (!modes.length) {
+      return { title, href, touched: false, lines: [], later: true };
+    }
+    const lines = modes.map(({ mode, cards }) => {
+      const summary = summarizeQuizProgress(cards, progress[mode.key]);
       const weak = summary.weak ? `, слабых: ${summary.weak}` : "";
       return `${mode.title} — уверенно ${summary.confident} из ${summary.total}${weak}`;
     });
-    const touched = data.modes.some((mode) => {
-      const summary = summarizeQuizProgress(mode.cards, progress[mode.key]);
+    const touched = modes.some(({ mode, cards }) => {
+      const summary = summarizeQuizProgress(cards, progress[mode.key]);
       return summary.confident > 0 || summary.weak > 0;
     });
     return { title, href, touched, lines };
@@ -51,7 +64,9 @@
     link.href = section.href;
     link.textContent = section.title;
     item.append(link);
-    if (!section.touched) {
+    if (section.later) {
+      item.append(" — материал позже выбранного урока.");
+    } else if (!section.touched) {
       item.append(" — ещё нет результатов.");
     } else if (section.lines.length === 1) {
       item.append(` — ${section.lines[0]}.`);

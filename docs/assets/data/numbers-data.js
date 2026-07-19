@@ -16,7 +16,7 @@ window.GREEK_NUMBERS_DATA = {
         ["n-8", "8", "οχτώ / οκτώ [oˈhto / oˈkto]", "8 — οχτώ [oˈhto] разговорное и частотное, οκτώ [oˈkto] нейтральное. Части вариантов не смешиваются."],
         ["n-9", "9", "εννιά / εννέα [eˈnya / eˈnea]", "9 — εννιά [eˈnya] разговорное и частотное, εννέα [eˈnea] нейтральное. Части вариантов не смешиваются."],
         ["n-10", "10", "δέκα [ˈðeka]", "10 — δέκα [ˈðeka]."]
-      ].map(([id, prompt, answer, detail]) => ({ id, prompt, answer, detail }))
+      ].map(([id, prompt, answer, detail]) => ({ id, lesson: "04", prompt, answer, detail }))
     },
     {
       key: "word-to-digit",
@@ -33,7 +33,7 @@ window.GREEK_NUMBERS_DATA = {
         ["w-8", "οχτώ / οκτώ [oˈhto / oˈkto]", "8", "οχτώ / οκτώ [oˈhto / oˈkto] — 8. Первый вариант разговорный и частотный, второй нейтральный."],
         ["w-9", "εννιά / εννέα [eˈnya / eˈnea]", "9", "εννιά / εννέα [eˈnya / eˈnea] — 9. Первый вариант разговорный и частотный, второй нейтральный."],
         ["w-10", "δέκα [ˈðeka]", "10", "δέκα [ˈðeka] — 10."]
-      ].map(([id, prompt, answer, detail]) => ({ id, prompt, answer, detail }))
+      ].map(([id, prompt, answer, detail]) => ({ id, lesson: "04", prompt, answer, detail }))
     },
     {
       key: "digit-to-word-100",
@@ -57,7 +57,7 @@ window.GREEK_NUMBERS_DATA = {
         ["n-80", "80", "ογδόντα [oɣˈðonda]", "80 — ογδόντα [oɣˈðonda]."],
         ["n-90", "90", "ενενήντα [eneˈninda]", "90 — ενενήντα [eneˈninda]."],
         ["n-100", "100", "εκατό [ekaˈto]", "100 — εκατό [ekaˈto]."]
-      ].map(([id, prompt, answer, detail]) => ({ id, prompt, answer, detail }))
+      ].map(([id, prompt, answer, detail]) => ({ id, lesson: "06", prompt, answer, detail }))
     },
     {
       key: "word-to-digit-100",
@@ -81,7 +81,7 @@ window.GREEK_NUMBERS_DATA = {
         ["w-80", "ογδόντα [oɣˈðonda]", "80", "ογδόντα [oɣˈðonda] — 80."],
         ["w-90", "ενενήντα [eneˈninda]", "90", "ενενήντα [eneˈninda] — 90."],
         ["w-100", "εκατό [ekaˈto]", "100", "εκατό [ekaˈto] — 100."]
-      ].map(([id, prompt, answer, detail]) => ({ id, prompt, answer, detail }))
+      ].map(([id, prompt, answer, detail]) => ({ id, lesson: "06", prompt, answer, detail }))
     },
     {
       key: "composite",
@@ -98,7 +98,7 @@ window.GREEK_NUMBERS_DATA = {
         ["c-76", "76", "εβδομήντα έξι [evðoˈminda ˈeksi]", "76 — εβδομήντα έξι [evðoˈminda ˈeksi]."],
         ["c-87", "87", "ογδόντα εφτά / επτά [oɣˈðonda eˈfta / eˈpta]", "87 — ογδόντα εφτά [oɣˈðonda eˈfta]; нейтральный вариант — επτά [eˈpta]."],
         ["c-98", "98", "ενενήντα οχτώ / οκτώ [eneˈninda oˈhto / oˈkto]", "98 — ενενήντα οχτώ [eneˈninda oˈhto]; нейтральный вариант — οκτώ [oˈkto]."]
-      ].map(([id, prompt, answer, detail]) => ({ id, prompt, answer, detail }))
+      ].map(([id, prompt, answer, detail]) => ({ id, lesson: "06", prompt, answer, detail }))
     },
     {
       key: "addresses",
@@ -107,7 +107,7 @@ window.GREEK_NUMBERS_DATA = {
         ["lydias-10", "Λυδίας 10", "Λυδίας δέκα [liˈðias ˈðeka]", "Улица Лидиас, дом 10.", "Прочитайте адрес вслух"],
         ["naxou-3", "Νάξου 3", "Νάξου τρία [ˈnaksu ˈtria]", "Улица Наксу, дом 3.", "Прочитайте адрес вслух"],
         ["sporadon-10", "Σποράδων 10", "Σποράδων δέκα [spoˈraðon ˈðeka]", "Улица Спорадон, дом 10.", "Прочитайте адрес вслух"]
-      ].map(([id, prompt, answer, detail, context]) => ({ id, prompt, answer, detail, context }))
+      ].map(([id, prompt, answer, detail, context]) => ({ id, lesson: "04", prompt, answer, detail, context }))
     }
   ]
 };

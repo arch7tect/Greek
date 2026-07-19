@@ -66,6 +66,30 @@
 
   const countWeakCards = (cards, progress) => weakCards(cards, progress).length;
 
+  const LESSON_LIMIT_KEY = "greek-trainer:lesson-limit:v1";
+
+  const filterByLesson = (cards, limit) => (
+    !limit || limit === "all"
+      ? cards
+      : cards.filter((card) => !card.lesson || card.lesson <= limit)
+  );
+
+  const getLessonLimit = () => {
+    try {
+      return globalThis.localStorage?.getItem(LESSON_LIMIT_KEY) || "all";
+    } catch {
+      return "all";
+    }
+  };
+
+  const setLessonLimit = (limit) => {
+    try {
+      globalThis.localStorage?.setItem(LESSON_LIMIT_KEY, limit);
+    } catch {
+      // The filter still works for the current page view.
+    }
+  };
+
   const buildChoices = (card, modeValues, random = Math.random) => {
     const pool = card.choices || modeValues;
     const distractors = shuffle(
@@ -135,7 +159,9 @@
       next
     } = elements;
     const store = storageKey ? createStore(storageKey) : null;
+    const lessonSelect = elements.lessonSelect || null;
     let progressState = store?.get() || {};
+    let lessonLimit = lessonSelect ? getLessonLimit() : "all";
     let queue = [];
     let activeMode = defaultMode;
     let current = null;
@@ -148,7 +174,21 @@
       isRecord(progressState[activeMode]) ? progressState[activeMode] : {}
     );
 
-    const choiceValues = () => [...new Set(datasets[activeMode].map((item) => item.answer))];
+    const activeCards = () => filterByLesson(datasets[activeMode], lessonLimit);
+
+    const choiceValues = () => [...new Set(activeCards().map((item) => item.answer))];
+
+    const updateModeVisibility = () => {
+      modeButtons.forEach((button) => {
+        const key = button.dataset[modeDataKey];
+        button.hidden = filterByLesson(datasets[key], lessonLimit).length === 0;
+      });
+    };
+
+    const firstAvailableMode = () => {
+      const visible = modeButtons.find((button) => !button.hidden);
+      return visible ? visible.dataset[modeDataKey] : null;
+    };
 
     const updateStatus = () => {
       const currentCard = current && !answered ? 1 : 0;
@@ -164,7 +204,7 @@
       unknown.hidden = true;
       next.hidden = true;
       const accuracy = attempts ? Math.round((correct / attempts) * 100) : 0;
-      const weakCount = countWeakCards(datasets[activeMode], modeProgress());
+      const weakCount = countWeakCards(activeCards(), modeProgress());
       const weakSummary = weakCount
         ? ` Слабых карточек: ${weakCount} — в следующей сессии они будут в начале.`
         : "";
@@ -236,8 +276,35 @@
       updateStatus();
     };
 
+    const showEmptyState = () => {
+      current = null;
+      queue = [];
+      prompt.textContent = "Нет материала до выбранного урока";
+      context.textContent = "Поднимите фильтр «Материал», чтобы открыть карточки.";
+      choices.replaceChildren();
+      unknown.hidden = true;
+      next.hidden = true;
+      feedback.textContent = "";
+      updateStatus();
+    };
+
     const start = () => {
-      const cards = datasets[activeMode];
+      updateModeVisibility();
+      let cards = activeCards();
+      if (!cards.length) {
+        const fallback = firstAvailableMode();
+        if (fallback) {
+          activeMode = fallback;
+          modeButtons.forEach((button) => {
+            button.setAttribute("aria-pressed", String(button.dataset[modeDataKey] === activeMode));
+          });
+          cards = activeCards();
+        }
+      }
+      if (!cards.length) {
+        showEmptyState();
+        return;
+      }
       queue = store ? orderCards(cards, modeProgress()) : shuffle(cards);
       initialCount = queue.length;
       current = null;
@@ -245,6 +312,30 @@
       correct = 0;
       showQuestion();
     };
+
+    if (lessonSelect) {
+      const lessons = [...new Set(
+        Object.values(datasets).flatMap((cards) => cards.map((card) => card.lesson).filter(Boolean))
+      )].sort();
+      if (lessonLimit !== "all" && !lessons.includes(lessonLimit)) lessons.push(lessonLimit);
+      lessons.sort();
+      const doc = root.ownerDocument;
+      const allOption = doc.createElement("option");
+      allOption.value = "all";
+      allOption.textContent = "Все уроки";
+      lessonSelect.replaceChildren(allOption, ...lessons.map((lesson) => {
+        const option = doc.createElement("option");
+        option.value = lesson;
+        option.textContent = `До урока ${lesson}`;
+        return option;
+      }));
+      lessonSelect.value = lessonLimit;
+      lessonSelect.addEventListener("change", () => {
+        lessonLimit = lessonSelect.value;
+        setLessonLimit(lessonLimit);
+        start();
+      });
+    }
 
     modeButtons.forEach((button) => {
       button.addEventListener("click", () => {
@@ -283,6 +374,8 @@
     orderCards,
     countWeakCards,
     buildChoices,
+    filterByLesson,
+    getLessonLimit,
     summarizeQuizProgress,
     summarizeVocabularyProgress,
     createQuiz

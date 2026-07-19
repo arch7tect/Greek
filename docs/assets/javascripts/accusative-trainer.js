@@ -12,6 +12,7 @@
     elements: {
       modeButtons: [...root.querySelectorAll("[data-accusative-mode]")],
       restart: root.querySelector("#accusative-trainer-restart"),
+      lessonSelect: root.querySelector("#accusative-trainer-lesson-filter"),
       progress: root.querySelector("#accusative-trainer-progress"),
       score: root.querySelector("#accusative-trainer-score"),
       prompt: root.querySelector("#accusative-trainer-prompt"),

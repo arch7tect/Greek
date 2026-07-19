@@ -12,6 +12,7 @@
     elements: {
       modeButtons: [...root.querySelectorAll("[data-verbs-a-mode]")],
       restart: root.querySelector("#verbs-a-trainer-restart"),
+      lessonSelect: root.querySelector("#verbs-a-trainer-lesson-filter"),
       progress: root.querySelector("#verbs-a-trainer-progress"),
       score: root.querySelector("#verbs-a-trainer-score"),
       prompt: root.querySelector("#verbs-a-trainer-prompt"),

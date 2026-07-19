@@ -18,7 +18,7 @@ window.GREEK_ACCUSATIVE_DATA = {
         ["apo-madriti", "Είμαι από ___ Μαδρίτη.", "η Μαδρίτη [i maˈðriti]", "τη [ti]", "Είμαι από τη Μαδρίτη [ˈime aˈpo ti maˈðriti]. Женский род; конечное ν опускается перед μ."],
         ["apo-londino", "Είμαι από ___ Λονδίνο.", "το Λονδίνο [to lonˈðino]", "το [to]", "Είμαι από το Λονδίνο [ˈime aˈpo to lonˈðino]. Средний род — артикль το не меняется."],
         ["apo-parisi", "Είμαι από ___ Παρίσι.", "το Παρίσι [to paˈrisi]", "το [to]", "Είμαι από το Παρίσι [ˈime aˈpo to paˈrisi]. Средний род — артикль το не меняется."]
-      ].map(([id, prompt, context, answer, detail]) => ({ id, prompt, context, answer, detail }))
+      ].map(([id, prompt, context, answer, detail]) => ({ id, lesson: "04", prompt, context, answer, detail }))
     },
     {
       key: "se",
@@ -35,7 +35,7 @@ window.GREEK_ACCUSATIVE_DATA = {
         ["se-pagrati", "Μένω ___ Παγκράτι.", "το Παγκράτι [to paŋˈgrati]", "στο [sto]", "Μένω στο Παγκράτι [ˈmeno sto paŋˈgrati]. σε + το → στο; средний род."],
         ["se-parisi", "Μένω ___ Παρίσι.", "το Παρίσι [to paˈrisi]", "στο [sto]", "Μένω στο Παρίσι [ˈmeno sto paˈrisi]. σε + το → στο; средний род."],
         ["se-londino", "Μένω ___ Λονδίνο.", "το Λονδίνο [to lonˈðino]", "στο [sto]", "Μένω στο Λονδίνο [ˈmeno sto lonˈðino]. σε + το → στο; средний род."]
-      ].map(([id, prompt, context, answer, detail]) => ({ id, prompt, context, answer, detail }))
+      ].map(([id, prompt, context, answer, detail]) => ({ id, lesson: "04", prompt, context, answer, detail }))
     },
     {
       key: "prepositions",
@@ -53,8 +53,8 @@ window.GREEK_ACCUSATIVE_DATA = {
         ["prep-panepistimio", "Πηγαίνω ___ πανεπιστήμιο.", "иду в университет", "στο [sto]", ["στο [sto]", "με το [me to]", "για το [ya to]", "από το [aˈpo to]"], "Πηγαίνω στο πανεπιστήμιο [piˈyeno sto panepiˈstimio]. Направление «в/к» — σε; σε + το → στο."]
       ].map(([id, prompt, context, answer, choices, detail]) => (
         choices
-          ? { id, prompt, context, answer, choices, detail }
-          : { id, prompt, context, answer, detail }
+          ? { id, lesson: "06", prompt, context, answer, choices, detail }
+          : { id, lesson: "06", prompt, context, answer, detail }
       ))
     }
   ]

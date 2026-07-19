@@ -40,6 +40,7 @@ window.GREEK_VERBS_A_DATA = (() => {
         title: "Окончание → лицо",
         cards: endings.map(([ending, tr], index) => ({
           id: `end-${ending}`,
+          lesson: "05",
           prompt: `-${ending} [${tr}]`,
           answer: persons[index],
           detail: `${persons[index]} → ${verbs["μένω"][index]}.`
@@ -50,6 +51,7 @@ window.GREEK_VERBS_A_DATA = (() => {
         title: "Формы μένω",
         cards: persons.map((person, index) => ({
           id: `meno-${index + 1}`,
+          lesson: "05",
           prompt: person,
           answer: verbs["μένω"][index],
           detail: `${person} → окончание -${endings[index][0]} [${endings[index][1]}]: ${verbs["μένω"][index]}.`
@@ -60,6 +62,7 @@ window.GREEK_VERBS_A_DATA = (() => {
         title: "Фраза с пропуском",
         cards: phraseRows.map(([id, prompt, verb, personIndex, detail]) => ({
           id,
+          lesson: "05",
           prompt,
           context: `(${verbs[verb][0]})`,
           answer: verbs[verb][personIndex],

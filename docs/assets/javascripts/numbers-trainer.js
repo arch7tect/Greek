@@ -12,6 +12,7 @@
     elements: {
       modeButtons: [...root.querySelectorAll("[data-numbers-mode]")],
       restart: root.querySelector("#numbers-trainer-restart"),
+      lessonSelect: root.querySelector("#numbers-trainer-lesson-filter"),
       progress: root.querySelector("#numbers-trainer-progress"),
       score: root.querySelector("#numbers-trainer-score"),
       prompt: root.querySelector("#numbers-trainer-prompt"),

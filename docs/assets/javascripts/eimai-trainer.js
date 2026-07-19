@@ -13,6 +13,7 @@
     elements: {
       modeButtons: [...root.querySelectorAll("[data-eimai-mode]")],
       restart: root.querySelector("#eimai-trainer-restart"),
+      lessonSelect: root.querySelector("#eimai-trainer-lesson-filter"),
       progress: root.querySelector("#eimai-trainer-progress"),
       score: root.querySelector("#eimai-trainer-score"),
       prompt: root.querySelector("#eimai-trainer-prompt"),

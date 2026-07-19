@@ -14,6 +14,10 @@
         <button type="button" data-mode="combinations" aria-pressed="false">Буквосочетания</button>
       </div>
     </fieldset>
+    <fieldset class="trainer__mode-fieldset trainer__lesson-fieldset">
+      <legend>Материал</legend>
+      <select id="alphabet-trainer-lesson-filter" class="trainer__lesson-select" aria-label="Ограничить материал по уроку"></select>
+    </fieldset>
     <button id="alphabet-trainer-restart" type="button">Начать заново</button>
   </div>
 
@@ -43,6 +47,8 @@
 Клавиши `1`–`4` выбирают вариант, `Enter` открывает следующую карточку.
 Ошибки сохраняются в этом браузере: слабые карточки появляются в начале новой
 сессии и уходят из слабых после двух правильных ответов подряд.
+Фильтр «Материал» ограничивает карточки пройденными уроками; выбор общий для
+всех тренажёров и хранится в этом браузере.
 
 Правила и спорные случаи можно повторить в справочнике
 [«Алфавит и чтение»](../reference/alphabet-and-reading.md). Транскрипция следует

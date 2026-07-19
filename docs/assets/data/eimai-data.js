@@ -11,7 +11,7 @@ window.GREEK_EIMAI_DATA = {
         ["emeis-imaste", "εμείς", "[eˈmis] — мы", "είμαστε [ˈimaste]", "Пример:\nΕμείς είμαστε από τη Βραζιλία.\n[eˈmis ˈimaste aˈpo ti vraziˈlia] — Мы из Бразилии."],
         ["eseis-iste", "εσείς", "[eˈsis] — вы", "είστε / είσαστε [ˈiste / ˈisaste]", "Пример:\nΕσείς είστε από την Τουρκία;\n[eˈsis ˈiste aˈpo tin turˈkia] — Вы из Турции?"],
         ["aftoi-ine", "αυτοί / αυτές / αυτά", "[afˈti / afˈtes / afˈta] — они", "είναι [ˈine]", "Пример:\nΑυτές είναι από την Ελλάδα.\n[afˈtes ˈine aˈpo tin eˈlaða] — Они из Греции."]
-      ].map(([id, prompt, context, answer, detail]) => ({ id, prompt, context, answer, detail }))
+      ].map(([id, prompt, context, answer, detail]) => ({ id, lesson: "02", prompt, context, answer, detail }))
     },
     {
       key: "form-to-pronoun",
@@ -22,7 +22,7 @@ window.GREEK_EIMAI_DATA = {
         ["ine-third-person", "είναι [ˈine]", "Кто соответствует этой форме?", "αυτός / αυτή / αυτό; αυτοί / αυτές / αυτά", "Пример:\nΑυτές είναι από την Ελλάδα.\n[afˈtes ˈine aˈpo tin eˈlaða] — Они из Греции."],
         ["imaste-emeis", "είμαστε [ˈimaste]", "Кто соответствует этой форме?", "εμείς [eˈmis]", "Пример:\nΕμείς είμαστε από τη Βραζιλία.\n[eˈmis ˈimaste aˈpo ti vraziˈlia] — Мы из Бразилии."],
         ["iste-eseis", "είστε / είσαστε [ˈiste / ˈisaste]", "Кто соответствует этой форме?", "εσείς [eˈsis]", "Пример:\nΕσείς είστε από την Τουρκία;\n[eˈsis ˈiste aˈpo tin turˈkia] — Вы из Турции?"]
-      ].map(([id, prompt, context, answer, detail]) => ({ id, prompt, context, answer, detail }))
+      ].map(([id, prompt, context, answer, detail]) => ({ id, lesson: "03", prompt, context, answer, detail }))
     },
     {
       key: "phrases",
@@ -34,7 +34,7 @@ window.GREEK_EIMAI_DATA = {
         ["phrase-emeis-brazil", "Εμείς ___ από τη Βραζιλία.", "[eˈmis … aˈpo ti vraziˈlia] — Мы из Бразилии.", "είμαστε [ˈimaste]", "Полная фраза:\nΕμείς είμαστε από τη Βραζιλία.\n[eˈmis ˈimaste aˈpo ti vraziˈlia] — Мы из Бразилии."],
         ["phrase-eseis-turkey", "Εσείς ___ από την Τουρκία;", "[eˈsis … aˈpo tin turˈkia] — Вы из Турции?", "είστε / είσαστε [ˈiste / ˈisaste]", "Полная фраза:\nΕσείς είστε από την Τουρκία;\n[eˈsis ˈiste aˈpo tin turˈkia] — Вы из Турции?"],
         ["phrase-aftes-greece", "Αυτές ___ από την Ελλάδα.", "[afˈtes … aˈpo tin eˈlaða] — Они из Греции.", "είναι [ˈine]", "Полная фраза:\nΑυτές είναι από την Ελλάδα.\n[afˈtes ˈine aˈpo tin eˈlaða] — Они из Греции."]
-      ].map(([id, prompt, context, answer, detail]) => ({ id, prompt, context, answer, detail }))
+      ].map(([id, prompt, context, answer, detail]) => ({ id, lesson: "02", prompt, context, answer, detail }))
     }
   ]
 };

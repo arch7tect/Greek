@@ -12,6 +12,7 @@
     elements: {
       modeButtons: [...root.querySelectorAll("[data-greetings-mode]")],
       restart: root.querySelector("#greetings-trainer-restart"),
+      lessonSelect: root.querySelector("#greetings-trainer-lesson-filter"),
       progress: root.querySelector("#greetings-trainer-progress"),
       score: root.querySelector("#greetings-trainer-score"),
       prompt: root.querySelector("#greetings-trainer-prompt"),

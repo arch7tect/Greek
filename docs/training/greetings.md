@@ -16,6 +16,10 @@
         <button type="button" data-greetings-mode="how-are-you" aria-pressed="false">Как дела</button>
       </div>
     </fieldset>
+    <fieldset class="trainer__mode-fieldset trainer__lesson-fieldset">
+      <legend>Материал</legend>
+      <select id="greetings-trainer-lesson-filter" class="trainer__lesson-select" aria-label="Ограничить материал по уроку"></select>
+    </fieldset>
     <button id="greetings-trainer-restart" type="button">Начать заново</button>
   </div>
 
@@ -45,6 +49,8 @@
 Клавиши `1`–`4` выбирают вариант, `Enter` открывает следующую карточку.
 Ошибки сохраняются в этом браузере: слабые карточки появляются в начале новой
 сессии и уходят из слабых после двух правильных ответов подряд.
+Фильтр «Материал» ограничивает карточки пройденными уроками; выбор общий для
+всех тренажёров и хранится в этом браузере.
 
 Тренажёр специально сталкивает похожие формулы: `Γεια σου / Γεια σας`
 `[ya su / ya sas]`, `Καλησπέρα` `[kaliˈspera]` против `Καλό βράδυ`

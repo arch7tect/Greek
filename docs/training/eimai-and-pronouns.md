@@ -14,6 +14,10 @@
         <button type="button" data-eimai-mode="phrases" aria-pressed="false">Фраза с пропуском</button>
       </div>
     </fieldset>
+    <fieldset class="trainer__mode-fieldset trainer__lesson-fieldset">
+      <legend>Материал</legend>
+      <select id="eimai-trainer-lesson-filter" class="trainer__lesson-select" aria-label="Ограничить материал по уроку"></select>
+    </fieldset>
     <button id="eimai-trainer-restart" type="button">Начать заново</button>
   </div>
 
@@ -43,6 +47,8 @@
 Клавиши `1`–`4` выбирают вариант, `Enter` открывает следующую карточку.
 Ошибки сохраняются в этом браузере: слабые карточки появляются в начале новой
 сессии и уходят из слабых после двух правильных ответов подряд.
+Фильтр «Материал» ограничивает карточки пройденными уроками; выбор общий для
+всех тренажёров и хранится в этом браузере.
 
 Перед тренировкой можно повторить таблицу
 [`είμαι` `[ˈime]`](../reference/grammar/eimai.md) и
