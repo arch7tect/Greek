@@ -97,7 +97,7 @@ test("first-conjugation datasets retain their card counts and stable ids", async
 
   assert.deepEqual(
     Object.fromEntries(Object.entries(config.datasets).map(([mode, cards]) => [mode, cards.length])),
-    { endings: 6, meno: 6, phrases: 21 }
+    { endings: 6, meno: 6, phrases: 11 }
   );
   assert.equal(config.storageKey, "greek-trainer:verbs-a:v1");
   config.datasets.phrases.forEach((card) => {

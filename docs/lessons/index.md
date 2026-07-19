@@ -10,3 +10,4 @@
 - [Урок 03 — местоимения и знакомство в классе](lesson-03-pronouns-and-classroom-dialogue.md)
 - [Урок 04 — числа и место жительства](lesson-04-numbers-and-residence.md)
 - [Урок 05 — `Τι κάνεις;` `[ti ˈkanis?]` и глаголы первого спряжения](lesson-05-ti-kaneis-and-verbs-a.md)
+- [Урок 06 — числа 11–100, анкета и предлоги](lesson-06-numbers-and-prepositions.md)

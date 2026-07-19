@@ -122,8 +122,8 @@
 | `materials/lessons/02/lesson-02-slides.pdf` | 9 слайдов | `είμαι` `[ˈime]`, знакомство, происхождение и диалоги | Все слайды проверены визуально: текстовый слой теряет часть букв, особенно `μ` `[m]` |
 | `materials/lessons/02/lesson-02-dialogue.mp3` | 0:44 | Диалог знакомства | Распознано и сверено со слайдом 7 |
 | `materials/homework/02/lesson-02-homework.txt` | 1 файл | Формулировка задания | Текст читается полностью |
-| `materials/homework/02/lesson-02-page-22.png` | 1 изображение | Упражнения 11–13 | Читается полностью |
-| `materials/homework/02/lesson-02-page-25.png` | 1 изображение | Упражнение 17 | Читается полностью |
+| `materials/homework/02/lesson-02-taxidi-page-22.png` | 1 изображение | Упражнения 11–13 | Читается полностью |
+| `materials/homework/02/lesson-02-taxidi-page-25.png` | 1 изображение | Упражнение 17 | Читается полностью |
 | `materials/homework/02/lesson-02-exercise-11.mp3` | 1:08 | `π / μπ / β` `[p / b / v]` | Распознано и сверено с заданием |
 | `materials/homework/02/lesson-02-exercise-12.mp3` | 0:40 | `ντ / δ` `[d / ð]` | Распознано и сверено с заданием |
 | `materials/homework/02/lesson-02-exercise-13.mp3` | 1:14 | `κ / γ / χ / γκ` `[k / ɣ~y / h / g]` | Распознано и сверено с заданием |

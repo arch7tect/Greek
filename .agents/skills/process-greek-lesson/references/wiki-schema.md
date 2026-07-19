@@ -8,6 +8,23 @@
 | Incoming homework files | `inbox/homework/NN/` |
 | Processed lesson originals | `materials/lessons/NN/` |
 | Processed homework originals | `materials/homework/NN/` |
+
+Sort processed originals by the file's role, not by the inbox folder it
+arrived in: class materials (slides, class audio, class exercises) go to
+`materials/lessons/NN/`; assignment artifacts (homework notes, assigned
+exercise sheets, completed work) go to `materials/homework/NN/`. A dual-use
+file lives in `materials/lessons/NN/` and both pages link to the single copy.
+
+Name originals `lesson-NN-<what-it-is>.<ext>`:
+
+- book page scan or photo: `lesson-NN-<book>-page-PPP` with the printed page
+  number (`lesson-04-taxidi-page-31.jpeg`,
+  `lesson-06-afto-akrivos-page-148.jpeg`);
+- standalone exercise sheet without a known book: `lesson-NN-exercise-K`;
+- audio: `lesson-NN-exercise-K.mp3` when the exercise number is unambiguous,
+  otherwise a content label (`lesson-NN-dialogue.mp3`,
+  `lesson-06-listening-form-a.mp3`);
+- homework note: `lesson-NN-homework.txt`.
 | Processed books | `materials/books/` |
 | Lesson | `docs/lessons/lesson-NN-topic.md` |
 | Book card | `docs/books/book-title.md` |

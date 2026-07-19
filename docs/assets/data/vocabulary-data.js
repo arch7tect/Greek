@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 208,
-  "core": 122,
+  "total": 263,
+  "core": 156,
   "lessons": {
     "01": {
       "total": 46,
@@ -22,6 +22,10 @@ window.GREEK_VOCABULARY = {
     "05": {
       "total": 38,
       "core": 20
+    },
+    "06": {
+      "total": 55,
+      "core": 34
     }
   },
   "words": [
@@ -1895,6 +1899,501 @@ window.GREEK_VOCABULARY = {
       "transcription": "[ˈhalya]",
       "meaning": "ужасно; очень плохо",
       "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
+      "core": true
+    },
+    {
+      "id": "ο αριθμός",
+      "lesson": "06",
+      "greek": "ο αριθμός",
+      "transcription": "[o ariθˈmos]",
+      "meaning": "номер; число",
+      "note": "οι αριθμοί [i ariθˈmi]",
+      "core": true
+    },
+    {
+      "id": "η Αυστραλία",
+      "lesson": "06",
+      "greek": "η Αυστραλία",
+      "transcription": "[i afstraˈlia]",
+      "meaning": "Австралия",
+      "note": "страна",
+      "core": false
+    },
+    {
+      "id": "η Βαρκελώνη",
+      "lesson": "06",
+      "greek": "η Βαρκελώνη",
+      "transcription": "[i varkeˈloni]",
+      "meaning": "Барселона",
+      "note": "город",
+      "core": false
+    },
+    {
+      "id": "για",
+      "lesson": "06",
+      "greek": "για",
+      "transcription": "[ya]",
+      "meaning": "для; о",
+      "note": "предлог с винительным",
+      "core": true
+    },
+    {
+      "id": "δεκαεννιά / δεκαεννέα",
+      "lesson": "06",
+      "greek": "δεκαεννιά / δεκαεννέα",
+      "transcription": "[ðekaeˈnya / ðekaeˈnea]",
+      "meaning": "девятнадцать",
+      "note": "варианты не смешиваются",
+      "core": false
+    },
+    {
+      "id": "δεκαέξι",
+      "lesson": "06",
+      "greek": "δεκαέξι",
+      "transcription": "[ðekaˈeksi]",
+      "meaning": "шестнадцать",
+      "note": "числительное",
+      "core": false
+    },
+    {
+      "id": "δεκαεφτά / δεκαεπτά",
+      "lesson": "06",
+      "greek": "δεκαεφτά / δεκαεπτά",
+      "transcription": "[ðekaeˈfta / ðekaeˈpta]",
+      "meaning": "семнадцать",
+      "note": "варианты не смешиваются",
+      "core": false
+    },
+    {
+      "id": "δεκαοχτώ / δεκαοκτώ",
+      "lesson": "06",
+      "greek": "δεκαοχτώ / δεκαοκτώ",
+      "transcription": "[ðekaoˈhto / ðekaoˈkto]",
+      "meaning": "восемнадцать",
+      "note": "варианты не смешиваются",
+      "core": false
+    },
+    {
+      "id": "δεκαπέντε",
+      "lesson": "06",
+      "greek": "δεκαπέντε",
+      "transcription": "[ðekaˈpende]",
+      "meaning": "пятнадцать",
+      "note": "числительное",
+      "core": false
+    },
+    {
+      "id": "δεκατέσσερα",
+      "lesson": "06",
+      "greek": "δεκατέσσερα",
+      "transcription": "[ðekaˈtesera]",
+      "meaning": "четырнадцать",
+      "note": "числительное",
+      "core": false
+    },
+    {
+      "id": "δεκατρία",
+      "lesson": "06",
+      "greek": "δεκατρία",
+      "transcription": "[ðekaˈtria]",
+      "meaning": "тринадцать",
+      "note": "числительное",
+      "core": false
+    },
+    {
+      "id": "διδάσκω",
+      "lesson": "06",
+      "greek": "διδάσκω",
+      "transcription": "[ðiˈðasko]",
+      "meaning": "преподавать",
+      "note": "контраст: μαθαίνω [maˈθeno] — учить(ся)",
+      "core": true
+    },
+    {
+      "id": "η διεύθυνση",
+      "lesson": "06",
+      "greek": "η διεύθυνση",
+      "transcription": "[i ðiˈefθinsi]",
+      "meaning": "адрес",
+      "note": "οι διευθύνσεις [i ðiefˈθinsis]",
+      "core": true
+    },
+    {
+      "id": "η δουλειά",
+      "lesson": "06",
+      "greek": "η δουλειά",
+      "transcription": "[i ðuˈlya]",
+      "meaning": "работа",
+      "note": "Τι δουλειά κάνετε; [ti ðuˈlya ˈkanete?] — кем вы работаете?",
+      "core": true
+    },
+    {
+      "id": "δυστυχώς",
+      "lesson": "06",
+      "greek": "δυστυχώς",
+      "transcription": "[ðistiˈhos]",
+      "meaning": "к сожалению",
+      "note": "наречие",
+      "core": false
+    },
+    {
+      "id": "δώδεκα",
+      "lesson": "06",
+      "greek": "δώδεκα",
+      "transcription": "[ˈðoðeka]",
+      "meaning": "двенадцать",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "εβδομήντα",
+      "lesson": "06",
+      "greek": "εβδομήντα",
+      "transcription": "[evðoˈminda]",
+      "meaning": "семьдесят",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "η εγγραφή",
+      "lesson": "06",
+      "greek": "η εγγραφή",
+      "transcription": "[i eŋgraˈfi]",
+      "meaning": "запись, регистрация",
+      "note": "κάνω εγγραφή [ˈkano eŋgraˈfi] — записываюсь",
+      "core": true
+    },
+    {
+      "id": "είκοσι",
+      "lesson": "06",
+      "greek": "είκοσι",
+      "transcription": "[ˈikosi]",
+      "meaning": "двадцать",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "εκατό",
+      "lesson": "06",
+      "greek": "εκατό",
+      "transcription": "[ekaˈto]",
+      "meaning": "сто",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "ενενήντα",
+      "lesson": "06",
+      "greek": "ενενήντα",
+      "transcription": "[eneˈninda]",
+      "meaning": "девяносто",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "έντεκα",
+      "lesson": "06",
+      "greek": "έντεκα",
+      "transcription": "[ˈendeka]",
+      "meaning": "одиннадцать",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "εξήντα",
+      "lesson": "06",
+      "greek": "εξήντα",
+      "transcription": "[eˈksinda]",
+      "meaning": "шестьдесят",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "το επώνυμο",
+      "lesson": "06",
+      "greek": "το επώνυμο",
+      "transcription": "[to eˈponimo]",
+      "meaning": "фамилия",
+      "note": "τα επώνυμα [ta eˈponima]",
+      "core": true
+    },
+    {
+      "id": "η ζάχαρη",
+      "lesson": "06",
+      "greek": "η ζάχαρη",
+      "transcription": "[i ˈzahari]",
+      "meaning": "сахар",
+      "note": "καφές με ζάχαρη [kaˈfes me ˈzahari]",
+      "core": false
+    },
+    {
+      "id": "η Ισπανίδα",
+      "lesson": "06",
+      "greek": "η Ισπανίδα",
+      "transcription": "[i ispaˈniða]",
+      "meaning": "испанка",
+      "note": "национальность, ж. р.",
+      "core": false
+    },
+    {
+      "id": "η Ιστορία",
+      "lesson": "06",
+      "greek": "η Ιστορία",
+      "transcription": "[i istoˈria]",
+      "meaning": "история",
+      "note": "учебный предмет",
+      "core": false
+    },
+    {
+      "id": "καλή αρχή",
+      "lesson": "06",
+      "greek": "καλή αρχή",
+      "transcription": "[kaˈli arˈhi]",
+      "meaning": "удачного начала!",
+      "note": "пожелание",
+      "core": false
+    },
+    {
+      "id": "η κάρτα",
+      "lesson": "06",
+      "greek": "η κάρτα",
+      "transcription": "[i ˈkarta]",
+      "meaning": "карточка",
+      "note": "οι κάρτες [i ˈkartes]",
+      "core": false
+    },
+    {
+      "id": "το κινητό",
+      "lesson": "06",
+      "greek": "το κινητό",
+      "transcription": "[to kiniˈto]",
+      "meaning": "мобильный телефон",
+      "note": "τα κινητά [ta kiniˈta]",
+      "core": true
+    },
+    {
+      "id": "κόβω",
+      "lesson": "06",
+      "greek": "κόβω",
+      "transcription": "[ˈkovo]",
+      "meaning": "резать",
+      "note": "глагол",
+      "core": false
+    },
+    {
+      "id": "λέω",
+      "lesson": "06",
+      "greek": "λέω",
+      "transcription": "[ˈleo]",
+      "meaning": "говорить, сказать",
+      "note": "ср. με λένε [me ˈlene], λέγομαι [ˈleɣome]",
+      "core": true
+    },
+    {
+      "id": "μάλιστα",
+      "lesson": "06",
+      "greek": "μάλιστα",
+      "transcription": "[ˈmalista]",
+      "meaning": "да, конечно; так точно",
+      "note": "вежливое подтверждение",
+      "core": true
+    },
+    {
+      "id": "το μαχαίρι",
+      "lesson": "06",
+      "greek": "το μαχαίρι",
+      "transcription": "[to maˈheri]",
+      "meaning": "нож",
+      "note": "τα μαχαίρια [ta maˈherya]",
+      "core": false
+    },
+    {
+      "id": "με",
+      "lesson": "06",
+      "greek": "με",
+      "transcription": "[me]",
+      "meaning": "с",
+      "note": "предлог с винительным",
+      "core": true
+    },
+    {
+      "id": "το μέιλ",
+      "lesson": "06",
+      "greek": "το μέιλ",
+      "transcription": "[to ˈmeil]",
+      "meaning": "имейл",
+      "note": "несклоняемое",
+      "core": true
+    },
+    {
+      "id": "η μητέρα",
+      "lesson": "06",
+      "greek": "η μητέρα",
+      "transcription": "[i miˈtera]",
+      "meaning": "мать",
+      "note": "οι μητέρες [i miˈteres]; разг. η μαμά — см. ο μπαμπάς [o baˈbas]",
+      "core": true
+    },
+    {
+      "id": "μόνο",
+      "lesson": "06",
+      "greek": "μόνο",
+      "transcription": "[ˈmono]",
+      "meaning": "только",
+      "note": "Έχω μόνο κινητό [ˈeho ˈmono kiniˈto] — из аудио",
+      "core": true
+    },
+    {
+      "id": "η Μόσχα",
+      "lesson": "06",
+      "greek": "η Μόσχα",
+      "transcription": "[i ˈmosha]",
+      "meaning": "Москва",
+      "note": "στη Μόσχα [sti ˈmosha]",
+      "core": true
+    },
+    {
+      "id": "ογδόντα",
+      "lesson": "06",
+      "greek": "ογδόντα",
+      "transcription": "[oɣˈðonda]",
+      "meaning": "восемьдесят",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "η οδός",
+      "lesson": "06",
+      "greek": "η οδός",
+      "transcription": "[i oˈðos]",
+      "meaning": "улица",
+      "note": "женский род несмотря на -ος, как η Κύπρος [i ˈkipros]",
+      "core": true
+    },
+    {
+      "id": "το όνομα",
+      "lesson": "06",
+      "greek": "το όνομα",
+      "transcription": "[to ˈonoma]",
+      "meaning": "имя",
+      "note": "τα ονόματα [ta oˈnomata]",
+      "core": true
+    },
+    {
+      "id": "ορίστε",
+      "lesson": "06",
+      "greek": "ορίστε",
+      "transcription": "[oˈriste]",
+      "meaning": "вот, пожалуйста; слушаю",
+      "note": "при передаче вещи или ответе на зов",
+      "core": true
+    },
+    {
+      "id": "το πανεπιστήμιο",
+      "lesson": "06",
+      "greek": "το πανεπιστήμιο",
+      "transcription": "[to panepiˈstimio]",
+      "meaning": "университет",
+      "note": "τα πανεπιστήμια [ta panepiˈstimia]",
+      "core": true
+    },
+    {
+      "id": "το παπάκι",
+      "lesson": "06",
+      "greek": "το παπάκι",
+      "transcription": "[to paˈpaki]",
+      "meaning": "значок @; утёнок",
+      "note": "τα παπάκια [ta paˈpakya]",
+      "core": false
+    },
+    {
+      "id": "πενήντα",
+      "lesson": "06",
+      "greek": "πενήντα",
+      "transcription": "[peˈninda]",
+      "meaning": "пятьдесят",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "η πόλη",
+      "lesson": "06",
+      "greek": "η πόλη",
+      "transcription": "[i ˈpoli]",
+      "meaning": "город",
+      "note": "οι πόλεις [i ˈpolis]",
+      "core": true
+    },
+    {
+      "id": "πώς λέγεστε;",
+      "lesson": "06",
+      "greek": "πώς λέγεστε;",
+      "transcription": "[pos ˈleyeste?]",
+      "meaning": "как вас зовут?",
+      "note": "вежливая форма λέγομαι [ˈleɣome]",
+      "core": true
+    },
+    {
+      "id": "σαράντα",
+      "lesson": "06",
+      "greek": "σαράντα",
+      "transcription": "[saˈranda]",
+      "meaning": "сорок",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "το Σίδνεϋ",
+      "lesson": "06",
+      "greek": "το Σίδνεϋ",
+      "transcription": "[to ˈsiðnei]",
+      "meaning": "Сидней",
+      "note": "несклоняемое",
+      "core": false
+    },
+    {
+      "id": "η τελεία",
+      "lesson": "06",
+      "greek": "η τελεία",
+      "transcription": "[i teˈlia]",
+      "meaning": "точка",
+      "note": "не путать с τέλεια [ˈtelia] — «отлично»",
+      "core": false
+    },
+    {
+      "id": "τριάντα",
+      "lesson": "06",
+      "greek": "τριάντα",
+      "transcription": "[triˈanda]",
+      "meaning": "тридцать",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "η φοιτήτρια",
+      "lesson": "06",
+      "greek": "η φοιτήτρια",
+      "transcription": "[i fitiˈtria]",
+      "meaning": "студентка",
+      "note": "ο φοιτητής [o fitiˈtis] — студент",
+      "core": true
+    },
+    {
+      "id": "η φωτογραφία",
+      "lesson": "06",
+      "greek": "η φωτογραφία",
+      "transcription": "[i fotoɣraˈfia]",
+      "meaning": "фотография",
+      "note": "οι φωτογραφίες [i fotoɣraˈfies]",
+      "core": false
+    },
+    {
+      "id": "το ψωμί",
+      "lesson": "06",
+      "greek": "το ψωμί",
+      "transcription": "[to psoˈmi]",
+      "meaning": "хлеб",
+      "note": "τα ψωμιά [ta psoˈmya]",
       "core": true
     }
   ]

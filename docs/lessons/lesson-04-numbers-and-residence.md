@@ -97,8 +97,8 @@
 | `materials/lessons/04/lesson-04-reading-rules.docx` | 2 таблицы, 12 КБ | Памятка по чтению | Текст извлечён и проверен через системный предпросмотр; второй лист отдельно визуально не подтверждён |
 | `materials/homework/04/lesson-04-homework.txt` | 1 файл | Три блока задания и две ссылки | Текст читается полностью |
 | `materials/homework/04/lesson-04-afto-akrivos-page-142.jpeg` | 739×411 | Упражнение 2β | Сверено с полной страницей учебника |
-| `materials/homework/04/lesson-04-textbook-page-31.jpeg` | 941×537 | Упражнения 7–8 | Сверено с основным учебником |
-| `materials/homework/04/lesson-04-workbook-page-11.jpeg` | 1019×604 | Упражнение 4 | Сверено с рабочей тетрадью |
+| `materials/homework/04/lesson-04-taxidi-page-31.jpeg` | 941×537 | Упражнения 7–8 | Сверено с основным учебником |
+| `materials/homework/04/lesson-04-taxidi-workbook-page-11.jpeg` | 1019×604 | Упражнение 4 | Сверено с рабочей тетрадью |
 
 Презентация распределена так: слайды 1–4 — повторение; 5 —
 [числа](../reference/numbers-0-10.md); 6–12 — винительный, происхождение и место
