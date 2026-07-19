@@ -52,7 +52,7 @@ test("numbers datasets retain their card counts and stable ids", async () => {
 
   assert.deepEqual(
     Object.fromEntries(Object.entries(config.datasets).map(([mode, cards]) => [mode, cards.length])),
-    { "digit-to-word": 11, "word-to-digit": 11, addresses: 3 }
+    { "digit-to-word": 11, "word-to-digit": 11, "digit-to-word-100": 18, "word-to-digit-100": 18, composite: 11, addresses: 3 }
   );
   assert.equal(config.storageKey, "greek-trainer:numbers:v1");
   assertStableIds(config.datasets);
@@ -67,7 +67,7 @@ test("accusative datasets retain their card counts and stable ids", async () => 
 
   assert.deepEqual(
     Object.fromEntries(Object.entries(config.datasets).map(([mode, cards]) => [mode, cards.length])),
-    { apo: 13, se: 11 }
+    { apo: 13, se: 11, prepositions: 10 }
   );
   assert.equal(config.storageKey, "greek-trainer:accusative:v1");
   assertStableIds(config.datasets);
@@ -82,7 +82,7 @@ test("greetings datasets retain their card counts and stable ids", async () => {
 
   assert.deepEqual(
     Object.fromEntries(Object.entries(config.datasets).map(([mode, cards]) => [mode, cards.length])),
-    { greet: 12, meet: 10, "how-are-you": 10 }
+    { greet: 12, meet: 13, "how-are-you": 10 }
   );
   assert.equal(config.storageKey, "greek-trainer:greetings:v1");
   assertStableIds(config.datasets);

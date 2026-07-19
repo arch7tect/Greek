@@ -36,6 +36,26 @@ window.GREEK_ACCUSATIVE_DATA = {
         ["se-parisi", "Μένω ___ Παρίσι.", "το Παρίσι [to paˈrisi]", "στο [sto]", "Μένω στο Παρίσι [ˈmeno sto paˈrisi]. σε + το → στο; средний род."],
         ["se-londino", "Μένω ___ Λονδίνο.", "το Λονδίνο [to lonˈðino]", "στο [sto]", "Μένω στο Λονδίνο [ˈmeno sto lonˈðino]. σε + το → στο; средний род."]
       ].map(([id, prompt, context, answer, detail]) => ({ id, prompt, context, answer, detail }))
+    },
+    {
+      key: "prepositions",
+      title: "Какой предлог?",
+      cards: [
+        ["prep-kafe-zahari", "Θέλω καφέ ___ ζάχαρη.", "кофе с сахаром", "με [me]", null, "Θέλω καφέ με ζάχαρη [ˈθelo kaˈfe me ˈzahari]. Состав «с чем» — με."],
+        ["prep-psomi-mahairi", "Κόβω το ψωμί ___ το μαχαίρι.", "режу хлеб ножом", "με [me]", null, "Κόβω το ψωμί με το μαχαίρι [ˈkovo to psoˈmi me to maˈheri]. Инструмент — με: где по-русски творительный падеж, по-гречески με + винительный."],
+        ["prep-oikogeneia", "Μένω ___ την οικογένειά μου.", "живу с семьёй", "με [me]", null, "Μένω με την οικογένειά μου [ˈmeno me tin ikoˈyenia mu]. Совместность — με."],
+        ["prep-doro-mitera", "Κάνω ένα δώρο ___ τη μητέρα μου.", "подарок для мамы", "για [ya]", null, "Κάνω ένα δώρο για τη μητέρα μου [ˈkano ˈena ˈðoro ya ti miˈtera mu]. Назначение «для кого» — για."],
+        ["prep-vivlio-paidia", "Γράφω ένα βιβλίο ___ παιδιά.", "книга для детей", "για [ya]", null, "Γράφω ένα βιβλίο για παιδιά [ˈɣrafo ˈena viˈvlio ya peˈðya]. Назначение — για."],
+        ["prep-douleia", "Μιλάμε ___ τη δουλειά.", "говорим о работе", "για [ya]", null, "Μιλάμε για τη δουλειά [miˈlame ya ti ðuˈlya]. Тема разговора «о чём» — только για."],
+        ["prep-rosia", "Είμαι ___ τη Ρωσία.", "я из России", "από [aˈpo]", null, "Είμαι από τη Ρωσία [ˈime aˈpo ti roˈsia]. Происхождение «из/от» — από."],
+        ["prep-apo-pou", "___ πού είσαι;", "откуда ты?", "από [aˈpo]", null, "Από πού είσαι; [aˈpo pu ˈise?] Вопрос о происхождении начинается с από."],
+        ["prep-leo-giorgo", "Λέω ___ Γιώργο.", "говорю Йоргосу", "στον [ston]", ["στον [ston]", "με τον [me ton]", "για τον [ya ton]", "από τον [aˈpo ton]"], "Λέω στον Γιώργο [ˈleo ston ˈyorɣo]. Адресат вводится σε + винительный; σε сливается с артиклем: στον."],
+        ["prep-panepistimio", "Πηγαίνω ___ πανεπιστήμιο.", "иду в университет", "στο [sto]", ["στο [sto]", "με το [me to]", "για το [ya to]", "από το [aˈpo to]"], "Πηγαίνω στο πανεπιστήμιο [piˈyeno sto panepiˈstimio]. Направление «в/к» — σε; σε + το → στο."]
+      ].map(([id, prompt, context, answer, choices, detail]) => (
+        choices
+          ? { id, prompt, context, answer, choices, detail }
+          : { id, prompt, context, answer, detail }
+      ))
     }
   ]
 };

@@ -1,16 +1,19 @@
-# Тренажёр чисел от 0 до 10
+# Тренажёр чисел
 
-Тренажёр закрепляет числа из урока 04: узнавание слова по цифре, цифры по
-слову и чтение коротких адресов. Ошибочная карточка возвращается в конец
-сессии, пока не будет отвечена правильно.
+Тренажёр закрепляет числа уроков 04 и 06: от 0 до 10, от 11 до 100,
+составные числа и чтение коротких адресов. Ошибочная карточка возвращается
+в конец сессии, пока не будет отвечена правильно.
 
-<div id="numbers-trainer" class="trainer" aria-label="Тренажёр греческих чисел от 0 до 10">
+<div id="numbers-trainer" class="trainer" aria-label="Тренажёр греческих чисел">
   <div class="trainer__controls">
     <fieldset class="trainer__mode-fieldset">
       <legend>Режим тренировки</legend>
       <div class="trainer__modes">
-        <button type="button" data-numbers-mode="digit-to-word" aria-pressed="true">Цифра → слово</button>
-        <button type="button" data-numbers-mode="word-to-digit" aria-pressed="false">Слово → цифра</button>
+        <button type="button" data-numbers-mode="digit-to-word" aria-pressed="true">0–10: цифра → слово</button>
+        <button type="button" data-numbers-mode="word-to-digit" aria-pressed="false">0–10: слово → цифра</button>
+        <button type="button" data-numbers-mode="digit-to-word-100" aria-pressed="false">11–100: цифра → слово</button>
+        <button type="button" data-numbers-mode="word-to-digit-100" aria-pressed="false">11–100: слово → цифра</button>
+        <button type="button" data-numbers-mode="composite" aria-pressed="false">Составные числа</button>
         <button type="button" data-numbers-mode="addresses" aria-pressed="false">Адреса и номера</button>
       </div>
     </fieldset>
@@ -53,4 +56,5 @@
 официальной речи. Оба варианта правильные, но части разных вариантов нельзя
 смешивать внутри одного слова.
 
-Полная таблица с примерами: [числа от 0 до 10](../reference/numbers-0-10.md).
+Полные таблицы с примерами: [числа от 0 до 10](../reference/numbers-0-10.md)
+и [числа от 11 до 100](../reference/numbers-11-100.md).

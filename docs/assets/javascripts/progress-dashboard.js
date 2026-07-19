@@ -36,8 +36,8 @@
   const sections = [
     quizSection(window.GREEK_ALPHABET_DATA, "Буквы и буквосочетания", "../training/alphabet-and-combinations/"),
     quizSection(window.GREEK_EIMAI_DATA, "είμαι [ˈime] и местоимения", "../training/eimai-and-pronouns/"),
-    quizSection(window.GREEK_NUMBERS_DATA, "Числа от 0 до 10", "../training/numbers/"),
-    quizSection(window.GREEK_ACCUSATIVE_DATA, "Винительный после από [aˈpo] и σε [se]", "../training/accusative-after-apo-se/"),
+    quizSection(window.GREEK_NUMBERS_DATA, "Числа", "../training/numbers/"),
+    quizSection(window.GREEK_ACCUSATIVE_DATA, "Предлоги и винительный", "../training/accusative-after-apo-se/"),
     quizSection(window.GREEK_GREETINGS_DATA, "Приветствия и знакомство", "../training/greetings/"),
     quizSection(window.GREEK_VERBS_A_DATA, "Первое спряжение", "../training/present-tense-a/"),
     vocabularySection()
