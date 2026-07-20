@@ -8,6 +8,9 @@ Treat source files as evidence and keep extracted knowledge traceable to them.
 - For new or changed lesson materials under `inbox/lessons/` or
   `inbox/homework/`, use the project skill `$process-greek-lesson` from
   `.agents/skills/process-greek-lesson/`.
+- For new or changed reusable books under `inbox/books/`, full-book source
+  inventory, LLM-OCR, source mapping, or book-card work, use the project skill
+  `$process-greek-book` from `.agents/skills/process-greek-book/`.
 - For publishing, updating, or verifying the live wiki, use the project skill
   `$deploy-greek-wiki` from `.agents/skills/deploy-greek-wiki/`.
 - Follow `CONTRIBUTING.md` and the skill's references before editing lesson,
@@ -38,6 +41,9 @@ Treat source files as evidence and keep extracted knowledge traceable to them.
   lesson metadata. Bibliographic publication dates may remain in book cards.
 - Treat `inbox/` as a queue. After processing, move unchanged originals to the
   matching path under `materials/`.
+- Store full page-by-page machine recognition under `extracted/books/`. Treat it as
+  a derived draft: record source, model, coverage, and uncertainty; never
+  publish it directly as learner-facing wiki content.
 - Record lesson-file inventory and verification quality in the lesson page.
   Keep separate cards in `docs/books/` only for reusable books and workbooks.
 - Keep stable rules in `docs/reference/`; lesson pages should link to them
@@ -50,9 +56,11 @@ Treat source files as evidence and keep extracted knowledge traceable to them.
 - Run `uv run mkdocs build --strict` after documentation changes.
 - When changing the project skill, also run:
   `python3 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py .agents/skills/process-greek-lesson`.
+- When changing the book-processing skill, also run:
+  `python3 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py .agents/skills/process-greek-book`.
 - When changing the deployment skill, also run:
   `python3 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py .agents/skills/deploy-greek-wiki`.
 - Check authored changes with
-  `git diff --check -- AGENTS.md .agents/skills docs mkdocs.yml CONTRIBUTING.md README.md inbox/README.md materials/README.md`.
+  `git diff --check -- AGENTS.md .agents/skills docs mkdocs.yml CONTRIBUTING.md README.md inbox/README.md materials/README.md extracted scripts`.
 - Preserve unrelated user changes and existing staging.
 - Do not commit unless the user explicitly asks.

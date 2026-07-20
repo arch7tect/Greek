@@ -4,10 +4,21 @@
 
 | Content | Path pattern |
 |---|---|
+| Incoming books | `inbox/books/` |
 | Incoming lesson files | `inbox/lessons/NN/` |
 | Incoming homework files | `inbox/homework/NN/` |
+| Processed books | `materials/books/` |
 | Processed lesson originals | `materials/lessons/NN/` |
 | Processed homework originals | `materials/homework/NN/` |
+| Extracted book OCR | `extracted/books/<book-slug>.md` |
+| Book card | `docs/books/<book-slug>.md` |
+| Lesson | `docs/lessons/lesson-NN-topic.md` |
+| Homework | `docs/homework/lesson-NN-topic.md` |
+| Lesson vocabulary | `docs/vocabulary/lesson-NN.md` |
+| Cumulative vocabulary | `docs/vocabulary/all.md` |
+| Stable reference | `docs/reference/<area>/<topic>.md` or existing section |
+| Memory note | `docs/memory/lesson-NN.md` |
+| Temporary extraction | `tmp/` |
 
 Sort processed originals by the file's role, not by the inbox folder it
 arrived in: class materials (slides, class audio, class exercises) go to
@@ -25,16 +36,6 @@ Name originals `lesson-NN-<what-it-is>.<ext>`:
   otherwise a content label (`lesson-NN-dialogue.mp3`,
   `lesson-06-listening-form-a.mp3`);
 - homework note: `lesson-NN-homework.txt`.
-| Processed books | `materials/books/` |
-| Lesson | `docs/lessons/lesson-NN-topic.md` |
-| Book card | `docs/books/book-title.md` |
-| Homework | `docs/homework/lesson-NN-topic.md` |
-| Lesson vocabulary | `docs/vocabulary/lesson-NN.md` |
-| Cumulative vocabulary | `docs/vocabulary/all.md` |
-| Stable reference | `docs/reference/<area>/<topic>.md` or existing section |
-| Memory note | `docs/memory/lesson-NN.md` |
-| Temporary extraction | `tmp/` |
-
 Use existing pages rather than creating near-duplicates. Start from templates in
 `docs/page-templates/` when applicable.
 
@@ -51,6 +52,9 @@ Use existing pages rather than creating near-duplicates. Start from templates in
 - When book numbering differs from PDF numbering, record both.
 - Create a card in `docs/books/` only for a reusable book. Track all processed
   page ranges and resulting wiki pages there.
+- Store full page-by-page machine recognition in `extracted/books/`, not `docs/`.
+  Record the model and exact page coverage, and keep OCR status separate from
+  educational processing.
 
 ## Lesson page requirements
 

@@ -23,11 +23,19 @@ zero-padded lesson number. Distinguish verified content from inference.
 5. Treat `inbox/` as the unprocessed queue. Use `lesson-NN-<type>.<ext>` names
    when the user authorizes normalization; never rewrite source contents.
 
+If the request concerns inventorying, recognizing, or mapping a complete
+reusable book, invoke `$process-greek-book` instead. This skill consumes only
+the exact book pages needed for a lesson.
+
 ## Inspect every source
 
 - For PDFs, invoke the available PDF skill. Inspect metadata and the text layer,
   render pages, and visually review them. Never trust extraction alone for
   Greek accents, tables, exercise layout, or scans.
+- For a page from a reusable book, consult the matching section in
+  `extracted/books/<book-slug>.md` when it exists, then reopen and visually
+  verify the original PDF page before using its text. Treat LLM-OCR as a search
+  aid, not as authority. Do not rerun full-book OCR as part of a lesson task.
 - For images, inspect the original resolution. Upscale only temporary copies
   under `tmp/` when small print needs review.
 - For text files, preserve wording and links while normalizing only the wiki
