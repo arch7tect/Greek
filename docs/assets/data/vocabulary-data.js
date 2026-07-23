@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 263,
-  "core": 156,
+  "total": 301,
+  "core": 182,
   "lessons": {
     "01": {
       "total": 46,
@@ -26,6 +26,10 @@ window.GREEK_VOCABULARY = {
     "06": {
       "total": 55,
       "core": 34
+    },
+    "07": {
+      "total": 38,
+      "core": 26
     }
   },
   "words": [
@@ -2395,6 +2399,348 @@ window.GREEK_VOCABULARY = {
       "meaning": "хлеб",
       "note": "τα ψωμιά [ta psoˈmya]",
       "core": true
+    },
+    {
+      "id": "η αίτηση",
+      "lesson": "07",
+      "greek": "η αίτηση",
+      "transcription": "[i ˈetisi]",
+      "meaning": "заявление, заявка",
+      "note": "οι αιτήσεις [i eˈtisis]",
+      "core": true
+    },
+    {
+      "id": "το αμφιθέατρο",
+      "lesson": "07",
+      "greek": "το αμφιθέατρο",
+      "transcription": "[to amfiˈθeatro]",
+      "meaning": "амфитеатр; большая аудитория",
+      "note": "τα αμφιθέατρα [ta amfiˈθeatra]",
+      "core": false
+    },
+    {
+      "id": "ο άντρας",
+      "lesson": "07",
+      "greek": "ο άντρας",
+      "transcription": "[o ˈandras]",
+      "meaning": "мужчина",
+      "note": "οι άντρες [i ˈandres]",
+      "core": true
+    },
+    {
+      "id": "ο αριθμός διαβατηρίου",
+      "lesson": "07",
+      "greek": "ο αριθμός διαβατηρίου",
+      "transcription": "[o ariθˈmos ðiavatiˈriu]",
+      "meaning": "номер паспорта",
+      "note": "составное поле",
+      "core": false
+    },
+    {
+      "id": "ο αριθμός ταυτότητας",
+      "lesson": "07",
+      "greek": "ο αριθμός ταυτότητας",
+      "transcription": "[o ariθˈmos tafˈtotitas]",
+      "meaning": "номер удостоверения личности",
+      "note": "составное поле",
+      "core": false
+    },
+    {
+      "id": "η Αρχαιολογία",
+      "lesson": "07",
+      "greek": "η Αρχαιολογία",
+      "transcription": "[i arheoloˈyia]",
+      "meaning": "археология",
+      "note": "из образца домашнего упражнения 2",
+      "core": false
+    },
+    {
+      "id": "η βιβλιοθήκη",
+      "lesson": "07",
+      "greek": "η βιβλιοθήκη",
+      "transcription": "[i vivlioˈθiki]",
+      "meaning": "библиотека",
+      "note": "οι βιβλιοθήκες [i vivlioˈθikes]",
+      "core": true
+    },
+    {
+      "id": "βοηθάω",
+      "lesson": "07",
+      "greek": "βοηθάω",
+      "transcription": "[voiˈθao]",
+      "meaning": "помогать",
+      "note": "глагол типа Β на -άω [-ˈao]",
+      "core": true
+    },
+    {
+      "id": "η γνώση της ελληνικής γλώσσας",
+      "lesson": "07",
+      "greek": "η γνώση της ελληνικής γλώσσας",
+      "transcription": "[i ˈɣnosi tis eliniˈkis ˈɣlosas]",
+      "meaning": "знание греческого языка",
+      "note": "заголовок шкалы",
+      "core": false
+    },
+    {
+      "id": "η γυναίκα",
+      "lesson": "07",
+      "greek": "η γυναίκα",
+      "transcription": "[i yiˈneka]",
+      "meaning": "женщина",
+      "note": "οι γυναίκες [i yiˈnekes]",
+      "core": true
+    },
+    {
+      "id": "το διαβατήριο",
+      "lesson": "07",
+      "greek": "το διαβατήριο",
+      "transcription": "[to ðiavaˈtirio]",
+      "meaning": "паспорт",
+      "note": "τα διαβατήρια [ta ðiavaˈtiria]",
+      "core": true
+    },
+    {
+      "id": "το διδακτορικό",
+      "lesson": "07",
+      "greek": "το διδακτορικό",
+      "transcription": "[to ðiðaktoriˈko]",
+      "meaning": "докторантура; докторская работа",
+      "note": "τα διδακτορικά [ta ðiðaktoriˈka]",
+      "core": false
+    },
+    {
+      "id": "το δίπλωμα",
+      "lesson": "07",
+      "greek": "το δίπλωμα",
+      "transcription": "[to ˈðiploma]",
+      "meaning": "диплом",
+      "note": "τα διπλώματα [ta ðiˈplomata]",
+      "core": false
+    },
+    {
+      "id": "η εθνικότητα",
+      "lesson": "07",
+      "greek": "η εθνικότητα",
+      "transcription": "[i eθnikoˈtita]",
+      "meaning": "национальность",
+      "note": "οι εθνικότητες [i eθnikoˈtites]",
+      "core": true
+    },
+    {
+      "id": "το εστιατόριο",
+      "lesson": "07",
+      "greek": "το εστιατόριο",
+      "transcription": "[to estiaˈtorio]",
+      "meaning": "ресторан",
+      "note": "τα εστιατόρια [ta estiaˈtoria]",
+      "core": true
+    },
+    {
+      "id": "η ημερομηνία γέννησης",
+      "lesson": "07",
+      "greek": "η ημερομηνία γέννησης",
+      "transcription": "[i imeromiˈnia ˈyenisis]",
+      "meaning": "дата рождения",
+      "note": "поле анкеты",
+      "core": true
+    },
+    {
+      "id": "καθόλου",
+      "lesson": "07",
+      "greek": "καθόλου",
+      "transcription": "[kaˈθolu]",
+      "meaning": "совсем не; нисколько",
+      "note": "уровень знания",
+      "core": true
+    },
+    {
+      "id": "καταλαβαίνω",
+      "lesson": "07",
+      "greek": "καταλαβαίνω",
+      "transcription": "[katalaveˈno]",
+      "meaning": "понимать",
+      "note": "глагол типа А",
+      "core": true
+    },
+    {
+      "id": "η καφετέρια",
+      "lesson": "07",
+      "greek": "η καφετέρια",
+      "transcription": "[i kafeˈteria]",
+      "meaning": "кафе",
+      "note": "οι καφετέριες [i kafeˈteries]",
+      "core": true
+    },
+    {
+      "id": "το κυλικείο",
+      "lesson": "07",
+      "greek": "το κυλικείο",
+      "transcription": "[to kiliˈkio]",
+      "meaning": "буфет, столовая при учреждении",
+      "note": "τα κυλικεία [ta kiliˈkia]",
+      "core": false
+    },
+    {
+      "id": "λίγο",
+      "lesson": "07",
+      "greek": "λίγο",
+      "transcription": "[ˈliɣo]",
+      "meaning": "немного",
+      "note": "уровень знания",
+      "core": true
+    },
+    {
+      "id": "ο μαρκαδόρος",
+      "lesson": "07",
+      "greek": "ο μαρκαδόρος",
+      "transcription": "[o markaˈðoros]",
+      "meaning": "маркер",
+      "note": "οι μαρκαδόροι [i markaˈðori]",
+      "core": true
+    },
+    {
+      "id": "το μέρος",
+      "lesson": "07",
+      "greek": "το μέρος",
+      "transcription": "[to ˈmeros]",
+      "meaning": "место",
+      "note": "τα μέρη [ta ˈmeri]",
+      "core": true
+    },
+    {
+      "id": "το μεταπτυχιακό",
+      "lesson": "07",
+      "greek": "το μεταπτυχιακό",
+      "transcription": "[to metaptihiaˈko]",
+      "meaning": "магистратура; последипломная программа",
+      "note": "τα μεταπτυχιακά [ta metaptihiaˈka]",
+      "core": true
+    },
+    {
+      "id": "μέτρια γνώση",
+      "lesson": "07",
+      "greek": "μέτρια γνώση",
+      "transcription": "[ˈmetria ˈɣnosi]",
+      "meaning": "среднее знание",
+      "note": "формулировка записки",
+      "core": false
+    },
+    {
+      "id": "το μουσείο",
+      "lesson": "07",
+      "greek": "το μουσείο",
+      "transcription": "[to muˈsio]",
+      "meaning": "музей",
+      "note": "τα μουσεία [ta muˈsia]",
+      "core": false
+    },
+    {
+      "id": "τα Νομικά",
+      "lesson": "07",
+      "greek": "τα Νομικά",
+      "transcription": "[ta nomiˈka]",
+      "meaning": "право, юридические науки",
+      "note": "только множественное число",
+      "core": true
+    },
+    {
+      "id": "η περιοχή",
+      "lesson": "07",
+      "greek": "η περιοχή",
+      "transcription": "[i perioˈhi]",
+      "meaning": "район; область",
+      "note": "οι περιοχές [i perioˈhes]",
+      "core": true
+    },
+    {
+      "id": "πολύ καλά",
+      "lesson": "07",
+      "greek": "πολύ καλά",
+      "transcription": "[poˈli kaˈla]",
+      "meaning": "очень хорошо",
+      "note": "уровень знания",
+      "core": true
+    },
+    {
+      "id": "οι προσωπικές πληροφορίες",
+      "lesson": "07",
+      "greek": "οι προσωπικές πληροφορίες",
+      "transcription": "[i prosopiˈkes plirofoˈries]",
+      "meaning": "личные данные",
+      "note": "только множественное число; в записке исправлена опечатка",
+      "core": true
+    },
+    {
+      "id": "το πτυχίο",
+      "lesson": "07",
+      "greek": "το πτυχίο",
+      "transcription": "[to ptiˈhio]",
+      "meaning": "диплом, степень",
+      "note": "τα πτυχία [ta ptiˈhia]",
+      "core": true
+    },
+    {
+      "id": "το σπουδαστήριο",
+      "lesson": "07",
+      "greek": "το σπουδαστήριο",
+      "transcription": "[to spuðaˈstirio]",
+      "meaning": "читальный зал; учебная комната",
+      "note": "τα σπουδαστήρια [ta spuðaˈstiria]",
+      "core": false
+    },
+    {
+      "id": "η ταυτότητα",
+      "lesson": "07",
+      "greek": "η ταυτότητα",
+      "transcription": "[i tafˈtotita]",
+      "meaning": "удостоверение личности",
+      "note": "οι ταυτότητες [i tafˈtotites]",
+      "core": true
+    },
+    {
+      "id": "ο ταχυδρομικός κώδικας",
+      "lesson": "07",
+      "greek": "ο ταχυδρομικός κώδικας",
+      "transcription": "[o tahiðromiˈkos ˈkoðikas]",
+      "meaning": "почтовый индекс",
+      "note": "οι ταχυδρομικοί κώδικες [i tahiðromiˈki ˈkoðikes]",
+      "core": true
+    },
+    {
+      "id": "ο υπολογιστής",
+      "lesson": "07",
+      "greek": "ο υπολογιστής",
+      "transcription": "[o ipoloyiˈstis]",
+      "meaning": "компьютер",
+      "note": "οι υπολογιστές [i ipoloyiˈstes]",
+      "core": true
+    },
+    {
+      "id": "το φύλο",
+      "lesson": "07",
+      "greek": "το φύλο",
+      "transcription": "[to ˈfilo]",
+      "meaning": "пол",
+      "note": "τα φύλα [ta ˈfila]",
+      "core": true
+    },
+    {
+      "id": "ψάχνω",
+      "lesson": "07",
+      "greek": "ψάχνω",
+      "transcription": "[ˈpsahno]",
+      "meaning": "искать",
+      "note": "подсказка к упражнению 15",
+      "core": true
+    },
+    {
+      "id": "η Ψυχολογία",
+      "lesson": "07",
+      "greek": "η Ψυχολογία",
+      "transcription": "[i psiholoˈyia]",
+      "meaning": "психология",
+      "note": "учебный предмет",
+      "core": false
     }
   ]
 };

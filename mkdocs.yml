@@ -60,6 +60,7 @@ nav:
       - Урок 04 — числа и место жительства: lessons/lesson-04-numbers-and-residence.md
       - Урок 05 — Τι κάνεις; и глаголы первого спряжения: lessons/lesson-05-ti-kaneis-and-verbs-a.md
       - Урок 06 — числа 11–100, анкета и предлоги: lessons/lesson-06-numbers-and-prepositions.md
+      - Урок 07 — аудитория, учёба и артикли: lessons/lesson-07-classroom-studies-and-articles.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -73,6 +74,7 @@ nav:
       - Происхождение и место жительства: reference/grammar/origin-and-residence.md
       - Настоящее время, первое спряжение: reference/grammar/present-tense-a.md
       - Предлоги с винительным: reference/grammar/prepositions-accusative.md
+      - Артикли в именительном падеже: reference/grammar/nominative-articles.md
   - Словарь:
       - vocabulary/index.md
       - Общий словарь: vocabulary/all.md
@@ -82,6 +84,7 @@ nav:
       - Урок 04 — новые слова: vocabulary/lesson-04.md
       - Урок 05 — новые слова: vocabulary/lesson-05.md
       - Урок 06 — новые слова: vocabulary/lesson-06.md
+      - Урок 07 — новые слова: vocabulary/lesson-07.md
   - Коротко для памяти:
       - memory/index.md
       - Урок 01: memory/lesson-01.md
@@ -90,6 +93,7 @@ nav:
       - Урок 04: memory/lesson-04.md
       - Урок 05: memory/lesson-05.md
       - Урок 06: memory/lesson-06.md
+      - Урок 07: memory/lesson-07.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -99,6 +103,7 @@ nav:
           - К уроку 04: homework/lesson-04-eimai-residence-and-numbers.md
           - К уроку 05: homework/lesson-05-verbs-and-matching.md
           - К уроку 06: homework/lesson-06-about-me-and-verbs.md
+          - К уроку 07: homework/lesson-07-accusative-and-matching.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md

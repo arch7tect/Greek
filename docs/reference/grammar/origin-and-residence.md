@@ -1,10 +1,11 @@
 # Происхождение и место жительства
 
-**Статус:** проверено по материалам уроков 02 и 04 и учебнику (страница 35)
+**Статус:** проверено по материалам уроков 02, 04, 05 и 07 и учебнику
 
 **Связанные уроки:** [урок 02](../../lessons/lesson-02-eimai-and-origin.md),
 [урок 04](../../lessons/lesson-04-numbers-and-residence.md),
-[урок 05](../../lessons/lesson-05-ti-kaneis-and-verbs-a.md)
+[урок 05](../../lessons/lesson-05-ti-kaneis-and-verbs-a.md),
+[урок 07](../../lessons/lesson-07-classroom-studies-and-articles.md)
 
 Практика: [тренажёр винительного после `από` `[aˈpo]` и `σε` `[se]`](../../training/accusative-after-apo-se.md).
 
@@ -84,6 +85,8 @@
 
 - [Материалы урока 02](../../lessons/lesson-02-eimai-and-origin.md#lesson-02-materials).
 - [Материалы урока 04](../../lessons/lesson-04-numbers-and-residence.md#lesson-04-materials), слайды 6–11.
+- [Материалы урока 07](../../lessons/lesson-07-classroom-studies-and-articles.md#lesson-07-materials),
+  слайды 5 и 8: страна, национальность и язык.
 - [Ταξίδι στην Ελλάδα 1](../../books/taxidi-stin-ellada-1.md), печатная
   страница 35: правило `τη / στη` перед `κ, π, τ, μπ, ντ, γκ, τσ, τζ, ξ, ψ`
   и гласными (урок 05).
