@@ -34,3 +34,6 @@
 `στο εστιατόριο` `[sto estiaˈtorio]`.
 
 Полный разбор: [урок 07](../lessons/lesson-07-classroom-studies-and-articles.md).
+
+Практика:
+[артикли и разговор об учёбе](../training/articles-and-studies.md).

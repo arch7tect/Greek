@@ -1,14 +1,16 @@
 # Приветствия и знакомство
 
-**Статус:** проверено по материалам уроков 01–05
+**Статус:** проверено по материалам уроков 01–06
 
 **Связанные уроки:** [урок 01](../lessons/lesson-01-alphabet-and-greetings.md),
 [урок 02](../lessons/lesson-02-eimai-and-origin.md),
 [урок 03](../lessons/lesson-03-pronouns-and-classroom-dialogue.md),
 [урок 04](../lessons/lesson-04-numbers-and-residence.md),
-[урок 05](../lessons/lesson-05-ti-kaneis-and-verbs-a.md)
+[урок 05](../lessons/lesson-05-ti-kaneis-and-verbs-a.md),
+[урок 06](../lessons/lesson-06-numbers-and-prepositions.md)
 
-Практика: [тренажёр приветствий и знакомства](../training/greetings.md).
+Практика: [тренажёр приветствий и знакомства](../training/greetings.md) и
+[диалог в секретариате](../training/registration-and-form.md).
 
 ## Поздороваться
 

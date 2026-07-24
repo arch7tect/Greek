@@ -122,13 +122,16 @@
 Получившиеся страницы: этот разбор,
 [словарь урока 07](../vocabulary/lesson-07.md),
 [домашнее задание](../homework/lesson-07-accusative-and-matching.md),
-[памятка](../memory/lesson-07.md) и
-[артикли в именительном падеже](../reference/grammar/nominative-articles.md).
+[памятка](../memory/lesson-07.md),
+[артикли в именительном падеже](../reference/grammar/nominative-articles.md) и
+[тренажёр артиклей и разговора об учёбе](../training/articles-and-studies.md).
 
 ## Повторение
 
 - [Памятка урока 07](../memory/lesson-07.md) — артикли, учёба и три типа
   географических слов.
+- [Тренажёр артиклей и разговора об учёбе](../training/articles-and-studies.md) —
+  определённость, учебные реплики и «страна — человек — язык».
 - [Тренажёр первого спряжения](../training/present-tense-a.md) — глагольное
   повторение.
 - [Тренажёр предлогов и винительного](../training/accusative-after-apo-se.md) —

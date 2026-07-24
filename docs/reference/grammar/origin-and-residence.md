@@ -7,7 +7,9 @@
 [урок 05](../../lessons/lesson-05-ti-kaneis-and-verbs-a.md),
 [урок 07](../../lessons/lesson-07-classroom-studies-and-articles.md)
 
-Практика: [тренажёр винительного после `από` `[aˈpo]` и `σε` `[se]`](../../training/accusative-after-apo-se.md).
+Практика: [тренажёр винительного после `από` `[aˈpo]` и `σε` `[se]`](../../training/accusative-after-apo-se.md)
+и режим «Страна, человек, язык» в
+[тренажёре урока 07](../../training/articles-and-studies.md).
 
 ## Два разных вопроса
 

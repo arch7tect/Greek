@@ -37,3 +37,6 @@
 Ударение решает: `η τελεία` `[i teˈlia]` — точка, `τέλεια` `[ˈtelia]` — отлично.
 
 Полный разбор: [урок 06](../lessons/lesson-06-numbers-and-prepositions.md).
+
+Практика: [телефонные группы](../training/numbers.md) и
+[анкета с диалогом в секретариате](../training/registration-and-form.md).

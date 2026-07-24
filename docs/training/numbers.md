@@ -1,8 +1,9 @@
 # Тренажёр чисел
 
 Тренажёр закрепляет числа уроков 04 и 06: от 0 до 10, от 11 до 100,
-составные числа и чтение коротких адресов. Ошибочная карточка возвращается
-в конец сессии, пока не будет отвечена правильно.
+составные числа, чтение коротких адресов и телефонных номеров со слайда
+урока 06. Ошибочная карточка возвращается в конец сессии, пока не будет
+отвечена правильно.
 
 <div id="numbers-trainer" class="trainer" aria-label="Тренажёр греческих чисел">
   <div class="trainer__controls">
@@ -14,6 +15,7 @@
         <button type="button" data-numbers-mode="digit-to-word-100" aria-pressed="false">11–100: цифра → слово</button>
         <button type="button" data-numbers-mode="word-to-digit-100" aria-pressed="false">11–100: слово → цифра</button>
         <button type="button" data-numbers-mode="composite" aria-pressed="false">Составные числа</button>
+        <button type="button" data-numbers-mode="phone" aria-pressed="false">Телефонные группы</button>
         <button type="button" data-numbers-mode="addresses" aria-pressed="false">Адреса и номера</button>
       </div>
     </fieldset>
@@ -64,3 +66,14 @@
 
 Полные таблицы с примерами: [числа от 0 до 10](../reference/numbers-0-10.md)
 и [числа от 11 до 100](../reference/numbers-11-100.md).
+
+## Как читать телефонные группы
+
+В режиме «Телефонные группы» используется однозначный вариант: каждая цифра
+произносится отдельно, а между напечатанными блоками сохраняется пауза.
+Например, `210` читается
+`δύο, ένα, μηδέν` `[ˈðio, ˈena, miˈðen]`. Блок из трёх цифр не обязан
+превращаться в числительное с сотнями; ноль не пропускается.
+
+Все шесть номеров взяты со слайда 5
+[урока 06](../lessons/lesson-06-numbers-and-prepositions.md#lesson-06-materials).
