@@ -61,6 +61,8 @@ nav:
       - Урок 05 — Τι κάνεις; и глаголы первого спряжения: lessons/lesson-05-ti-kaneis-and-verbs-a.md
       - Урок 06 — числа 11–100, анкета и предлоги: lessons/lesson-06-numbers-and-prepositions.md
       - Урок 07 — аудитория, учёба и артикли: lessons/lesson-07-classroom-studies-and-articles.md
+      - Урок 08 — глаголы типа Β1 и анкета: lessons/lesson-08-verbs-b1-and-application.md
+      - Урок 09 — семья и формы принадлежности: lessons/lesson-09-family-and-possessives.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -73,6 +75,7 @@ nav:
       - Личные местоимения: reference/grammar/personal-pronouns.md
       - Происхождение и место жительства: reference/grammar/origin-and-residence.md
       - Настоящее время, первое спряжение: reference/grammar/present-tense-a.md
+      - Настоящее время, тип Β1: reference/grammar/present-tense-b1.md
       - Предлоги с винительным: reference/grammar/prepositions-accusative.md
       - Артикли в именительном падеже: reference/grammar/nominative-articles.md
   - Словарь:
@@ -85,6 +88,8 @@ nav:
       - Урок 05 — новые слова: vocabulary/lesson-05.md
       - Урок 06 — новые слова: vocabulary/lesson-06.md
       - Урок 07 — новые слова: vocabulary/lesson-07.md
+      - Урок 08 — новые слова: vocabulary/lesson-08.md
+      - Урок 09 — новые слова: vocabulary/lesson-09.md
   - Коротко для памяти:
       - memory/index.md
       - Урок 01: memory/lesson-01.md
@@ -94,6 +99,8 @@ nav:
       - Урок 05: memory/lesson-05.md
       - Урок 06: memory/lesson-06.md
       - Урок 07: memory/lesson-07.md
+      - Урок 08: memory/lesson-08.md
+      - Урок 09: memory/lesson-09.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -104,6 +111,8 @@ nav:
           - К уроку 05: homework/lesson-05-verbs-and-matching.md
           - К уроку 06: homework/lesson-06-about-me-and-verbs.md
           - К уроку 07: homework/lesson-07-accusative-and-matching.md
+          - К уроку 08: homework/lesson-08-verbs-b1-and-application.md
+          - К уроку 09: homework/lesson-09-family-and-possessives.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md
@@ -115,6 +124,8 @@ nav:
           - Приветствия и знакомство: training/greetings.md
           - Первое спряжение: training/present-tense-a.md
           - Артикли и разговор об учёбе: training/articles-and-studies.md
+          - Глаголы типа Β1: training/present-tense-b1.md
+          - Семья и формы принадлежности: training/family-and-possessives.md
   - Учебники:
       - books/index.md
       - Ταξίδι στην Ελλάδα 1: books/taxidi-stin-ellada-1.md

@@ -103,6 +103,8 @@ OCR с поддержкой греческого языка и обязател�
 | 31–36 | 32–37 | Диалог, варианты ответов, настоящее время, правило `τη/στη` `[ti/sti]`, упражнения и песня | [Урок 05](../lessons/lesson-05-ti-kaneis-and-verbs-a.md), [домашняя работа](../homework/lesson-05-verbs-and-matching.md) | визуально, сверено со сканами в слайдах |
 | 39–40 | 40–41 | Диалог из урока 03 и числа 11–100 | [Урок 06](../lessons/lesson-06-numbers-and-prepositions.md), [числа 11–100](../reference/numbers-11-100.md) | визуально, сверено со сканами в слайдах |
 | 41–45 | 42–46 | Учебная среда, артикли, диалог об учёбе, страны, национальности и языки | [Урок 07](../lessons/lesson-07-classroom-studies-and-articles.md), [артикли](../reference/grammar/nominative-articles.md), [словарь](../vocabulary/lesson-07.md) | визуально, сверено со слайдами |
+| 47–49 | 48–50 | Глаголы Β1, письменный рассказ по карточке и анкета | [Урок 08](../lessons/lesson-08-verbs-b1-and-application.md), [домашняя работа](../homework/lesson-08-verbs-b1-and-application.md), [словарь](../vocabulary/lesson-08.md) | визуально, сверено со слайдами и отдельным изображением |
+| 53 | 54 | Диалог `Η οικογένειά μου` `[i ikoˈyeniˈa mu]` и упражнение `Σωστό ή Λάθος;` `[soˈsto i ˈlaθos?]` | [Урок 09](../lessons/lesson-09-family-and-possessives.md), [домашняя работа](../homework/lesson-09-family-and-possessives.md), [словарь](../vocabulary/lesson-09.md) | визуально и по аудио |
 
 ## Как продолжать разбор
 

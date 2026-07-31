@@ -112,7 +112,8 @@
 }
 
 #accusative-trainer .trainer__prompt,
-#verbs-a-trainer .trainer__prompt {
+#verbs-a-trainer .trainer__prompt,
+#verbs-b1-trainer .trainer__prompt {
   font-size: clamp(1.6rem, 5vw, 2.5rem);
 }
 
@@ -121,7 +122,8 @@
 }
 
 #registration-trainer .trainer__prompt,
-#articles-studies-trainer .trainer__prompt {
+#articles-studies-trainer .trainer__prompt,
+#family-possessives-trainer .trainer__prompt {
   font-size: clamp(1.2rem, 3.5vw, 1.8rem);
 }
 

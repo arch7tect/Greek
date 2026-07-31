@@ -5,9 +5,8 @@
 ## Сейчас
 
 - Уровень курса: A1, основной учебник охватывает A1–A2.
-- Текущая тема: артикли в именительном падеже, учебная среда и разговор
-  об учёбе.
-- Разобраны [уроки 01–07](lessons/index.md); лексика собрана в
+- Текущая тема: семья, формы принадлежности и глаголы типа Β1.
+- Разобраны [уроки 01–09](lessons/index.md); лексика собрана в
   [общем словаре](vocabulary/all.md).
 
 ## Прогресс тренировок
@@ -31,6 +30,8 @@
 <script src="../assets/data/greetings-data.js"></script>
 <script src="../assets/data/verbs-a-data.js"></script>
 <script src="../assets/data/articles-studies-data.js"></script>
+<script src="../assets/data/verbs-b1-data.js"></script>
+<script src="../assets/data/family-possessives-data.js"></script>
 <script src="../assets/data/vocabulary-data.js"></script>
 <script src="../assets/javascripts/trainer-engine.js"></script>
 <script src="../assets/javascripts/progress-dashboard.js"></script>
@@ -44,4 +45,6 @@
 - [ ] Выполнить и проверить [домашнее задание к уроку 05](homework/lesson-05-verbs-and-matching.md).
 - [ ] Выполнить и проверить [домашнее задание к уроку 06](homework/lesson-06-about-me-and-verbs.md).
 - [ ] Выполнить и проверить [домашнее задание к уроку 07](homework/lesson-07-accusative-and-matching.md).
+- [ ] Выполнить и проверить [домашнее задание к уроку 08](homework/lesson-08-verbs-b1-and-application.md).
+- [ ] Выполнить и проверить [домашнее задание к уроку 09](homework/lesson-09-family-and-possessives.md).
 - [ ] Зафиксировать исходный уровень и сформулировать цель обучения.

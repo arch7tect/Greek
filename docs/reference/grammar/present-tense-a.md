@@ -1,11 +1,12 @@
 # Настоящее время: глаголы первого спряжения (συζυγία Α)
 
-**Статус:** проверено по материалам уроков 05–07
+**Статус:** проверено по материалам уроков 05–08
 
 **Связанные уроки:** [Урок 05 — `Τι κάνεις;` `[ti ˈkanis?]` и глаголы
 первого спряжения](../../lessons/lesson-05-ti-kaneis-and-verbs-a.md),
 [урок 06](../../lessons/lesson-06-numbers-and-prepositions.md),
-[урок 07](../../lessons/lesson-07-classroom-studies-and-articles.md)
+[урок 07](../../lessons/lesson-07-classroom-studies-and-articles.md),
+[урок 08](../../lessons/lesson-08-verbs-b1-and-application.md)
 
 Практика: [тренажёр первого спряжения](../../training/present-tense-a.md).
 
@@ -74,3 +75,5 @@
   слайды 2–3 (повторение и упражнение).
 - [Материалы урока 07](../../lessons/lesson-07-classroom-studies-and-articles.md#lesson-07-materials),
   слайд 2 (повторение списка глаголов).
+- [Материалы урока 08](../../lessons/lesson-08-verbs-b1-and-application.md#lesson-08-materials),
+  слайды 1–6 (повторение и упражнение).

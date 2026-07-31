@@ -20,3 +20,7 @@
   задано.
 - [К уроку 07 — винительный и соответствия](lesson-07-accusative-and-matching.md) —
   задано.
+- [К уроку 08 — глаголы Β1 и анкета](lesson-08-verbs-b1-and-application.md) —
+  задано.
+- [К уроку 09 — семья и принадлежность](lesson-09-family-and-possessives.md) —
+  задано.

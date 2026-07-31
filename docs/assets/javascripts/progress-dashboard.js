@@ -55,6 +55,8 @@
     quizSection(window.GREEK_GREETINGS_DATA, "Приветствия и знакомство", "../training/greetings/"),
     quizSection(window.GREEK_VERBS_A_DATA, "Первое спряжение", "../training/present-tense-a/"),
     quizSection(window.GREEK_ARTICLES_STUDIES_DATA, "Артикли и разговор об учёбе", "../training/articles-and-studies/"),
+    quizSection(window.GREEK_VERBS_B1_DATA, "Глаголы типа Β1", "../training/present-tense-b1/"),
+    quizSection(window.GREEK_FAMILY_POSSESSIVES_DATA, "Семья и формы принадлежности", "../training/family-and-possessives/"),
     vocabularySection()
   ].filter(Boolean);
   if (!sections.length) return;
