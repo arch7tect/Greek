@@ -105,6 +105,8 @@
 
 ## Источники
 
-- [Материалы урока 01](../lessons/lesson-01-alphabet-and-greetings.md#lesson-01-materials), слайды 2–13.
-- [Ταξίδι στην Ελλάδα 1](../books/taxidi-stin-ellada-1.md), печатные страницы
-  13–20.
+- [Материалы текущего урока 01](../lessons/lesson-01-alphabet-and-greetings.md#lesson-01-materials), включая набор Noji из 15 карточек.
+- [Ταξίδι στην Ελλάδα 1 — шестое улучшенное издание](../books/taxidi-stin-ellada-1-revised.md), PDF-страницы 11–23, печатные страницы 17–29.
+- Материалы первого прохода: слайды 2–13 и
+  [предыдущая редакция учебника](../books/taxidi-stin-ellada-1.md), печатные
+  страницы 13–20.

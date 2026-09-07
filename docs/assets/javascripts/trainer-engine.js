@@ -66,7 +66,7 @@
 
   const countWeakCards = (cards, progress) => weakCards(cards, progress).length;
 
-  const LESSON_LIMIT_KEY = "greek-trainer:lesson-limit:v1";
+  const LESSON_LIMIT_KEY = "greek-trainer:lesson-limit:v2";
 
   const filterByLesson = (cards, limit) => (
     !limit || limit === "all"
@@ -76,9 +76,9 @@
 
   const getLessonLimit = () => {
     try {
-      return globalThis.localStorage?.getItem(LESSON_LIMIT_KEY) || "all";
+      return globalThis.localStorage?.getItem(LESSON_LIMIT_KEY) || "01";
     } catch {
-      return "all";
+      return "01";
     }
   };
 

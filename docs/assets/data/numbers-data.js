@@ -1,5 +1,5 @@
 window.GREEK_NUMBERS_DATA = {
-  storageKey: "greek-trainer:numbers:v1",
+  storageKey: "greek-trainer:numbers:v2",
   modes: [
     {
       key: "digit-to-word",

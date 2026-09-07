@@ -36,7 +36,7 @@
   const reveal = root.querySelector("#vocabulary-trainer-reveal");
   const answer = root.querySelector("#vocabulary-trainer-answer");
   const ratings = root.querySelector("#vocabulary-trainer-ratings");
-  const storageKey = "greek-vocabulary-progress-v2";
+  const storageKey = "greek-vocabulary-progress-v3";
   const progressStore = createStore(storageKey);
   const day = 24 * 60 * 60 * 1000;
   const intervals = [1, 3, 7, 14, 30];

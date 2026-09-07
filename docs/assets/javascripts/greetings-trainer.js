@@ -6,7 +6,7 @@
   window.GreekTrainer.createQuiz({
     root,
     datasets: Object.fromEntries(data.modes.map((mode) => [mode.key, mode.cards])),
-    defaultMode: "greet",
+    defaultMode: "lesson-01",
     modeDataKey: "greetingsMode",
     storageKey: data.storageKey,
     elements: {

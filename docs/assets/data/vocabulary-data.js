@@ -1,10 +1,10 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 373,
+  "total": 384,
   "core": 244,
   "lessons": {
     "01": {
-      "total": 46,
+      "total": 57,
       "core": 26
     },
     "02": {
@@ -87,6 +87,24 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "το δάσος",
+      "lesson": "01",
+      "greek": "το δάσος",
+      "transcription": "[to ˈðasos]",
+      "meaning": "лес",
+      "note": "τα δάση [ta ˈðasi]",
+      "core": false
+    },
+    {
+      "id": "ο δήμος",
+      "lesson": "01",
+      "greek": "ο δήμος",
+      "transcription": "[o ˈðimos]",
+      "meaning": "муниципалитет",
+      "note": "οι δήμοι [i ˈðimi]",
+      "core": false
+    },
+    {
       "id": "διαβάζω",
       "lesson": "01",
       "greek": "διαβάζω",
@@ -94,6 +112,24 @@ window.GREEK_VOCABULARY = {
       "meaning": "читать; учиться",
       "note": "глагол",
       "core": true
+    },
+    {
+      "id": "ο δόλος",
+      "lesson": "01",
+      "greek": "ο δόλος",
+      "transcription": "[o ˈðolos]",
+      "meaning": "обман; умысел",
+      "note": "οι δόλοι [i ˈðoli]",
+      "core": false
+    },
+    {
+      "id": "ο δρόμος",
+      "lesson": "01",
+      "greek": "ο δρόμος",
+      "transcription": "[o ˈðromos]",
+      "meaning": "дорога; улица",
+      "note": "οι δρόμοι [i ˈðromi]",
+      "core": false
     },
     {
       "id": "το θέατρο",
@@ -123,6 +159,15 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "η θήκη",
+      "lesson": "01",
+      "greek": "η θήκη",
+      "transcription": "[i ˈθiki]",
+      "meaning": "футляр; чехол",
+      "note": "οι θήκες [i ˈθikes]",
+      "core": false
+    },
+    {
       "id": "ο θίασος",
       "lesson": "01",
       "greek": "ο θίασος",
@@ -141,12 +186,30 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "το θράσος",
+      "lesson": "01",
+      "greek": "το θράσος",
+      "transcription": "[to ˈθrasos]",
+      "meaning": "наглость; дерзость",
+      "note": "τα θράση [ta ˈθrasi]",
+      "core": false
+    },
+    {
       "id": "το θυμάρι",
       "lesson": "01",
       "greek": "το θυμάρι",
       "transcription": "[to θiˈmari]",
       "meaning": "тимьян",
       "note": "τα θυμάρια [ta θiˈmarya]",
+      "core": false
+    },
+    {
+      "id": "ο θυμός",
+      "lesson": "01",
+      "greek": "ο θυμός",
+      "transcription": "[o θiˈmos]",
+      "meaning": "гнев",
+      "note": "οι θυμοί [i θiˈmi]",
       "core": false
     },
     {
@@ -382,6 +445,42 @@ window.GREEK_VOCABULARY = {
       "meaning": "телефон",
       "note": "τα τηλέφωνα [ta tiˈlefona]",
       "core": true
+    },
+    {
+      "id": "η τίγρη",
+      "lesson": "01",
+      "greek": "η τίγρη",
+      "transcription": "[i ˈtiɣri]",
+      "meaning": "тигр",
+      "note": "οι τίγρεις [i ˈtiɣris]",
+      "core": false
+    },
+    {
+      "id": "η τιμή",
+      "lesson": "01",
+      "greek": "η τιμή",
+      "transcription": "[i tiˈmi]",
+      "meaning": "цена; честь",
+      "note": "οι τιμές [i tiˈmes]",
+      "core": false
+    },
+    {
+      "id": "ο τόνος",
+      "lesson": "01",
+      "greek": "ο τόνος",
+      "transcription": "[o ˈtonos]",
+      "meaning": "ударение; тон",
+      "note": "οι τόνοι [i ˈtoni]",
+      "core": false
+    },
+    {
+      "id": "το τυρί",
+      "lesson": "01",
+      "greek": "το τυρί",
+      "transcription": "[to tiˈri]",
+      "meaning": "сыр",
+      "note": "τα τυριά [ta tiˈrya]",
+      "core": false
     },
     {
       "id": "το φίδι",

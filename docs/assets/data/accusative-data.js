@@ -1,5 +1,5 @@
 window.GREEK_ACCUSATIVE_DATA = {
-  storageKey: "greek-trainer:accusative:v1",
+  storageKey: "greek-trainer:accusative:v2",
   modes: [
     {
       key: "apo",

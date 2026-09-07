@@ -35,14 +35,17 @@
   const vocabularySection = () => {
     const vocabulary = window.GREEK_VOCABULARY;
     if (!vocabulary?.words?.length) return null;
-    const progress = createStore("greek-vocabulary-progress-v2").get();
-    const summary = summarizeVocabularyProgress(vocabulary.words, progress, Date.now());
+    const progress = createStore("greek-vocabulary-progress-v3").get();
+    const words = vocabulary.words.filter((word) => (
+      word.core && (lessonLimit === "all" || word.lesson <= lessonLimit)
+    ));
+    const summary = summarizeVocabularyProgress(words, progress, Date.now());
     const due = summary.due ? `, к повторению сейчас: ${summary.due}` : "";
     return {
       title: "Слова по урокам",
       href: "../training/vocabulary/",
       touched: summary.started > 0,
-      lines: [`изучено ${summary.learned} из ${summary.total}${due}`]
+      lines: [`основных слов изучено ${summary.learned} из ${summary.total}${due}`]
     };
   };
 

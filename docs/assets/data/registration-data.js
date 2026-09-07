@@ -1,5 +1,5 @@
 window.GREEK_REGISTRATION_DATA = {
-  storageKey: "greek-trainer:registration:v1",
+  storageKey: "greek-trainer:registration:v2",
   modes: [
     {
       key: "ask",

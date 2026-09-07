@@ -1,5 +1,5 @@
 window.GREEK_ARTICLES_STUDIES_DATA = {
-  storageKey: "greek-trainer:articles-studies:v1",
+  storageKey: "greek-trainer:articles-studies:v2",
   modes: [
     {
       key: "articles",

@@ -76,7 +76,7 @@ window.GREEK_VERBS_B1_DATA = (() => {
   ];
 
   return {
-    storageKey: "greek-trainer:verbs-b1:v1",
+    storageKey: "greek-trainer:verbs-b1:v2",
     modes: [
       {
         key: "milao",

@@ -33,7 +33,7 @@ window.GREEK_VERBS_A_DATA = (() => {
   ];
 
   return {
-    storageKey: "greek-trainer:verbs-a:v1",
+    storageKey: "greek-trainer:verbs-a:v2",
     modes: [
       {
         key: "endings",

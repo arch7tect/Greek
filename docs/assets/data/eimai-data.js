@@ -1,5 +1,5 @@
 window.GREEK_EIMAI_DATA = {
-  storageKey: "greek-trainer:eimai:v1",
+  storageKey: "greek-trainer:eimai:v2",
   modes: [
     {
       key: "pronoun-to-form",

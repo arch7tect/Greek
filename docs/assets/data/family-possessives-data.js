@@ -1,5 +1,5 @@
 window.GREEK_FAMILY_POSSESSIVES_DATA = {
-  storageKey: "greek-trainer:family-possessives:v1",
+  storageKey: "greek-trainer:family-possessives:v2",
   modes: [
     {
       key: "relations",

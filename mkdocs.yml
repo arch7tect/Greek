@@ -54,6 +54,7 @@ nav:
   - Маршрут обучения: learning-path.md
   - Уроки:
       - lessons/index.md
+      - Архив первого прохода: lessons/first-pass.md
       - Урок 01 — алфавит и приветствия: lessons/lesson-01-alphabet-and-greetings.md
       - Урок 02 — είμαι, знакомство и происхождение: lessons/lesson-02-eimai-and-origin.md
       - Урок 03 — местоимения и знакомство в классе: lessons/lesson-03-pronouns-and-classroom-dialogue.md
@@ -128,7 +129,8 @@ nav:
           - Семья и формы принадлежности: training/family-and-possessives.md
   - Учебники:
       - books/index.md
-      - Ταξίδι στην Ελλάδα 1: books/taxidi-stin-ellada-1.md
+      - Ταξίδι στην Ελλάδα 1 — текущая редакция: books/taxidi-stin-ellada-1-revised.md
+      - Ταξίδι στην Ελλάδα 1 — предыдущая редакция: books/taxidi-stin-ellada-1.md
       - Рабочая тетрадь Ταξίδι στην Ελλάδα 1+: books/taxidi-stin-ellada-1-workbook.md
       - Αυτό ακριβώς!: books/afto-akrivos-a.md
 extra_css:
