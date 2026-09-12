@@ -1,0 +1,43 @@
+Страница текущего урока 03
+https://getlanguage.online/pl/teach/control/lesson/view?id=349660582
+
+Задание преподавателя (текст со страницы):
+1) учебник, стр. 33 -- читать диалог (аудирование 10), стр. 34 упр. 2 (написать, кто из какой страны)
+2) из рабочей тетради к учебнику (добавил в урок): стр. 10-11 упр. 1-3
+3) из сборника Αυτό ακριβώς: стр. 142 упр. 2 (написать верно глагол είμαι), упр. 3 (поставить метоимения и глагол είμαι во множественное число и наоборот); стр. 110-111 упр. 1 (α, β, γ)
+Материалы урока добавил. Везде указаны страницы именно учебников -- не pdf.
+
+Изображения сохранены без изменения байтов:
+lesson-03-current-slide-01.png
+https://fs16.getcourse.ru/fileservice/file/download/a/878614/sc/255/h/e663f0e5ebb8219d7ae7a80cc576f708.png
+lesson-03-current-slide-02.png
+https://fs27.getcourse.ru/fileservice/file/download/a/878614/sc/273/h/923a87efd75bf466faf9db8654f44d65.png
+lesson-03-current-slide-03.png
+https://fs17.getcourse.ru/fileservice/file/download/a/878614/sc/288/h/f559d40bdef262fd17d32810dacdc827.png
+lesson-03-current-slide-04.png
+https://fs16.getcourse.ru/fileservice/file/download/a/878614/sc/296/h/5662630d221152470108044108cda680.png
+lesson-03-current-slide-05.png
+https://fs02.getcourse.ru/fileservice/file/download/a/878614/sc/41/h/742f7dd0c2c3f27e1ec2745112350728.png
+
+Конспект преподавателя, исходное название: урок 10.09.2026 ГетЛаг пн-чт.pdf
+https://getlanguage.online/pl/fileservice/user/file/download/h/4719d67fc9c225489e08822953dae07c.pdf
+Сохранён: lesson-03-current-teacher-notes.pdf (7 страниц).
+
+Файл карточек, исходное название: Ταξίδι Α μαθ. 2 карт..docx
+https://getlanguage.online/pl/fileservice/user/file/download/h/67f80c7dc1ecbcc02d8490ad244bbbb2.docx
+Сохранён: lesson-03-current-cards.docx (2 страницы при рендере).
+
+Quizlet — Μαθήματα 1-2, 49 карточек, просмотрено в браузере:
+https://quizlet.com/fr/850426644/%CE%BC%CE%B1%CE%B8%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-1-2-flash-cards/?x=1jqU&i=4e7aye
+Обнаружены записи «Πως σε λένε;» и «Τι κανείς;»; в конспекте wiki используются формы учебника с корректным ударением.
+
+Рабочая тетрадь, ссылка на странице (20,89 МБ):
+https://getlanguage.online/pl/fileservice/user/file/download/h/7fb86d56bc5a1cd6ff76163a912c01f7.pdf
+Грамматический сборник, ссылка на странице (41,46 МБ):
+https://getlanguage.online/pl/fileservice/user/file/download/h/d155ad53ae74e7b0529f482050aad923.pdf
+Эти два файла не заменяли сохранённые книги. Для разбора просмотрены назначенные страницы имеющихся локальных PDF. Полная идентичность файлов не установлена.
+
+Аудио 10: materials/books/taxidi-stin-ellada-1-revised-audio/track-10.mp3
+66,346667 с, MP3, 44100 Гц, 2 канала.
+Сопоставлено с печатной страницей 33 / PDF 27 по локальному распознаванию mlx-community/whisper-small-mlx и последовательности реплик.
+Запись самого занятия на странице не обнаружена.

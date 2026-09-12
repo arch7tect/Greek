@@ -56,8 +56,10 @@ nav:
       - lessons/index.md
       - Архив первого прохода: lessons/first-pass.md
       - Урок 01 — алфавит и приветствия: lessons/lesson-01-alphabet-and-greetings.md
-      - Урок 02 — είμαι, знакомство и происхождение: lessons/lesson-02-eimai-and-origin.md
-      - Урок 03 — местоимения и знакомство в классе: lessons/lesson-03-pronouns-and-classroom-dialogue.md
+      - Урок 02 — чтение и ударение: lessons/lesson-02-reading-and-stress.md
+      - Архив урока 02 — знакомство и происхождение: lessons/lesson-02-eimai-and-origin.md
+      - Урок 03 — знакомство и быть: lessons/lesson-03-introductions-and-eimai.md
+      - Архив урока 03 — знакомство в классе: lessons/lesson-03-pronouns-and-classroom-dialogue.md
       - Урок 04 — числа и место жительства: lessons/lesson-04-numbers-and-residence.md
       - Урок 05 — Τι κάνεις; и глаголы первого спряжения: lessons/lesson-05-ti-kaneis-and-verbs-a.md
       - Урок 06 — числа 11–100, анкета и предлоги: lessons/lesson-06-numbers-and-prepositions.md
@@ -83,7 +85,7 @@ nav:
       - vocabulary/index.md
       - Общий словарь: vocabulary/all.md
       - Урок 01 — новые слова: vocabulary/lesson-01.md
-      - Урок 02 — новые слова: vocabulary/lesson-02.md
+      - Урок 02 — словарь первого прохода: vocabulary/lesson-02.md
       - Урок 03 — новые слова: vocabulary/lesson-03.md
       - Урок 04 — новые слова: vocabulary/lesson-04.md
       - Урок 05 — новые слова: vocabulary/lesson-05.md
@@ -95,7 +97,9 @@ nav:
       - memory/index.md
       - Урок 01: memory/lesson-01.md
       - Урок 02: memory/lesson-02.md
-      - Урок 03: memory/lesson-03.md
+      - Архив урока 02: memory/lesson-02-first-pass.md
+      - Урок 03: memory/lesson-03-current.md
+      - Архив урока 03: memory/lesson-03.md
       - Урок 04: memory/lesson-04.md
       - Урок 05: memory/lesson-05.md
       - Урок 06: memory/lesson-06.md
@@ -107,7 +111,9 @@ nav:
           - homework/index.md
           - К уроку 01: homework/lesson-01-alphabet.md
           - К уроку 02: homework/lesson-02-listening-and-stress.md
-          - К уроку 03: homework/lesson-03-pronouns-and-eimai.md
+          - Архив задания к уроку 02: homework/lesson-02-first-pass.md
+          - К уроку 03: homework/lesson-03-current.md
+          - Архив задания к уроку 03: homework/lesson-03-pronouns-and-eimai.md
           - К уроку 04: homework/lesson-04-eimai-residence-and-numbers.md
           - К уроку 05: homework/lesson-05-verbs-and-matching.md
           - К уроку 06: homework/lesson-06-about-me-and-verbs.md
@@ -117,6 +123,7 @@ nav:
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md
+          - Урок 02 — чтение и ударение: training/lesson-02-reading.md
           - είμαι и личные местоимения: training/eimai-and-pronouns.md
           - Слова по урокам: training/vocabulary.md
           - Числа: training/numbers.md

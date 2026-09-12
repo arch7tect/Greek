@@ -85,6 +85,7 @@
 
 ## Источники
 
+- [Текущий урок 03](../../lessons/lesson-03-introductions-and-eimai.md#lesson-03-current-materials), конспект преподавателя PDF 2–3.
 - [Материалы урока 02](../../lessons/lesson-02-eimai-and-origin.md#lesson-02-materials).
 - [Материалы урока 04](../../lessons/lesson-04-numbers-and-residence.md#lesson-04-materials), слайды 6–11.
 - [Материалы урока 07](../../lessons/lesson-07-classroom-studies-and-articles.md#lesson-07-materials),

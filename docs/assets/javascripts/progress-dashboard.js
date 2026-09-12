@@ -11,11 +11,11 @@
   } = window.GreekTrainer;
   const lessonLimit = getLessonLimit();
 
-  const quizSection = (data, title, href) => {
+  const quizSection = (data, title, href, limit = lessonLimit) => {
     if (!data) return null;
     const progress = createStore(data.storageKey).get();
     const modes = data.modes
-      .map((mode) => ({ mode, cards: filterByLesson(mode.cards, lessonLimit) }))
+      .map((mode) => ({ mode, cards: filterByLesson(mode.cards, limit) }))
       .filter(({ cards }) => cards.length > 0);
     if (!modes.length) {
       return { title, href, touched: false, lines: [], later: true };
@@ -50,6 +50,7 @@
   };
 
   const sections = [
+    quizSection(window.GREEK_LESSON_02_READING_DATA, "Чтение и ударение урока 02", "../training/lesson-02-reading/", "all"),
     quizSection(window.GREEK_ALPHABET_DATA, "Буквы и буквосочетания", "../training/alphabet-and-combinations/"),
     quizSection(window.GREEK_EIMAI_DATA, "είμαι [ˈime] и местоимения", "../training/eimai-and-pronouns/"),
     quizSection(window.GREEK_NUMBERS_DATA, "Числа", "../training/numbers/"),

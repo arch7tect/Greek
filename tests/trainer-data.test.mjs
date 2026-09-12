@@ -29,6 +29,26 @@ const assertStableIds = (datasets) => {
   });
 };
 
+test("current lesson 02 reading has isolated progress and unambiguous choices", async () => {
+  const config = await loadConfig(
+    "docs/assets/data/lesson-02-reading-data.js",
+    "docs/assets/javascripts/lesson-02-reading-trainer.js"
+  );
+  assertStableIds(config.datasets);
+  assert.equal(config.storageKey, "greek-trainer:lesson-02-reading:v1");
+  assert.equal(config.defaultMode, "sounds");
+  assert.equal(config.elements.lessonSelect, undefined);
+  assert.equal(config.datasets.sounds.length, 10);
+  assert.equal(config.datasets.stress.length, 6);
+  Object.values(config.datasets).flat().forEach((card) => {
+    assert.equal(card.lesson, "02");
+    assert.equal(card.choices.length, 4);
+    assert.equal(new Set(card.choices).size, 4);
+    assert.equal(card.choices.filter((choice) => choice === card.answer).length, 1);
+    assert.ok(card.detail.length > 30);
+  });
+});
+
 
 test("alphabet datasets retain their card counts and stable ids", async () => {
   const config = await loadConfig(

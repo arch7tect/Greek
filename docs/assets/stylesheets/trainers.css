@@ -117,7 +117,8 @@
   font-size: clamp(1.6rem, 5vw, 2.5rem);
 }
 
-#greetings-trainer .trainer__prompt {
+#greetings-trainer .trainer__prompt,
+#reading-trainer .trainer__prompt {
   font-size: clamp(1.2rem, 3.5vw, 1.8rem);
 }
 
