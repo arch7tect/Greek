@@ -9,6 +9,8 @@
 
 ## Что делать сейчас
 
+[Карточка по фонетике для печати — PDF, А4](../assets/print/lesson-02-phonetics-card-a4.pdf).
+
 1. Повторить краткие правила ниже.
 2. Пройти [тренажёр чтения урока 02](../training/lesson-02-reading.md): сочетания и ударение.
 3. Перенести [исправления преподавателя](../homework/lesson-02-listening-and-stress.md#teacher-feedback)
