@@ -8,3 +8,4 @@ __pycache__/
 # Temporary files produced while extracting source materials
 .cache/
 tmp/
+output/mobile/
