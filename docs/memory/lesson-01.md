@@ -2,7 +2,7 @@
 
 ## Карточка для печати
 
-[Карточки для телефона — просмотр и ZIP](mobile-cards.md).
+[Карточки для телефона — PDF и просмотр](mobile-cards.md).
 
 [Скачать карточку урока 01 — PDF, А4](../assets/print/lesson-01-alphabet-card-a4.pdf){ .md-button download }
 

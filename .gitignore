@@ -9,3 +9,4 @@ __pycache__/
 .cache/
 tmp/
 output/mobile/
+output/pdf/lesson-*-phone-cards.pdf

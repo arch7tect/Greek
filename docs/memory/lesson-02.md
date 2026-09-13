@@ -4,7 +4,7 @@
 
 ## Карточка для печати
 
-[Карточки для телефона — просмотр и ZIP](mobile-cards.md).
+[Карточки для телефона — PDF и просмотр](mobile-cards.md).
 
 [Скачать карточку по фонетике — PDF, А4](../assets/print/lesson-02-phonetics-card-a4.pdf){ .md-button download }
 
