@@ -69,6 +69,8 @@
 
 ## Источники
 
+- [Текущий урок 04](../../lessons/lesson-04-current.md#materials), конспект PDF 6:
+  таблица окончаний, список глаголов и упражнение 11.
 - [Материалы урока 05](../../lessons/lesson-05-ti-kaneis-and-verbs-a.md#lesson-05-materials),
   слайды 3–5.
 - [Материалы урока 06](../../lessons/lesson-06-numbers-and-prepositions.md#lesson-06-materials),

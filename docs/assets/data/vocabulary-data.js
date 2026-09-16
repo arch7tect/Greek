@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 384,
-  "core": 244,
+  "total": 386,
+  "core": 246,
   "lessons": {
     "01": {
       "total": 57,
@@ -16,8 +16,8 @@ window.GREEK_VOCABULARY = {
       "core": 18
     },
     "04": {
-      "total": 27,
-      "core": 23
+      "total": 29,
+      "core": 25
     },
     "05": {
       "total": 38,
@@ -1635,6 +1635,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "ο σκύλος",
+      "lesson": "04",
+      "greek": "ο σκύλος",
+      "transcription": "[o ˈskilos]",
+      "meaning": "собака",
+      "note": "οι σκύλοι [i ˈskili]; сборник, с. 147, упр. 7α",
+      "core": true
+    },
+    {
       "id": "τέσσερα",
       "lesson": "04",
       "greek": "τέσσερα",
@@ -1668,6 +1677,15 @@ window.GREEK_VOCABULARY = {
       "transcription": "[ˈtora]",
       "meaning": "сейчас",
       "note": "наречие",
+      "core": true
+    },
+    {
+      "id": "φεύγω",
+      "lesson": "04",
+      "greek": "φεύγω",
+      "transcription": "[ˈfevɣo]",
+      "meaning": "уходить; уезжать",
+      "note": "сборник, с. 112, упр. 3α, пункт 4",
       "core": true
     },
     {
