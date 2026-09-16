@@ -28,7 +28,8 @@ def main():
                 assert urlparse(target).hostname in {'www.youtube.com', 'youtube.com', 'youtu.be'}, target
             elif not target.startswith('#'):
                 assert (path.parent / target.split('#')[0]).exists(), (name, target)
-        assert text.count('.md-button download') == 3, name
+        assert text.count('.md-button') == 3, name
+        assert '.md-button download' not in text, name
         assert f'lesson-{number:02}-phone-cards.pdf' in text, name
         assert f'lesson-{number:02}-homework.pdf' in text, name
     print('Lesson layout: 4/4; downloads and internal links OK')

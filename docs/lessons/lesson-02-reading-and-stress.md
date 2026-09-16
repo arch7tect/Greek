@@ -1,7 +1,7 @@
 # Урок 02 — чтение и ударение
 
-[A4 для печати](../assets/print/lesson-02-phonetics-card-a4.pdf){ .md-button download }
-[Карточки для телефона — PDF](../assets/mobile/lesson-02-phone-cards.pdf){ .md-button download }
+[A4 для печати](../assets/print/lesson-02-phonetics-card-a4.pdf){ .md-button }
+[Карточки для телефона — PDF](../assets/mobile/lesson-02-phone-cards.pdf){ .md-button }
 
 [Карточки онлайн](../assets/mobile/lesson-02/index.html) ·
 [Памятка](../memory/lesson-02.md) ·
@@ -85,7 +85,7 @@
 
 ## Домашнее задание
 
-[Скачать листы для домашки — 3 страницы](../assets/print/lesson-02-homework.pdf){ .md-button download }
+[Открыть листы для домашки — 3 страницы](../assets/print/lesson-02-homework.pdf){ .md-button }
 
 [Упражнения 11–14 и 17: страницы и порядок работы](../homework/lesson-02-listening-and-stress.md).
 Перенести [исправления преподавателя](../homework/lesson-02-listening-and-stress.md#teacher-feedback)

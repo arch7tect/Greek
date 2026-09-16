@@ -2,9 +2,9 @@
 
 **Статус:** проверено по текущему конспекту, карточкам преподавателя и домашке.
 
-[Скачать А4 — один лист с двух сторон](../assets/print/lesson-04-study-card-a4.pdf){ .md-button download }
+[Открыть А4 — один лист с двух сторон](../assets/print/lesson-04-study-card-a4.pdf){ .md-button }
 
-[Скачать PDF для телефона](../assets/mobile/lesson-04-phone-cards.pdf){ .md-button download }
+[Открыть PDF для телефона](../assets/mobile/lesson-04-phone-cards.pdf){ .md-button }
 
 [Смотреть 8 карточек по темам](../assets/mobile/lesson-04/index.html).
 Содержание одинаковое в обоих форматах; это памятки, не «вопрос–ответ».

@@ -1,7 +1,7 @@
 # Урок 03 — знакомство, происхождение и «быть»
 
-[A4 для печати](../assets/print/lesson-03-study-card-a4.pdf){ .md-button download }
-[Карточки для телефона — PDF](../assets/mobile/lesson-03-phone-cards.pdf){ .md-button download }
+[A4 для печати](../assets/print/lesson-03-study-card-a4.pdf){ .md-button }
+[Карточки для телефона — PDF](../assets/mobile/lesson-03-phone-cards.pdf){ .md-button }
 
 [Карточки онлайн](../assets/mobile/lesson-03/index.html) ·
 [Памятка](../memory/lesson-03-current.md) ·
@@ -80,7 +80,7 @@
 
 ## Домашнее задание
 
-[Скачать листы для домашки — 7 страниц](../assets/print/lesson-03-homework.pdf){ .md-button download }
+[Открыть листы для домашки — 7 страниц](../assets/print/lesson-03-homework.pdf){ .md-button }
 
 [Страницы для печати и порядок выполнения](../homework/lesson-03-current.md#print).
 Учебник: с. 33–34; тетрадь: с. 10–11; сборник: с. 110–111 и 142.

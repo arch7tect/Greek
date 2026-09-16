@@ -5,8 +5,8 @@
 Не включать историю архива, внешние сервисы и записи занятий.
 Исключение для внешних ссылок — YouTube. -->
 
-[A4 для печати](../assets/print/lesson-NN-study-card-a4.pdf){ .md-button download }
-[Карточки для телефона — PDF](../assets/mobile/lesson-NN-phone-cards.pdf){ .md-button download }
+[A4 для печати](../assets/print/lesson-NN-study-card-a4.pdf){ .md-button }
+[Карточки для телефона — PDF](../assets/mobile/lesson-NN-phone-cards.pdf){ .md-button }
 
 [Карточки онлайн](../assets/mobile/lesson-NN/index.html) ·
 [Памятка](../memory/lesson-NN.md) ·
@@ -32,7 +32,7 @@
 
 ## Домашнее задание
 
-[Скачать листы для домашки](../assets/print/lesson-NN-homework.pdf){ .md-button download }
+[Открыть листы для домашки](../assets/print/lesson-NN-homework.pdf){ .md-button }
 
 <!-- Краткий объём и ссылка на домашку: номера, порядок, печатные/PDF-страницы,
 состояние выполнения. Неясности, важные для выполнения, указывать здесь. -->

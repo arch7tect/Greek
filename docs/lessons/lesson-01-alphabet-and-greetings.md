@@ -1,7 +1,7 @@
 # Урок 01 — алфавит и приветствия
 
-[A4 для печати](../assets/print/lesson-01-alphabet-card-a4.pdf){ .md-button download }
-[Карточки для телефона — PDF](../assets/mobile/lesson-01-phone-cards.pdf){ .md-button download }
+[A4 для печати](../assets/print/lesson-01-alphabet-card-a4.pdf){ .md-button }
+[Карточки для телефона — PDF](../assets/mobile/lesson-01-phone-cards.pdf){ .md-button }
 
 [Карточки онлайн](../assets/mobile/lesson-01/index.html) ·
 [Памятка](../memory/lesson-01.md) ·
@@ -117,7 +117,7 @@
 
 ## Домашнее задание
 
-[Скачать листы для домашки — 4 страницы](../assets/print/lesson-01-homework.pdf){ .md-button download }
+[Открыть листы для домашки — 4 страницы](../assets/print/lesson-01-homework.pdf){ .md-button }
 
 Текущее [домашнее задание](../homework/lesson-01-alphabet.md) подтверждено:
 прочитать вслух разобранные слова и выполнить упражнения 1–4, 8–10 на печатных

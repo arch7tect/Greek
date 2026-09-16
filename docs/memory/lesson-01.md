@@ -4,7 +4,7 @@
 
 [Карточки для телефона — PDF и просмотр](mobile-cards.md).
 
-[Скачать карточку урока 01 — PDF, А4](../assets/print/lesson-01-alphabet-card-a4.pdf){ .md-button download }
+[Открыть карточку урока 01 — PDF, А4](../assets/print/lesson-01-alphabet-card-a4.pdf){ .md-button }
 
 Один двусторонний лист: 24 буквы с названиями и звуками, приветствия и
 26 основных слов из домашки с переводом и транскрипцией.

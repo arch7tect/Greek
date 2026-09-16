@@ -1,7 +1,7 @@
 # Урок 04 — как дела, где живу и глаголы группы А
 
-[A4 для печати](../assets/print/lesson-04-study-card-a4.pdf){ .md-button download }
-[Карточки для телефона — PDF](../assets/mobile/lesson-04-phone-cards.pdf){ .md-button download }
+[A4 для печати](../assets/print/lesson-04-study-card-a4.pdf){ .md-button }
+[Карточки для телефона — PDF](../assets/mobile/lesson-04-phone-cards.pdf){ .md-button }
 
 [Карточки онлайн](../assets/mobile/lesson-04/index.html) ·
 [Памятка](../memory/lesson-04-current.md) ·
@@ -113,7 +113,7 @@
 
 ## Домашнее задание
 
-[Скачать листы для домашки — 8 страниц](../assets/print/lesson-04-homework.pdf){ .md-button download }
+[Открыть листы для домашки — 8 страниц](../assets/print/lesson-04-homework.pdf){ .md-button }
 
 [Что распечатать и в каком порядке делать](../homework/lesson-04-current.md#print).
 Учебник: с. 41, упр. 12; тетрадь: упр. 4–8; сборник: с. 111–112 и 147–148.
