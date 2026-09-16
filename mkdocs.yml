@@ -3,6 +3,40 @@ site_description: Персональная вики по изучению нов
 exclude_docs: |
   page-templates/**
 
+not_in_nav: |
+  lessons/first-pass.md
+  lessons/lesson-02-eimai-and-origin.md
+  lessons/lesson-03-pronouns-and-classroom-dialogue.md
+  lessons/lesson-04-numbers-and-residence.md
+  lessons/lesson-05-ti-kaneis-and-verbs-a.md
+  lessons/lesson-06-numbers-and-prepositions.md
+  lessons/lesson-07-classroom-studies-and-articles.md
+  lessons/lesson-08-verbs-b1-and-application.md
+  lessons/lesson-09-family-and-possessives.md
+  vocabulary/lesson-05.md
+  vocabulary/lesson-06.md
+  vocabulary/lesson-07.md
+  vocabulary/lesson-08.md
+  vocabulary/lesson-09.md
+  memory/lesson-02-first-pass.md
+  memory/lesson-03.md
+  memory/lesson-04.md
+  memory/lesson-05.md
+  memory/lesson-06.md
+  memory/lesson-07.md
+  memory/lesson-08.md
+  memory/lesson-09.md
+  homework/lesson-02-first-pass.md
+  homework/lesson-03-pronouns-and-eimai.md
+  homework/lesson-04-eimai-residence-and-numbers.md
+  homework/lesson-05-verbs-and-matching.md
+  homework/lesson-06-about-me-and-verbs.md
+  homework/lesson-07-accusative-and-matching.md
+  homework/lesson-08-verbs-b1-and-application.md
+  homework/lesson-09-family-and-possessives.md
+  books/taxidi-stin-ellada-1.md
+  lessons/lesson-01-first-pass.md
+
 theme:
   name: material
   language: ru
@@ -54,19 +88,10 @@ nav:
   - Маршрут обучения: learning-path.md
   - Уроки:
       - lessons/index.md
-      - Архив первого прохода: lessons/first-pass.md
       - Урок 01 — алфавит и приветствия: lessons/lesson-01-alphabet-and-greetings.md
       - Урок 02 — чтение и ударение: lessons/lesson-02-reading-and-stress.md
-      - Архив урока 02 — знакомство и происхождение: lessons/lesson-02-eimai-and-origin.md
       - Урок 03 — знакомство и быть: lessons/lesson-03-introductions-and-eimai.md
-      - Архив урока 03 — знакомство в классе: lessons/lesson-03-pronouns-and-classroom-dialogue.md
       - Урок 04 — общение и глаголы А: lessons/lesson-04-current.md
-      - Архив урока 04 — числа и место жительства: lessons/lesson-04-numbers-and-residence.md
-      - Урок 05 — Τι κάνεις; и глаголы первого спряжения: lessons/lesson-05-ti-kaneis-and-verbs-a.md
-      - Урок 06 — числа 11–100, анкета и предлоги: lessons/lesson-06-numbers-and-prepositions.md
-      - Урок 07 — аудитория, учёба и артикли: lessons/lesson-07-classroom-studies-and-articles.md
-      - Урок 08 — глаголы типа Β1 и анкета: lessons/lesson-08-verbs-b1-and-application.md
-      - Урок 09 — семья и формы принадлежности: lessons/lesson-09-family-and-possessives.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -86,44 +111,23 @@ nav:
       - vocabulary/index.md
       - Общий словарь: vocabulary/all.md
       - Урок 01 — новые слова: vocabulary/lesson-01.md
-      - Урок 02 — словарь первого прохода: vocabulary/lesson-02.md
+      - Урок 02 — слова: vocabulary/lesson-02.md
       - Урок 03 — новые слова: vocabulary/lesson-03.md
       - Урок 04 — новые слова: vocabulary/lesson-04.md
-      - Урок 05 — новые слова: vocabulary/lesson-05.md
-      - Урок 06 — новые слова: vocabulary/lesson-06.md
-      - Урок 07 — новые слова: vocabulary/lesson-07.md
-      - Урок 08 — новые слова: vocabulary/lesson-08.md
-      - Урок 09 — новые слова: vocabulary/lesson-09.md
   - Коротко для памяти:
       - memory/index.md
       - Карточки для телефона: memory/mobile-cards.md
       - Урок 01: memory/lesson-01.md
       - Урок 02: memory/lesson-02.md
-      - Архив урока 02: memory/lesson-02-first-pass.md
       - Урок 03: memory/lesson-03-current.md
-      - Архив урока 03: memory/lesson-03.md
       - Урок 04: memory/lesson-04-current.md
-      - Архив урока 04: memory/lesson-04.md
-      - Урок 05: memory/lesson-05.md
-      - Урок 06: memory/lesson-06.md
-      - Урок 07: memory/lesson-07.md
-      - Урок 08: memory/lesson-08.md
-      - Урок 09: memory/lesson-09.md
   - Практика:
       - Домашние задания:
           - homework/index.md
           - К уроку 01: homework/lesson-01-alphabet.md
           - К уроку 02: homework/lesson-02-listening-and-stress.md
-          - Архив задания к уроку 02: homework/lesson-02-first-pass.md
           - К уроку 03: homework/lesson-03-current.md
-          - Архив задания к уроку 03: homework/lesson-03-pronouns-and-eimai.md
           - К уроку 04: homework/lesson-04-current.md
-          - Архив задания к уроку 04: homework/lesson-04-eimai-residence-and-numbers.md
-          - К уроку 05: homework/lesson-05-verbs-and-matching.md
-          - К уроку 06: homework/lesson-06-about-me-and-verbs.md
-          - К уроку 07: homework/lesson-07-accusative-and-matching.md
-          - К уроку 08: homework/lesson-08-verbs-b1-and-application.md
-          - К уроку 09: homework/lesson-09-family-and-possessives.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md
@@ -141,8 +145,9 @@ nav:
   - Учебники:
       - books/index.md
       - Ταξίδι στην Ελλάδα 1 — текущая редакция: books/taxidi-stin-ellada-1-revised.md
-      - Ταξίδι στην Ελλάδα 1 — предыдущая редакция: books/taxidi-stin-ellada-1.md
       - Рабочая тетрадь Ταξίδι στην Ελλάδα 1+: books/taxidi-stin-ellada-1-workbook.md
       - Αυτό ακριβώς!: books/afto-akrivos-a.md
 extra_css:
   - assets/stylesheets/trainers.css
+extra:
+  generator: false

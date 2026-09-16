@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Архив первого прохода
 
 **Статус:** архив прохождения; знания и источники сохранены
@@ -9,7 +14,7 @@
 
 ## Разобранные занятия
 
-- [Урок 01 — алфавит, чтение и приветствия](lesson-01-alphabet-and-greetings.md)
+- [Урок 01 — алфавит, чтение и приветствия](lesson-01-first-pass.md)
 - [Урок 02 — `είμαι` `[ˈime]`, знакомство и происхождение](lesson-02-eimai-and-origin.md)
 - [Урок 03 — местоимения и знакомство в классе](lesson-03-pronouns-and-classroom-dialogue.md)
 - [Урок 04 — числа и место жительства](lesson-04-numbers-and-residence.md)
@@ -34,3 +39,29 @@
 - нумерация страниц предыдущей редакции учебника;
 - результаты тренажёров: текущий проход использует новое пространство
   прогресса, а прежние браузерные данные не удаляются.
+
+
+## Памятки, задания и словари
+
+- [Урок 05 — новые слова](../vocabulary/lesson-05.md)
+- [Урок 06 — новые слова](../vocabulary/lesson-06.md)
+- [Урок 07 — новые слова](../vocabulary/lesson-07.md)
+- [Урок 08 — новые слова](../vocabulary/lesson-08.md)
+- [Урок 09 — новые слова](../vocabulary/lesson-09.md)
+- [Урок 02 первого прохода — коротко для памяти](../memory/lesson-02-first-pass.md)
+- [Урок 03 — коротко для памяти](../memory/lesson-03.md)
+- [Урок 04 — коротко для памяти](../memory/lesson-04.md)
+- [Урок 05 — коротко для памяти](../memory/lesson-05.md)
+- [Урок 06 — коротко для памяти](../memory/lesson-06.md)
+- [Урок 07 — коротко для памяти](../memory/lesson-07.md)
+- [Урок 08 — коротко для памяти](../memory/lesson-08.md)
+- [Урок 09 — коротко для памяти](../memory/lesson-09.md)
+- [Домашнее задание к уроку 02 — первый проход](../homework/lesson-02-first-pass.md)
+- [Домашнее задание к уроку 03](../homework/lesson-03-pronouns-and-eimai.md)
+- [Домашнее задание к уроку 04](../homework/lesson-04-eimai-residence-and-numbers.md)
+- [Домашнее задание к уроку 05 — формы глаголов и вопрос-ответ](../homework/lesson-05-verbs-and-matching.md)
+- [Домашнее задание к уроку 06 — рассказ о себе и формы глаголов](../homework/lesson-06-about-me-and-verbs.md)
+- [Домашнее задание к уроку 07 — винительный и соответствия](../homework/lesson-07-accusative-and-matching.md)
+- [Домашнее задание к уроку 08 — глаголы Β1 и анкета](../homework/lesson-08-verbs-b1-and-application.md)
+- [Домашнее задание к уроку 09 — семья и принадлежность](../homework/lesson-09-family-and-possessives.md)
+- [Ταξίδι στην Ελλάδα 1](../books/taxidi-stin-ellada-1.md)

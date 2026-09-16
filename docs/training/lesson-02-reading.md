@@ -47,9 +47,9 @@
 
 [Аудио 4–8](../lessons/lesson-02-reading-and-stress.md#lesson-02-audio) ·
 [Домашка 11–14 и 17](../homework/lesson-02-listening-and-stress.md) ·
-[Карточки Noji](https://noji.io/shared_deck/v2_Uvs5rKet7F_3958367?from=ankipro)
+[Наши карточки по чтению](../memory/lesson-02.md)
 
-Источники: [материалы урока 02](../lessons/lesson-02-reading-and-stress.md#lesson-02-current-materials),
+Источники: [материалы урока 02](../lessons/lesson-02-reading-and-stress.md),
 [правила чтения](../reference/alphabet-and-reading.md) и
 [транскрипция](../reference/transcription.md). Вопросы составлены для тренировки
 этих правил, а не скопированы из аудиозаданий.

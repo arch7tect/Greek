@@ -44,7 +44,11 @@ Treat source files as evidence and keep extracted knowledge traceable to them.
 - Store full page-by-page machine recognition under `extracted/books/`. Treat it as
   a derived draft: record source, model, coverage, and uncertainty; never
   publish it directly as learner-facing wiki content.
-- Record lesson-file inventory and verification quality in the lesson page.
+- Keep lesson-file inventory and verification quality in the internal journal
+  `extracted/lessons/lesson-NN-source-audit.md`, not on learner-facing pages.
+  Lessons are a course for students: omit processing reports and verification
+  status blocks, including collapsed ones. This overrides older skill guidance
+  requiring a «Материалы и качество» section on a lesson page.
   Keep separate cards in `docs/books/` only for reusable books and workbooks.
 - Keep stable rules in `docs/reference/`; lesson pages should link to them
   instead of duplicating the full explanation.

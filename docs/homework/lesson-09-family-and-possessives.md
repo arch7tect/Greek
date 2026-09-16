@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Домашнее задание к уроку 09 — семья и принадлежность
 
 **Статус:** архив первого прохода; в текущем проходе не назначено
@@ -19,8 +24,7 @@
 
 ## II. Начать учить семейную лексику
 
-[Набор Quizlet «Ταξίδι στην Ελλάδα — Μάθημα 4: Οικογένεια &
-Εργασία»](https://quizlet.com/ru/1124766638/%CF%84%CE%B1%CE%BE%CE%AF%CE%B4%CE%B9-%CF%83%CF%84%CE%B7%CE%BD-%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1%CE%BC%CE%B1%CE%B84%CE%BF%CE%B9%CE%BA%CE%BF%CE%B3%CE%AD%CE%BD%CE%B5%CE%B9%CE%B1-%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1-flash-cards/?i=5kr5cc&x=1jqY)
+Набор Quizlet «Ταξίδι στην Ελλάδα — Μάθημα 4: Οικογένεια & Εργασία»
 `[taˈksiði stin eˈlaða — ˈmaθima ˈtesera: ikoˈyenia ke erɣaˈsia]`.
 
 Живой набор может меняться, поэтому в накопительный словарь перенесены только

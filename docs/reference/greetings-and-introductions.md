@@ -121,10 +121,10 @@
 
 ## Источник
 
-[Текущий урок 03](../lessons/lesson-03-introductions-and-eimai.md#lesson-03-current-materials),
+[Текущий урок 03](../lessons/lesson-03-introductions-and-eimai.md),
 конспект преподавателя PDF 1–4.
 
-[Материалы текущего урока 01](../lessons/lesson-01-alphabet-and-greetings.md#lesson-01-materials), памятка с приветствиями; материалы первого прохода, слайды 10 и 24;
+[Материалы текущего урока 01](../lessons/lesson-01-alphabet-and-greetings.md), памятка с приветствиями; материалы первого прохода, слайды 10 и 24;
 [материалы урока 02](../lessons/lesson-02-eimai-and-origin.md#lesson-02-materials), слайды 2, 4, 7 и
 аудиодиалог; [материалы урока 03](../lessons/lesson-03-pronouns-and-classroom-dialogue.md#lesson-03-materials), слайды 7 и
 13 и аудиодиалог; [материалы урока 04](../lessons/lesson-04-numbers-and-residence.md#lesson-04-materials),

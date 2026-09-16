@@ -130,5 +130,5 @@
 - [Домашнее задание к уроку 01](../homework/lesson-01-alphabet.md).
 - [Переработанная редакция учебника](../books/taxidi-stin-ellada-1-revised.md),
   печатные страницы 20 и 24–25.
-- [Материалы урока](../lessons/lesson-01-alphabet-and-greetings.md#lesson-01-materials), изображения
+- [Материалы урока](../lessons/lesson-01-alphabet-and-greetings.md), изображения
   печатных страниц 20–25 и аудио 1–3.

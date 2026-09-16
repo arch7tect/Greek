@@ -70,5 +70,5 @@
 [приветствия и знакомство](../reference/greetings-and-introductions.md).
 
 Источник набора «8 фраз урока 01» и диалогов:
-[памятка с приветствиями из текущего урока](../lessons/lesson-01-alphabet-and-greetings.md#lesson-01-materials).
+[памятка с приветствиями из текущего урока](../lessons/lesson-01-alphabet-and-greetings.md).
 На её основе составлены учебные ситуации; они не являются записью реального разговора.
