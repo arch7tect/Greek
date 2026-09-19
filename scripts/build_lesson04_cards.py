@@ -6,6 +6,7 @@ Does not rebuild or alter cards for lessons 01-03.
 import html
 import json
 import shutil
+import argparse
 from PIL import Image, ImageDraw
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
@@ -17,8 +18,12 @@ from reportlab.lib.colors import HexColor
 from pypdf import PdfReader
 from build_mobile_cards import ROOT, DATA, F, font, bold, small, wrap, package
 
-cards = json.loads((DATA / 'lesson-04.json').read_text())
-out = ROOT / 'docs/assets/mobile/lesson-04'
+parser = argparse.ArgumentParser()
+parser.add_argument('--lesson', type=int, choices=[4, 5], default=4)
+lesson = parser.parse_args().lesson
+slug = f'lesson-{lesson:02d}'
+cards = json.loads((DATA / f'{slug}.json').read_text())
+out = ROOT / 'docs/assets/mobile' / slug
 out.mkdir(parents=True, exist_ok=True)
 pdfout = ROOT / 'output/pdf'
 pdfout.mkdir(parents=True, exist_ok=True)
@@ -55,7 +60,7 @@ for index, card in enumerate(cards, 1):
         columns, width = [narrow[:split], narrow[split:]], 456
     im = Image.new('RGB', (1080, 1920), '#F5F3ED')
     d = ImageDraw.Draw(im)
-    d.text((56, 36), 'ГРЕЧЕСКИЙ · УРОК 04', font=small, fill='#344F51')
+    d.text((56, 36), f'ГРЕЧЕСКИЙ · УРОК {lesson:02d}', font=small, fill='#344F51')
     title_lines = wrap(card['title'], bold, 968)
     assert len(title_lines) <= 2
     for j, line in enumerate(title_lines):
@@ -75,15 +80,15 @@ for index, card in enumerate(cards, 1):
             y += 8
         assert y <= 1790, (card['title'], y)
     d.text((56, 1850), f'{index:02d} / {len(cards):02d}', font=small, fill='#344F51')
-    name = f'lesson-04-card-{index:02d}.png'
+    name = f'{slug}-card-{index:02d}.png'
     im.save(out / name)
     manifest.append({'title': card['title'], 'file': name})
 (out / 'contents.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2))
-package(out, 4, len(cards))
+package(out, lesson, len(cards))
 
-phone = pdfout / 'lesson-04-phone-cards.pdf'
+phone = pdfout / f'{slug}-phone-cards.pdf'
 c = canvas.Canvas(str(phone), pagesize=(540, 960), pageCompression=1)
-c.setTitle('Урок 04 - карточки для телефона')
+c.setTitle(f'Урок {lesson:02d} - карточки для телефона')
 for i, item in enumerate(manifest):
     c.bookmarkPage(str(i))
     c.addOutlineEntry(item['title'], str(i), level=0)
@@ -96,9 +101,9 @@ shutil.copyfile(phone, ROOT / 'docs/assets/mobile' / phone.name)
 pdfmetrics.registerFont(TTFont('DV', str(F / 'poppler/poppler/fonts/DejaVuSans.ttf')))
 pdfmetrics.registerFont(TTFont('DVB', str(F / 'libreoffice-headless/libreoffice/LibreOfficeDev.app/Contents/Resources/fonts/truetype/DejaVuSans-Bold.ttf')))
 pdfmetrics.registerFontFamily('DV', normal='DV', bold='DVB')
-paper = pdfout / 'lesson-04-study-card-a4.pdf'
+paper = pdfout / f'{slug}-study-card-a4.pdf'
 c = canvas.Canvas(str(paper), pagesize=A4, pageCompression=1)
-c.setTitle('Урок 04 - грамматика и основные слова')
+c.setTitle(f'Урок {lesson:02d} - грамматика и основные слова')
 c.setAuthor('Greek learning wiki')
 W, H = A4
 M = 27
@@ -117,10 +122,15 @@ def paragraph(text, x, y, width=CW, size=None, gap=3):
     return y - h - gap
 
 
-for page, sections in enumerate([[[0, 1], [2, 3]], [[4, 5], [6, 7]]], 1):
+layouts = [[[0, 1], [2, 3]], [[4, 5], [6, 7]]]
+titles = ['ГЛАГОЛЫ И ОБЩЕНИЕ', 'МЕСТО, ЧИСЛА И СЛОВА']
+if lesson == 5:
+    layouts = [[[0, 1, 2], [3, 4, 5]], [[6, 7, 8], [9, 10, 11]]]
+    titles = ['РОД, АРТИКЛИ И ОБЩЕНИЕ', 'ПОВТОРЕНИЕ И ДОМАШКА']
+for page, sections in enumerate(layouts, 1):
     c.setFont('DVB', 17)
     c.setFillColor(HexColor('#18383B'))
-    c.drawString(M, H - 35, 'УРОК 04 / ' + ('ГЛАГОЛЫ И ОБЩЕНИЕ' if page == 1 else 'МЕСТО, ЧИСЛА И СЛОВА'))
+    c.drawString(M, H - 35, f'УРОК {lesson:02d} / ' + titles[page - 1])
     paragraph('ˈ перед ударным слогом; θ и ð - межзубные. Словарная форма глагола означает «я».',
               M, H - 46, W - 2 * M, 9, 0)
     for col, indices in enumerate(sections):
@@ -138,10 +148,12 @@ for page, sections in enumerate([[[0, 1], [2, 3]], [[4, 5], [6, 7]]], 1):
                 y = paragraph(html.escape(note), x, y, gap=4)
             y -= 10
     c.setFont('DV', 6.8)
-    c.drawString(M, 25, 'Источники: конспект 04 и DOCX; тетрадь с. 11-13; сборник с. 112, 147-148.')
-    c.drawRightString(W - M, 13, f'{page}/2 · А4 · 100% · двусторонняя печать по длинному краю')
+    source = ('Источники: конспект 04 и DOCX; тетрадь с. 11-13; сборник с. 112, 147-148.' if lesson == 4 else
+              'Источники: конспект 05; учебник с. 48, 50-52; тетрадь с. 14-15; дополнительное задание.')
+    c.drawString(M, 25, source)
+    c.drawRightString(W - M, 13, f'{page}/{len(layouts)} · А4 · 100% · двусторонняя печать по длинному краю')
     c.showPage()
 c.save()
-assert len(PdfReader(paper).pages) == 2
+assert len(PdfReader(paper).pages) == len(layouts)
 shutil.copyfile(paper, ROOT / 'docs/assets/print' / paper.name)
-print(f'Built {len(cards)} phone cards and 2 A4 pages from the same dataset.')
+print(f'Built {len(cards)} phone cards and {len(layouts)} A4 pages from the same dataset.')

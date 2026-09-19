@@ -10,6 +10,7 @@ LESSONS = [
     'lesson-02-reading-and-stress.md',
     'lesson-03-introductions-and-eimai.md',
     'lesson-04-current.md',
+    'lesson-05-current.md',
 ]
 EXPECTED = ['Что освоить', 'Разбор', 'Практика перед домашкой',
             'Домашнее задание']
@@ -32,7 +33,7 @@ def main():
         assert '.md-button download' not in text, name
         assert f'lesson-{number:02}-phone-cards.pdf' in text, name
         assert f'lesson-{number:02}-homework.pdf' in text, name
-    print('Lesson layout: 4/4; downloads and internal links OK')
+    print(f'Lesson layout: {len(LESSONS)}/{len(LESSONS)}; downloads and internal links OK')
 
 if __name__ == '__main__':
     main()

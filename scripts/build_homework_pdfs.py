@@ -1,6 +1,7 @@
 """Extract assigned pages unchanged; page numbers here are 1-based PDF numbers."""
 from pathlib import Path
 import shutil
+import argparse
 from pypdf import PdfReader, PdfWriter
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -14,14 +15,21 @@ PACKS = {
     '02': [(MAIN, [20, 21, 23])],
     '03': [(MAIN, [27, 28]), (WORK, [2, 3]), (GRAMMAR, [101, 102, 132])],
     '04': [(MAIN, [35]), (WORK, [3, 4, 5]), (GRAMMAR, [102, 103, 137, 138])],
+    '05': [(MAIN, [41]), (WORK, [6, 7]),
+           ('../homework/05/lesson-05-current-worksheet.pdf', [1, 2, 3, 4])],
 }
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--lesson', choices=PACKS)
+    args = parser.parse_args()
     output = ROOT / 'output/pdf'
     public = ROOT / 'docs/assets/print'
     output.mkdir(parents=True, exist_ok=True)
     public.mkdir(parents=True, exist_ok=True)
     for lesson, sources in PACKS.items():
+        if args.lesson and lesson != args.lesson:
+            continue
         writer = PdfWriter()
         for name, numbers in sources:
             reader = PdfReader(BOOKS / name)

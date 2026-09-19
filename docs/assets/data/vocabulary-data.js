@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 386,
-  "core": 246,
+  "total": 399,
+  "core": 253,
   "lessons": {
     "01": {
       "total": 57,
@@ -20,8 +20,8 @@ window.GREEK_VOCABULARY = {
       "core": 25
     },
     "05": {
-      "total": 38,
-      "core": 20
+      "total": 51,
+      "core": 27
     },
     "06": {
       "total": 55,
@@ -1689,6 +1689,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "αγοράζω",
+      "lesson": "05",
+      "greek": "αγοράζω",
+      "transcription": "[aɣoˈrazo]",
+      "meaning": "покупать",
+      "note": "доп. файл, PDF 3, упр. 5",
+      "core": true
+    },
+    {
       "id": "η Αθήνα",
       "lesson": "05",
       "greek": "η Αθήνα",
@@ -1707,12 +1716,30 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "αριστερά",
+      "lesson": "05",
+      "greek": "αριστερά",
+      "transcription": "[aristeˈra]",
+      "meaning": "слева; налево",
+      "note": "подсказка преподавателя к аудированию",
+      "core": true
+    },
+    {
       "id": "η αρχαιολογία",
       "lesson": "05",
       "greek": "η αρχαιολογία",
       "transcription": "[i arheoloˈyia]",
       "meaning": "археология",
       "note": "учебный предмет",
+      "core": false
+    },
+    {
+      "id": "αρχίζω",
+      "lesson": "05",
+      "greek": "αρχίζω",
+      "transcription": "[arˈhizo]",
+      "meaning": "начинать",
+      "note": "доп. файл, PDF 1, упр. 3",
       "core": false
     },
     {
@@ -1770,6 +1797,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "δεξιά",
+      "lesson": "05",
+      "greek": "δεξιά",
+      "transcription": "[ðeˈksia]",
+      "meaning": "справа; направо",
+      "note": "подсказка преподавателя к аудированию",
+      "core": true
+    },
+    {
       "id": "το διάλειμμα",
       "lesson": "05",
       "greek": "το διάλειμμα",
@@ -1777,6 +1813,15 @@ window.GREEK_VOCABULARY = {
       "meaning": "перерыв; перемена",
       "note": "τα διαλείμματα [ta ðyaˈlimata]",
       "core": false
+    },
+    {
+      "id": "το εισιτήριο",
+      "lesson": "05",
+      "greek": "το εισιτήριο",
+      "transcription": "[to isiˈtirio]",
+      "meaning": "билет",
+      "note": "τα εισιτήρια [ta isiˈtiria]; доп. файл, PDF 3, упр. 4",
+      "core": true
     },
     {
       "id": "τα ελληνικά",
@@ -1959,12 +2004,30 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "περιμένω",
+      "lesson": "05",
+      "greek": "περιμένω",
+      "transcription": "[periˈmeno]",
+      "meaning": "ждать",
+      "note": "доп. файл, PDF 3, упр. 4",
+      "core": true
+    },
+    {
       "id": "πηγαίνω",
       "lesson": "05",
       "greek": "πηγαίνω",
       "transcription": "[piˈyeno]",
       "meaning": "идти; ехать",
       "note": "глагол",
+      "core": true
+    },
+    {
+      "id": "πίνω",
+      "lesson": "05",
+      "greek": "πίνω",
+      "transcription": "[ˈpino]",
+      "meaning": "пить",
+      "note": "конспект, PDF 8, упр. 19; доп. файл, PDF 1, упр. 2",
       "core": true
     },
     {
@@ -1984,6 +2047,15 @@ window.GREEK_VOCABULARY = {
       "meaning": "первый",
       "note": "прилагательное",
       "core": true
+    },
+    {
+      "id": "το ράφι",
+      "lesson": "05",
+      "greek": "το ράφι",
+      "transcription": "[to ˈrafi]",
+      "meaning": "полка",
+      "note": "τα ράφια [ta ˈrafya]; конспект, PDF 3",
+      "core": false
     },
     {
       "id": "σήμερα",
@@ -2013,6 +2085,42 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "το σφουγγάρι",
+      "lesson": "05",
+      "greek": "το σφουγγάρι",
+      "transcription": "[to sfuŋˈgari]",
+      "meaning": "губка",
+      "note": "τα σφουγγάρια [ta sfuŋˈgarya]; конспект, PDF 3",
+      "core": false
+    },
+    {
+      "id": "τελειώνω",
+      "lesson": "05",
+      "greek": "τελειώνω",
+      "transcription": "[teliˈono]",
+      "meaning": "заканчивать",
+      "note": "доп. файл, PDF 4, напечатанная реплика",
+      "core": false
+    },
+    {
+      "id": "ο τοίχος",
+      "lesson": "05",
+      "greek": "ο τοίχος",
+      "transcription": "[o ˈtihos]",
+      "meaning": "стена",
+      "note": "οι τοίχοι [i ˈtihi]; конспект, PDF 3",
+      "core": false
+    },
+    {
+      "id": "η τράπεζα",
+      "lesson": "05",
+      "greek": "η τράπεζα",
+      "transcription": "[i ˈtrapeza]",
+      "meaning": "банк",
+      "note": "οι τράπεζες [i ˈtrapezes]; доп. файл, PDF 2–4",
+      "core": true
+    },
+    {
       "id": "η Φιλοθέη",
       "lesson": "05",
       "greek": "η Φιλοθέη",
@@ -2029,6 +2137,15 @@ window.GREEK_VOCABULARY = {
       "meaning": "ужасно; очень плохо",
       "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
       "core": true
+    },
+    {
+      "id": "ο χάρτης",
+      "lesson": "05",
+      "greek": "ο χάρτης",
+      "transcription": "[o ˈhartis]",
+      "meaning": "карта",
+      "note": "οι χάρτες [i ˈhartes]; конспект, PDF 3",
+      "core": false
     },
     {
       "id": "ο αριθμός",
