@@ -31,6 +31,8 @@ pdfout.mkdir(parents=True, exist_ok=True)
 
 def blocks(card, width):
     items = []
+    if card.get('intro'):
+        items.append([(line, False) for line in wrap(card['intro'], font, width)])
     for row in card['rows']:
         parts = [(row[0], True), ('[' + row[1] + ']', False), (row[2], False)]
         if len(row) == 4:
@@ -125,20 +127,23 @@ def paragraph(text, x, y, width=CW, size=None, gap=3):
 layouts = [[[0, 1], [2, 3]], [[4, 5], [6, 7]]]
 titles = ['ГЛАГОЛЫ И ОБЩЕНИЕ', 'МЕСТО, ЧИСЛА И СЛОВА']
 if lesson == 5:
-    layouts = [[[0, 1, 2], [3, 4, 5]], [[6, 7, 8], [9, 10, 11]]]
-    titles = ['РОД, АРТИКЛИ И ОБЩЕНИЕ', 'ПОВТОРЕНИЕ И ДОМАШКА']
+    layouts = [[[0, 1], [2, 3]]]
+    titles = ['ОПОРЫ ДЛЯ ПОВТОРЕНИЯ']
 for page, sections in enumerate(layouts, 1):
     c.setFont('DVB', 17)
     c.setFillColor(HexColor('#18383B'))
     c.drawString(M, H - 35, f'УРОК {lesson:02d} / ' + titles[page - 1])
-    paragraph('ˈ перед ударным слогом; θ и ð - межзубные. Словарная форма глагола означает «я».',
-              M, H - 46, W - 2 * M, 9, 0)
+    if lesson == 4:
+        paragraph('ˈ перед ударным слогом; θ и ð - межзубные. Словарная форма глагола означает «я».',
+                  M, H - 46, W - 2 * M, 9, 0)
     for col, indices in enumerate(sections):
         x, y = M + col * (CW + 18), H - 73
         for idx in indices:
             card = cards[idx]
             y = paragraph('<b>' + html.escape(card['title']) + '</b>', x, y,
                           size=10.5, gap=7)
+            if card.get('intro'):
+                y = paragraph(html.escape(card['intro']), x, y, gap=6)
             for row in card['rows']:
                 text = f'<b>{html.escape(row[0])}</b> [{html.escape(row[1])}] - {html.escape(row[2])}'
                 if len(row) == 4:
@@ -151,7 +156,8 @@ for page, sections in enumerate(layouts, 1):
     source = ('Источники: конспект 04 и DOCX; тетрадь с. 11-13; сборник с. 112, 147-148.' if lesson == 4 else
               'Источники: конспект 05; учебник с. 48, 50-52; тетрадь с. 14-15; дополнительное задание.')
     c.drawString(M, 25, source)
-    c.drawRightString(W - M, 13, f'{page}/{len(layouts)} · А4 · 100% · двусторонняя печать по длинному краю')
+    print_hint = ' · двусторонняя печать по длинному краю' if len(layouts) > 1 else ''
+    c.drawRightString(W - M, 13, f'{page}/{len(layouts)} · А4 · 100%' + print_hint)
     c.showPage()
 c.save()
 assert len(PdfReader(paper).pages) == len(layouts)

@@ -20,6 +20,11 @@ Treat source files as evidence and keep extracted knowledge traceable to them.
 
 ## Content conventions
 
+- Keep lesson explanations maximally detailed within the verified lesson scope:
+  explain meaning, selection rules, examples, contrasts, and common mistakes.
+  A4 and phone cards serve memorization and quick revision, not initial teaching.
+  Keep their number minimal and select only essential rules, forms, and words;
+  never reproduce the lesson across cards. See `CONTRIBUTING.md` for details.
 - Write explanations in Russian and Modern Greek examples with correct stress
   marks.
 - Add simplified pronunciation transcription in square brackets to every
@@ -68,3 +73,6 @@ Treat source files as evidence and keep extracted knowledge traceable to them.
   `git diff --check -- AGENTS.md .agents/skills docs mkdocs.yml CONTRIBUTING.md README.md inbox/README.md materials/README.md extracted scripts`.
 - Preserve unrelated user changes and existing staging.
 - Do not commit unless the user explicitly asks.
+- For publication requests, the user requires this order: commit the scoped
+  changes, push successfully, then deploy that clean committed version.
+  Do not publish uncommitted or unpushed changes unless explicitly requested.
