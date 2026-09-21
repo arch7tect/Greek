@@ -1,0 +1,16 @@
+[Unit]
+Description=Greek learning MkDocs wiki (isolated)
+After=network.target
+
+[Service]
+Type=simple
+User=ftsit
+Group=ftsit
+ExecStart=/usr/bin/python3 -m http.server 8791 --bind 127.0.0.1 --directory /srv/greek-wiki/current
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

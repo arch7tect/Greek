@@ -24,6 +24,10 @@ history, credentials, and local configuration off the server.
   service, release root, or Funnel route is absent, stop and report what needs
   initial setup.
 
+The `/greek` route, port 8790, `/srv/greek`, and `greek-wiki.service`
+now belong to a separate application. Do not modify them when publishing this wiki.
+Commit scoped changes and push successfully before publishing a clean worktree.
+
 ## Configuration
 
 The bundled script uses non-secret environment overrides:
@@ -31,10 +35,10 @@ The bundled script uses non-secret environment overrides:
 | Variable | Default | Purpose |
 |---|---|---|
 | `GREEK_DEPLOY_HOST` | `openclaw` | Existing SSH alias |
-| `GREEK_DEPLOY_ROOT` | `/srv/greek` | Versioned release root |
-| `GREEK_DEPLOY_ROUTE` | `/greek` | Existing Funnel path |
-| `GREEK_DEPLOY_SERVICE` | `greek-wiki.service` | Remote systemd unit |
-| `GREEK_DEPLOY_HEALTH_URL` | `http://127.0.0.1:8790/` | Server-local check |
+| `GREEK_DEPLOY_ROOT` | `/srv/greek-wiki` | Versioned release root |
+| `GREEK_DEPLOY_ROUTE` | `/greek-wiki` | Existing Funnel path |
+| `GREEK_DEPLOY_SERVICE` | `greek-learning-wiki.service` | Remote systemd unit |
+| `GREEK_DEPLOY_HEALTH_URL` | `http://127.0.0.1:8791/` | Server-local check |
 | `GREEK_DEPLOY_KEEP_RELEASES` | `3` | Releases retained for rollback |
 
 Do not store credentials in these variables or add machine-specific overrides
@@ -56,7 +60,7 @@ to the repository.
    ```
 
 The script runs `uv run mkdocs build --strict`, uploads `site/` to a timestamped
-directory, atomically switches `/srv/greek/current`, retains recent releases,
+directory, atomically switches `/srv/greek-wiki/current`, retains recent releases,
 and verifies both the server-local endpoint and the public page. It rolls the
 symlink back automatically if the server-local health check fails.
 

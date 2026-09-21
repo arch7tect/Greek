@@ -14,10 +14,10 @@ case "${1:-}" in
 esac
 
 host="${GREEK_DEPLOY_HOST:-openclaw}"
-root="${GREEK_DEPLOY_ROOT:-/srv/greek}"
-route="${GREEK_DEPLOY_ROUTE:-/greek}"
-service="${GREEK_DEPLOY_SERVICE:-greek-wiki.service}"
-health_url="${GREEK_DEPLOY_HEALTH_URL:-http://127.0.0.1:8790/}"
+root="${GREEK_DEPLOY_ROOT:-/srv/greek-wiki}"
+route="${GREEK_DEPLOY_ROUTE:-/greek-wiki}"
+service="${GREEK_DEPLOY_SERVICE:-greek-learning-wiki.service}"
+health_url="${GREEK_DEPLOY_HEALTH_URL:-http://127.0.0.1:8791/}"
 keep_releases="${GREEK_DEPLOY_KEEP_RELEASES:-3}"
 
 root="${root%/}"
