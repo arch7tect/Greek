@@ -17,6 +17,7 @@ PACKS = {
     '04': [(MAIN, [35]), (WORK, [3, 4, 5]), (GRAMMAR, [102, 103, 137, 138])],
     '05': [(MAIN, [41]), (WORK, [6, 7]),
            ('../homework/05/lesson-05-current-worksheet.pdf', [1, 2, 3, 4])],
+    '06': [(MAIN, [50, 51])],
 }
 
 def main():

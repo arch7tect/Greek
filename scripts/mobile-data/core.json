@@ -1,0 +1,129 @@
+[
+  {
+    "title": "Местоимения и «быть»",
+    "sources": ["docs/reference/grammar/eimai.md", "docs/reference/grammar/personal-pronouns.md"],
+    "rows": [
+      "εγώ <b>είμαι</b><br/>[eˈɣo ˈime] — я",
+      "εσύ <b>είσαι</b><br/>[eˈsi ˈise] — ты",
+      "αυτός <b>είναι</b><br/>[afˈtos ˈine] — он",
+      "αυτή <b>είναι</b><br/>[afˈti ˈine] — она",
+      "αυτό <b>είναι</b><br/>[afˈto ˈine] — оно",
+      "εμείς <b>είμαστε</b><br/>[eˈmis ˈimaste] — мы",
+      "εσείς <b>είστε</b><br/>[eˈsis ˈiste] — вы",
+      "αυτοί <b>είναι</b><br/>[afˈti ˈine] — они: м. р. / смешанная группа людей",
+      "αυτές <b>είναι</b><br/>[afˈtes ˈine] — они: ж. р.",
+      "αυτά <b>είναι</b><br/>[afˈta ˈine] — они: ср. р."
+    ],
+    "note": "«Быть»: одна форма для он / она / оно / они."
+  },
+  {
+    "title": "Глаголы А: проживать",
+    "sources": ["docs/reference/grammar/present-tense-a.md"],
+    "intro": "Основа + окончание. Окончания выделены жирным.",
+    "rows": [
+      "μέν<b>ω</b><br/>[ˈmeno] — я живу",
+      "μέν<b>εις</b><br/>[ˈmenis] — ты живёшь",
+      "μέν<b>ει</b><br/>[ˈmeni] — он / она / оно живёт",
+      "μέν<b>ουμε</b><br/>[ˈmenume] — мы живём",
+      "μέν<b>ετε</b><br/>[ˈmenete] — вы живёте",
+      "μέν<b>ουν</b> / μέν<b>ουνε</b><br/>[ˈmenun / ˈmenune] — они живут",
+      "Δεν μένω εδώ.<br/>[ðen ˈmeno eˈðo]<br/>Я не живу здесь."
+    ],
+    "note": "Род не меняет окончание глагола. «Вы» — несколько людей или вежливое обращение."
+  },
+  {
+    "title": "Глаголы Β1: говорить",
+    "sources": ["docs/reference/grammar/present-tense-b1.md"],
+    "intro": "Ударение на окончании. Варианты через / равнозначны.",
+    "rows": [
+      "μιλ<b>άω</b> / μιλ<b>ώ</b><br/>[miˈlao / miˈlo] — я говорю",
+      "μιλ<b>άς</b><br/>[miˈlas] — ты говоришь",
+      "μιλ<b>άει</b> / μιλ<b>ά</b><br/>[miˈlai / miˈla] — он / она говорит",
+      "μιλ<b>άμε</b><br/>[miˈlame] — мы говорим",
+      "μιλ<b>άτε</b><br/>[miˈlate] — вы говорите",
+      "μιλ<b>άνε</b> / μιλ<b>ούν</b><br/>[miˈlane / miˈlun] — они говорят",
+      "Μιλάω λίγο ελληνικά.<br/>[miˈlao ˈliɣo eliniˈka]<br/>Я немного говорю по-гречески."
+    ],
+    "note": "Сравни «ты»: μένεις [ˈmenis], но μιλάς [miˈlas]."
+  },
+  {
+    "title": "Знакомство: вопрос → ответ",
+    "sources": ["docs/reference/greetings-and-introductions.md", "docs/lessons/lesson-06-current.md"],
+    "rows": [
+      "<b>Как тебя / вас зовут?</b><br/>Πώς σε / σας λένε;<br/>[pos se / sas ˈlene]<br/>Με λένε… [me ˈlene]<br/>Меня зовут…",
+      "<b>Откуда ты / вы?</b><br/>Από πού είσαι / είστε;<br/>[aˈpo pu ˈise / ˈiste]<br/>Είμαι από τη Ρωσία.<br/>[ˈime aˈpo ti roˈsia]<br/>Я из России.",
+      "<b>Национальность</b><br/>Είμαι Ρώσος / Ρωσίδα.<br/>[ˈime ˈrosos / roˈsiða]<br/>Я русский / русская.",
+      "<b>Как дела?</b><br/>Τι κάνεις / κάνετε;<br/>[ti ˈkanis / ˈkanete]<br/>Καλά, ευχαριστώ. Εσύ;<br/>[kaˈla efhariˈsto eˈsi]<br/>Хорошо, спасибо. А ты?"
+    ]
+  },
+  {
+    "title": "Жизнь, учёба и языки",
+    "sources": ["docs/lessons/lesson-04-current.md", "docs/lessons/lesson-06-current.md"],
+    "rows": [
+      "<b>Где ты живёшь?</b><br/>Πού μένεις; [pu ˈmenis]<br/>Μένω στην Κύπρο.<br/>[ˈmeno stin ˈkipro]<br/>Я живу на Кипре.",
+      "<b>Что ты изучаешь в вузе?</b><br/>Τι σπουδάζεις; [ti spuˈðazis]<br/>Σπουδάζω Ιστορία.<br/>[spuˈðazo istoˈria]<br/>Я изучаю историю.",
+      "<b>Где ты работаешь?</b><br/>Πού δουλεύεις; [pu ðuˈlevis]<br/>Δουλεύω στην καφετέρια.<br/>[ðuˈlevo stin kafeˈteria]<br/>Я работаю в кафе.",
+      "<b>Ты говоришь по-гречески?</b><br/>Μιλάς ελληνικά;<br/>[miˈlas eliniˈka]<br/>Μιλάω λίγο. [miˈlao ˈliɣo]<br/>Говорю немного."
+    ]
+  },
+  {
+    "title": "Фразы на каждый день",
+    "sources": ["docs/reference/greetings-and-introductions.md", "docs/lessons/lesson-05-current.md"],
+    "rows": [
+      "Γεια σου / Γεια σας<br/>[ya su / ya sas] — привет / здравствуйте; также при прощании",
+      "Καλημέρα [kaliˈmera]<br/>Доброе утро / добрый день",
+      "Καλησπέρα [kaliˈspera]<br/>Добрый вечер — при встрече",
+      "Καλό βράδυ [kaˈlo ˈvraði]<br/>Хорошего вечера — при прощании",
+      "Καληνύχτα [kaliˈnihta]<br/>Спокойной ночи",
+      "Ευχαριστώ [efhariˈsto]<br/>Спасибо",
+      "Παρακαλώ [parakaˈlo]<br/>Пожалуйста — просьба / ответ на спасибо",
+      "Ορίστε [oˈriste]<br/>Вот, пожалуйста — передавая что-то",
+      "Χάρηκα πολύ [ˈharika poˈli]<br/>Приятно познакомиться",
+      "Τα λέμε [ta ˈleme]<br/>Увидимся"
+    ]
+  },
+  {
+    "title": "Род и артикли",
+    "sources": ["docs/reference/grammar/nominative-articles.md", "docs/reference/grammar/prepositions-accusative.md"],
+    "intro": "Кто? Что? Определённый — понятно, какой именно. Неопределённый — один / какой-то.",
+    "rows": [
+      "<b>Мужской</b>: ο / ένας [o / ˈenas]<br/>Часто -ος, -ης, -ας [os, is, as]",
+      "<b>Женский</b>: η / μία [i / ˈmia]<br/>Часто -α, -η [a, i]",
+      "<b>Средний</b>: το / ένα [to / ˈena]<br/>Часто -ο, -ι, -μα [o, i, ma]",
+      "<b>Из / от</b>: από [aˈpo]<br/>από τον / την / το<br/>[aˈpo ton / tin / to]",
+      "<b>В / на</b>: σε [se]<br/>σε + τον / την / το → στον / στην / στο<br/>[se + ton / tin / to → ston / stin / sto]",
+      "από τη Ρωσία [aˈpo ti roˈsia]<br/>из России<br/>στην Κύπρο [stin ˈkipro]<br/>на Кипре"
+    ],
+    "note": "Есть исключения: η Κύπρος [i ˈkipros] — Кипр (ж. р.). Учи артикль со словом."
+  },
+  {
+    "title": "Числа: от нуля до ста",
+    "sources": ["docs/reference/numbers-11-100.md", "docs/lessons/lesson-04-current.md"],
+    "columns": 2,
+    "rows": [
+      "0 · μηδέν<br/>[miˈðen]",
+      "1 · ένα<br/>[ˈena]",
+      "2 · δύο<br/>[ˈðio]",
+      "3 · τρία<br/>[ˈtria]",
+      "4 · τέσσερα<br/>[ˈtesera]",
+      "5 · πέντε<br/>[ˈpende]",
+      "6 · έξι<br/>[ˈeksi]",
+      "7 · εφτά<br/>[eˈfta]",
+      "8 · οχτώ<br/>[oˈhto]",
+      "9 · εννιά<br/>[eˈnya]",
+      "10 · δέκα<br/>[ˈðeka]",
+      "<b>11 · έντεκα<br/>[ˈendeka]</b>",
+      "<b>12 · δώδεκα<br/>[ˈðoðeka]</b>",
+      "20 · είκοσι<br/>[ˈikosi]",
+      "30 · τριάντα<br/>[triˈanda]",
+      "40 · σαράντα<br/>[saˈranda]",
+      "50 · πενήντα<br/>[peˈninda]",
+      "60 · εξήντα<br/>[eˈksinda]",
+      "<b>70 · εβδομήντα<br/>[evðoˈminda]</b>",
+      "<b>80 · ογδόντα<br/>[oɣˈðonda]</b>",
+      "90 · ενενήντα<br/>[eneˈninda]",
+      "<b>100 · εκατό<br/>[ekaˈto]</b>"
+    ],
+    "note": "13–19: слитно — δεκατρία [ðekaˈtria], 13.<br/>Десятки + единицы: είκοσι τρία [ˈikosi ˈtria], 23. Без «и»."
+  }
+]

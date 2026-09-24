@@ -19,7 +19,7 @@ from pypdf import PdfReader
 from build_mobile_cards import ROOT, DATA, F, font, bold, small, wrap, package
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--lesson', type=int, choices=[4, 5], default=4)
+parser.add_argument('--lesson', type=int, choices=[4, 5, 6], default=4)
 lesson = parser.parse_args().lesson
 slug = f'lesson-{lesson:02d}'
 cards = json.loads((DATA / f'{slug}.json').read_text())
@@ -126,7 +126,7 @@ def paragraph(text, x, y, width=CW, size=None, gap=3):
 
 layouts = [[[0, 1], [2, 3]], [[4, 5], [6, 7]]]
 titles = ['ГЛАГОЛЫ И ОБЩЕНИЕ', 'МЕСТО, ЧИСЛА И СЛОВА']
-if lesson == 5:
+if lesson in (5, 6):
     layouts = [[[0, 1], [2, 3]]]
     titles = ['ОПОРЫ ДЛЯ ПОВТОРЕНИЯ']
 for page, sections in enumerate(layouts, 1):
@@ -155,6 +155,8 @@ for page, sections in enumerate(layouts, 1):
     c.setFont('DV', 6.8)
     source = ('Источники: конспект 04 и DOCX; тетрадь с. 11-13; сборник с. 112, 147-148.' if lesson == 4 else
               'Источники: конспект 05; учебник с. 48, 50-52; тетрадь с. 14-15; дополнительное задание.')
+    if lesson == 6:
+        source = 'Источники: конспект 06, с. 1-7; учебник с. 56-58.'
     c.drawString(M, 25, source)
     print_hint = ' · двусторонняя печать по длинному краю' if len(layouts) > 1 else ''
     c.drawRightString(W - M, 13, f'{page}/{len(layouts)} · А4 · 100%' + print_hint)
