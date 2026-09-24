@@ -23,7 +23,7 @@ c = canvas.Canvas(str(OUT), pagesize=A4)
 c.setTitle('Запись на занятия: диалог и словарная шпаргалка')
 W, H = A4
 
-def p(text, x, top, width, size=10.5, color='#203835'):
+def p(text, x, top, width, size=10.5, color='#101010'):
     text = text.replace('`', '').replace('—', '-').replace('→', ' / ')
     para = Paragraph(text, ParagraphStyle('s', fontName='Study', fontSize=size,
                      leading=size*1.2, textColor=colors.HexColor(color)))
@@ -45,15 +45,15 @@ rows = []
 for line in part.splitlines():
     if line.startswith('| Секретарь |') or line.startswith('| Ане |'):
         role, phrase, meaning = [v.strip() for v in line.split('|')[1:-1]]
-        phrase = phrase.replace('` `[', '<br/>[').replace('`', '')
+        phrase = '<b>' + phrase.replace('` `[', '</b><br/>[').replace('`', '')
         rows.append((role, phrase, meaning))
 assert len(rows) == 21, len(rows)
 for role, phrase, meaning in rows:
-    bottom1 = p(phrase, 47, y, 320, 10)
-    bottom2 = p(meaning, 380, y, W-414, 10)
+    bottom1 = p(phrase, 47, y, 320, 11.5)
+    bottom2 = p(meaning, 380, y, W-414, 11.5)
     c.setFillColor(colors.HexColor('#166B5E' if role == 'Секретарь' else '#9C6725'))
     c.circle(38, y-5, 2, fill=1, stroke=0)
-    y = min(bottom1, bottom2)-5
+    y = min(bottom1, bottom2)-4
 assert y > 45, y
 footer(1)
 c.showPage()
@@ -97,7 +97,7 @@ for col, (title, items) in enumerate(groups):
     cy = p('<b>'+title+'</b>', x, y, 250, 12, '#166B5E')-12
     for greek, meaning in items:
         cy = p('<b>'+greek.split(' [')[0]+'</b> ['+greek.split(' [')[1]+'<br/>'+meaning,
-               x, cy, 250, 11)-9
+               x, cy, 250, 12.5)-7
     bottoms.append(cy)
 y = min(bottoms)-10
 y = p('<b>Как учить</b><br/>1. Прочитай диалог с переводом. 2. Закрой русский столбец. '
