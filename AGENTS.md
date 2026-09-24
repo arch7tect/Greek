@@ -72,7 +72,10 @@ Treat source files as evidence and keep extracted knowledge traceable to them.
 - Check authored changes with
   `git diff --check -- AGENTS.md .agents/skills docs mkdocs.yml CONTRIBUTING.md README.md inbox/README.md materials/README.md extracted scripts`.
 - Preserve unrelated user changes and existing staging.
-- Do not commit unless the user explicitly asks.
+- Standing user instruction: after requested wiki changes, validate, commit the
+  scoped changes, push, and deploy immediately without a separate publication
+  request. Do not include unrelated edits. An explicit request not to publish
+  overrides this default. Read-only tutoring does not trigger publication.
 - For publication requests, the user requires this order: commit the scoped
   changes, push successfully, then deploy that clean committed version.
   Do not publish uncommitted or unpushed changes unless explicitly requested.
