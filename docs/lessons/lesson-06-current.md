@@ -2,6 +2,7 @@
 
 [A4 для печати](../assets/print/lesson-06-study-card-a4.pdf){ .md-button }
 [Карточки для телефона — PDF](../assets/mobile/lesson-06-phone-cards.pdf){ .md-button }
+[Диалог и слова — 2 страницы PDF](../assets/print/lesson-05-registration-dialogue.pdf).
 
 [Карточки онлайн](../assets/mobile/lesson-06/index.html) ·
 [Памятка](../memory/lesson-06-current.md) ·
