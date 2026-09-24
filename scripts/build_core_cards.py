@@ -77,7 +77,7 @@ def card(c, data, index, x, top, width, size, draw=True):
 def build_phone():
     path = OUT / 'core-phone-cards.pdf'
     c = canvas.Canvas(str(path), pagesize=(540, 960))
-    c.setTitle('Главное · 8 карточек для повторения')
+    c.setTitle(f'Главное · {len(CARDS)} карточек для повторения')
     c.setAuthor('Греческий — личный курс')
     for i, data in enumerate(CARDS, 1):
         bottom = card(c, data, i, 32, 875, 476, 20, draw=False)
@@ -116,12 +116,14 @@ def build_print():
             top = page_h - 63
             for row in range(2):
                 idx = start + col * 2 + row
+                if idx >= len(CARDS):
+                    break
                 bottom = card(c, CARDS[idx], idx + 1, x, top, width, 10.3, draw=False)
                 assert bottom > 40, (CARDS[idx]['title'], bottom)
                 card(c, CARDS[idx], idx + 1, x, top, width, 10.3)
                 top = bottom - 20
         c.setFont('Core', 10)
-        c.drawRightString(page_w - 28, 22, f'{start // 4 + 1} / 2')
+        c.drawRightString(page_w - 28, 22, f'{start // 4 + 1} / {(len(CARDS) + 3) // 4}')
         c.showPage()
     c.save()
     return path
@@ -132,25 +134,25 @@ def main():
         for source in data['sources']:
             assert (ROOT / source).is_file(), source
     phone, printed = build_phone(), build_print()
-    assert len(PdfReader(phone).pages) == 8
-    assert len(PdfReader(printed).pages) == 2
+    assert len(PdfReader(phone).pages) == len(CARDS)
+    assert len(PdfReader(printed).pages) == (len(CARDS) + 3) // 4
     shutil.copy2(phone, ROOT / 'docs/assets/mobile/core-phone-cards.pdf')
     shutil.copy2(printed, ROOT / 'docs/assets/print/core-study-card-a4.pdf')
     poppler = os.environ.get('PDFTOPPM', str(RUNTIME / 'bin/override/pdftoppm'))
     subprocess.run([poppler, '-scale-to', '1080', '-png', str(phone), str(PUBLIC / 'card')], check=True)
     images = sorted(PUBLIC.glob('card-*.png'))
-    assert len(images) == 8
+    assert len(images) == len(CARDS)
     figures = '\n'.join(f'<figure><img src="{p.name}" alt="{html.escape(d["title"])}" loading="lazy"><figcaption>{html.escape(d["title"])}</figcaption></figure>' for p, d in zip(images, CARDS))
     document = '''<!doctype html><html lang="ru"><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Главное · 8 карточек</title><style>
+<title>Главное · карточки</title><style>
 body{margin:0;background:#f5f3ed;color:#203835;font:18px system-ui}header{padding:20px;max-width:900px;margin:auto}
 a{color:#166b5e}main{max-width:1080px;margin:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:16px}
 figure{margin:0}img{display:block;width:100%;height:auto}figcaption{padding:8px 20px 24px}
-</style><header><h1>Главное</h1><p>Восемь тем для регулярного повторения.</p>
+</style><header><h1>Главное</h1><p>Опорные темы для регулярного повторения.</p>
 <p><a href="../core-phone-cards.pdf">PDF для телефона</a> · <a href="../../print/core-study-card-a4.pdf">A4 для печати</a> · <a href="../../../memory/core/">К памятке</a></p></header><main>'''+figures+'</main></html>'
     (PUBLIC / 'index.html').write_text(document)
-    print(f'Built {phone} (8 pages), {printed} (2 pages), and online preview.')
+    print(f'Built {phone} ({len(CARDS)} pages), {printed} ({(len(CARDS) + 3) // 4} pages), and online preview.')
 
 
 if __name__ == '__main__':
