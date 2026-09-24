@@ -1,20 +1,22 @@
 [
   {
     "title": "Местоимения и «быть»",
-    "sources": ["docs/reference/grammar/eimai.md", "docs/reference/grammar/personal-pronouns.md"],
+    "sources": ["docs/reference/grammar/eimai.md", "docs/reference/grammar/personal-pronouns.md", "docs/lessons/lesson-09-family-and-possessives.md", "docs/lessons/lesson-06-current.md"],
+    "paired_rows": true,
     "rows": [
-      "εγώ <b>είμαι</b><br/>[eˈɣo ˈime] — я",
-      "εσύ <b>είσαι</b><br/>[eˈsi ˈise] — ты",
-      "αυτός <b>είναι</b><br/>[afˈtos ˈine] — он",
-      "αυτή <b>είναι</b><br/>[afˈti ˈine] — она",
-      "αυτό <b>είναι</b><br/>[afˈto ˈine] — оно",
-      "εμείς <b>είμαστε</b><br/>[eˈmis ˈimaste] — мы",
-      "εσείς <b>είστε</b><br/>[eˈsis ˈiste] — вы",
-      "αυτοί <b>είναι</b><br/>[afˈti ˈine] — они: м. р. / смешанная группа людей",
-      "αυτές <b>είναι</b><br/>[afˈtes ˈine] — они: ж. р.",
-      "αυτά <b>είναι</b><br/>[afˈta ˈine] — они: ср. р."
+      ["<b>Кто + «быть»</b>", "<b>Чей?</b>"],
+      ["εγώ <b>είμαι</b> — я<br/>[eˈɣo ˈime]", "<b>μου</b> [mu]<br/>мой"],
+      ["εσύ <b>είσαι</b> — ты<br/>[eˈsi ˈise]", "<b>σου</b> [su]<br/>твой"],
+      ["αυτός <b>είναι</b> — он<br/>[afˈtos ˈine]", "<b>του</b> [tu]<br/>его"],
+      ["αυτή <b>είναι</b> — она<br/>[afˈti ˈine]", "<b>της</b> [tis]<br/>её"],
+      ["αυτό <b>είναι</b> — оно<br/>[afˈto ˈine]", "<b>του</b> [tu]<br/>его"],
+      ["εμείς <b>είμαστε</b> — мы<br/>[eˈmis ˈimaste]", "<b>μας</b> [mas]<br/>наш"],
+      ["εσείς <b>είστε</b> — вы<br/>[eˈsis ˈiste]", "<b>σας</b> [sas]<br/>ваш"],
+      ["αυτοί <b>είναι</b> — они<br/>[afˈti ˈine] — м. / смеш.", "<b>τους</b> [tus]<br/>их"],
+      ["αυτές <b>είναι</b> — они<br/>[afˈtes ˈine] — ж. р.", "<b>τους</b> [tus]<br/>их"],
+      ["αυτά <b>είναι</b> — они<br/>[afˈta ˈine] — ср. р.", "<b>τους</b> [tus]<br/>их"]
     ],
-    "note": "«Быть»: одна форма для он / она / оно / они."
+    "note": "«Чей?» ставим после предмета:<br/>το τηλέφωνό του [to tiˈlefoˈno tu]<br/>его телефон. Мой / моя / моё — одна форма."
   },
   {
     "title": "Глаголы А: проживать",

@@ -53,7 +53,13 @@ def card(c, data, index, x, top, width, size, draw=True):
     columns = data.get('columns', 1)
     rows = data['rows']
     gap = size * .5
-    if columns == 2:
+    if data.get('paired_rows'):
+        left_width = width * .65
+        for left, right in rows:
+            left_y = paragraph(c, left, x, y, left_width - size * .5, size, draw=draw)
+            right_y = paragraph(c, right, x + left_width, y, width - left_width, size, draw=draw)
+            y = min(left_y, right_y) - gap
+    elif columns == 2:
         col_width = (width - size) / 2
         split = (len(rows) + 1) // 2
         bottoms = []
