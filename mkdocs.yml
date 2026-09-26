@@ -119,6 +119,7 @@ nav:
   - Коротко для памяти:
       - memory/index.md
       - Главное — сквозные карточки: memory/core.md
+      - Вопросы и ответы: memory/questions-answers.md
       - Карточки для телефона: memory/mobile-cards.md
       - Урок 01: memory/lesson-01.md
       - Урок 02: memory/lesson-02.md
