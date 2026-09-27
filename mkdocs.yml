@@ -13,7 +13,6 @@ not_in_nav: |
   lessons/lesson-07-classroom-studies-and-articles.md
   lessons/lesson-08-verbs-b1-and-application.md
   lessons/lesson-09-family-and-possessives.md
-  vocabulary/lesson-07.md
   vocabulary/lesson-08.md
   vocabulary/lesson-09.md
   memory/lesson-02-first-pass.md
@@ -92,6 +91,7 @@ nav:
       - Урок 04 — общение и глаголы А: lessons/lesson-04-current.md
       - Урок 05 — род и артикли: lessons/lesson-05-current.md
       - Урок 06 — страны и языки: lessons/lesson-06-current.md
+      - Урок 07 — языки, профессии и семья: lessons/lesson-07-current.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -116,6 +116,7 @@ nav:
       - Урок 04 — новые слова: vocabulary/lesson-04.md
       - Урок 05 — новые слова: vocabulary/lesson-05.md
       - Урок 06 — новые слова: vocabulary/lesson-06.md
+      - Урок 07 — новые слова: vocabulary/lesson-07.md
   - Коротко для памяти:
       - memory/index.md
       - Главное — сквозные карточки: memory/core.md
@@ -127,6 +128,7 @@ nav:
       - Урок 04: memory/lesson-04-current.md
       - Урок 05: memory/lesson-05-current.md
       - Урок 06: memory/lesson-06-current.md
+      - Урок 07: memory/lesson-07-current.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -136,6 +138,7 @@ nav:
           - К уроку 04: homework/lesson-04-current.md
           - К уроку 05: homework/lesson-05-current.md
           - К уроку 06: homework/lesson-06-current.md
+          - К уроку 07: homework/lesson-07-current.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md

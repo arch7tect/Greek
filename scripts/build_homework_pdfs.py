@@ -2,6 +2,10 @@
 from pathlib import Path
 import shutil
 import argparse
+from io import BytesIO
+from reportlab.pdfgen import canvas
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.utils import ImageReader
 from pypdf import PdfReader, PdfWriter
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,6 +22,7 @@ PACKS = {
     '05': [(MAIN, [41]), (WORK, [6, 7]),
            ('../homework/05/lesson-05-current-worksheet.pdf', [1, 2, 3, 4])],
     '06': [(MAIN, [50, 51])],
+    '07': [('../homework/07/lesson-07-current-exercise-05.png', [1])],
 }
 
 def main():
@@ -33,7 +38,24 @@ def main():
             continue
         writer = PdfWriter()
         for name, numbers in sources:
-            reader = PdfReader(BOOKS / name)
+            source = BOOKS / name
+            if source.suffix.lower() == '.png':
+                # Keep the supplied exercise image intact, fitting it on A4.
+                image = ImageReader(str(source))
+                iw, ih = image.getSize()
+                width, height = A4
+                scale = min((width - 48) / iw, (height - 48) / ih)
+                stream = BytesIO()
+                pdf = canvas.Canvas(stream, pagesize=A4)
+                pdf.drawImage(image, (width - iw * scale) / 2,
+                              height - 24 - ih * scale,
+                              iw * scale, ih * scale)
+                pdf.showPage()
+                pdf.save()
+                stream.seek(0)
+                reader = PdfReader(stream)
+            else:
+                reader = PdfReader(source)
             first = len(writer.pages)
             for number in numbers:
                 writer.add_page(reader.pages[number - 1])

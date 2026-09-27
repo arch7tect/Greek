@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 431,
-  "core": 273,
+  "total": 455,
+  "core": 280,
   "lessons": {
     "01": {
       "total": 57,
@@ -28,8 +28,8 @@ window.GREEK_VOCABULARY = {
       "core": 54
     },
     "07": {
-      "total": 38,
-      "core": 26
+      "total": 62,
+      "core": 33
     },
     "08": {
       "total": 32,
@@ -2958,6 +2958,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "τα αραβικά",
+      "lesson": "07",
+      "greek": "τα αραβικά",
+      "transcription": "[ta araviˈka]",
+      "meaning": "арабский язык",
+      "note": "множественное число",
+      "core": false
+    },
+    {
       "id": "ο αριθμός διαβατηρίου",
       "lesson": "07",
       "greek": "ο αριθμός διαβατηρίου",
@@ -2985,6 +2994,15 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "ο αρχιτέκτονας",
+      "lesson": "07",
+      "greek": "ο αρχιτέκτονας",
+      "transcription": "[o arhiˈtektonas]",
+      "meaning": "архитектор",
+      "note": "οι αρχιτέκτονες [i arhiˈtektones]",
+      "core": false
+    },
+    {
       "id": "η βιβλιοθήκη",
       "lesson": "07",
       "greek": "η βιβλιοθήκη",
@@ -3003,12 +3021,48 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "τα βουλγαρικά",
+      "lesson": "07",
+      "greek": "τα βουλγαρικά",
+      "transcription": "[ta vulɣariˈka]",
+      "meaning": "болгарский язык",
+      "note": "множественное число",
+      "core": false
+    },
+    {
+      "id": "ο γιατρός / η γιατρός",
+      "lesson": "07",
+      "greek": "ο γιατρός / η γιατρός",
+      "transcription": "[o yaˈtros / i yaˈtros]",
+      "meaning": "врач",
+      "note": "οι γιατροί [i yaˈtri]",
+      "core": true
+    },
+    {
       "id": "η γνώση της ελληνικής γλώσσας",
       "lesson": "07",
       "greek": "η γνώση της ελληνικής γλώσσας",
       "transcription": "[i ˈɣnosi tis eliniˈkis ˈɣlosas]",
       "meaning": "знание греческого языка",
       "note": "заголовок шкалы",
+      "core": false
+    },
+    {
+      "id": "ο γραμματέας / η γραμματέας",
+      "lesson": "07",
+      "greek": "ο γραμματέας / η γραμματέας",
+      "transcription": "[o ɣramaˈteas / i ɣramaˈteas]",
+      "meaning": "секретарь",
+      "note": "οι γραμματείς [i ɣramaˈtis]",
+      "core": true
+    },
+    {
+      "id": "η γυμνάστρια",
+      "lesson": "07",
+      "greek": "η γυμνάστρια",
+      "transcription": "[i yimˈnastria]",
+      "meaning": "тренер; преподаватель физкультуры",
+      "note": "οι γυμνάστριες [i yimˈnastries]",
       "core": false
     },
     {
@@ -3048,6 +3102,15 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "ο διπλωμάτης",
+      "lesson": "07",
+      "greek": "ο διπλωμάτης",
+      "transcription": "[o ðiploˈmatis]",
+      "meaning": "дипломат",
+      "note": "οι διπλωμάτες [i ðiploˈmates]",
+      "core": false
+    },
+    {
       "id": "η εθνικότητα",
       "lesson": "07",
       "greek": "η εθνικότητα",
@@ -3073,6 +3136,15 @@ window.GREEK_VOCABULARY = {
       "meaning": "дата рождения",
       "note": "поле анкеты",
       "core": true
+    },
+    {
+      "id": "τα ιαπωνικά",
+      "lesson": "07",
+      "greek": "τα ιαπωνικά",
+      "transcription": "[ta iaponiˈka]",
+      "meaning": "японский язык",
+      "note": "множественное число",
+      "core": false
     },
     {
       "id": "καθόλου",
@@ -3102,6 +3174,33 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "τα κινέζικα",
+      "lesson": "07",
+      "greek": "τα κινέζικα",
+      "transcription": "[ta kiˈnezika]",
+      "meaning": "китайский язык",
+      "note": "множественное число",
+      "core": false
+    },
+    {
+      "id": "η κομμώτρια",
+      "lesson": "07",
+      "greek": "η κομμώτρια",
+      "transcription": "[i koˈmotria]",
+      "meaning": "парикмахер",
+      "note": "οι κομμώτριες [i koˈmotries]",
+      "core": true
+    },
+    {
+      "id": "η κτηνίατρος",
+      "lesson": "07",
+      "greek": "η κτηνίατρος",
+      "transcription": "[i ktiniˈatros]",
+      "meaning": "ветеринар — женщина",
+      "note": "οι κτηνίατροι [i ktiniˈatri]",
+      "core": false
+    },
+    {
       "id": "το κυλικείο",
       "lesson": "07",
       "greek": "το κυλικείο",
@@ -3117,6 +3216,15 @@ window.GREEK_VOCABULARY = {
       "transcription": "[ˈliɣo]",
       "meaning": "немного",
       "note": "уровень знания",
+      "core": true
+    },
+    {
+      "id": "ο μάγειρας",
+      "lesson": "07",
+      "greek": "ο μάγειρας",
+      "transcription": "[o ˈmaɣiras]",
+      "meaning": "повар",
+      "note": "οι μάγειρες [i ˈmaɣires]",
       "core": true
     },
     {
@@ -3174,6 +3282,33 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "ο ξυλουργός",
+      "lesson": "07",
+      "greek": "ο ξυλουργός",
+      "transcription": "[o ksilurˈɣos]",
+      "meaning": "столяр",
+      "note": "οι ξυλουργοί [i ksilurˈyi]",
+      "core": false
+    },
+    {
+      "id": "ξυπνάω",
+      "lesson": "07",
+      "greek": "ξυπνάω",
+      "transcription": "[ksiˈpnao]",
+      "meaning": "я просыпаюсь; бужу",
+      "note": "модель Β1; смысл зависит от дополнения",
+      "core": true
+    },
+    {
+      "id": "τα ουγγρικά",
+      "lesson": "07",
+      "greek": "τα ουγγρικά",
+      "transcription": "[ta uŋgriˈka]",
+      "meaning": "венгерский язык",
+      "note": "множественное число",
+      "core": false
+    },
+    {
       "id": "η περιοχή",
       "lesson": "07",
       "greek": "η περιοχή",
@@ -3183,6 +3318,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "η πλατεία",
+      "lesson": "07",
+      "greek": "η πλατεία",
+      "transcription": "[i plaˈtia]",
+      "meaning": "площадь",
+      "note": "οι πλατείες [i plaˈties]; категория «адрес» в №6",
+      "core": false
+    },
+    {
       "id": "πολύ καλά",
       "lesson": "07",
       "greek": "πολύ καλά",
@@ -3190,6 +3334,15 @@ window.GREEK_VOCABULARY = {
       "meaning": "очень хорошо",
       "note": "уровень знания",
       "core": true
+    },
+    {
+      "id": "τα πολωνικά",
+      "lesson": "07",
+      "greek": "τα πολωνικά",
+      "transcription": "[ta poloniˈka]",
+      "meaning": "польский язык",
+      "note": "множественное число",
+      "core": false
     },
     {
       "id": "οι προσωπικές πληροφορίες",
@@ -3210,12 +3363,48 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "η πωλήτρια",
+      "lesson": "07",
+      "greek": "η πωλήτρια",
+      "transcription": "[i poˈlitria]",
+      "meaning": "продавщица",
+      "note": "οι πωλήτριες [i poˈlitries]",
+      "core": false
+    },
+    {
+      "id": "τα ρουμανικά",
+      "lesson": "07",
+      "greek": "τα ρουμανικά",
+      "transcription": "[ta rumaniˈka]",
+      "meaning": "румынский язык",
+      "note": "множественное число",
+      "core": false
+    },
+    {
       "id": "το σπουδαστήριο",
       "lesson": "07",
       "greek": "το σπουδαστήριο",
       "transcription": "[to spuðaˈstirio]",
       "meaning": "читальный зал; учебная комната",
       "note": "τα σπουδαστήρια [ta spuðaˈstiria]",
+      "core": false
+    },
+    {
+      "id": "συζητάω",
+      "lesson": "07",
+      "greek": "συζητάω",
+      "transcription": "[siziˈtao]",
+      "meaning": "я беседую, обсуждаю",
+      "note": "модель Β1; συζητάμε [siziˈtame] — мы беседуем",
+      "core": true
+    },
+    {
+      "id": "ο σύντροφος / η σύντροφος",
+      "lesson": "07",
+      "greek": "ο σύντροφος / η σύντροφος",
+      "transcription": "[o ˈsindrofos / i ˈsindrofos]",
+      "meaning": "партнёр / партнёрша",
+      "note": "οι σύντροφοι [i ˈsindrofi]",
       "core": false
     },
     {
@@ -3237,6 +3426,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "τα τσεχικά",
+      "lesson": "07",
+      "greek": "τα τσεχικά",
+      "transcription": "[ta tsehiˈka]",
+      "meaning": "чешский язык",
+      "note": "множественное число",
+      "core": false
+    },
+    {
       "id": "ο υπολογιστής",
       "lesson": "07",
       "greek": "ο υπολογιστής",
@@ -3246,12 +3444,30 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "φτιάχνω",
+      "lesson": "07",
+      "greek": "φτιάχνω",
+      "transcription": "[ˈftiahno]",
+      "meaning": "я делаю, готовлю",
+      "note": "в тексте — готовлю блюдо; φτιάχνει [ˈftiahni] — готовит",
+      "core": false
+    },
+    {
       "id": "το φύλο",
       "lesson": "07",
       "greek": "το φύλο",
       "transcription": "[to ˈfilo]",
       "meaning": "пол",
       "note": "τα φύλα [ta ˈfila]",
+      "core": true
+    },
+    {
+      "id": "χαμογελάω",
+      "lesson": "07",
+      "greek": "χαμογελάω",
+      "transcription": "[hamoyeˈlao]",
+      "meaning": "я улыбаюсь",
+      "note": "модель Β1",
       "core": true
     },
     {

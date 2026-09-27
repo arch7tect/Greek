@@ -1,6 +1,6 @@
 # Общий словарь
 
-**Всего активных слов и устойчивых формул:** 431
+**Всего активных слов и устойчивых формул:** 455
 
 Словарь автоматически собирается из словарей уроков. Внутри каждого урока
 записи отсортированы по греческому алфавиту; подробный контекст находится
@@ -368,39 +368,63 @@
 | `η αίτηση` | `[i ˈetisi]` | заявление, заявка | `οι αιτήσεις` `[i eˈtisis]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `το αμφιθέατρο` | `[to amfiˈθeatro]` | амфитеатр; большая аудитория | `τα αμφιθέατρα` `[ta amfiˈθeatra]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
 | `ο άντρας` | `[o ˈandras]` | мужчина | `οι άντρες` `[i ˈandres]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
+| `τα αραβικά` | `[ta araviˈka]` | арабский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
 | `ο αριθμός διαβατηρίου` | `[o ariθˈmos ðiavatiˈriu]` | номер паспорта | составное поле | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `ο αριθμός ταυτότητας` | `[o ariθˈmos tafˈtotitas]` | номер удостоверения личности | составное поле | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `η Αρχαιολογία` | `[i arheoloˈyia]` | археология | из образца домашнего упражнения 2 | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
+| `ο αρχιτέκτονας` | `[o arhiˈtektonas]` | архитектор | `οι αρχιτέκτονες` `[i arhiˈtektones]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
 | `η βιβλιοθήκη` | `[i vivlioˈθiki]` | библиотека | `οι βιβλιοθήκες` `[i vivlioˈθikes]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
 | `βοηθάω` | `[voiˈθao]` | помогать | глагол типа Β на `-άω` `[-ˈao]` | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
+| `τα βουλγαρικά` | `[ta vulɣariˈka]` | болгарский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
+| `ο γιατρός / η γιατρός` | `[o yaˈtros / i yaˈtros]` | врач | `οι γιατροί` `[i yaˈtri]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
 | `η γνώση της ελληνικής γλώσσας` | `[i ˈɣnosi tis eliniˈkis ˈɣlosas]` | знание греческого языка | заголовок шкалы | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
+| `ο γραμματέας / η γραμματέας` | `[o ɣramaˈteas / i ɣramaˈteas]` | секретарь | `οι γραμματείς` `[i ɣramaˈtis]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
+| `η γυμνάστρια` | `[i yimˈnastria]` | тренер; преподаватель физкультуры | `οι γυμνάστριες` `[i yimˈnastries]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
 | `η γυναίκα` | `[i yiˈneka]` | женщина | `οι γυναίκες` `[i yiˈnekes]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `το διαβατήριο` | `[to ðiavaˈtirio]` | паспорт | `τα διαβατήρια` `[ta ðiavaˈtiria]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `το διδακτορικό` | `[to ðiðaktoriˈko]` | докторантура; докторская работа | `τα διδακτορικά` `[ta ðiðaktoriˈka]` | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
 | `το δίπλωμα` | `[to ˈðiploma]` | диплом | `τα διπλώματα` `[ta ðiˈplomata]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
+| `ο διπλωμάτης` | `[o ðiploˈmatis]` | дипломат | `οι διπλωμάτες` `[i ðiploˈmates]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
 | `η εθνικότητα` | `[i eθnikoˈtita]` | национальность | `οι εθνικότητες` `[i eθnikoˈtites]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `το εστιατόριο` | `[to estiaˈtorio]` | ресторан | `τα εστιατόρια` `[ta estiaˈtoria]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
 | `η ημερομηνία γέννησης` | `[i imeromiˈnia ˈyenisis]` | дата рождения | поле анкеты | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
+| `τα ιαπωνικά` | `[ta iaponiˈka]` | японский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
 | `καθόλου` | `[kaˈθolu]` | совсем не; нисколько | уровень знания | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `καταλαβαίνω` | `[katalaˈveno]` | понимать | глагол типа А; также конспект текущего урока 06, PDF 1 и 5 | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
 | `η καφετέρια` | `[i kafeˈteria]` | кафе | `οι καφετέριες` `[i kafeˈteries]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
+| `τα κινέζικα` | `[ta kiˈnezika]` | китайский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
+| `η κομμώτρια` | `[i koˈmotria]` | парикмахер | `οι κομμώτριες` `[i koˈmotries]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
+| `η κτηνίατρος` | `[i ktiniˈatros]` | ветеринар — женщина | `οι κτηνίατροι` `[i ktiniˈatri]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
 | `το κυλικείο` | `[to kiliˈkio]` | буфет, столовая при учреждении | `τα κυλικεία` `[ta kiliˈkia]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
 | `λίγο` | `[ˈliɣo]` | немного | уровень знания | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
+| `ο μάγειρας` | `[o ˈmaɣiras]` | повар | `οι μάγειρες` `[i ˈmaɣires]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
 | `ο μαρκαδόρος` | `[o markaˈðoros]` | маркер | `οι μαρκαδόροι` `[i markaˈðori]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
 | `το μέρος` | `[to ˈmeros]` | место | `τα μέρη` `[ta ˈmeri]` | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
 | `το μεταπτυχιακό` | `[to metaptihiaˈko]` | магистратура; последипломная программа | `τα μεταπτυχιακά` `[ta metaptihiaˈka]` | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
 | `μέτρια γνώση` | `[ˈmetria ˈɣnosi]` | среднее знание | формулировка записки | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `το μουσείο` | `[to muˈsio]` | музей | `τα μουσεία` `[ta muˈsia]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
 | `τα Νομικά` | `[ta nomiˈka]` | право, юридические науки | только множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
+| `ο ξυλουργός` | `[o ksilurˈɣos]` | столяр | `οι ξυλουργοί` `[i ksilurˈyi]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
+| `ξυπνάω` | `[ksiˈpnao]` | я просыпаюсь; бужу | модель Β1; смысл зависит от дополнения | [Урок 07, раздел](lesson-07.md#lesson-07-current-verbs) |
+| `τα ουγγρικά` | `[ta uŋgriˈka]` | венгерский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
 | `η περιοχή` | `[i perioˈhi]` | район; область | `οι περιοχές` `[i perioˈhes]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
+| `η πλατεία` | `[i plaˈtia]` | площадь | `οι πλατείες` `[i plaˈties]`; категория «адрес» в №6 | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
 | `πολύ καλά` | `[poˈli kaˈla]` | очень хорошо | уровень знания | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
+| `τα πολωνικά` | `[ta poloniˈka]` | польский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
 | `οι προσωπικές πληροφορίες` | `[i prosopiˈkes plirofoˈries]` | личные данные | только множественное число; в записке исправлена опечатка | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `το πτυχίο` | `[to ptiˈhio]` | диплом, степень | `τα πτυχία` `[ta ptiˈhia]` | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
+| `η πωλήτρια` | `[i poˈlitria]` | продавщица | `οι πωλήτριες` `[i poˈlitries]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
+| `τα ρουμανικά` | `[ta rumaniˈka]` | румынский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
 | `το σπουδαστήριο` | `[to spuðaˈstirio]` | читальный зал; учебная комната | `τα σπουδαστήρια` `[ta spuðaˈstiria]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
+| `συζητάω` | `[siziˈtao]` | я беседую, обсуждаю | модель Β1; `συζητάμε` `[siziˈtame]` — мы беседуем | [Урок 07, раздел](lesson-07.md#lesson-07-current-verbs) |
+| `ο σύντροφος / η σύντροφος` | `[o ˈsindrofos / i ˈsindrofos]` | партнёр / партнёрша | `οι σύντροφοι` `[i ˈsindrofi]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-verbs) |
 | `η ταυτότητα` | `[i tafˈtotita]` | удостоверение личности | `οι ταυτότητες` `[i tafˈtotites]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `ο ταχυδρομικός κώδικας` | `[o tahiðromiˈkos ˈkoðikas]` | почтовый индекс | `οι ταχυδρομικοί κώδικες` `[i tahiðromiˈki ˈkoðikes]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
+| `τα τσεχικά` | `[ta tsehiˈka]` | чешский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
 | `ο υπολογιστής` | `[o ipoloyiˈstis]` | компьютер | `οι υπολογιστές` `[i ipoloyiˈstes]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
+| `φτιάχνω` | `[ˈftiahno]` | я делаю, готовлю | в тексте — готовлю блюдо; `φτιάχνει` `[ˈftiahni]` — готовит | [Урок 07, раздел](lesson-07.md#lesson-07-current-verbs) |
 | `το φύλο` | `[to ˈfilo]` | пол | `τα φύλα` `[ta ˈfila]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
+| `χαμογελάω` | `[hamoyeˈlao]` | я улыбаюсь | модель Β1 | [Урок 07, раздел](lesson-07.md#lesson-07-current-verbs) |
 | `ψάχνω` | `[ˈpsahno]` | искать | подсказка к упражнению 15 | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
 | `η Ψυχολογία` | `[i psiholoˈyia]` | психология | учебный предмет | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
 

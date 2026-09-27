@@ -19,7 +19,7 @@ from pypdf import PdfReader
 from build_mobile_cards import ROOT, DATA, F, font, bold, small, wrap, package
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--lesson', type=int, choices=[4, 5, 6], default=4)
+parser.add_argument('--lesson', type=int, choices=[4, 5, 6, 7], default=4)
 lesson = parser.parse_args().lesson
 slug = f'lesson-{lesson:02d}'
 cards = json.loads((DATA / f'{slug}.json').read_text())
@@ -110,7 +110,7 @@ c.setAuthor('Greek learning wiki')
 W, H = A4
 M = 27
 CW = (W - M * 2 - 18) / 2
-style = ParagraphStyle('body', fontName='DV', fontSize=10.3, leading=13.4,
+style = ParagraphStyle('body', fontName='DV', fontSize=12.5 if lesson == 7 else 10.3, leading=16.5 if lesson == 7 else 13.4,
                        textColor=HexColor('#18383B'))
 
 
@@ -126,7 +126,7 @@ def paragraph(text, x, y, width=CW, size=None, gap=3):
 
 layouts = [[[0, 1], [2, 3]], [[4, 5], [6, 7]]]
 titles = ['ГЛАГОЛЫ И ОБЩЕНИЕ', 'МЕСТО, ЧИСЛА И СЛОВА']
-if lesson in (5, 6):
+if lesson in (5, 6, 7):
     layouts = [[[0, 1], [2, 3]]]
     titles = ['ОПОРЫ ДЛЯ ПОВТОРЕНИЯ']
 for page, sections in enumerate(layouts, 1):
@@ -141,7 +141,7 @@ for page, sections in enumerate(layouts, 1):
         for idx in indices:
             card = cards[idx]
             y = paragraph('<b>' + html.escape(card['title']) + '</b>', x, y,
-                          size=10.5, gap=7)
+                          size=13 if lesson == 7 else 10.5, gap=7)
             if card.get('intro'):
                 y = paragraph(html.escape(card['intro']), x, y, gap=6)
             for row in card['rows']:
@@ -157,6 +157,8 @@ for page, sections in enumerate(layouts, 1):
               'Источники: конспект 05; учебник с. 48, 50-52; тетрадь с. 14-15; дополнительное задание.')
     if lesson == 6:
         source = 'Источники: конспект 06, с. 1-7; учебник с. 56-58.'
+    if lesson == 7:
+        source = 'Источники: конспект 07; семейная схема с. 76-77; домашнее упражнение 5.'
     c.drawString(M, 25, source)
     print_hint = ' · двусторонняя печать по длинному краю' if len(layouts) > 1 else ''
     c.drawRightString(W - M, 13, f'{page}/{len(layouts)} · А4 · 100%' + print_hint)
