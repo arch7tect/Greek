@@ -146,7 +146,15 @@ def main():
     shutil.copy2(printed, ROOT / 'docs/assets/print/core-study-card-a4.pdf')
     poppler = os.environ.get('PDFTOPPM', str(RUNTIME / 'bin/override/pdftoppm'))
     subprocess.run([poppler, '-scale-to', '1080', '-png', str(phone), str(PUBLIC / 'card')], check=True)
-    images = sorted(PUBLIC.glob('card-*.png'))
+    digits = len(str(len(CARDS)))
+    # Keep existing image URLs stable when Poppler adds leading zeroes at 10 pages.
+    for i in range(1, len(CARDS) + 1):
+        generated = PUBLIC / f'card-{i:0{digits}d}.png'
+        stable = PUBLIC / f'card-{i}.png'
+        if generated != stable:
+            generated.replace(stable)
+    images = [PUBLIC / f'card-{i}.png' for i in range(1, len(CARDS) + 1)]
+    assert all(p.is_file() for p in images)
     assert len(images) == len(CARDS)
     figures = '\n'.join(f'<figure><img src="{p.name}" alt="{html.escape(d["title"])}" loading="lazy"><figcaption>{html.escape(d["title"])}</figcaption></figure>' for p, d in zip(images, CARDS))
     document = '''<!doctype html><html lang="ru"><meta charset="utf-8">

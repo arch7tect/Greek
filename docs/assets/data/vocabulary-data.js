@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 461,
-  "core": 283,
+  "total": 471,
+  "core": 285,
   "lessons": {
     "01": {
       "total": 57,
@@ -32,12 +32,12 @@ window.GREEK_VOCABULARY = {
       "core": 33
     },
     "08": {
-      "total": 38,
-      "core": 30
+      "total": 73,
+      "core": 55
     },
     "09": {
-      "total": 40,
-      "core": 35
+      "total": 15,
+      "core": 12
     }
   },
   "words": [
@@ -3498,12 +3498,57 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "αγαπημένος",
+      "lesson": "08",
+      "greek": "αγαπημένος",
+      "transcription": "[aɣapiˈmenos]",
+      "meaning": "любимый",
+      "note": "αγαπημένη / αγαπημένο [aɣapiˈmeni / aɣapiˈmeno]; о любимом блюде",
+      "core": true
+    },
+    {
+      "id": "η αδερφή / η αδελφή",
+      "lesson": "08",
+      "greek": "η αδερφή / η αδελφή",
+      "transcription": "[i aðerˈfi / i aðelˈfi]",
+      "meaning": "сестра",
+      "note": "οι αδερφές / οι αδελφές [i aðerˈfes / i aðelˈfes]",
+      "core": true
+    },
+    {
+      "id": "ο αδερφός / ο αδελφός",
+      "lesson": "08",
+      "greek": "ο αδερφός / ο αδελφός",
+      "transcription": "[o aðerˈfos / o aðelˈfos]",
+      "meaning": "брат",
+      "note": "οι αδερφοί / οι αδελφοί [i aðerˈfi / i aðelˈfi]; τα αδέρφια [ta aˈðerfya] — братья и сёстры",
+      "core": true
+    },
+    {
       "id": "ανεβαίνω",
       "lesson": "08",
       "greek": "ανεβαίνω",
       "transcription": "[aneˈveno]",
       "meaning": "подниматься; садиться в транспорт",
       "note": "глагол типа Α",
+      "core": true
+    },
+    {
+      "id": "η ανιψιά",
+      "lesson": "08",
+      "greek": "η ανιψιά",
+      "transcription": "[i anipˈsha]",
+      "meaning": "племянница",
+      "note": "οι ανιψιές [i anipˈshes]",
+      "core": true
+    },
+    {
+      "id": "ο ανιψιός",
+      "lesson": "08",
+      "greek": "ο ανιψιός",
+      "transcription": "[o anipˈshos]",
+      "meaning": "племянник",
+      "note": "οι ανιψιοί [i anipˈshi]",
       "core": true
     },
     {
@@ -3534,12 +3579,66 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "η γιαγιά",
+      "lesson": "08",
+      "greek": "η γιαγιά",
+      "transcription": "[i yaˈya]",
+      "meaning": "бабушка",
+      "note": "οι γιαγιάδες [i yaˈyaðes]",
+      "core": true
+    },
+    {
+      "id": "ο γιος",
+      "lesson": "08",
+      "greek": "ο γιος",
+      "transcription": "[o yos]",
+      "meaning": "сын",
+      "note": "οι γιοι [i yi]",
+      "core": true
+    },
+    {
+      "id": "οι γονείς",
+      "lesson": "08",
+      "greek": "οι γονείς",
+      "transcription": "[i ɣoˈnis]",
+      "meaning": "родители",
+      "note": "только множественное число",
+      "core": true
+    },
+    {
       "id": "διψάω",
       "lesson": "08",
       "greek": "διψάω",
       "transcription": "[ðiˈpsao]",
       "meaning": "хотеть пить",
       "note": "тип Β1",
+      "core": true
+    },
+    {
+      "id": "το δωμάτιο",
+      "lesson": "08",
+      "greek": "το δωμάτιο",
+      "transcription": "[to ðoˈmatio]",
+      "meaning": "комната",
+      "note": "τα δωμάτια [ta ðoˈmatia]; дополнительное упражнение",
+      "core": false
+    },
+    {
+      "id": "η εγγονή",
+      "lesson": "08",
+      "greek": "η εγγονή",
+      "transcription": "[i eŋgoˈni]",
+      "meaning": "внучка",
+      "note": "οι εγγονές [i eŋgoˈnes]",
+      "core": true
+    },
+    {
+      "id": "ο εγγονός",
+      "lesson": "08",
+      "greek": "ο εγγονός",
+      "transcription": "[o eŋgoˈnos]",
+      "meaning": "внук",
+      "note": "οι εγγονοί [i eŋgoˈni]",
       "core": true
     },
     {
@@ -3561,12 +3660,30 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "το επίθετο",
+      "lesson": "08",
+      "greek": "το επίθετο",
+      "transcription": "[to eˈpiθeto]",
+      "meaning": "фамилия",
+      "note": "τα επίθετα [ta eˈpiθeta]; здесь синоним фамилии",
+      "core": true
+    },
+    {
       "id": "η εταιρεία",
       "lesson": "08",
       "greek": "η εταιρεία",
       "transcription": "[i eteˈria]",
       "meaning": "компания",
       "note": "οι εταιρείες [i eteˈries]",
+      "core": true
+    },
+    {
+      "id": "έτοιμος / έτοιμη / έτοιμο",
+      "lesson": "08",
+      "greek": "έτοιμος / έτοιμη / έτοιμο",
+      "transcription": "[ˈetimos / ˈetimi / ˈetimo]",
+      "meaning": "готовый",
+      "note": "прилагательное",
       "core": true
     },
     {
@@ -3577,6 +3694,24 @@ window.GREEK_VOCABULARY = {
       "meaning": "жара; тепло",
       "note": "Κάνει ζέστη. [ˈkani ˈzesti] — жарко",
       "core": false
+    },
+    {
+      "id": "η θεία",
+      "lesson": "08",
+      "greek": "η θεία",
+      "transcription": "[i ˈθia]",
+      "meaning": "тётя",
+      "note": "οι θείες [i ˈθies]",
+      "core": true
+    },
+    {
+      "id": "ο θείος",
+      "lesson": "08",
+      "greek": "ο θείος",
+      "transcription": "[o ˈθios]",
+      "meaning": "дядя",
+      "note": "οι θείοι [i ˈθii]",
+      "core": true
     },
     {
       "id": "το καλοκαίρι",
@@ -3606,6 +3741,24 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "η κοπέλα",
+      "lesson": "08",
+      "greek": "η κοπέλα",
+      "transcription": "[i koˈpela]",
+      "meaning": "девушка; подруга",
+      "note": "οι κοπέλες [i koˈpeles]",
+      "core": true
+    },
+    {
+      "id": "η κόρη",
+      "lesson": "08",
+      "greek": "η κόρη",
+      "transcription": "[i ˈkori]",
+      "meaning": "дочь",
+      "note": "οι κόρες [i ˈkores]",
+      "core": true
+    },
+    {
       "id": "το κρέας",
       "lesson": "08",
       "greek": "το κρέας",
@@ -3633,12 +3786,75 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "ο λύκος",
+      "lesson": "08",
+      "greek": "ο λύκος",
+      "transcription": "[o ˈlikos]",
+      "meaning": "волк",
+      "note": "οι λύκοι [i ˈliki]; в выражении «голоден как волк»",
+      "core": false
+    },
+    {
       "id": "μαγειρεύω",
       "lesson": "08",
       "greek": "μαγειρεύω",
       "transcription": "[mayiˈrevo]",
       "meaning": "готовить еду",
       "note": "глагол типа Α",
+      "core": true
+    },
+    {
+      "id": "η μαμά",
+      "lesson": "08",
+      "greek": "η μαμά",
+      "transcription": "[i maˈma]",
+      "meaning": "мама",
+      "note": "οι μαμάδες [i maˈmaðes]; разговорное",
+      "core": true
+    },
+    {
+      "id": "το μοναχοπαίδι",
+      "lesson": "08",
+      "greek": "το μοναχοπαίδι",
+      "transcription": "[to monahoˈpeði]",
+      "meaning": "единственный ребёнок",
+      "note": "τα μοναχοπαίδια [ta monahoˈpeðya]",
+      "core": true
+    },
+    {
+      "id": "η μουσική",
+      "lesson": "08",
+      "greek": "η μουσική",
+      "transcription": "[i musiˈki]",
+      "meaning": "музыка",
+      "note": "οι μουσικές [i musiˈkes]; обычно единственное число",
+      "core": false
+    },
+    {
+      "id": "το μωρό",
+      "lesson": "08",
+      "greek": "το μωρό",
+      "transcription": "[to moˈro]",
+      "meaning": "младенец",
+      "note": "τα μωρά [ta moˈra]; дополнительное упражнение",
+      "core": false
+    },
+    {
+      "id": "η ξαδέρφη / η ξαδέλφη",
+      "lesson": "08",
+      "greek": "η ξαδέρφη / η ξαδέλφη",
+      "transcription": "[i ksaˈðerfi / i ksaˈðelfi]",
+      "meaning": "двоюродная сестра",
+      "note": "οι ξαδέρφες / οι ξαδέλφες [i ksaˈðerfes / i ksaˈðelfes]",
+      "core": true
+    },
+    {
+      "id": "ο ξάδερφος / ο ξάδελφος",
+      "lesson": "08",
+      "greek": "ο ξάδερφος / ο ξάδελφος",
+      "transcription": "[o ˈksaðerfos / o ˈksaðelfos]",
+      "meaning": "двоюродный брат",
+      "note": "οι ξάδερφοι / οι ξάδελφοι [i ˈksaðerfi / i ˈksaðelfi]",
       "core": true
     },
     {
@@ -3676,6 +3892,33 @@ window.GREEK_VOCABULARY = {
       "meaning": "играть",
       "note": "глагол типа Α",
       "core": true
+    },
+    {
+      "id": "παντρεμένος / παντρεμένη / παντρεμένο",
+      "lesson": "08",
+      "greek": "παντρεμένος / παντρεμένη / παντρεμένο",
+      "transcription": "[pandreˈmenos / pandreˈmeni / pandreˈmeno]",
+      "meaning": "женатый / замужняя",
+      "note": "прилагательное",
+      "core": true
+    },
+    {
+      "id": "ο παππούς",
+      "lesson": "08",
+      "greek": "ο παππούς",
+      "transcription": "[o paˈpus]",
+      "meaning": "дедушка",
+      "note": "οι παππούδες [i paˈpuðes]",
+      "core": true
+    },
+    {
+      "id": "το πάρκο",
+      "lesson": "08",
+      "greek": "το πάρκο",
+      "transcription": "[to ˈparko]",
+      "meaning": "парк",
+      "note": "τα πάρκα [ta ˈparka]; в упражнении о семье",
+      "core": false
     },
     {
       "id": "πεινάω",
@@ -3732,12 +3975,30 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "το σάντουιτς",
+      "lesson": "08",
+      "greek": "το σάντουιτς",
+      "transcription": "[to ˈsanduits]",
+      "meaning": "сэндвич",
+      "note": "τα σάντουιτς [ta ˈsanduits]; не изменяется",
+      "core": false
+    },
+    {
       "id": "η σκάλα",
       "lesson": "08",
       "greek": "η σκάλα",
       "transcription": "[i ˈskala]",
       "meaning": "лестница",
       "note": "οι σκάλες [i ˈskales]",
+      "core": false
+    },
+    {
+      "id": "το σόι",
+      "lesson": "08",
+      "greek": "το σόι",
+      "transcription": "[to ˈsoi]",
+      "meaning": "родня; семейный круг",
+      "note": "τα σόγια [ta ˈsoya]; собирательное",
       "core": false
     },
     {
@@ -3768,6 +4029,24 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "οι συγγενείς",
+      "lesson": "08",
+      "greek": "οι συγγενείς",
+      "transcription": "[i sinyeˈnis]",
+      "meaning": "родственники",
+      "note": "ο / η συγγενής [o / i sinyeˈnis]",
+      "core": true
+    },
+    {
+      "id": "ο σύζυγος",
+      "lesson": "08",
+      "greek": "ο σύζυγος",
+      "transcription": "[o ˈsiziɣos]",
+      "meaning": "супруг",
+      "note": "οι σύζυγοι [i ˈsiziɣi]",
+      "core": true
+    },
+    {
       "id": "συχνά",
       "lesson": "08",
       "greek": "συχνά",
@@ -3775,6 +4054,15 @@ window.GREEK_VOCABULARY = {
       "meaning": "часто",
       "note": "наречие",
       "core": true
+    },
+    {
+      "id": "η σχέση",
+      "lesson": "08",
+      "greek": "η σχέση",
+      "transcription": "[i ˈshesi]",
+      "meaning": "отношения; связь",
+      "note": "οι σχέσεις [i ˈshesis]; έχω σχέση [ˈeho ˈshesi]",
+      "core": false
     },
     {
       "id": "το τάμπλετ",
@@ -3813,6 +4101,24 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "το φαγητό",
+      "lesson": "08",
+      "greek": "το φαγητό",
+      "transcription": "[to fayiˈto]",
+      "meaning": "еда; блюдо",
+      "note": "τα φαγητά [ta fayiˈta]",
+      "core": true
+    },
+    {
+      "id": "η φοιτητική εστία",
+      "lesson": "08",
+      "greek": "η φοιτητική εστία",
+      "transcription": "[i fititiˈki eˈstia]",
+      "meaning": "студенческое общежитие",
+      "note": "οι φοιτητικές εστίες [i fititiˈkes eˈsties]; дополнительное упражнение",
+      "core": false
+    },
+    {
       "id": "φοράω",
       "lesson": "08",
       "greek": "φοράω",
@@ -3820,6 +4126,15 @@ window.GREEK_VOCABULARY = {
       "meaning": "носить одежду",
       "note": "тип Β1",
       "core": true
+    },
+    {
+      "id": "χωρίζω",
+      "lesson": "08",
+      "greek": "χωρίζω",
+      "transcription": "[hoˈrizo]",
+      "meaning": "я расстаюсь; разделяю",
+      "note": "в теме отношений: расстаюсь, развожусь",
+      "core": false
     },
     {
       "id": "χωρισμένος",
@@ -3831,48 +4146,12 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "η αδερφή / η αδελφή",
-      "lesson": "09",
-      "greek": "η αδερφή / η αδελφή",
-      "transcription": "[i aðerˈfi / i aðelˈfi]",
-      "meaning": "сестра",
-      "note": "οι αδερφές / οι αδελφές [i aðerˈfes / i aðelˈfes]",
-      "core": true
-    },
-    {
-      "id": "ο αδερφός / ο αδελφός",
-      "lesson": "09",
-      "greek": "ο αδερφός / ο αδελφός",
-      "transcription": "[o aðerˈfos / o aðelˈfos]",
-      "meaning": "брат",
-      "note": "τα αδέρφια [ta aˈðerfya] — братья и сёстры",
-      "core": true
-    },
-    {
       "id": "ακόμα",
       "lesson": "09",
       "greek": "ακόμα",
       "transcription": "[aˈkoma]",
       "meaning": "ещё; всё ещё",
       "note": "наречие",
-      "core": true
-    },
-    {
-      "id": "η ανιψιά",
-      "lesson": "09",
-      "greek": "η ανιψιά",
-      "transcription": "[i aniˈpsa]",
-      "meaning": "племянница",
-      "note": "οι ανιψιές [i aniˈpses]",
-      "core": true
-    },
-    {
-      "id": "ο ανιψιός",
-      "lesson": "09",
-      "greek": "ο ανιψιός",
-      "transcription": "[o aniˈpsos]",
-      "meaning": "племянник",
-      "note": "οι ανιψιοί [i aniˈpsi]",
       "core": true
     },
     {
@@ -3894,51 +4173,6 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "η γιαγιά",
-      "lesson": "09",
-      "greek": "η γιαγιά",
-      "transcription": "[i yaˈya]",
-      "meaning": "бабушка",
-      "note": "οι γιαγιάδες [i yaˈyaðes]",
-      "core": true
-    },
-    {
-      "id": "ο γιος",
-      "lesson": "09",
-      "greek": "ο γιος",
-      "transcription": "[o yos]",
-      "meaning": "сын",
-      "note": "οι γιοι [i yi]",
-      "core": true
-    },
-    {
-      "id": "οι γονείς",
-      "lesson": "09",
-      "greek": "οι γονείς",
-      "transcription": "[i ɣoˈnis]",
-      "meaning": "родители",
-      "note": "только множественное число",
-      "core": true
-    },
-    {
-      "id": "η εγγονή",
-      "lesson": "09",
-      "greek": "η εγγονή",
-      "transcription": "[i eɣoˈni]",
-      "meaning": "внучка",
-      "note": "οι εγγονές [i eɣoˈnes]",
-      "core": true
-    },
-    {
-      "id": "ο εγγονός",
-      "lesson": "09",
-      "greek": "ο εγγονός",
-      "transcription": "[o eɣoˈnos]",
-      "meaning": "внук",
-      "note": "οι εγγονοί [i eɣoˈni]",
-      "core": true
-    },
-    {
       "id": "έλα / ελάτε",
       "lesson": "09",
       "greek": "έλα / ελάτε",
@@ -3948,66 +4182,12 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "έτοιμος / έτοιμη / έτοιμο",
-      "lesson": "09",
-      "greek": "έτοιμος / έτοιμη / έτοιμο",
-      "transcription": "[ˈetimos / ˈetimi / ˈetimo]",
-      "meaning": "готовый",
-      "note": "прилагательное",
-      "core": true
-    },
-    {
-      "id": "η θεία",
-      "lesson": "09",
-      "greek": "η θεία",
-      "transcription": "[i ˈθia]",
-      "meaning": "тётя",
-      "note": "οι θείες [i ˈθies]",
-      "core": true
-    },
-    {
-      "id": "ο θείος",
-      "lesson": "09",
-      "greek": "ο θείος",
-      "transcription": "[o ˈθios]",
-      "meaning": "дядя",
-      "note": "οι θείοι [i ˈθii]",
-      "core": true
-    },
-    {
-      "id": "η κοπέλα",
-      "lesson": "09",
-      "greek": "η κοπέλα",
-      "transcription": "[i koˈpela]",
-      "meaning": "девушка; подруга",
-      "note": "οι κοπέλες [i koˈpeles]",
-      "core": true
-    },
-    {
-      "id": "η κόρη",
-      "lesson": "09",
-      "greek": "η κόρη",
-      "transcription": "[i ˈkori]",
-      "meaning": "дочь",
-      "note": "οι κόρες [i ˈkores]",
-      "core": true
-    },
-    {
       "id": "το κουδούνι",
       "lesson": "09",
       "greek": "το κουδούνι",
       "transcription": "[to kuˈðuni]",
       "meaning": "звонок",
       "note": "τα κουδούνια [ta kuˈðunya]",
-      "core": true
-    },
-    {
-      "id": "η μαμά",
-      "lesson": "09",
-      "greek": "η μαμά",
-      "transcription": "[i maˈma]",
-      "meaning": "мама",
-      "note": "οι μαμάδες [i maˈmaðes]; разговорное",
       "core": true
     },
     {
@@ -4038,15 +4218,6 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "το μοναχοπαίδι",
-      "lesson": "09",
-      "greek": "το μοναχοπαίδι",
-      "transcription": "[to monahoˈpeði]",
-      "meaning": "единственный ребёнок",
-      "note": "τα μοναχοπαίδια [ta monahoˈpeðya]",
-      "core": true
-    },
-    {
       "id": "η Νομική",
       "lesson": "09",
       "greek": "η Νομική",
@@ -4056,48 +4227,12 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "η ξαδέρφη / η ξαδέλφη",
-      "lesson": "09",
-      "greek": "η ξαδέρφη / η ξαδέλφη",
-      "transcription": "[i ksaˈðerfi / i ksaˈðelfi]",
-      "meaning": "двоюродная сестра",
-      "note": "οι ξαδέρφες / οι ξαδέλφες [i ksaˈðerfes / i ksaˈðelfes]",
-      "core": true
-    },
-    {
-      "id": "ο ξάδερφος / ο ξάδελφος",
-      "lesson": "09",
-      "greek": "ο ξάδερφος / ο ξάδελφος",
-      "transcription": "[o ˈksaðerfos / o ˈksaðelfos]",
-      "meaning": "двоюродный брат",
-      "note": "οι ξάδερφοι / οι ξάδελφοι [i ˈksaðerfi / i ˈksaðelfi]",
-      "core": true
-    },
-    {
-      "id": "παντρεμένος / παντρεμένη / παντρεμένο",
-      "lesson": "09",
-      "greek": "παντρεμένος / παντρεμένη / παντρεμένο",
-      "transcription": "[pandreˈmenos / pandreˈmeni / pandreˈmeno]",
-      "meaning": "женатый / замужняя",
-      "note": "прилагательное",
-      "core": true
-    },
-    {
       "id": "πάνω στην ώρα",
       "lesson": "09",
       "greek": "πάνω στην ώρα",
       "transcription": "[ˈpano stin ˈora]",
       "meaning": "как раз вовремя",
       "note": "устойчивая фраза",
-      "core": true
-    },
-    {
-      "id": "ο παππούς",
-      "lesson": "09",
-      "greek": "ο παππούς",
-      "transcription": "[o paˈpus]",
-      "meaning": "дедушка",
-      "note": "οι παππούδες [i paˈpuðes]",
       "core": true
     },
     {
@@ -4116,33 +4251,6 @@ window.GREEK_VOCABULARY = {
       "transcription": "[se ˈliɣo]",
       "meaning": "скоро; через немного времени",
       "note": "устойчивая фраза",
-      "core": true
-    },
-    {
-      "id": "το σόι",
-      "lesson": "09",
-      "greek": "το σόι",
-      "transcription": "[to ˈsoi]",
-      "meaning": "родня; семейный круг",
-      "note": "разговорное собирательное",
-      "core": false
-    },
-    {
-      "id": "οι συγγενείς",
-      "lesson": "09",
-      "greek": "οι συγγενείς",
-      "transcription": "[i sinyeˈnis]",
-      "meaning": "родственники",
-      "note": "ο / η συγγενής [o / i sinyeˈnis]",
-      "core": true
-    },
-    {
-      "id": "ο σύζυγος",
-      "lesson": "09",
-      "greek": "ο σύζυγος",
-      "transcription": "[o ˈsiziɣos]",
-      "meaning": "супруг",
-      "note": "οι σύζυγοι [i ˈsiziɣi]",
       "core": true
     },
     {
@@ -4170,24 +4278,6 @@ window.GREEK_VOCABULARY = {
       "transcription": "[i simfiˈtitria]",
       "meaning": "однокурсница",
       "note": "οι συμφοιτήτριες [i simfiˈtitries]",
-      "core": true
-    },
-    {
-      "id": "η σχέση",
-      "lesson": "09",
-      "greek": "η σχέση",
-      "transcription": "[i ˈshesi]",
-      "meaning": "отношения; связь",
-      "note": "οι σχέσεις [i ˈshesis]; έχω σχέση [ˈeho ˈshesi]",
-      "core": false
-    },
-    {
-      "id": "το φαγητό",
-      "lesson": "09",
-      "greek": "το φαγητό",
-      "transcription": "[to fayiˈto]",
-      "meaning": "еда; блюдо",
-      "note": "τα φαγητά [ta fayiˈta]",
       "core": true
     }
   ]

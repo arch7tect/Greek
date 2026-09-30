@@ -49,6 +49,38 @@ Plural forms and transcription are editorial teaching aids; not represented as h
 
 ## Validation
 
+### Full-page follow-up
+
+Rechecked the printed sections of all seven supplied pages, including unmarked
+text. Expanded the lesson with the complete family reading (printed 76), basic
+and extended relatives, collective plurals, relationship contrasts, ready/me-too
+replies, exercise 13 break reply and all three phone grouping examples (printed 55).
+Added ten missing vocabulary entries; moved 25 already-existing entries from
+lesson 09 to lesson 08 so the trainer includes them at the current lesson limit.
+No duplicated headwords; current totals: lesson 08 = 73, lesson 09 = 15, global = 471.
+The remaining lesson-09 words were not promoted without matching evidence.
+
+Core set: two family cards added, total 11 phone pages / 3 A4 pages; no additional
+verb tables. Full Q&A: 35 numbered topics, 37 blocks, 19 phone / 7 A4 pages.
+Plural forms, questions adapted to polite address and sample answers are editorial
+teaching aids, not claimed as verbatim source quotations.
+
+Pronunciation check for nephew/niece: Triantafyllidis dictionary, entry ανιψιός,
+https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B1%CE%BD%CE%AF%CF%88%CE%B9
+gives anipsˣós / anipsˣá. Mapped its palatal fricative to project h (anipˈshos /
+anipˈsha), rather than inventing a separate i syllable. Corrected lesson, vocabulary
+and lesson-card source together. Grandchildren use the project ŋg representation.
+
+### Initial publication checks
+
+Follow-up validation: vocabulary --check 471; layout 8/8; strict MkDocs and
+diff whitespace checks passed. New/changed PDF layouts inspected as Poppler
+renders: core cards 1, 10, 11, core A4 page 3, Q&A A4 pages 6–7 and phone
+pages 17–19, lesson-08 A4. Renderer overflow assertions passed. Existing core
+image URLs remain stable across the transition from 9 to 11 pages.
+Vocabulary item identifiers are Greek headwords, unchanged by source-lesson moves.
+Deployment preflight passed; publish only after scoped commit and successful push.
+
 All eight output pages rendered and visually reviewed: A4 (1), phone (4), homework (3).
 No clipped text or overlapping blocks; homework sheets preserve the original page content.
 Vocabulary generator/check: 461 entries, lesson 08 total 38 (six new).

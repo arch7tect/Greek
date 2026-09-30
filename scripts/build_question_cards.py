@@ -32,7 +32,8 @@ for line in (ROOT / 'scripts/mobile-data/questions.txt').read_text().splitlines(
         assert len(row) == 4, line
         assert row[2] and row[3], line
         blocks[-1]['rows'].append(row)
-assert [b['id'] for b in blocks if b['id'].isdigit()] == [f'{i:02d}' for i in range(1,31)]
+topic_count = sum(b['id'].isdigit() for b in blocks)
+assert [b['id'] for b in blocks if b['id'].isdigit()] == [f'{i:02d}' for i in range(1,topic_count+1)]
 
 def para(text, width, size, color='#141414', bold=False):
     obj = Paragraph(text, ParagraphStyle('qa', fontName='QABold' if bold else 'QA',
@@ -85,8 +86,8 @@ def build(kind):
     for number, page in enumerate(pages, 1):
         header = para('Вопросы и ответы', width-2*margin, 24 if phone else 19, '#166B5E', True)
         header.drawOn(c, margin, height-25-header.height)
-        note = para('30 тем · «Ты» и «вы» · Полные ответы' if phone else
-                    '30 тем · Полные ответы · Читай левую колонку, затем правую', width-2*margin, size)
+        note = para(f'{topic_count} тем · «Ты» и «вы» · Полные ответы' if phone else
+                    f'{topic_count} тем · Полные ответы · Читай левую колонку, затем правую', width-2*margin, size)
         note.drawOn(c, margin, height-58-note.height)
         if not phone:
             c.setStrokeColor(colors.HexColor('#D6E3DE'))
@@ -118,9 +119,9 @@ phone = build('phone')
 md = ['# Вопросы и ответы — сквозной сборник', '',
       f'[A4 для печати — {a4} страниц](../assets/print/questions-answers-a4.pdf){{ .md-button }}',
       f'[PDF для телефона — {phone} страниц](../assets/mobile/questions-answers-phone.pdf){{ .md-button }}', '',
-      'Все 30 пунктов нашего списка: вопросы на «ты» и «вы», полные ответы, перевод и произношение. '
+      f'Все {topic_count} пунктов нашего списка: вопросы на «ты» и «вы», полные ответы, перевод и произношение. '
       'В обоих PDF одинаковое содержание; варианты оценки языка относятся к пункту 19. '
-      'Это полный разговорный сборник, отдельно от [9 коротких карточек «Главное»](core.md).', '',
+      'Это полный разговорный сборник, отдельно от [коротких карточек «Главное»](core.md).', '',
       'Ответы — учебные примеры, а не биография одного человека. Адрес и контакты взяты из учебника. '
       'При вежливом обращении на «вы» один человек отвечает «я». '
       'Вопросы и ответы видны сразу; для проверки прикрой ответ.', '',
@@ -131,6 +132,6 @@ md = ['# Вопросы и ответы — сквозной сборник', ''
 for block in blocks:
     md += [f'## {block["id"]}. {block["title"]} {{ #q{block["id"]} }}', '']
     for label, greek, trans, ru in block['rows']:
-        md += [f'**{label}: {greek}**  ', f'`[{trans}]`  ', ru, '']
+        md += [f'**{label}: {greek}**<br/>', f'`[{trans}]`<br/>', ru, '']
     md += block['notes'] + ['']
 (ROOT / 'docs/memory/questions-answers.md').write_text('\n'.join(md))
