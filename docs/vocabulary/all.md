@@ -1,6 +1,6 @@
 # Общий словарь
 
-**Всего активных слов и устойчивых формул:** 471
+**Всего активных слов и устойчивых формул:** 490
 
 Словарь автоматически собирается из словарей уроков. Внутри каждого урока
 записи отсортированы по греческому алфавиту; подробный контекст находится
@@ -172,11 +172,15 @@
 | `καλώς ήρθες / καλώς ήρθατε` | `[kaˈlos ˈirθes / kaˈlos ˈirθate]` | добро пожаловать | одному на «ты» / одному на «вы» или группе | [Урок 03, диалог](lesson-03.md#lesson-03-dialogue) |
 | `η κυρία` | `[i kiˈria]` | госпожа; вежливое обращение к женщине | `οι κυρίες` `[i kiˈries]` | [Урок 03, упр. 3](lesson-03.md#lesson-03-ex-3) |
 | `ο κύριος` | `[o ˈkirios]` | господин; вежливое обращение к мужчине | `οι κύριοι` `[i ˈkirii]`; обращение `κύριε` `[ˈkirie]` | [Урок 03, диалог](lesson-03.md#lesson-03-dialogue) |
+| `λέγομαι` | `[ˈleɣome]` | зваться; меня зовут | `Λέγομαι Γιώργος` `[ˈleɣome ˈyorɣos]` | [Урок 03, раздел](lesson-03.md#lesson-03-verified-coverage) |
+| `με λένε` | `[me ˈlene]` | меня зовут | `Πώς τον / τη λένε;` `[pos ton / ti ˈlene?]` — как его / её зовут? | [Урок 03, раздел](lesson-03.md#lesson-03-verified-coverage) |
 | `μου` | `[mu]` | мой; моя; моё | ставится после существительного | [Урок 03, упр. 3](lesson-03.md#lesson-03-ex-3) |
+| `ξέρω` | `[ˈksero]` | знать | глагол; ср. фразу `δεν ξέρω` `[ðen ˈksero]` | [Урок 03, раздел](lesson-03.md#lesson-03-verified-coverage) |
 | `σας` | `[sas]` | вас; ваш | значение определяется конструкцией | [Урок 03, диалог](lesson-03.md#lesson-03-dialogue) |
 | `η Σμύρνη` | `[i ˈzmirni]` | Смирна; Измир | название города | [Урок 03, упр. 3](lesson-03.md#lesson-03-ex-3) |
 | `τέλεια` | `[ˈtelia]` | отлично; замечательно | разговорная реакция | [Урок 03, диалог](lesson-03.md#lesson-03-dialogue) |
 | `η Τουρκία` | `[i turˈkia]` | Турция | название страны | [Урок 03, упр. 3](lesson-03.md#lesson-03-ex-3) |
+| `η φοιτήτρια` | `[i fiˈtitria]` | студентка | `οι φοιτήτριες` `[i fiˈtitries]`; муж. `ο φοιτητής` `[o fitiˈtis]` | [Урок 03, раздел](lesson-03.md#lesson-03-verified-coverage) |
 | `χαίρετε` | `[ˈherete]` | здравствуйте | нейтрально-вежливое приветствие | [Урок 03, диалог](lesson-03.md#lesson-03-dialogue) |
 
 ## Впервые встретились на уроке 04
@@ -185,33 +189,52 @@
 |---|---|---|---|---|
 | `ακριβώς` | `[akriˈvos]` | точно; именно | `Πού ακριβώς;` `[pu akriˈvos?]` — где именно? | [Урок 04, упр. 4](lesson-04.md#lesson-04-workbook-ex-4) |
 | `η αλήθεια` | `[i aˈliθya]` | правда | `οι αλήθειες` `[i aˈliθyes]`; в диалоге «кстати / правда» | [Урок 04, упр. 4](lesson-04.md#lesson-04-workbook-ex-4) |
+| `αρχίζω` | `[arˈhizo]` | начинать | доп. файл, PDF 1, упр. 3 | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
+| `γιατί` | `[yaˈti]` | почему; потому что | и вопрос, и ответ | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `η γραμματεία` | `[i ɣramaˈtia]` | секретариат; администрация | `οι γραμματείες` `[i ɣramaˈties]` | [Урок 04, упр. 2β](lesson-04.md#lesson-04-afto-ex-2b) |
 | `δέκα` | `[ˈðeka]` | 10 | числительное | [Урок 04, упр. 7–8](lesson-04.md#lesson-04-textbook-ex-7-8) |
 | `δεν` | `[ðen]` | не | отрицательная частица перед глаголом | [Урок 04, упр. 2β](lesson-04.md#lesson-04-afto-ex-2b) |
 | `δύο` | `[ˈðio]` | 2 | числительное | [Урок 04, упр. 7–8](lesson-04.md#lesson-04-textbook-ex-7-8) |
+| `τα ελληνικά` | `[ta eliniˈka]` | греческий язык | только множественное число | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `ένα` | `[ˈena]` | 1 | числительное | [Урок 04, упр. 7–8](lesson-04.md#lesson-04-textbook-ex-7-8) |
 | `εννιά / εννέα` | `[eˈnya / eˈnea]` | 9 | разговорный / нейтральный варианты | [Урок 04, упр. 7–8](lesson-04.md#lesson-04-textbook-ex-7-8) |
 | `έξι` | `[ˈeksi]` | 6 | числительное | [Урок 04, упр. 7–8](lesson-04.md#lesson-04-textbook-ex-7-8) |
+| `έτσι κι έτσι` | `[ˈetsi ki ˈetsi]` | так себе | ответ на `Τι κάνεις;` `[ti ˈkanis?]` | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `εφτά / επτά` | `[eˈfta / eˈpta]` | 7 | разговорный / нейтральный варианты | [Урок 04, упр. 7–8](lesson-04.md#lesson-04-textbook-ex-7-8) |
+| `έχω` | `[ˈeho]` | иметь | глагол | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `η Καισαριανή` | `[i kesariaˈni]` | Кесариани | район Афин | [Урок 04, упр. 4](lesson-04.md#lesson-04-workbook-ex-4) |
 | `καλά` | `[kaˈla]` | хорошо | наречие; ответ о самочувствии | [Урок 04, упр. 4](lesson-04.md#lesson-04-workbook-ex-4) |
+| `καλούτσικα` | `[kaˈlutsika]` | неплохо; так, ничего | ответ на `Τι κάνεις;` `[ti ˈkanis?]` | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `ο Καναδάς` | `[o kanaˈðas]` | Канада | после `από` `[aˈpo]`: `τον Καναδά` `[ton kanaˈða]` | [Урок 04, упр. 2β](lesson-04.md#lesson-04-afto-ex-2b) |
 | `κάνω` | `[ˈkano]` | делать | `κάνεις` `[ˈkanis]`, `κάνετε` `[ˈkanete]` | [Урок 04, упр. 4](lesson-04.md#lesson-04-workbook-ex-4) |
+| `καταλαβαίνω` | `[katalaˈveno]` | понимать | глагол типа А; также конспект текущего урока 06, PDF 1 и 5 | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `κοντά` | `[koˈnda]` | близко; рядом | наречие | [Урок 04, упр. 4](lesson-04.md#lesson-04-workbook-ex-4) |
+| `μαζί` | `[maˈzi]` | вместе | наречие | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
+| `μαθαίνω` | `[maˈθeno]` | учить; изучать | глагол | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `μας` | `[mas]` | наш; наша; наше | ставится после существительного | [Урок 04, упр. 2β](lesson-04.md#lesson-04-afto-ex-2b) |
 | `μένω` | `[ˈmeno]` | жить; оставаться | `μένεις` `[ˈmenis]`, `μένουμε` `[ˈmenume]`, `μένετε` `[ˈmenete]` | [Урок 04, упр. 4](lesson-04.md#lesson-04-workbook-ex-4) |
 | `μηδέν` | `[miˈðen]` | 0 | числительное | [Урок 04, упр. 7–8](lesson-04.md#lesson-04-textbook-ex-7-8) |
+| `μια χαρά` | `[mya haˈra]` | прекрасно; отлично | ответ на `Τι κάνεις;` `[ti ˈkanis?]` | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
+| `μόνο` | `[ˈmono]` | только | `Έχω μόνο κινητό` `[ˈeho ˈmono kiniˈto]` — из аудио | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
+| `όχι και τόσο καλά` | `[ˈohi ke ˈtoso kaˈla]` | не так уж хорошо | ответ на `Τι κάνεις;` `[ti ˈkanis?]` | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `οχτώ / οκτώ` | `[oˈhto / oˈkto]` | 8 | разговорный / нейтральный варианты | [Урок 04, упр. 7–8](lesson-04.md#lesson-04-textbook-ex-7-8) |
 | `το Παγκράτι` | `[to paŋˈgrati]` | Панграти | район Афин | [Урок 04, упр. 4](lesson-04.md#lesson-04-workbook-ex-4) |
+| `παίζω` | `[ˈpezo]` | играть | глагол типа Α | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `πέντε` | `[ˈpende]` | 5 | числительное | [Урок 04, упр. 7–8](lesson-04.md#lesson-04-textbook-ex-7-8) |
+| `πηγαίνω` | `[piˈyeno]` | идти; ехать | глагол | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `πολύ` | `[poˈli]` | очень; много | наречие | [Урок 04, упр. 4](lesson-04.md#lesson-04-workbook-ex-4) |
+| `πολύ καλά` | `[poˈli kaˈla]` | очень хорошо | уровень знания | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `πού` | `[pu]` | где; куда | вопросительное наречие | [Урок 04, упр. 4](lesson-04.md#lesson-04-workbook-ex-4) |
+| `πρώτος / πρώτη / πρώτο` | `[ˈprotos / ˈproti / ˈproto]` | первый | прилагательное | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
+| `σήμερα` | `[ˈsimera]` | сегодня | наречие | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `ο σκύλος` | `[o ˈskilos]` | собака | `οι σκύλοι` `[i ˈskili]`; сборник, с. 147, упр. 7α | [Урок 04, раздел](lesson-04.md#current-pass) |
+| `σπουδάζω` | `[spuˈðazo]` | учиться; изучать в вузе | глагол | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 | `τέσσερα` | `[ˈtesera]` | 4 | числительное | [Урок 04, упр. 7–8](lesson-04.md#lesson-04-textbook-ex-7-8) |
 | `τι` | `[ti]` | что; как в вопросе о делах | `Τι κάνεις;` `[ti ˈkanis?]` — как дела? | [Урок 04, упр. 4](lesson-04.md#lesson-04-workbook-ex-4) |
 | `τρία` | `[ˈtria]` | 3 | числительное | [Урок 04, упр. 7–8](lesson-04.md#lesson-04-textbook-ex-7-8) |
 | `τώρα` | `[ˈtora]` | сейчас | наречие | [Урок 04, упр. 2β](lesson-04.md#lesson-04-afto-ex-2b) |
 | `φεύγω` | `[ˈfevɣo]` | уходить; уезжать | сборник, с. 112, упр. 3α, пункт 4 | [Урок 04, раздел](lesson-04.md#current-pass) |
+| `χάλια` | `[ˈhalya]` | ужасно; очень плохо | ответ на `Τι κάνεις;` `[ti ˈkanis?]` | [Урок 04, раздел](lesson-04.md#lesson-04-verified-coverage) |
 
 ## Впервые встретились на уроке 05
 
@@ -220,66 +243,116 @@
 | `αγοράζω` | `[aɣoˈrazo]` | покупать | доп. файл, PDF 3, упр. 5 | [Урок 05, раздел](lesson-05.md#current-pass) |
 | `η Αθήνα` | `[i aˈθina]` | Афины | `στην Αθήνα` `[stin aˈθina]` | [Урок 05, упр. 10](lesson-05.md#lesson-05-ex-10) |
 | `η Αλβανία` | `[i alvaˈnia]` | Албания | страна | [Урок 05, упр. 10](lesson-05.md#lesson-05-ex-10) |
+| `η αλλεργία` | `[i alerˈyia]` | аллергия | `οι αλλεργίες` `[i alerˈyies]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
+| `το αμφιθέατρο` | `[to amfiˈθeatro]` | амфитеатр; большая аудитория | `τα αμφιθέατρα` `[ta amfiˈθeatra]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `ο άντρας` | `[o ˈandras]` | мужчина | `οι άντρες` `[i ˈandres]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
 | `αριστερά` | `[aristeˈra]` | слева; налево | подсказка преподавателя к аудированию | [Урок 05, раздел](lesson-05.md#current-pass) |
 | `η αρχαιολογία` | `[i arheoloˈyia]` | археология | учебный предмет | [Урок 05, упр. 11](lesson-05.md#lesson-05-ex-11) |
-| `αρχίζω` | `[arˈhizo]` | начинать | доп. файл, PDF 1, упр. 3 | [Урок 05, раздел](lesson-05.md#current-pass) |
 | `η άσκηση` | `[i ˈaskisi]` | упражнение | `οι ασκήσεις` `[i asˈkisis]` | [Урок 05, упр. 11](lesson-05.md#lesson-05-ex-11) |
+| `η αστρολογία` | `[i astroloˈyia]` | астрология | `οι αστρολογίες` `[i astroloˈyies]`; обычно единственное число | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
 | `η Αυστρία` | `[i afˈstria]` | Австрия | страна | [Урок 05, упр. 13](lesson-05.md#lesson-05-ex-13) |
+| `η Βαρκελώνη` | `[i varkeˈloni]` | Барселона | город | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `η βιβλιοθήκη` | `[i vivlioˈθiki]` | библиотека | `οι βιβλιοθήκες` `[i vivlioˈθikes]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `η βιογραφία` | `[i vioɣraˈfia]` | биография | `οι βιογραφίες` `[i vioɣraˈfies]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
 | `βλέπω` | `[ˈvlepo]` | смотреть; видеть | глагол | [Урок 05, раздел](lesson-05.md#lesson-05-verbs) |
 | `η βόλτα` | `[i ˈvolta]` | прогулка | `πηγαίνω βόλτα` `[piˈyeno ˈvolta]` — гулять | [Урок 05, упр. 10](lesson-05.md#lesson-05-ex-10) |
 | `η Γεωργία` | `[i yeorˈyia]` | Грузия | страна | [Урок 05, упр. 13](lesson-05.md#lesson-05-ex-13) |
-| `γιατί` | `[yaˈti]` | почему; потому что | и вопрос, и ответ | [Урок 05, диалог](lesson-05.md#lesson-05-dialogue) |
+| `η γυναίκα` | `[i yiˈneka]` | женщина | `οι γυναίκες` `[i yiˈnekes]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `δεκαεννιά / δεκαεννέα` | `[ðekaeˈnya / ðekaeˈnea]` | девятнадцать | варианты не смешиваются | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `δεκαέξι` | `[ðekaˈeksi]` | шестнадцать | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `δεκαεφτά / δεκαεπτά` | `[ðekaeˈfta / ðekaeˈpta]` | семнадцать | варианты не смешиваются | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `δεκαοχτώ / δεκαοκτώ` | `[ðekaoˈhto / ðekaoˈkto]` | восемнадцать | варианты не смешиваются | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `δεκαπέντε` | `[ðekaˈpende]` | пятнадцать | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `δεκατέσσερα` | `[ðekaˈtesera]` | четырнадцать | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `δεκατρία` | `[ðekaˈtria]` | тринадцать | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
 | `δεξιά` | `[ðeˈksia]` | справа; направо | подсказка преподавателя к аудированию | [Урок 05, раздел](lesson-05.md#current-pass) |
 | `το διάλειμμα` | `[to ˈðyalima]` | перерыв; перемена | `τα διαλείμματα` `[ta ðyaˈlimata]` | [Урок 05, упр. 10](lesson-05.md#lesson-05-ex-10) |
+| `ο διάλογος` | `[o ðiˈaloɣos]` | диалог | `οι διάλογοι` `[i ðiˈaloɣi]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
+| `η διεύθυνση` | `[i ðiˈefθinsi]` | адрес | `οι διευθύνσεις` `[i ðiefˈθinsis]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `το δίπλωμα` | `[to ˈðiploma]` | диплом | `τα διπλώματα` `[ta ðiˈplomata]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `δώδεκα` | `[ˈðoðeka]` | двенадцать | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `εβδομήντα` | `[evðoˈminda]` | семьдесят | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `η εγγραφή` | `[i eŋgraˈfi]` | запись, регистрация | `κάνω εγγραφή` `[ˈkano eŋgraˈfi]` — записываюсь | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `είκοσι` | `[ˈikosi]` | двадцать | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
 | `το εισιτήριο` | `[to isiˈtirio]` | билет | `τα εισιτήρια` `[ta isiˈtiria]`; доп. файл, PDF 3, упр. 4 | [Урок 05, раздел](lesson-05.md#current-pass) |
-| `τα ελληνικά` | `[ta eliniˈka]` | греческий язык | только множественное число | [Урок 05, диалог](lesson-05.md#lesson-05-dialogue) |
-| `έτσι κι έτσι` | `[ˈetsi ki ˈetsi]` | так себе | ответ на `Τι κάνεις;` `[ti ˈkanis?]` | [Урок 05, раздел](lesson-05.md#lesson-05-answers-scale) |
+| `εκατό` | `[ekaˈto]` | сто | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `ο ελέφαντας` | `[o eˈlefantas]` | слон | `οι ελέφαντες` `[i eˈlefantes]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
+| `ενενήντα` | `[eneˈninda]` | девяносто | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `έντεκα` | `[ˈendeka]` | одиннадцать | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `εξήντα` | `[eˈksinda]` | шестьдесят | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `το εστιατόριο` | `[to estiaˈtorio]` | ресторан | `τα εστιατόρια` `[ta estiaˈtoria]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
 | `η εφημερίδα` | `[i efimeˈriða]` | газета | `οι εφημερίδες` `[i efimeˈriðes]` | [Урок 05, упр. 11](lesson-05.md#lesson-05-ex-11) |
-| `έχω` | `[ˈeho]` | иметь | глагол | [Урок 05, раздел](lesson-05.md#lesson-05-verbs) |
+| `το ζώο` | `[to ˈzoo]` | животное | `τα ζώα` `[ta ˈzoa]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
 | `η Θεσσαλονίκη` | `[i θesaloˈniki]` | Салоники | город | [Урок 05, упр. 13](lesson-05.md#lesson-05-ex-13) |
+| `η Ισπανίδα` | `[i ispaˈniða]` | испанка | национальность, ж. р. | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `η Ιστορία` | `[i istoˈria]` | история | учебный предмет | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
 | `κάθε` | `[ˈkaθe]` | каждый | `κάθε μέρα` `[ˈkaθe ˈmera]` — каждый день | [Урок 05, упр. 10](lesson-05.md#lesson-05-ex-10) |
-| `καλούτσικα` | `[kaˈlutsika]` | неплохо; так, ничего | ответ на `Τι κάνεις;` `[ti ˈkanis?]` | [Урок 05, раздел](lesson-05.md#lesson-05-answers-scale) |
+| `καλή αρχή` | `[kaˈli arˈhi]` | удачного начала! | пожелание | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `η κάρτα` | `[i ˈkarta]` | карточка | `οι κάρτες` `[i ˈkartes]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `η καταστροφή` | `[i kataˈstrofi]` | катастрофа; разрушение | `οι καταστροφές` `[i katastroˈfes]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
+| `η καφετέρια` | `[i kafeˈteria]` | кафе | `οι καφετέριες` `[i kafeˈteries]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `ο κινηματογράφος` | `[o kinimatoˈɣrafos]` | кино; кинотеатр | `οι κινηματογράφοι` `[i kinimatoˈɣrafi]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
+| `το κινητό` | `[to kiniˈto]` | мобильный телефон | `τα κινητά` `[ta kiniˈta]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `το κομπιούτερ` | `[to koˈbiuter]` | компьютер | `τα κομπιούτερ` `[ta koˈbiuter]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
 | `η Κρήτη` | `[i ˈkriti]` | Крит | остров; `στην Κρήτη` `[stin ˈkriti]` | [Урок 05, упр. 14](lesson-05.md#lesson-05-ex-14) |
+| `το κυλικείο` | `[to kiliˈkio]` | буфет, столовая при учреждении | `τα κυλικεία` `[ta kiliˈkia]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
 | `η Κυψέλη` | `[i kiˈpseli]` | Кипсели | район Афин | [Урок 05, диалог](lesson-05.md#lesson-05-dialogue) |
-| `λέγομαι` | `[ˈleɣome]` | зваться; меня зовут | `Λέγομαι Γιώργος` `[ˈleɣome ˈyorɣos]` | [Урок 05, упр. 14](lesson-05.md#lesson-05-ex-14) |
-| `μαζί` | `[maˈzi]` | вместе | наречие | [Урок 05, диалог](lesson-05.md#lesson-05-dialogue) |
-| `μαθαίνω` | `[maˈθeno]` | учить; изучать | глагол | [Урок 05, раздел](lesson-05.md#lesson-05-verbs) |
-| `με λένε` | `[me ˈlene]` | меня зовут | `Πώς τον / τη λένε;` `[pos ton / ti ˈlene?]` — как его / её зовут? | [Урок 05, упр. 14](lesson-05.md#lesson-05-ex-14) |
-| `μια χαρά` | `[mya haˈra]` | прекрасно; отлично | ответ на `Τι κάνεις;` `[ti ˈkanis?]` | [Урок 05, диалог](lesson-05.md#lesson-05-dialogue) |
-| `ξέρω` | `[ˈksero]` | знать | глагол; ср. фразу `δεν ξέρω` `[ðen ˈksero]` | [Урок 05, раздел](lesson-05.md#lesson-05-verbs) |
+| `το λιοντάρι` | `[to lioˈndari]` | лев | `τα λιοντάρια` `[ta lioˈndarya]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
+| `μάλιστα` | `[ˈmalista]` | да, конечно; так точно | вежливое подтверждение | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `ο μαρκαδόρος` | `[o markaˈðoros]` | маркер | `οι μαρκαδόροι` `[i markaˈðori]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `το μέιλ` | `[to ˈmeil]` | имейл | несклоняемое | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `το μουσείο` | `[to muˈsio]` | музей | `τα μουσεία` `[ta muˈsia]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `το μωρό` | `[to moˈro]` | младенец | `τα μωρά` `[ta moˈra]`; дополнительное упражнение | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `ογδόντα` | `[oɣˈðonda]` | восемьдесят | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `ορίστε` | `[oˈriste]` | вот, пожалуйста; слушаю | при передаче вещи или ответе на зов | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
 | `η Ουκρανία` | `[i ukraˈnia]` | Украина | страна | [Урок 05, упр. 14](lesson-05.md#lesson-05-ex-14) |
-| `όχι και τόσο καλά` | `[ˈohi ke ˈtoso kaˈla]` | не так уж хорошо | ответ на `Τι κάνεις;` `[ti ˈkanis?]` | [Урок 05, раздел](lesson-05.md#lesson-05-answers-scale) |
 | `το Πακιστάν` | `[to pakiˈstan]` | Пакистан | несклоняемое | [Урок 05, упр. 14](lesson-05.md#lesson-05-ex-14) |
+| `το πανεπιστήμιο` | `[to panepiˈstimio]` | университет | `τα πανεπιστήμια` `[ta panepiˈstimia]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `το παπάκι` | `[to paˈpaki]` | значок `@`; утёнок | `τα παπάκια` `[ta paˈpakya]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
 | `τα Πατήσια` | `[ta paˈtisya]` | Патисия | район Афин | [Урок 05, упр. 11](lesson-05.md#lesson-05-ex-11) |
 | `ο Πειραιάς` | `[o pireˈas]` | Пирей | `στον Πειραιά` `[ston pireˈa]` | [Урок 05, диалог](lesson-05.md#lesson-05-dialogue) |
+| `πενήντα` | `[peˈninda]` | пятьдесят | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
 | `περιμένω` | `[periˈmeno]` | ждать | доп. файл, PDF 3, упр. 4 | [Урок 05, раздел](lesson-05.md#current-pass) |
-| `πηγαίνω` | `[piˈyeno]` | идти; ехать | глагол | [Урок 05, раздел](lesson-05.md#lesson-05-verbs) |
 | `πίνω` | `[ˈpino]` | пить | конспект, PDF 8, упр. 19; доп. файл, PDF 1, упр. 2 | [Урок 05, раздел](lesson-05.md#current-pass) |
 | `πότε` | `[ˈpote]` | когда? | вопросительное слово; ср. союз `όταν` `[ˈotan]` | [Урок 05, упр. 10](lesson-05.md#lesson-05-ex-10) |
-| `πρώτος / πρώτη / πρώτο` | `[ˈprotos / ˈproti / ˈproto]` | первый | прилагательное | [Урок 05, диалог](lesson-05.md#lesson-05-dialogue) |
+| `πώς λέγεστε;` | `[pos ˈleyeste?]` | как вас зовут? | вежливая форма `λέγομαι` `[ˈleɣome]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
+| `το ραδιόφωνο` | `[to raðiˈofono]` | радио | `τα ραδιόφωνα` `[ta raðiˈofona]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
 | `το ράφι` | `[to ˈrafi]` | полка | `τα ράφια` `[ta ˈrafya]`; конспект, PDF 3 | [Урок 05, раздел](lesson-05.md#current-pass) |
-| `σήμερα` | `[ˈsimera]` | сегодня | наречие | [Урок 05, диалог](lesson-05.md#lesson-05-dialogue) |
+| `ο ρυθμός` | `[o riθˈmos]` | ритм | `οι ρυθμοί` `[i riθˈmi]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
+| `σαράντα` | `[saˈranda]` | сорок | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
 | `το σουβλάκι` | `[to suˈvlaki]` | сувлаки | `τα σουβλάκια` `[ta suˈvlakya]` | [Урок 05, упр. 11](lesson-05.md#lesson-05-ex-11) |
-| `σπουδάζω` | `[spuˈðazo]` | учиться; изучать в вузе | глагол | [Урок 05, раздел](lesson-05.md#lesson-05-verbs) |
+| `το σπουδαστήριο` | `[to spuðaˈstirio]` | читальный зал; учебная комната | `τα σπουδαστήρια` `[ta spuðaˈstiria]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
 | `το σφουγγάρι` | `[to sfuŋˈgari]` | губка | `τα σφουγγάρια` `[ta sfuŋˈgarya]`; конспект, PDF 3 | [Урок 05, раздел](lesson-05.md#current-pass) |
+| `η τελεία` | `[i teˈlia]` | точка | не путать с `τέλεια` `[ˈtelia]` — «отлично» | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
 | `τελειώνω` | `[teliˈono]` | заканчивать | доп. файл, PDF 4, напечатанная реплика | [Урок 05, раздел](lesson-05.md#current-pass) |
+| `η τεχνολογία` | `[i tehnoloˈyia]` | технология | `οι τεχνολογίες` `[i tehnoloˈyies]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
 | `ο τοίχος` | `[o ˈtihos]` | стена | `οι τοίχοι` `[i ˈtihi]`; конспект, PDF 3 | [Урок 05, раздел](lesson-05.md#current-pass) |
+| `η τραγωδία` | `[i traɣoˈðia]` | трагедия | `οι τραγωδίες` `[i traɣoˈðies]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
 | `η τράπεζα` | `[i ˈtrapeza]` | банк | `οι τράπεζες` `[i ˈtrapezes]`; доп. файл, PDF 2–4 | [Урок 05, раздел](lesson-05.md#current-pass) |
+| `το τρένο` | `[to ˈtreno]` | поезд | `τα τρένα` `[ta ˈtrena]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
+| `τριάντα` | `[triˈanda]` | тридцать | числительное | [Урок 05, раздел](lesson-05.md#lesson-05-numbers) |
+| `ο υπολογιστής` | `[o ipoloyiˈstis]` | компьютер | `οι υπολογιστές` `[i ipoloyiˈstes]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
 | `η Φιλοθέη` | `[i filoˈθei]` | Филотеи | район Афин | [Урок 05, упр. 14](lesson-05.md#lesson-05-ex-14) |
-| `χάλια` | `[ˈhalya]` | ужасно; очень плохо | ответ на `Τι κάνεις;` `[ti ˈkanis?]` | [Урок 05, раздел](lesson-05.md#lesson-05-answers-scale) |
+| `η φιλοσοφία` | `[i filosoˈfia]` | философия | `οι φιλοσοφίες` `[i filosoˈfies]`; обычно единственное число | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
+| `η φωτογραφία` | `[i fotoɣraˈfia]` | фотография | `οι φωτογραφίες` `[i fotoɣraˈfies]` | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
 | `ο χάρτης` | `[o ˈhartis]` | карта | `οι χάρτες` `[i ˈhartes]`; конспект, PDF 3 | [Урок 05, раздел](lesson-05.md#current-pass) |
+| `η ψυχή` | `[i psiˈhi]` | душа | `οι ψυχές` `[i psiˈhes]` | [Урок 05, раздел](lesson-05.md#lesson-05-page-vocabulary) |
+| `η Ψυχολογία` | `[i psiholoˈyia]` | психология | учебный предмет | [Урок 05, раздел](lesson-05.md#lesson-05-verified-coverage) |
 
 ## Впервые встретились на уроке 06
 
 | Слово | Транскрипция | Значение | Форма / примечание | Впервые встретилось |
 |---|---|---|---|---|
+| `αγαπάω` | `[aɣaˈpao]` | любить | тип Β1 | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
 | `τα αγγλικά` | `[ta aŋgliˈka]` | английский язык | множественное число; после «говорить» обычно без артикля | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
+| `η αδερφή / η αδελφή` | `[i aðerˈfi / i aðelˈfi]` | сестра | `οι αδερφές / οι αδελφές` `[i aðerˈfes / i aðelˈfes]` | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
+| `ο αδερφός / ο αδελφός` | `[o aðerˈfos / o aðelˈfos]` | брат | `οι αδερφοί / οι αδελφοί` `[i aðerˈfi / i aðelˈfi]`; `τα αδέρφια` `[ta aˈðerfya]` — братья и сёстры | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
 | `απαντάω` | `[apaˈndao]` | отвечаю | тип Β1 | [Урок 06, раздел](lesson-06.md#lesson-06-current-verbs) |
 | `ο αριθμός` | `[o ariθˈmos]` | номер; число | `οι αριθμοί` `[i ariθˈmi]` | [Урок 06, раздел](lesson-06.md#lesson-06-listening) |
 | `αρκετά καλά` | `[arkeˈta kaˈla]` | достаточно хорошо | шкала владения языком | [Урок 06, раздел](lesson-06.md#lesson-06-current-studies) |
 | `η Αυστραλία` | `[i afstraˈlia]` | Австралия | страна | [Урок 06, упр. 15](lesson-06.md#lesson-06-homework-texts) |
-| `η Βαρκελώνη` | `[i varkeˈloni]` | Барселона | город | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
 | `η Βιολογία` | `[i violoˈyia]` | биология | учебная дисциплина; без мн. числа | [Урок 06, раздел](lesson-06.md#lesson-06-current-studies) |
+| `βοηθάω` | `[voiˈθao]` | помогать | глагол типа Β на `-άω` `[-ˈao]` | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
 | `η Γαλλίδα` | `[i ɣaˈliða]` | француженка | `οι Γαλλίδες` `[i ɣaˈliðes]` | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
 | `τα γαλλικά` | `[ta ɣaliˈka]` | французский язык | множественное число | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
 | `ο Γάλλος` | `[o ˈɣalos]` | француз | `οι Γάλλοι` `[i ˈɣali]` | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
@@ -288,76 +361,50 @@
 | `τα γερμανικά` | `[ta yermaniˈka]` | немецкий язык | множественное число | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
 | `ο Γερμανός` | `[o yermaˈnos]` | немец | `οι Γερμανοί` `[i yermaˈni]` | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
 | `για` | `[ya]` | для; о | предлог с винительным | [Урок 06, раздел](lesson-06.md#lesson-06-prepositions) |
-| `δεκαεννιά / δεκαεννέα` | `[ðekaeˈnya / ðekaeˈnea]` | девятнадцать | варианты не смешиваются | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
-| `δεκαέξι` | `[ðekaˈeksi]` | шестнадцать | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
-| `δεκαεφτά / δεκαεπτά` | `[ðekaeˈfta / ðekaeˈpta]` | семнадцать | варианты не смешиваются | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
-| `δεκαοχτώ / δεκαοκτώ` | `[ðekaoˈhto / ðekaoˈkto]` | восемнадцать | варианты не смешиваются | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
-| `δεκαπέντε` | `[ðekaˈpende]` | пятнадцать | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
-| `δεκατέσσερα` | `[ðekaˈtesera]` | четырнадцать | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
-| `δεκατρία` | `[ðekaˈtria]` | тринадцать | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
+| `το διδακτορικό` | `[to ðiðaktoriˈko]` | докторантура; докторская работа | `τα διδακτορικά` `[ta ðiðaktoriˈka]` | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
 | `διδάσκω` | `[ðiˈðasko]` | преподавать | контраст: `μαθαίνω` `[maˈθeno]` — учить(ся) | [Урок 06, упр. 15](lesson-06.md#lesson-06-homework-texts) |
-| `η διεύθυνση` | `[i ðiˈefθinsi]` | адрес | `οι διευθύνσεις` `[i ðiefˈθinsis]` | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
 | `η δουλειά` | `[i ðuˈlya]` | работа | `Τι δουλειά κάνετε;` `[ti ðuˈlya ˈkanete?]` — кем вы работаете? | [Урок 06, раздел](lesson-06.md#lesson-06-prepositions) |
 | `δυστυχώς` | `[ðistiˈhos]` | к сожалению | наречие | [Урок 06, раздел](lesson-06.md#lesson-06-listening) |
-| `δώδεκα` | `[ˈðoðeka]` | двенадцать | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
-| `εβδομήντα` | `[evðoˈminda]` | семьдесят | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
-| `η εγγραφή` | `[i eŋgraˈfi]` | запись, регистрация | `κάνω εγγραφή` `[ˈkano eŋgraˈfi]` — записываюсь | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
-| `είκοσι` | `[ˈikosi]` | двадцать | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
-| `εκατό` | `[ekaˈto]` | сто | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
 | `ο Έλληνας` | `[o ˈelinas]` | грек | `οι Έλληνες` `[i ˈelines]` | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
 | `η Ελληνίδα` | `[i eliˈniða]` | гречанка | `οι Ελληνίδες` `[i eliˈniðes]` | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
-| `ενενήντα` | `[eneˈninda]` | девяносто | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
-| `έντεκα` | `[ˈendeka]` | одиннадцать | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
-| `εξήντα` | `[eˈksinda]` | шестьдесят | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
 | `το επώνυμο` | `[to eˈponimo]` | фамилия | `τα επώνυμα` `[ta eˈponima]` | [Урок 06, раздел](lesson-06.md#lesson-06-listening) |
 | `η ζάχαρη` | `[i ˈzahari]` | сахар | `καφές με ζάχαρη` `[kaˈfes me ˈzahari]` | [Урок 06, раздел](lesson-06.md#lesson-06-prepositions) |
 | `η Ιατρική` | `[i iatriˈki]` | медицина | учебная дисциплина; без мн. числа | [Урок 06, раздел](lesson-06.md#lesson-06-current-studies) |
-| `η Ισπανίδα` | `[i ispaˈniða]` | испанка | национальность, ж. р. | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
-| `η Ιστορία` | `[i istoˈria]` | история | учебный предмет | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
 | `η Ιταλίδα` | `[i itaˈliða]` | итальянка | `οι Ιταλίδες` `[i itaˈliðes]` | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
 | `τα ιταλικά` | `[ta italiˈka]` | итальянский язык | множественное число | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
 | `ο Ιταλός` | `[o itaˈlos]` | итальянец | `οι Ιταλοί` `[i itaˈli]` | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
-| `καλή αρχή` | `[kaˈli arˈhi]` | удачного начала! | пожелание | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
-| `η κάρτα` | `[i ˈkarta]` | карточка | `οι κάρτες` `[i ˈkartes]` | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
-| `το κινητό` | `[to kiniˈto]` | мобильный телефон | `τα κινητά` `[ta kiniˈta]` | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
+| `καθόλου` | `[kaˈθolu]` | совсем не; нисколько | уровень знания | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
 | `κόβω` | `[ˈkovo]` | резать | глагол | [Урок 06, раздел](lesson-06.md#lesson-06-prepositions) |
 | `λέω` | `[ˈleo]` | говорить, сказать | ср. `με λένε` `[me ˈlene]`, `λέγομαι` `[ˈleɣome]` | [Урок 06, раздел](lesson-06.md#lesson-06-prepositions) |
+| `λίγο` | `[ˈliɣo]` | немного | уровень знания | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
 | `ο μάγος` | `[o ˈmaɣos]` | волшебник | `οι μάγοι` `[i ˈmayi]`; шутка в диалоге | [Урок 06, раздел](lesson-06.md#lesson-06-current-studies) |
-| `μάλιστα` | `[ˈmalista]` | да, конечно; так точно | вежливое подтверждение | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
+| `η μαμά` | `[i maˈma]` | мама | `οι μαμάδες` `[i maˈmaðes]`; разговорное | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
 | `το μαχαίρι` | `[to maˈheri]` | нож | `τα μαχαίρια` `[ta maˈherya]` | [Урок 06, раздел](lesson-06.md#lesson-06-prepositions) |
 | `με` | `[me]` | с | предлог с винительным | [Урок 06, раздел](lesson-06.md#lesson-06-prepositions) |
-| `το μέιλ` | `[to ˈmeil]` | имейл | несклоняемое | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
 | `μελετάω` | `[meleˈtao]` | изучаю, занимаюсь | тип Β1 | [Урок 06, раздел](lesson-06.md#lesson-06-current-verbs) |
+| `το μέρος` | `[to ˈmeros]` | место | `τα μέρη` `[ta ˈmeri]` | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
+| `το μεταπτυχιακό` | `[to metaptihiaˈko]` | магистратура; последипломная программа | `τα μεταπτυχιακά` `[ta metaptihiaˈka]` | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
 | `η μητέρα` | `[i miˈtera]` | мать | `οι μητέρες` `[i miˈteres]`; разг. `η μαμά` — см. `ο μπαμπάς` `[o baˈbas]` | [Урок 06, раздел](lesson-06.md#lesson-06-prepositions) |
-| `μόνο` | `[ˈmono]` | только | `Έχω μόνο κινητό` `[ˈeho ˈmono kiniˈto]` — из аудио | [Урок 06, раздел](lesson-06.md#lesson-06-listening) |
 | `η Μόσχα` | `[i ˈmosha]` | Москва | `στη Μόσχα` `[sti ˈmosha]` | [Урок 06, раздел](lesson-06.md#lesson-06-prepositions) |
-| `ογδόντα` | `[oɣˈðonda]` | восемьдесят | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
+| `τα Νομικά` | `[ta nomiˈka]` | право, юридические науки | только множественное число | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
 | `η οδός` | `[i oˈðos]` | улица | женский род несмотря на `-ος`, как `η Κύπρος` `[i ˈkipros]` | [Урок 06, раздел](lesson-06.md#lesson-06-listening) |
 | `όμως` | `[ˈomos]` | однако; но | противопоставление в диалоге | [Урок 06, раздел](lesson-06.md#lesson-06-current-studies) |
 | `το όνομα` | `[to ˈonoma]` | имя | `τα ονόματα` `[ta oˈnomata]` | [Урок 06, раздел](lesson-06.md#lesson-06-listening) |
-| `ορίστε` | `[oˈriste]` | вот, пожалуйста; слушаю | при передаче вещи или ответе на зов | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
-| `το πανεπιστήμιο` | `[to panepiˈstimio]` | университет | `τα πανεπιστήμια` `[ta panepiˈstimia]` | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
-| `το παπάκι` | `[to paˈpaki]` | значок `@`; утёнок | `τα παπάκια` `[ta paˈpakya]` | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
-| `πενήντα` | `[peˈninda]` | пятьдесят | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
 | `περνάω` | `[perˈnao]` | прохожу; провожу время | `περνάμε καλά` `[perˈname kaˈla]` — хорошо проводим время | [Урок 06, раздел](lesson-06.md#lesson-06-current-verbs) |
 | `περπατάω` | `[perpaˈtao]` | иду пешком | тип Β1 | [Урок 06, раздел](lesson-06.md#lesson-06-current-verbs) |
 | `η Πληροφορική` | `[i pliroforiˈki]` | информатика | учебная дисциплина; без мн. числа | [Урок 06, раздел](lesson-06.md#lesson-06-current-studies) |
 | `η πόλη` | `[i ˈpoli]` | город | `οι πόλεις` `[i ˈpolis]` | [Урок 06, раздел](lesson-06.md#lesson-06-listening) |
-| `πώς λέγεστε;` | `[pos ˈleyeste?]` | как вас зовут? | вежливая форма `λέγομαι` `[ˈleɣome]` | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
 | `η Ρωσίδα` | `[i roˈsiða]` | русская | `οι Ρωσίδες` `[i roˈsiðes]` | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
 | `τα ρωσικά` | `[ta rosiˈka]` | русский язык | множественное число | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
 | `ο Ρώσος` | `[o ˈrosos]` | русский | `οι Ρώσοι` `[i ˈrosi]` | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
-| `σαράντα` | `[saˈranda]` | сорок | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
+| `ρωτάω` | `[roˈtao]` | спрашивать | тип Β1 | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
 | `το Σίδνεϋ` | `[to ˈsiðnei]` | Сидней | несклоняемое | [Урок 06, упр. 15](lesson-06.md#lesson-06-homework-texts) |
 | `η Στατιστική` | `[i statistiˈki]` | статистика | учебная дисциплина; в этом значении без мн. числа | [Урок 06, раздел](lesson-06.md#lesson-06-current-studies) |
 | `συναντάω` | `[sinaˈndao]` | встречаю | тип Β1 | [Урок 06, раздел](lesson-06.md#lesson-06-current-verbs) |
-| `η τελεία` | `[i teˈlia]` | точка | не путать с `τέλεια` `[ˈtelia]` — «отлично» | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
 | `η Τουρκάλα` | `[i turˈkala]` | турчанка | `οι Τουρκάλες` `[i turˈkales]` | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
 | `τα τουρκικά` | `[ta turkiˈka]` | турецкий язык | множественное число | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
 | `ο Τούρκος` | `[o ˈturkos]` | турок | `οι Τούρκοι` `[i ˈturki]` | [Урок 06, раздел](lesson-06.md#lesson-06-nationalities) |
-| `τριάντα` | `[triˈanda]` | тридцать | числительное | [Урок 06, раздел](lesson-06.md#lesson-06-numbers) |
-| `η φοιτήτρια` | `[i fitiˈtria]` | студентка | `ο φοιτητής` `[o fitiˈtis]` — студент | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
-| `η φωτογραφία` | `[i fotoɣraˈfia]` | фотография | `οι φωτογραφίες` `[i fotoɣraˈfies]` | [Урок 06, диалог](lesson-06.md#lesson-06-dialogue) |
+| `τραγουδάω` | `[traɣuˈðao]` | петь | тип Β1 | [Урок 06, раздел](lesson-06.md#lesson-06-verified-coverage) |
 | `χαιρετάω` | `[hereˈtao]` | приветствую | тип Β1 | [Урок 06, раздел](lesson-06.md#lesson-06-current-verbs) |
 | `το ψωμί` | `[to psoˈmi]` | хлеб | `τα ψωμιά` `[ta psoˈmya]` | [Урок 06, раздел](lesson-06.md#lesson-06-prepositions) |
 
@@ -365,90 +412,76 @@
 
 | Слово | Транскрипция | Значение | Форма / примечание | Впервые встретилось |
 |---|---|---|---|---|
+| `αγαπημένος` | `[aɣapiˈmenos]` | любимый | `αγαπημένη / αγαπημένο` `[aɣapiˈmeni / aɣapiˈmeno]`; о любимом блюде | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
 | `η αίτηση` | `[i ˈetisi]` | заявление, заявка | `οι αιτήσεις` `[i eˈtisis]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
-| `το αμφιθέατρο` | `[to amfiˈθeatro]` | амфитеатр; большая аудитория | `τα αμφιθέατρα` `[ta amfiˈθeatra]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
-| `ο άντρας` | `[o ˈandras]` | мужчина | `οι άντρες` `[i ˈandres]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `τα αραβικά` | `[ta araviˈka]` | арабский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
 | `ο αριθμός διαβατηρίου` | `[o ariθˈmos ðiavatiˈriu]` | номер паспорта | составное поле | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `ο αριθμός ταυτότητας` | `[o ariθˈmos tafˈtotitas]` | номер удостоверения личности | составное поле | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `η Αρχαιολογία` | `[i arheoloˈyia]` | археология | из образца домашнего упражнения 2 | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
 | `ο αρχιτέκτονας` | `[o arhiˈtektonas]` | архитектор | `οι αρχιτέκτονες` `[i arhiˈtektones]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
-| `η βιβλιοθήκη` | `[i vivlioˈθiki]` | библиотека | `οι βιβλιοθήκες` `[i vivlioˈθikes]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
-| `βοηθάω` | `[voiˈθao]` | помогать | глагол типа Β на `-άω` `[-ˈao]` | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
 | `τα βουλγαρικά` | `[ta vulɣariˈka]` | болгарский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
+| `η γιαγιά` | `[i yaˈya]` | бабушка | `οι γιαγιάδες` `[i yaˈyaðes]` | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
 | `ο γιατρός / η γιατρός` | `[o yaˈtros / i yaˈtros]` | врач | `οι γιατροί` `[i yaˈtri]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
+| `ο γιος` | `[o yos]` | сын | `οι γιοι` `[i yi]` | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
 | `η γνώση της ελληνικής γλώσσας` | `[i ˈɣnosi tis eliniˈkis ˈɣlosas]` | знание греческого языка | заголовок шкалы | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
+| `οι γονείς` | `[i ɣoˈnis]` | родители | только множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
 | `ο γραμματέας / η γραμματέας` | `[o ɣramaˈteas / i ɣramaˈteas]` | секретарь | `οι γραμματείς` `[i ɣramaˈtis]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
 | `η γυμνάστρια` | `[i yimˈnastria]` | тренер; преподаватель физкультуры | `οι γυμνάστριες` `[i yimˈnastries]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
-| `η γυναίκα` | `[i yiˈneka]` | женщина | `οι γυναίκες` `[i yiˈnekes]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `το διαβατήριο` | `[to ðiavaˈtirio]` | паспорт | `τα διαβατήρια` `[ta ðiavaˈtiria]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
-| `το διδακτορικό` | `[to ðiðaktoriˈko]` | докторантура; докторская работа | `τα διδακτορικά` `[ta ðiðaktoriˈka]` | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
-| `το δίπλωμα` | `[to ˈðiploma]` | диплом | `τα διπλώματα` `[ta ðiˈplomata]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
 | `ο διπλωμάτης` | `[o ðiploˈmatis]` | дипломат | `οι διπλωμάτες` `[i ðiploˈmates]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
+| `η εγγονή` | `[i eŋgoˈni]` | внучка | `οι εγγονές` `[i eŋgoˈnes]` | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
+| `ο εγγονός` | `[o eŋgoˈnos]` | внук | `οι εγγονοί` `[i eŋgoˈni]` | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
 | `η εθνικότητα` | `[i eθnikoˈtita]` | национальность | `οι εθνικότητες` `[i eθnikoˈtites]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
-| `το εστιατόριο` | `[to estiaˈtorio]` | ресторан | `τα εστιατόρια` `[ta estiaˈtoria]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
 | `η ημερομηνία γέννησης` | `[i imeromiˈnia ˈyenisis]` | дата рождения | поле анкеты | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
+| `ο θείος` | `[o ˈθios]` | дядя | `οι θείοι` `[i ˈθii]` | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
 | `τα ιαπωνικά` | `[ta iaponiˈka]` | японский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
-| `καθόλου` | `[kaˈθolu]` | совсем не; нисколько | уровень знания | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
-| `καταλαβαίνω` | `[katalaˈveno]` | понимать | глагол типа А; также конспект текущего урока 06, PDF 1 и 5 | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
-| `η καφετέρια` | `[i kafeˈteria]` | кафе | `οι καφετέριες` `[i kafeˈteries]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
 | `τα κινέζικα` | `[ta kiˈnezika]` | китайский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
 | `η κομμώτρια` | `[i koˈmotria]` | парикмахер | `οι κομμώτριες` `[i koˈmotries]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
+| `η κοπέλα` | `[i koˈpela]` | девушка; подруга | `οι κοπέλες` `[i koˈpeles]` | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
+| `η κόρη` | `[i ˈkori]` | дочь | `οι κόρες` `[i ˈkores]` | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
 | `η κτηνίατρος` | `[i ktiniˈatros]` | ветеринар — женщина | `οι κτηνίατροι` `[i ktiniˈatri]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
-| `το κυλικείο` | `[to kiliˈkio]` | буфет, столовая при учреждении | `τα κυλικεία` `[ta kiliˈkia]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
-| `λίγο` | `[ˈliɣo]` | немного | уровень знания | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `ο μάγειρας` | `[o ˈmaɣiras]` | повар | `οι μάγειρες` `[i ˈmaɣires]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
-| `ο μαρκαδόρος` | `[o markaˈðoros]` | маркер | `οι μαρκαδόροι` `[i markaˈðori]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
-| `το μέρος` | `[to ˈmeros]` | место | `τα μέρη` `[ta ˈmeri]` | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
-| `το μεταπτυχιακό` | `[to metaptihiaˈko]` | магистратура; последипломная программа | `τα μεταπτυχιακά` `[ta metaptihiaˈka]` | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
+| `μαγειρεύω` | `[mayiˈrevo]` | готовить еду | глагол типа Α | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
 | `μέτρια γνώση` | `[ˈmetria ˈɣnosi]` | среднее знание | формулировка записки | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
-| `το μουσείο` | `[to muˈsio]` | музей | `τα μουσεία` `[ta muˈsia]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
-| `τα Νομικά` | `[ta nomiˈka]` | право, юридические науки | только множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
 | `ο ξυλουργός` | `[o ksilurˈɣos]` | столяр | `οι ξυλουργοί` `[i ksilurˈyi]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
 | `ξυπνάω` | `[ksiˈpnao]` | я просыпаюсь; бужу | модель Β1; смысл зависит от дополнения | [Урок 07, раздел](lesson-07.md#lesson-07-current-verbs) |
 | `τα ουγγρικά` | `[ta uŋgriˈka]` | венгерский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
+| `παντρεμένος / παντρεμένη / παντρεμένο` | `[pandreˈmenos / pandreˈmeni / pandreˈmeno]` | женатый / замужняя | прилагательное | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
+| `ο παππούς` | `[o paˈpus]` | дедушка | `οι παππούδες` `[i paˈpuðes]` | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
 | `η περιοχή` | `[i perioˈhi]` | район; область | `οι περιοχές` `[i perioˈhes]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `η πλατεία` | `[i plaˈtia]` | площадь | `οι πλατείες` `[i plaˈties]`; категория «адрес» в №6 | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
-| `πολύ καλά` | `[poˈli kaˈla]` | очень хорошо | уровень знания | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `τα πολωνικά` | `[ta poloniˈka]` | польский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
 | `οι προσωπικές πληροφορίες` | `[i prosopiˈkes plirofoˈries]` | личные данные | только множественное число; в записке исправлена опечатка | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `το πτυχίο` | `[to ptiˈhio]` | диплом, степень | `τα πτυχία` `[ta ptiˈhia]` | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
 | `η πωλήτρια` | `[i poˈlitria]` | продавщица | `οι πωλήτριες` `[i poˈlitries]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-jobs) |
 | `τα ρουμανικά` | `[ta rumaniˈka]` | румынский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
-| `το σπουδαστήριο` | `[to spuðaˈstirio]` | читальный зал; учебная комната | `τα σπουδαστήρια` `[ta spuðaˈstiria]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
 | `συζητάω` | `[siziˈtao]` | я беседую, обсуждаю | модель Β1; `συζητάμε` `[siziˈtame]` — мы беседуем | [Урок 07, раздел](lesson-07.md#lesson-07-current-verbs) |
 | `ο σύντροφος / η σύντροφος` | `[o ˈsindrofos / i ˈsindrofos]` | партнёр / партнёрша | `οι σύντροφοι` `[i ˈsindrofi]` | [Урок 07, раздел](lesson-07.md#lesson-07-current-verbs) |
+| `συχνά` | `[sihˈna]` | часто | наречие | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
+| `η σχέση` | `[i ˈshesi]` | отношения; связь | `οι σχέσεις` `[i ˈshesis]`; `έχω σχέση` `[ˈeho ˈshesi]` | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
 | `η ταυτότητα` | `[i tafˈtotita]` | удостоверение личности | `οι ταυτότητες` `[i tafˈtotites]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `ο ταχυδρομικός κώδικας` | `[o tahiðromiˈkos ˈkoðikas]` | почтовый индекс | `οι ταχυδρομικοί κώδικες` `[i tahiðromiˈki ˈkoðikes]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
 | `τα τσεχικά` | `[ta tsehiˈka]` | чешский язык | множественное число | [Урок 07, раздел](lesson-07.md#lesson-07-current-languages) |
-| `ο υπολογιστής` | `[o ipoloyiˈstis]` | компьютер | `οι υπολογιστές` `[i ipoloyiˈstes]` | [Урок 07, раздел](lesson-07.md#lesson-07-classroom) |
+| `το φαγητό` | `[to fayiˈto]` | еда; блюдо | `τα φαγητά` `[ta fayiˈta]` | [Урок 07, раздел](lesson-07.md#lesson-07-verified-coverage) |
+| `ο φιλόσοφος` | `[o fiˈlosofos]` | философ | `οι φιλόσοφοι` `[i fiˈlosofi]` | [Урок 07, раздел](lesson-07.md#lesson-07-page-vocabulary) |
 | `φτιάχνω` | `[ˈftiahno]` | я делаю, готовлю | в тексте — готовлю блюдо; `φτιάχνει` `[ˈftiahni]` — готовит | [Урок 07, раздел](lesson-07.md#lesson-07-current-verbs) |
 | `το φύλο` | `[to ˈfilo]` | пол | `τα φύλα` `[ta ˈfila]` | [Урок 07, раздел](lesson-07.md#lesson-07-application) |
+| `ο φωτογράφος` | `[o fotoˈɣrafos]` | фотограф | `οι φωτογράφοι` `[i fotoˈɣrafi]` | [Урок 07, раздел](lesson-07.md#lesson-07-page-vocabulary) |
 | `χαμογελάω` | `[hamoyeˈlao]` | я улыбаюсь | модель Β1 | [Урок 07, раздел](lesson-07.md#lesson-07-current-verbs) |
 | `ψάχνω` | `[ˈpsahno]` | искать | подсказка к упражнению 15 | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
-| `η Ψυχολογία` | `[i psiholoˈyia]` | психология | учебный предмет | [Урок 07, раздел](lesson-07.md#lesson-07-studies) |
 
 ## Впервые встретились на уроке 08
 
 | Слово | Транскрипция | Значение | Форма / примечание | Впервые встретилось |
 |---|---|---|---|---|
-| `αγαπάω` | `[aɣaˈpao]` | любить | тип Β1 | [Урок 08, упр. 9–10](lesson-08.md#lesson-08-verbs-b1) |
-| `αγαπημένος` | `[aɣapiˈmenos]` | любимый | `αγαπημένη / αγαπημένο` `[aɣapiˈmeni / aɣapiˈmeno]`; о любимом блюде | [Урок 08, раздел](lesson-08.md#lesson-08-reading-words) |
-| `η αδερφή / η αδελφή` | `[i aðerˈfi / i aðelˈfi]` | сестра | `οι αδερφές / οι αδελφές` `[i aðerˈfes / i aðelˈfes]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
-| `ο αδερφός / ο αδελφός` | `[o aðerˈfos / o aðelˈfos]` | брат | `οι αδερφοί / οι αδελφοί` `[i aðerˈfi / i aðelˈfi]`; `τα αδέρφια` `[ta aˈðerfya]` — братья и сёстры | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `ανεβαίνω` | `[aneˈveno]` | подниматься; садиться в транспорт | глагол типа Α | [Урок 08, раздел](lesson-08.md#lesson-08-verbs-a) |
 | `η ανιψιά` | `[i anipˈsha]` | племянница | `οι ανιψιές` `[i anipˈshes]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `ο ανιψιός` | `[o anipˈshos]` | племянник | `οι ανιψιοί` `[i anipˈshi]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `το αυτοκίνητο` | `[to aftoˈkinito]` | автомобиль | `τα αυτοκίνητα` `[ta aftoˈkinita]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
 | `βγαίνω` | `[ˈvɣeno]` | выходить; проводить время вне дома | глагол типа Α | [Урок 08, раздел](lesson-08.md#lesson-08-verbs-a) |
 | `το βραδινό` | `[to vraðiˈno]` | ужин; вечерняя еда | `τα βραδινά` `[ta vraðiˈna]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
-| `η γιαγιά` | `[i yaˈya]` | бабушка | `οι γιαγιάδες` `[i yaˈyaðes]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
-| `ο γιος` | `[o yos]` | сын | `οι γιοι` `[i yi]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
-| `οι γονείς` | `[i ɣoˈnis]` | родители | только множественное число | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `διψάω` | `[ðiˈpsao]` | хотеть пить | тип Β1 | [Урок 08, упр. 9–10](lesson-08.md#lesson-08-verbs-b1) |
 | `το δωμάτιο` | `[to ðoˈmatio]` | комната | `τα δωμάτια` `[ta ðoˈmatia]`; дополнительное упражнение | [Урок 08, раздел](lesson-08.md#lesson-08-reading-words) |
-| `η εγγονή` | `[i eŋgoˈni]` | внучка | `οι εγγονές` `[i eŋgoˈnes]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
-| `ο εγγονός` | `[o eŋgoˈnos]` | внук | `οι εγγονοί` `[i eŋgoˈni]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `ελεύθερος` | `[eˈlefθeros]` | свободный; не в отношениях | `ελεύθερη / ελεύθερο` `[eˈlefθeri / eˈlefθero]` | [Урок 08, раздел](lesson-08.md#lesson-08-current-words) |
 | `έξω` | `[ˈekso]` | наружу; вне дома | наречие | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
 | `το επίθετο` | `[to eˈpiθeto]` | фамилия | `τα επίθετα` `[ta eˈpiθeta]`; здесь синоним фамилии | [Урок 08, раздел](lesson-08.md#lesson-08-reading-words) |
@@ -456,35 +489,25 @@
 | `έτοιμος / έτοιμη / έτοιμο` | `[ˈetimos / ˈetimi / ˈetimo]` | готовый | прилагательное | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `η ζέστη` | `[i ˈzesti]` | жара; тепло | `Κάνει ζέστη.` `[ˈkani ˈzesti]` — жарко | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
 | `η θεία` | `[i ˈθia]` | тётя | `οι θείες` `[i ˈθies]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
-| `ο θείος` | `[o ˈθios]` | дядя | `οι θείοι` `[i ˈθii]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `το καλοκαίρι` | `[to kaloˈkeri]` | лето | `τα καλοκαίρια` `[ta kaloˈkeria]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
 | `κατεβαίνω` | `[kateˈveno]` | спускаться; выходить из транспорта | глагол типа Α | [Урок 08, раздел](lesson-08.md#lesson-08-verbs-a) |
 | `η κιθάρα` | `[i kiˈθara]` | гитара | `οι κιθάρες` `[i kiˈθares]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
-| `η κοπέλα` | `[i koˈpela]` | девушка; подруга | `οι κοπέλες` `[i koˈpeles]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
-| `η κόρη` | `[i ˈkori]` | дочь | `οι κόρες` `[i ˈkores]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `το κρέας` | `[to ˈkreas]` | мясо | `τα κρέατα` `[ta ˈkreata]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
 | `το κρύο` | `[to ˈkrio]` | холод | `Κάνει κρύο.` `[ˈkani ˈkrio]` — холодно | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
 | `το λεωφορείο` | `[to leofoˈrio]` | автобус | `τα λεωφορεία` `[ta leofoˈria]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
 | `ο λύκος` | `[o ˈlikos]` | волк | `οι λύκοι` `[i ˈliki]`; в выражении «голоден как волк» | [Урок 08, раздел](lesson-08.md#lesson-08-reading-words) |
-| `μαγειρεύω` | `[mayiˈrevo]` | готовить еду | глагол типа Α | [Урок 08, раздел](lesson-08.md#lesson-08-verbs-a) |
-| `η μαμά` | `[i maˈma]` | мама | `οι μαμάδες` `[i maˈmaðes]`; разговорное | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `το μοναχοπαίδι` | `[to monahoˈpeði]` | единственный ребёнок | `τα μοναχοπαίδια` `[ta monahoˈpeðya]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `η μουσική` | `[i musiˈki]` | музыка | `οι μουσικές` `[i musiˈkes]`; обычно единственное число | [Урок 08, раздел](lesson-08.md#lesson-08-reading-words) |
-| `το μωρό` | `[to moˈro]` | младенец | `τα μωρά` `[ta moˈra]`; дополнительное упражнение | [Урок 08, раздел](lesson-08.md#lesson-08-reading-words) |
 | `η ξαδέρφη / η ξαδέλφη` | `[i ksaˈðerfi / i ksaˈðelfi]` | двоюродная сестра | `οι ξαδέρφες / οι ξαδέλφες` `[i ksaˈðerfes / i ksaˈðelfes]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `ο ξάδερφος / ο ξάδελφος` | `[o ˈksaðerfos / o ˈksaðelfos]` | двоюродный брат | `οι ξάδερφοι / οι ξάδελφοι` `[i ˈksaðerfi / i ˈksaðelfi]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `ξεκινάω` | `[ksekiˈnao]` | я начинаю; отправляюсь | модель Β1 | [Урок 08, раздел](lesson-08.md#lesson-08-current-words) |
 | `η ξένη γλώσσα` | `[i ˈkseni ˈɣlosa]` | иностранный язык | `οι ξένες γλώσσες` `[i ˈksenes ˈɣloses]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
 | `ο όροφος` | `[o ˈorofos]` | этаж | `οι όροφοι` `[i ˈorofi]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
-| `παίζω` | `[ˈpezo]` | играть | глагол типа Α | [Урок 08, раздел](lesson-08.md#lesson-08-verbs-a) |
-| `παντρεμένος / παντρεμένη / παντρεμένο` | `[pandreˈmenos / pandreˈmeni / pandreˈmeno]` | женатый / замужняя | прилагательное | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
-| `ο παππούς` | `[o paˈpus]` | дедушка | `οι παππούδες` `[i paˈpuðes]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `το πάρκο` | `[to ˈparko]` | парк | `τα πάρκα` `[ta ˈparka]`; в упражнении о семье | [Урок 08, раздел](lesson-08.md#lesson-08-reading-words) |
 | `πεινάω` | `[piˈnao]` | хотеть есть; быть голодным | тип Β1 | [Урок 08, упр. 9–10](lesson-08.md#lesson-08-verbs-b1) |
 | `πονάω` | `[poˈnao]` | болеть; испытывать боль | тип Β1 | [Урок 08, упр. 9–10](lesson-08.md#lesson-08-verbs-b1) |
 | `προτιμάω` | `[protiˈmao]` | я предпочитаю | модель Β1 | [Урок 08, раздел](lesson-08.md#lesson-08-current-words) |
 | `το πρωινό` | `[to proiˈno]` | завтрак | `τα πρωινά` `[ta proiˈna]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
-| `ρωτάω` | `[roˈtao]` | спрашивать | тип Β1 | [Урок 08, упр. 9–10](lesson-08.md#lesson-08-verbs-b1) |
 | `το σαββατοκύριακο` | `[to savatokiˈriako]` | выходные | `τα σαββατοκύριακα` `[ta savatokiˈriaka]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
 | `το σάντουιτς` | `[to ˈsanduits]` | сэндвич | `τα σάντουιτς` `[ta ˈsanduits]`; не изменяется | [Урок 08, раздел](lesson-08.md#lesson-08-reading-words) |
 | `η σκάλα` | `[i ˈskala]` | лестница | `οι σκάλες` `[i ˈskales]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
@@ -494,13 +517,9 @@
 | `η στάση` | `[i ˈstasi]` | остановка | `οι στάσεις` `[i ˈstasis]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
 | `οι συγγενείς` | `[i sinyeˈnis]` | родственники | `ο / η συγγενής` `[o / i sinyeˈnis]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `ο σύζυγος` | `[o ˈsiziɣos]` | супруг | `οι σύζυγοι` `[i ˈsiziɣi]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
-| `συχνά` | `[sihˈna]` | часто | наречие | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
-| `η σχέση` | `[i ˈshesi]` | отношения; связь | `οι σχέσεις` `[i ˈshesis]`; `έχω σχέση` `[ˈeho ˈshesi]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `το τάμπλετ` | `[to ˈtablet]` | планшет | `τα τάμπλετ` `[ta ˈtablet]`; не изменяется | [Урок 08, раздел](lesson-08.md#lesson-08-current-words) |
 | `ταξιδεύω` | `[taksiˈðevo]` | путешествовать | глагол типа Α | [Урок 08, раздел](lesson-08.md#lesson-08-verbs-a) |
-| `τραγουδάω` | `[traɣuˈðao]` | петь | тип Β1 | [Урок 08, упр. 9–10](lesson-08.md#lesson-08-verbs-b1) |
 | `το τραγούδι` | `[to traˈɣuði]` | песня | `τα τραγούδια` `[ta traˈɣuðya]` | [Урок 08, раздел](lesson-08.md#lesson-08-context) |
-| `το φαγητό` | `[to fayiˈto]` | еда; блюдо | `τα φαγητά` `[ta fayiˈta]` | [Урок 08, раздел](lesson-08.md#lesson-08-family) |
 | `η φοιτητική εστία` | `[i fititiˈki eˈstia]` | студенческое общежитие | `οι φοιτητικές εστίες` `[i fititiˈkes eˈsties]`; дополнительное упражнение | [Урок 08, раздел](lesson-08.md#lesson-08-reading-words) |
 | `φοράω` | `[foˈrao]` | носить одежду | тип Β1 | [Урок 08, упр. 9–10](lesson-08.md#lesson-08-verbs-b1) |
 | `χωρίζω` | `[hoˈrizo]` | я расстаюсь; разделяю | в теме отношений: расстаюсь, развожусь | [Урок 08, раздел](lesson-08.md#lesson-08-reading-words) |

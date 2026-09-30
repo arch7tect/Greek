@@ -16,8 +16,9 @@ zero-padded lesson number. Distinguish verified content from inference.
    editing the wiki. Read
    [references/transcription.md](references/transcription.md) completely before
    adding any learner-facing Greek words or phrases.
-3. Inspect `git status --short`. Preserve existing edits and staging; do not
-   commit unless the user explicitly requests it.
+3. Inspect `git status --short`. Preserve existing edits and staging. Follow
+   the standing commit/push/publication instruction in `AGENTS.md`; a read-only
+   audit or tutoring request does not itself authorize edits.
 4. Inventory the relevant lesson and homework folders with `rg --files` and
    inspect each file's format, size, page count, dimensions, or duration.
 5. Treat `inbox/` as the unprocessed queue. Use `lesson-NN-<type>.<ext>` names
@@ -28,6 +29,10 @@ reusable book, invoke `$process-greek-book` instead. This skill consumes only
 the exact book pages needed for a lesson.
 
 ## Inspect every source
+
+For processing or rechecking lessons, read
+[references/coverage-review.md](references/coverage-review.md). Use its
+source-section matrix to review completeness, vocabulary availability and cards.
 
 - For PDFs, invoke the available PDF skill. Inspect metadata and the text layer,
   render pages, and visually review them. Never trust extraction alone for
@@ -55,9 +60,10 @@ Create or update only the pages justified by the material:
 1. A numbered lesson page describing goals, material actually covered,
    practice, homework, uncertainties, and repetition tasks. Explain how a
    beginner chooses between contrasting forms; include usage context and a
-   common mistake instead of only listing translations. Its «Материалы и
-   качество» section lists exact original paths, technical quality, processed
-   ranges, numbering discrepancies, and resulting pages.
+   common mistake instead of only listing translations. Keep original paths,
+   technical quality, processed ranges and discrepancies in
+   `extracted/lessons/lesson-NN-source-audit.md`, never in a learner-facing
+   «Материалы и качество» section, even collapsed. Follow the lesson template.
 2. A book card in `docs/books/` only for a reusable textbook, workbook, or
    reference book. Do not create a separate card for one lesson's files.
 3. Stable reference pages for reusable pronunciation, grammar, or communication
@@ -67,8 +73,9 @@ Create or update only the pages justified by the material:
 5. A per-lesson vocabulary page. Treat it as the only manually edited
    vocabulary source; generate the cumulative dictionary and trainer data from
    it.
-6. A one-screen memory note when the lesson contains material worth quick
-   recall.
+6. Compact lesson revision cards when justified. Review the cross-course core
+   set and Q&A separately; extend an existing topic before adding a card.
+   Keep detailed teaching and full texts in the lesson, not cards.
 7. Training material only when enough verified content exists; do not invent
    exercises merely to fill the section.
 
@@ -82,8 +89,10 @@ files that remain unprocessed or whose lesson assignment is unresolved.
 
 ## Extract vocabulary conservatively
 
-Include only words that occur in an exercise or are explicitly assigned. Do not
-inflate the dictionary with every word visible in an explanation or slide.
+Include words in assigned exercises, reading/dialogue tasks and explicitly
+given vocabulary. Inspect the full relevant text, not only annotated words.
+Do not inflate the dictionary with incidental instructions, unrelated nearby
+exercises or a song's every word.
 
 - Store nouns with article and plural when known.
 - Store verbs in the first-person singular dictionary form used by this course.
@@ -102,8 +111,8 @@ inflate the dictionary with every word visible in an explanation or slide.
   `docs/vocabulary/all.md` or `docs/assets/data/vocabulary-data.js` manually.
 - Run `scripts/build_vocabulary_data.py` after changing lesson vocabulary or
   priority. It generates both derived files. Review the per-lesson totals and
-  keep the generated files with the working changes; do not commit any file
-  unless the user explicitly requests a commit.
+  keep the generated files with the scoped changes. Check that current-lesson
+  vocabulary is actually available under the trainer's lesson filter.
 
 ## Validate
 
@@ -119,3 +128,7 @@ inflate the dictionary with every word visible in an explanation or slide.
 6. Report created pages, vocabulary counts, unresolved items, validation result,
    and commit status. Do not claim that a lesson was completed or homework was
    done unless the materials establish it.
+7. When publication is authorized by the request or standing rule, use
+   `$deploy-greek-wiki`: scoped commit, successful push, then deploy the clean
+   committed version. Report coverage limits honestly; a successful build does
+   not establish pedagogical completeness.

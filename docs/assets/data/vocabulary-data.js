@@ -1,6 +1,6 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 471,
+  "total": 490,
   "core": 285,
   "lessons": {
     "01": {
@@ -12,28 +12,28 @@ window.GREEK_VOCABULARY = {
       "core": 35
     },
     "03": {
-      "total": 21,
-      "core": 18
+      "total": 25,
+      "core": 22
     },
     "04": {
-      "total": 29,
-      "core": 25
+      "total": 48,
+      "core": 41
     },
     "05": {
-      "total": 51,
-      "core": 27
+      "total": 98,
+      "core": 38
     },
     "06": {
-      "total": 87,
-      "core": 54
+      "total": 64,
+      "core": 45
     },
     "07": {
-      "total": 62,
-      "core": 33
+      "total": 57,
+      "core": 32
     },
     "08": {
-      "total": 73,
-      "core": 55
+      "total": 50,
+      "core": 34
     },
     "09": {
       "total": 15,
@@ -1374,12 +1374,39 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "λέγομαι",
+      "lesson": "03",
+      "greek": "λέγομαι",
+      "transcription": "[ˈleɣome]",
+      "meaning": "зваться; меня зовут",
+      "note": "Λέγομαι Γιώργος [ˈleɣome ˈyorɣos]",
+      "core": true
+    },
+    {
+      "id": "με λένε",
+      "lesson": "03",
+      "greek": "με λένε",
+      "transcription": "[me ˈlene]",
+      "meaning": "меня зовут",
+      "note": "Πώς τον / τη λένε; [pos ton / ti ˈlene?] — как его / её зовут?",
+      "core": true
+    },
+    {
       "id": "μου",
       "lesson": "03",
       "greek": "μου",
       "transcription": "[mu]",
       "meaning": "мой; моя; моё",
       "note": "ставится после существительного",
+      "core": true
+    },
+    {
+      "id": "ξέρω",
+      "lesson": "03",
+      "greek": "ξέρω",
+      "transcription": "[ˈksero]",
+      "meaning": "знать",
+      "note": "глагол; ср. фразу δεν ξέρω [ðen ˈksero]",
       "core": true
     },
     {
@@ -1419,6 +1446,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "η φοιτήτρια",
+      "lesson": "03",
+      "greek": "η φοιτήτρια",
+      "transcription": "[i fiˈtitria]",
+      "meaning": "студентка",
+      "note": "οι φοιτήτριες [i fiˈtitries]; муж. ο φοιτητής [o fitiˈtis]",
+      "core": true
+    },
+    {
       "id": "χαίρετε",
       "lesson": "03",
       "greek": "χαίρετε",
@@ -1443,6 +1479,24 @@ window.GREEK_VOCABULARY = {
       "transcription": "[i aˈliθya]",
       "meaning": "правда",
       "note": "οι αλήθειες [i aˈliθyes]; в диалоге «кстати / правда»",
+      "core": true
+    },
+    {
+      "id": "αρχίζω",
+      "lesson": "04",
+      "greek": "αρχίζω",
+      "transcription": "[arˈhizo]",
+      "meaning": "начинать",
+      "note": "доп. файл, PDF 1, упр. 3",
+      "core": false
+    },
+    {
+      "id": "γιατί",
+      "lesson": "04",
+      "greek": "γιατί",
+      "transcription": "[yaˈti]",
+      "meaning": "почему; потому что",
+      "note": "и вопрос, и ответ",
       "core": true
     },
     {
@@ -1482,6 +1536,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "τα ελληνικά",
+      "lesson": "04",
+      "greek": "τα ελληνικά",
+      "transcription": "[ta eliniˈka]",
+      "meaning": "греческий язык",
+      "note": "только множественное число",
+      "core": true
+    },
+    {
       "id": "ένα",
       "lesson": "04",
       "greek": "ένα",
@@ -1509,12 +1572,30 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "έτσι κι έτσι",
+      "lesson": "04",
+      "greek": "έτσι κι έτσι",
+      "transcription": "[ˈetsi ki ˈetsi]",
+      "meaning": "так себе",
+      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
+      "core": true
+    },
+    {
       "id": "εφτά / επτά",
       "lesson": "04",
       "greek": "εφτά / επτά",
       "transcription": "[eˈfta / eˈpta]",
       "meaning": "7",
       "note": "разговорный / нейтральный варианты",
+      "core": true
+    },
+    {
+      "id": "έχω",
+      "lesson": "04",
+      "greek": "έχω",
+      "transcription": "[ˈeho]",
+      "meaning": "иметь",
+      "note": "глагол",
       "core": true
     },
     {
@@ -1536,6 +1617,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "καλούτσικα",
+      "lesson": "04",
+      "greek": "καλούτσικα",
+      "transcription": "[kaˈlutsika]",
+      "meaning": "неплохо; так, ничего",
+      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
+      "core": false
+    },
+    {
       "id": "ο Καναδάς",
       "lesson": "04",
       "greek": "ο Καναδάς",
@@ -1554,12 +1644,39 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "καταλαβαίνω",
+      "lesson": "04",
+      "greek": "καταλαβαίνω",
+      "transcription": "[katalaˈveno]",
+      "meaning": "понимать",
+      "note": "глагол типа А; также конспект текущего урока 06, PDF 1 и 5",
+      "core": true
+    },
+    {
       "id": "κοντά",
       "lesson": "04",
       "greek": "κοντά",
       "transcription": "[koˈnda]",
       "meaning": "близко; рядом",
       "note": "наречие",
+      "core": true
+    },
+    {
+      "id": "μαζί",
+      "lesson": "04",
+      "greek": "μαζί",
+      "transcription": "[maˈzi]",
+      "meaning": "вместе",
+      "note": "наречие",
+      "core": true
+    },
+    {
+      "id": "μαθαίνω",
+      "lesson": "04",
+      "greek": "μαθαίνω",
+      "transcription": "[maˈθeno]",
+      "meaning": "учить; изучать",
+      "note": "глагол",
       "core": true
     },
     {
@@ -1590,6 +1707,33 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "μια χαρά",
+      "lesson": "04",
+      "greek": "μια χαρά",
+      "transcription": "[mya haˈra]",
+      "meaning": "прекрасно; отлично",
+      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
+      "core": true
+    },
+    {
+      "id": "μόνο",
+      "lesson": "04",
+      "greek": "μόνο",
+      "transcription": "[ˈmono]",
+      "meaning": "только",
+      "note": "Έχω μόνο κινητό [ˈeho ˈmono kiniˈto] — из аудио",
+      "core": true
+    },
+    {
+      "id": "όχι και τόσο καλά",
+      "lesson": "04",
+      "greek": "όχι και τόσο καλά",
+      "transcription": "[ˈohi ke ˈtoso kaˈla]",
+      "meaning": "не так уж хорошо",
+      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
+      "core": false
+    },
+    {
       "id": "οχτώ / οκτώ",
       "lesson": "04",
       "greek": "οχτώ / οκτώ",
@@ -1608,12 +1752,30 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "παίζω",
+      "lesson": "04",
+      "greek": "παίζω",
+      "transcription": "[ˈpezo]",
+      "meaning": "играть",
+      "note": "глагол типа Α",
+      "core": true
+    },
+    {
       "id": "πέντε",
       "lesson": "04",
       "greek": "πέντε",
       "transcription": "[ˈpende]",
       "meaning": "5",
       "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "πηγαίνω",
+      "lesson": "04",
+      "greek": "πηγαίνω",
+      "transcription": "[piˈyeno]",
+      "meaning": "идти; ехать",
+      "note": "глагол",
       "core": true
     },
     {
@@ -1626,6 +1788,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "πολύ καλά",
+      "lesson": "04",
+      "greek": "πολύ καλά",
+      "transcription": "[poˈli kaˈla]",
+      "meaning": "очень хорошо",
+      "note": "уровень знания",
+      "core": true
+    },
+    {
       "id": "πού",
       "lesson": "04",
       "greek": "πού",
@@ -1635,12 +1806,39 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "πρώτος / πρώτη / πρώτο",
+      "lesson": "04",
+      "greek": "πρώτος / πρώτη / πρώτο",
+      "transcription": "[ˈprotos / ˈproti / ˈproto]",
+      "meaning": "первый",
+      "note": "прилагательное",
+      "core": true
+    },
+    {
+      "id": "σήμερα",
+      "lesson": "04",
+      "greek": "σήμερα",
+      "transcription": "[ˈsimera]",
+      "meaning": "сегодня",
+      "note": "наречие",
+      "core": true
+    },
+    {
       "id": "ο σκύλος",
       "lesson": "04",
       "greek": "ο σκύλος",
       "transcription": "[o ˈskilos]",
       "meaning": "собака",
       "note": "οι σκύλοι [i ˈskili]; сборник, с. 147, упр. 7α",
+      "core": true
+    },
+    {
+      "id": "σπουδάζω",
+      "lesson": "04",
+      "greek": "σπουδάζω",
+      "transcription": "[spuˈðazo]",
+      "meaning": "учиться; изучать в вузе",
+      "note": "глагол",
       "core": true
     },
     {
@@ -1689,6 +1887,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "χάλια",
+      "lesson": "04",
+      "greek": "χάλια",
+      "transcription": "[ˈhalya]",
+      "meaning": "ужасно; очень плохо",
+      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
+      "core": true
+    },
+    {
       "id": "αγοράζω",
       "lesson": "05",
       "greek": "αγοράζω",
@@ -1716,6 +1923,33 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "η αλλεργία",
+      "lesson": "05",
+      "greek": "η αλλεργία",
+      "transcription": "[i alerˈyia]",
+      "meaning": "аллергия",
+      "note": "οι αλλεργίες [i alerˈyies]",
+      "core": false
+    },
+    {
+      "id": "το αμφιθέατρο",
+      "lesson": "05",
+      "greek": "το αμφιθέατρο",
+      "transcription": "[to amfiˈθeatro]",
+      "meaning": "амфитеатр; большая аудитория",
+      "note": "τα αμφιθέατρα [ta amfiˈθeatra]",
+      "core": false
+    },
+    {
+      "id": "ο άντρας",
+      "lesson": "05",
+      "greek": "ο άντρας",
+      "transcription": "[o ˈandras]",
+      "meaning": "мужчина",
+      "note": "οι άντρες [i ˈandres]",
+      "core": true
+    },
+    {
       "id": "αριστερά",
       "lesson": "05",
       "greek": "αριστερά",
@@ -1734,15 +1968,6 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "αρχίζω",
-      "lesson": "05",
-      "greek": "αρχίζω",
-      "transcription": "[arˈhizo]",
-      "meaning": "начинать",
-      "note": "доп. файл, PDF 1, упр. 3",
-      "core": false
-    },
-    {
       "id": "η άσκηση",
       "lesson": "05",
       "greek": "η άσκηση",
@@ -1752,12 +1977,48 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "η αστρολογία",
+      "lesson": "05",
+      "greek": "η αστρολογία",
+      "transcription": "[i astroloˈyia]",
+      "meaning": "астрология",
+      "note": "οι αστρολογίες [i astroloˈyies]; обычно единственное число",
+      "core": false
+    },
+    {
       "id": "η Αυστρία",
       "lesson": "05",
       "greek": "η Αυστρία",
       "transcription": "[i afˈstria]",
       "meaning": "Австрия",
       "note": "страна",
+      "core": false
+    },
+    {
+      "id": "η Βαρκελώνη",
+      "lesson": "05",
+      "greek": "η Βαρκελώνη",
+      "transcription": "[i varkeˈloni]",
+      "meaning": "Барселона",
+      "note": "город",
+      "core": false
+    },
+    {
+      "id": "η βιβλιοθήκη",
+      "lesson": "05",
+      "greek": "η βιβλιοθήκη",
+      "transcription": "[i vivlioˈθiki]",
+      "meaning": "библиотека",
+      "note": "οι βιβλιοθήκες [i vivlioˈθikes]",
+      "core": true
+    },
+    {
+      "id": "η βιογραφία",
+      "lesson": "05",
+      "greek": "η βιογραφία",
+      "transcription": "[i vioɣraˈfia]",
+      "meaning": "биография",
+      "note": "οι βιογραφίες [i vioɣraˈfies]",
       "core": false
     },
     {
@@ -1788,13 +2049,76 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "γιατί",
+      "id": "η γυναίκα",
       "lesson": "05",
-      "greek": "γιατί",
-      "transcription": "[yaˈti]",
-      "meaning": "почему; потому что",
-      "note": "и вопрос, и ответ",
+      "greek": "η γυναίκα",
+      "transcription": "[i yiˈneka]",
+      "meaning": "женщина",
+      "note": "οι γυναίκες [i yiˈnekes]",
       "core": true
+    },
+    {
+      "id": "δεκαεννιά / δεκαεννέα",
+      "lesson": "05",
+      "greek": "δεκαεννιά / δεκαεννέα",
+      "transcription": "[ðekaeˈnya / ðekaeˈnea]",
+      "meaning": "девятнадцать",
+      "note": "варианты не смешиваются",
+      "core": false
+    },
+    {
+      "id": "δεκαέξι",
+      "lesson": "05",
+      "greek": "δεκαέξι",
+      "transcription": "[ðekaˈeksi]",
+      "meaning": "шестнадцать",
+      "note": "числительное",
+      "core": false
+    },
+    {
+      "id": "δεκαεφτά / δεκαεπτά",
+      "lesson": "05",
+      "greek": "δεκαεφτά / δεκαεπτά",
+      "transcription": "[ðekaeˈfta / ðekaeˈpta]",
+      "meaning": "семнадцать",
+      "note": "варианты не смешиваются",
+      "core": false
+    },
+    {
+      "id": "δεκαοχτώ / δεκαοκτώ",
+      "lesson": "05",
+      "greek": "δεκαοχτώ / δεκαοκτώ",
+      "transcription": "[ðekaoˈhto / ðekaoˈkto]",
+      "meaning": "восемнадцать",
+      "note": "варианты не смешиваются",
+      "core": false
+    },
+    {
+      "id": "δεκαπέντε",
+      "lesson": "05",
+      "greek": "δεκαπέντε",
+      "transcription": "[ðekaˈpende]",
+      "meaning": "пятнадцать",
+      "note": "числительное",
+      "core": false
+    },
+    {
+      "id": "δεκατέσσερα",
+      "lesson": "05",
+      "greek": "δεκατέσσερα",
+      "transcription": "[ðekaˈtesera]",
+      "meaning": "четырнадцать",
+      "note": "числительное",
+      "core": false
+    },
+    {
+      "id": "δεκατρία",
+      "lesson": "05",
+      "greek": "δεκατρία",
+      "transcription": "[ðekaˈtria]",
+      "meaning": "тринадцать",
+      "note": "числительное",
+      "core": false
     },
     {
       "id": "δεξιά",
@@ -1815,6 +2139,69 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "ο διάλογος",
+      "lesson": "05",
+      "greek": "ο διάλογος",
+      "transcription": "[o ðiˈaloɣos]",
+      "meaning": "диалог",
+      "note": "οι διάλογοι [i ðiˈaloɣi]",
+      "core": false
+    },
+    {
+      "id": "η διεύθυνση",
+      "lesson": "05",
+      "greek": "η διεύθυνση",
+      "transcription": "[i ðiˈefθinsi]",
+      "meaning": "адрес",
+      "note": "οι διευθύνσεις [i ðiefˈθinsis]",
+      "core": true
+    },
+    {
+      "id": "το δίπλωμα",
+      "lesson": "05",
+      "greek": "το δίπλωμα",
+      "transcription": "[to ˈðiploma]",
+      "meaning": "диплом",
+      "note": "τα διπλώματα [ta ðiˈplomata]",
+      "core": false
+    },
+    {
+      "id": "δώδεκα",
+      "lesson": "05",
+      "greek": "δώδεκα",
+      "transcription": "[ˈðoðeka]",
+      "meaning": "двенадцать",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "εβδομήντα",
+      "lesson": "05",
+      "greek": "εβδομήντα",
+      "transcription": "[evðoˈminda]",
+      "meaning": "семьдесят",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "η εγγραφή",
+      "lesson": "05",
+      "greek": "η εγγραφή",
+      "transcription": "[i eŋgraˈfi]",
+      "meaning": "запись, регистрация",
+      "note": "κάνω εγγραφή [ˈkano eŋgraˈfi] — записываюсь",
+      "core": true
+    },
+    {
+      "id": "είκοσι",
+      "lesson": "05",
+      "greek": "είκοσι",
+      "transcription": "[ˈikosi]",
+      "meaning": "двадцать",
+      "note": "числительное",
+      "core": true
+    },
+    {
       "id": "το εισιτήριο",
       "lesson": "05",
       "greek": "το εισιτήριο",
@@ -1824,21 +2211,57 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "τα ελληνικά",
+      "id": "εκατό",
       "lesson": "05",
-      "greek": "τα ελληνικά",
-      "transcription": "[ta eliniˈka]",
-      "meaning": "греческий язык",
-      "note": "только множественное число",
+      "greek": "εκατό",
+      "transcription": "[ekaˈto]",
+      "meaning": "сто",
+      "note": "числительное",
       "core": true
     },
     {
-      "id": "έτσι κι έτσι",
+      "id": "ο ελέφαντας",
       "lesson": "05",
-      "greek": "έτσι κι έτσι",
-      "transcription": "[ˈetsi ki ˈetsi]",
-      "meaning": "так себе",
-      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
+      "greek": "ο ελέφαντας",
+      "transcription": "[o eˈlefantas]",
+      "meaning": "слон",
+      "note": "οι ελέφαντες [i eˈlefantes]",
+      "core": false
+    },
+    {
+      "id": "ενενήντα",
+      "lesson": "05",
+      "greek": "ενενήντα",
+      "transcription": "[eneˈninda]",
+      "meaning": "девяносто",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "έντεκα",
+      "lesson": "05",
+      "greek": "έντεκα",
+      "transcription": "[ˈendeka]",
+      "meaning": "одиннадцать",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "εξήντα",
+      "lesson": "05",
+      "greek": "εξήντα",
+      "transcription": "[eˈksinda]",
+      "meaning": "шестьдесят",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "το εστιατόριο",
+      "lesson": "05",
+      "greek": "το εστιατόριο",
+      "transcription": "[to estiaˈtorio]",
+      "meaning": "ресторан",
+      "note": "τα εστιατόρια [ta estiaˈtoria]",
       "core": true
     },
     {
@@ -1851,13 +2274,13 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "έχω",
+      "id": "το ζώο",
       "lesson": "05",
-      "greek": "έχω",
-      "transcription": "[ˈeho]",
-      "meaning": "иметь",
-      "note": "глагол",
-      "core": true
+      "greek": "το ζώο",
+      "transcription": "[to ˈzoo]",
+      "meaning": "животное",
+      "note": "τα ζώα [ta ˈzoa]",
+      "core": false
     },
     {
       "id": "η Θεσσαλονίκη",
@@ -1866,6 +2289,24 @@ window.GREEK_VOCABULARY = {
       "transcription": "[i θesaloˈniki]",
       "meaning": "Салоники",
       "note": "город",
+      "core": false
+    },
+    {
+      "id": "η Ισπανίδα",
+      "lesson": "05",
+      "greek": "η Ισπανίδα",
+      "transcription": "[i ispaˈniða]",
+      "meaning": "испанка",
+      "note": "национальность, ж. р.",
+      "core": false
+    },
+    {
+      "id": "η Ιστορία",
+      "lesson": "05",
+      "greek": "η Ιστορία",
+      "transcription": "[i istoˈria]",
+      "meaning": "история",
+      "note": "учебный предмет",
       "core": false
     },
     {
@@ -1878,12 +2319,66 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "καλούτσικα",
+      "id": "καλή αρχή",
       "lesson": "05",
-      "greek": "καλούτσικα",
-      "transcription": "[kaˈlutsika]",
-      "meaning": "неплохо; так, ничего",
-      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
+      "greek": "καλή αρχή",
+      "transcription": "[kaˈli arˈhi]",
+      "meaning": "удачного начала!",
+      "note": "пожелание",
+      "core": false
+    },
+    {
+      "id": "η κάρτα",
+      "lesson": "05",
+      "greek": "η κάρτα",
+      "transcription": "[i ˈkarta]",
+      "meaning": "карточка",
+      "note": "οι κάρτες [i ˈkartes]",
+      "core": false
+    },
+    {
+      "id": "η καταστροφή",
+      "lesson": "05",
+      "greek": "η καταστροφή",
+      "transcription": "[i kataˈstrofi]",
+      "meaning": "катастрофа; разрушение",
+      "note": "οι καταστροφές [i katastroˈfes]",
+      "core": false
+    },
+    {
+      "id": "η καφετέρια",
+      "lesson": "05",
+      "greek": "η καφετέρια",
+      "transcription": "[i kafeˈteria]",
+      "meaning": "кафе",
+      "note": "οι καφετέριες [i kafeˈteries]",
+      "core": true
+    },
+    {
+      "id": "ο κινηματογράφος",
+      "lesson": "05",
+      "greek": "ο κινηματογράφος",
+      "transcription": "[o kinimatoˈɣrafos]",
+      "meaning": "кино; кинотеатр",
+      "note": "οι κινηματογράφοι [i kinimatoˈɣrafi]",
+      "core": false
+    },
+    {
+      "id": "το κινητό",
+      "lesson": "05",
+      "greek": "το κινητό",
+      "transcription": "[to kiniˈto]",
+      "meaning": "мобильный телефон",
+      "note": "τα κινητά [ta kiniˈta]",
+      "core": true
+    },
+    {
+      "id": "το κομπιούτερ",
+      "lesson": "05",
+      "greek": "το κομπιούτερ",
+      "transcription": "[to koˈbiuter]",
+      "meaning": "компьютер",
+      "note": "τα κομπιούτερ [ta koˈbiuter]",
       "core": false
     },
     {
@@ -1896,6 +2391,15 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "το κυλικείο",
+      "lesson": "05",
+      "greek": "το κυλικείο",
+      "transcription": "[to kiliˈkio]",
+      "meaning": "буфет, столовая при учреждении",
+      "note": "τα κυλικεία [ta kiliˈkia]",
+      "core": false
+    },
+    {
       "id": "η Κυψέλη",
       "lesson": "05",
       "greek": "η Κυψέλη",
@@ -1905,57 +2409,75 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "λέγομαι",
+      "id": "το λιοντάρι",
       "lesson": "05",
-      "greek": "λέγομαι",
-      "transcription": "[ˈleɣome]",
-      "meaning": "зваться; меня зовут",
-      "note": "Λέγομαι Γιώργος [ˈleɣome ˈyorɣos]",
+      "greek": "το λιοντάρι",
+      "transcription": "[to lioˈndari]",
+      "meaning": "лев",
+      "note": "τα λιοντάρια [ta lioˈndarya]",
+      "core": false
+    },
+    {
+      "id": "μάλιστα",
+      "lesson": "05",
+      "greek": "μάλιστα",
+      "transcription": "[ˈmalista]",
+      "meaning": "да, конечно; так точно",
+      "note": "вежливое подтверждение",
       "core": true
     },
     {
-      "id": "μαζί",
+      "id": "ο μαρκαδόρος",
       "lesson": "05",
-      "greek": "μαζί",
-      "transcription": "[maˈzi]",
-      "meaning": "вместе",
-      "note": "наречие",
+      "greek": "ο μαρκαδόρος",
+      "transcription": "[o markaˈðoros]",
+      "meaning": "маркер",
+      "note": "οι μαρκαδόροι [i markaˈðori]",
       "core": true
     },
     {
-      "id": "μαθαίνω",
+      "id": "το μέιλ",
       "lesson": "05",
-      "greek": "μαθαίνω",
-      "transcription": "[maˈθeno]",
-      "meaning": "учить; изучать",
-      "note": "глагол",
+      "greek": "το μέιλ",
+      "transcription": "[to ˈmeil]",
+      "meaning": "имейл",
+      "note": "несклоняемое",
       "core": true
     },
     {
-      "id": "με λένε",
+      "id": "το μουσείο",
       "lesson": "05",
-      "greek": "με λένε",
-      "transcription": "[me ˈlene]",
-      "meaning": "меня зовут",
-      "note": "Πώς τον / τη λένε; [pos ton / ti ˈlene?] — как его / её зовут?",
+      "greek": "το μουσείο",
+      "transcription": "[to muˈsio]",
+      "meaning": "музей",
+      "note": "τα μουσεία [ta muˈsia]",
+      "core": false
+    },
+    {
+      "id": "το μωρό",
+      "lesson": "05",
+      "greek": "το μωρό",
+      "transcription": "[to moˈro]",
+      "meaning": "младенец",
+      "note": "τα μωρά [ta moˈra]; дополнительное упражнение",
+      "core": false
+    },
+    {
+      "id": "ογδόντα",
+      "lesson": "05",
+      "greek": "ογδόντα",
+      "transcription": "[oɣˈðonda]",
+      "meaning": "восемьдесят",
+      "note": "числительное",
       "core": true
     },
     {
-      "id": "μια χαρά",
+      "id": "ορίστε",
       "lesson": "05",
-      "greek": "μια χαρά",
-      "transcription": "[mya haˈra]",
-      "meaning": "прекрасно; отлично",
-      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
-      "core": true
-    },
-    {
-      "id": "ξέρω",
-      "lesson": "05",
-      "greek": "ξέρω",
-      "transcription": "[ˈksero]",
-      "meaning": "знать",
-      "note": "глагол; ср. фразу δεν ξέρω [ðen ˈksero]",
+      "greek": "ορίστε",
+      "transcription": "[oˈriste]",
+      "meaning": "вот, пожалуйста; слушаю",
+      "note": "при передаче вещи или ответе на зов",
       "core": true
     },
     {
@@ -1968,21 +2490,30 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "όχι και τόσο καλά",
-      "lesson": "05",
-      "greek": "όχι και τόσο καλά",
-      "transcription": "[ˈohi ke ˈtoso kaˈla]",
-      "meaning": "не так уж хорошо",
-      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
-      "core": false
-    },
-    {
       "id": "το Πακιστάν",
       "lesson": "05",
       "greek": "το Πακιστάν",
       "transcription": "[to pakiˈstan]",
       "meaning": "Пакистан",
       "note": "несклоняемое",
+      "core": false
+    },
+    {
+      "id": "το πανεπιστήμιο",
+      "lesson": "05",
+      "greek": "το πανεπιστήμιο",
+      "transcription": "[to panepiˈstimio]",
+      "meaning": "университет",
+      "note": "τα πανεπιστήμια [ta panepiˈstimia]",
+      "core": true
+    },
+    {
+      "id": "το παπάκι",
+      "lesson": "05",
+      "greek": "το παπάκι",
+      "transcription": "[to paˈpaki]",
+      "meaning": "значок @; утёнок",
+      "note": "τα παπάκια [ta paˈpakya]",
       "core": false
     },
     {
@@ -2004,21 +2535,21 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "πενήντα",
+      "lesson": "05",
+      "greek": "πενήντα",
+      "transcription": "[peˈninda]",
+      "meaning": "пятьдесят",
+      "note": "числительное",
+      "core": true
+    },
+    {
       "id": "περιμένω",
       "lesson": "05",
       "greek": "περιμένω",
       "transcription": "[periˈmeno]",
       "meaning": "ждать",
       "note": "доп. файл, PDF 3, упр. 4",
-      "core": true
-    },
-    {
-      "id": "πηγαίνω",
-      "lesson": "05",
-      "greek": "πηγαίνω",
-      "transcription": "[piˈyeno]",
-      "meaning": "идти; ехать",
-      "note": "глагол",
       "core": true
     },
     {
@@ -2040,13 +2571,22 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "πρώτος / πρώτη / πρώτο",
+      "id": "πώς λέγεστε;",
       "lesson": "05",
-      "greek": "πρώτος / πρώτη / πρώτο",
-      "transcription": "[ˈprotos / ˈproti / ˈproto]",
-      "meaning": "первый",
-      "note": "прилагательное",
+      "greek": "πώς λέγεστε;",
+      "transcription": "[pos ˈleyeste?]",
+      "meaning": "как вас зовут?",
+      "note": "вежливая форма λέγομαι [ˈleɣome]",
       "core": true
+    },
+    {
+      "id": "το ραδιόφωνο",
+      "lesson": "05",
+      "greek": "το ραδιόφωνο",
+      "transcription": "[to raðiˈofono]",
+      "meaning": "радио",
+      "note": "τα ραδιόφωνα [ta raðiˈofona]",
+      "core": false
     },
     {
       "id": "το ράφι",
@@ -2058,12 +2598,21 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "σήμερα",
+      "id": "ο ρυθμός",
       "lesson": "05",
-      "greek": "σήμερα",
-      "transcription": "[ˈsimera]",
-      "meaning": "сегодня",
-      "note": "наречие",
+      "greek": "ο ρυθμός",
+      "transcription": "[o riθˈmos]",
+      "meaning": "ритм",
+      "note": "οι ρυθμοί [i riθˈmi]",
+      "core": false
+    },
+    {
+      "id": "σαράντα",
+      "lesson": "05",
+      "greek": "σαράντα",
+      "transcription": "[saˈranda]",
+      "meaning": "сорок",
+      "note": "числительное",
       "core": true
     },
     {
@@ -2076,13 +2625,13 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "σπουδάζω",
+      "id": "το σπουδαστήριο",
       "lesson": "05",
-      "greek": "σπουδάζω",
-      "transcription": "[spuˈðazo]",
-      "meaning": "учиться; изучать в вузе",
-      "note": "глагол",
-      "core": true
+      "greek": "το σπουδαστήριο",
+      "transcription": "[to spuðaˈstirio]",
+      "meaning": "читальный зал; учебная комната",
+      "note": "τα σπουδαστήρια [ta spuðaˈstiria]",
+      "core": false
     },
     {
       "id": "το σφουγγάρι",
@@ -2091,6 +2640,15 @@ window.GREEK_VOCABULARY = {
       "transcription": "[to sfuŋˈgari]",
       "meaning": "губка",
       "note": "τα σφουγγάρια [ta sfuŋˈgarya]; конспект, PDF 3",
+      "core": false
+    },
+    {
+      "id": "η τελεία",
+      "lesson": "05",
+      "greek": "η τελεία",
+      "transcription": "[i teˈlia]",
+      "meaning": "точка",
+      "note": "не путать с τέλεια [ˈtelia] — «отлично»",
       "core": false
     },
     {
@@ -2103,12 +2661,30 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "η τεχνολογία",
+      "lesson": "05",
+      "greek": "η τεχνολογία",
+      "transcription": "[i tehnoloˈyia]",
+      "meaning": "технология",
+      "note": "οι τεχνολογίες [i tehnoloˈyies]",
+      "core": false
+    },
+    {
       "id": "ο τοίχος",
       "lesson": "05",
       "greek": "ο τοίχος",
       "transcription": "[o ˈtihos]",
       "meaning": "стена",
       "note": "οι τοίχοι [i ˈtihi]; конспект, PDF 3",
+      "core": false
+    },
+    {
+      "id": "η τραγωδία",
+      "lesson": "05",
+      "greek": "η τραγωδία",
+      "transcription": "[i traɣoˈðia]",
+      "meaning": "трагедия",
+      "note": "οι τραγωδίες [i traɣoˈðies]",
       "core": false
     },
     {
@@ -2121,6 +2697,33 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "το τρένο",
+      "lesson": "05",
+      "greek": "το τρένο",
+      "transcription": "[to ˈtreno]",
+      "meaning": "поезд",
+      "note": "τα τρένα [ta ˈtrena]",
+      "core": false
+    },
+    {
+      "id": "τριάντα",
+      "lesson": "05",
+      "greek": "τριάντα",
+      "transcription": "[triˈanda]",
+      "meaning": "тридцать",
+      "note": "числительное",
+      "core": true
+    },
+    {
+      "id": "ο υπολογιστής",
+      "lesson": "05",
+      "greek": "ο υπολογιστής",
+      "transcription": "[o ipoloyiˈstis]",
+      "meaning": "компьютер",
+      "note": "οι υπολογιστές [i ipoloyiˈstes]",
+      "core": true
+    },
+    {
       "id": "η Φιλοθέη",
       "lesson": "05",
       "greek": "η Φιλοθέη",
@@ -2130,13 +2733,22 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "χάλια",
+      "id": "η φιλοσοφία",
       "lesson": "05",
-      "greek": "χάλια",
-      "transcription": "[ˈhalya]",
-      "meaning": "ужасно; очень плохо",
-      "note": "ответ на Τι κάνεις; [ti ˈkanis?]",
-      "core": true
+      "greek": "η φιλοσοφία",
+      "transcription": "[i filosoˈfia]",
+      "meaning": "философия",
+      "note": "οι φιλοσοφίες [i filosoˈfies]; обычно единственное число",
+      "core": false
+    },
+    {
+      "id": "η φωτογραφία",
+      "lesson": "05",
+      "greek": "η φωτογραφία",
+      "transcription": "[i fotoɣraˈfia]",
+      "meaning": "фотография",
+      "note": "οι φωτογραφίες [i fotoɣraˈfies]",
+      "core": false
     },
     {
       "id": "ο χάρτης",
@@ -2148,12 +2760,57 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "η ψυχή",
+      "lesson": "05",
+      "greek": "η ψυχή",
+      "transcription": "[i psiˈhi]",
+      "meaning": "душа",
+      "note": "οι ψυχές [i psiˈhes]",
+      "core": false
+    },
+    {
+      "id": "η Ψυχολογία",
+      "lesson": "05",
+      "greek": "η Ψυχολογία",
+      "transcription": "[i psiholoˈyia]",
+      "meaning": "психология",
+      "note": "учебный предмет",
+      "core": false
+    },
+    {
+      "id": "αγαπάω",
+      "lesson": "06",
+      "greek": "αγαπάω",
+      "transcription": "[aɣaˈpao]",
+      "meaning": "любить",
+      "note": "тип Β1",
+      "core": true
+    },
+    {
       "id": "τα αγγλικά",
       "lesson": "06",
       "greek": "τα αγγλικά",
       "transcription": "[ta aŋgliˈka]",
       "meaning": "английский язык",
       "note": "множественное число; после «говорить» обычно без артикля",
+      "core": true
+    },
+    {
+      "id": "η αδερφή / η αδελφή",
+      "lesson": "06",
+      "greek": "η αδερφή / η αδελφή",
+      "transcription": "[i aðerˈfi / i aðelˈfi]",
+      "meaning": "сестра",
+      "note": "οι αδερφές / οι αδελφές [i aðerˈfes / i aðelˈfes]",
+      "core": true
+    },
+    {
+      "id": "ο αδερφός / ο αδελφός",
+      "lesson": "06",
+      "greek": "ο αδερφός / ο αδελφός",
+      "transcription": "[o aðerˈfos / o aðelˈfos]",
+      "meaning": "брат",
+      "note": "οι αδερφοί / οι αδελφοί [i aðerˈfi / i aðelˈfi]; τα αδέρφια [ta aˈðerfya] — братья и сёстры",
       "core": true
     },
     {
@@ -2193,15 +2850,6 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "η Βαρκελώνη",
-      "lesson": "06",
-      "greek": "η Βαρκελώνη",
-      "transcription": "[i varkeˈloni]",
-      "meaning": "Барселона",
-      "note": "город",
-      "core": false
-    },
-    {
       "id": "η Βιολογία",
       "lesson": "06",
       "greek": "η Βιολογία",
@@ -2209,6 +2857,15 @@ window.GREEK_VOCABULARY = {
       "meaning": "биология",
       "note": "учебная дисциплина; без мн. числа",
       "core": false
+    },
+    {
+      "id": "βοηθάω",
+      "lesson": "06",
+      "greek": "βοηθάω",
+      "transcription": "[voiˈθao]",
+      "meaning": "помогать",
+      "note": "глагол типа Β на -άω [-ˈao]",
+      "core": true
     },
     {
       "id": "η Γαλλίδα",
@@ -2283,66 +2940,12 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "δεκαεννιά / δεκαεννέα",
+      "id": "το διδακτορικό",
       "lesson": "06",
-      "greek": "δεκαεννιά / δεκαεννέα",
-      "transcription": "[ðekaeˈnya / ðekaeˈnea]",
-      "meaning": "девятнадцать",
-      "note": "варианты не смешиваются",
-      "core": false
-    },
-    {
-      "id": "δεκαέξι",
-      "lesson": "06",
-      "greek": "δεκαέξι",
-      "transcription": "[ðekaˈeksi]",
-      "meaning": "шестнадцать",
-      "note": "числительное",
-      "core": false
-    },
-    {
-      "id": "δεκαεφτά / δεκαεπτά",
-      "lesson": "06",
-      "greek": "δεκαεφτά / δεκαεπτά",
-      "transcription": "[ðekaeˈfta / ðekaeˈpta]",
-      "meaning": "семнадцать",
-      "note": "варианты не смешиваются",
-      "core": false
-    },
-    {
-      "id": "δεκαοχτώ / δεκαοκτώ",
-      "lesson": "06",
-      "greek": "δεκαοχτώ / δεκαοκτώ",
-      "transcription": "[ðekaoˈhto / ðekaoˈkto]",
-      "meaning": "восемнадцать",
-      "note": "варианты не смешиваются",
-      "core": false
-    },
-    {
-      "id": "δεκαπέντε",
-      "lesson": "06",
-      "greek": "δεκαπέντε",
-      "transcription": "[ðekaˈpende]",
-      "meaning": "пятнадцать",
-      "note": "числительное",
-      "core": false
-    },
-    {
-      "id": "δεκατέσσερα",
-      "lesson": "06",
-      "greek": "δεκατέσσερα",
-      "transcription": "[ðekaˈtesera]",
-      "meaning": "четырнадцать",
-      "note": "числительное",
-      "core": false
-    },
-    {
-      "id": "δεκατρία",
-      "lesson": "06",
-      "greek": "δεκατρία",
-      "transcription": "[ðekaˈtria]",
-      "meaning": "тринадцать",
-      "note": "числительное",
+      "greek": "το διδακτορικό",
+      "transcription": "[to ðiðaktoriˈko]",
+      "meaning": "докторантура; докторская работа",
+      "note": "τα διδακτορικά [ta ðiðaktoriˈka]",
       "core": false
     },
     {
@@ -2352,15 +2955,6 @@ window.GREEK_VOCABULARY = {
       "transcription": "[ðiˈðasko]",
       "meaning": "преподавать",
       "note": "контраст: μαθαίνω [maˈθeno] — учить(ся)",
-      "core": true
-    },
-    {
-      "id": "η διεύθυνση",
-      "lesson": "06",
-      "greek": "η διεύθυνση",
-      "transcription": "[i ðiˈefθinsi]",
-      "meaning": "адрес",
-      "note": "οι διευθύνσεις [i ðiefˈθinsis]",
       "core": true
     },
     {
@@ -2382,51 +2976,6 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "δώδεκα",
-      "lesson": "06",
-      "greek": "δώδεκα",
-      "transcription": "[ˈðoðeka]",
-      "meaning": "двенадцать",
-      "note": "числительное",
-      "core": true
-    },
-    {
-      "id": "εβδομήντα",
-      "lesson": "06",
-      "greek": "εβδομήντα",
-      "transcription": "[evðoˈminda]",
-      "meaning": "семьдесят",
-      "note": "числительное",
-      "core": true
-    },
-    {
-      "id": "η εγγραφή",
-      "lesson": "06",
-      "greek": "η εγγραφή",
-      "transcription": "[i eŋgraˈfi]",
-      "meaning": "запись, регистрация",
-      "note": "κάνω εγγραφή [ˈkano eŋgraˈfi] — записываюсь",
-      "core": true
-    },
-    {
-      "id": "είκοσι",
-      "lesson": "06",
-      "greek": "είκοσι",
-      "transcription": "[ˈikosi]",
-      "meaning": "двадцать",
-      "note": "числительное",
-      "core": true
-    },
-    {
-      "id": "εκατό",
-      "lesson": "06",
-      "greek": "εκατό",
-      "transcription": "[ekaˈto]",
-      "meaning": "сто",
-      "note": "числительное",
-      "core": true
-    },
-    {
       "id": "ο Έλληνας",
       "lesson": "06",
       "greek": "ο Έλληνας",
@@ -2442,33 +2991,6 @@ window.GREEK_VOCABULARY = {
       "transcription": "[i eliˈniða]",
       "meaning": "гречанка",
       "note": "οι Ελληνίδες [i eliˈniðes]",
-      "core": true
-    },
-    {
-      "id": "ενενήντα",
-      "lesson": "06",
-      "greek": "ενενήντα",
-      "transcription": "[eneˈninda]",
-      "meaning": "девяносто",
-      "note": "числительное",
-      "core": true
-    },
-    {
-      "id": "έντεκα",
-      "lesson": "06",
-      "greek": "έντεκα",
-      "transcription": "[ˈendeka]",
-      "meaning": "одиннадцать",
-      "note": "числительное",
-      "core": true
-    },
-    {
-      "id": "εξήντα",
-      "lesson": "06",
-      "greek": "εξήντα",
-      "transcription": "[eˈksinda]",
-      "meaning": "шестьдесят",
-      "note": "числительное",
       "core": true
     },
     {
@@ -2499,24 +3021,6 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "η Ισπανίδα",
-      "lesson": "06",
-      "greek": "η Ισπανίδα",
-      "transcription": "[i ispaˈniða]",
-      "meaning": "испанка",
-      "note": "национальность, ж. р.",
-      "core": false
-    },
-    {
-      "id": "η Ιστορία",
-      "lesson": "06",
-      "greek": "η Ιστορία",
-      "transcription": "[i istoˈria]",
-      "meaning": "история",
-      "note": "учебный предмет",
-      "core": false
-    },
-    {
       "id": "η Ιταλίδα",
       "lesson": "06",
       "greek": "η Ιταλίδα",
@@ -2544,30 +3048,12 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "καλή αρχή",
+      "id": "καθόλου",
       "lesson": "06",
-      "greek": "καλή αρχή",
-      "transcription": "[kaˈli arˈhi]",
-      "meaning": "удачного начала!",
-      "note": "пожелание",
-      "core": false
-    },
-    {
-      "id": "η κάρτα",
-      "lesson": "06",
-      "greek": "η κάρτα",
-      "transcription": "[i ˈkarta]",
-      "meaning": "карточка",
-      "note": "οι κάρτες [i ˈkartes]",
-      "core": false
-    },
-    {
-      "id": "το κινητό",
-      "lesson": "06",
-      "greek": "το κινητό",
-      "transcription": "[to kiniˈto]",
-      "meaning": "мобильный телефон",
-      "note": "τα κινητά [ta kiniˈta]",
+      "greek": "καθόλου",
+      "transcription": "[kaˈθolu]",
+      "meaning": "совсем не; нисколько",
+      "note": "уровень знания",
       "core": true
     },
     {
@@ -2589,6 +3075,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "λίγο",
+      "lesson": "06",
+      "greek": "λίγο",
+      "transcription": "[ˈliɣo]",
+      "meaning": "немного",
+      "note": "уровень знания",
+      "core": true
+    },
+    {
       "id": "ο μάγος",
       "lesson": "06",
       "greek": "ο μάγος",
@@ -2598,12 +3093,12 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "μάλιστα",
+      "id": "η μαμά",
       "lesson": "06",
-      "greek": "μάλιστα",
-      "transcription": "[ˈmalista]",
-      "meaning": "да, конечно; так точно",
-      "note": "вежливое подтверждение",
+      "greek": "η μαμά",
+      "transcription": "[i maˈma]",
+      "meaning": "мама",
+      "note": "οι μαμάδες [i maˈmaðes]; разговорное",
       "core": true
     },
     {
@@ -2625,15 +3120,6 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "το μέιλ",
-      "lesson": "06",
-      "greek": "το μέιλ",
-      "transcription": "[to ˈmeil]",
-      "meaning": "имейл",
-      "note": "несклоняемое",
-      "core": true
-    },
-    {
       "id": "μελετάω",
       "lesson": "06",
       "greek": "μελετάω",
@@ -2643,21 +3129,30 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "το μέρος",
+      "lesson": "06",
+      "greek": "το μέρος",
+      "transcription": "[to ˈmeros]",
+      "meaning": "место",
+      "note": "τα μέρη [ta ˈmeri]",
+      "core": true
+    },
+    {
+      "id": "το μεταπτυχιακό",
+      "lesson": "06",
+      "greek": "το μεταπτυχιακό",
+      "transcription": "[to metaptihiaˈko]",
+      "meaning": "магистратура; последипломная программа",
+      "note": "τα μεταπτυχιακά [ta metaptihiaˈka]",
+      "core": true
+    },
+    {
       "id": "η μητέρα",
       "lesson": "06",
       "greek": "η μητέρα",
       "transcription": "[i miˈtera]",
       "meaning": "мать",
       "note": "οι μητέρες [i miˈteres]; разг. η μαμά — см. ο μπαμπάς [o baˈbas]",
-      "core": true
-    },
-    {
-      "id": "μόνο",
-      "lesson": "06",
-      "greek": "μόνο",
-      "transcription": "[ˈmono]",
-      "meaning": "только",
-      "note": "Έχω μόνο κινητό [ˈeho ˈmono kiniˈto] — из аудио",
       "core": true
     },
     {
@@ -2670,12 +3165,12 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "ογδόντα",
+      "id": "τα Νομικά",
       "lesson": "06",
-      "greek": "ογδόντα",
-      "transcription": "[oɣˈðonda]",
-      "meaning": "восемьдесят",
-      "note": "числительное",
+      "greek": "τα Νομικά",
+      "transcription": "[ta nomiˈka]",
+      "meaning": "право, юридические науки",
+      "note": "только множественное число",
       "core": true
     },
     {
@@ -2703,42 +3198,6 @@ window.GREEK_VOCABULARY = {
       "transcription": "[to ˈonoma]",
       "meaning": "имя",
       "note": "τα ονόματα [ta oˈnomata]",
-      "core": true
-    },
-    {
-      "id": "ορίστε",
-      "lesson": "06",
-      "greek": "ορίστε",
-      "transcription": "[oˈriste]",
-      "meaning": "вот, пожалуйста; слушаю",
-      "note": "при передаче вещи или ответе на зов",
-      "core": true
-    },
-    {
-      "id": "το πανεπιστήμιο",
-      "lesson": "06",
-      "greek": "το πανεπιστήμιο",
-      "transcription": "[to panepiˈstimio]",
-      "meaning": "университет",
-      "note": "τα πανεπιστήμια [ta panepiˈstimia]",
-      "core": true
-    },
-    {
-      "id": "το παπάκι",
-      "lesson": "06",
-      "greek": "το παπάκι",
-      "transcription": "[to paˈpaki]",
-      "meaning": "значок @; утёнок",
-      "note": "τα παπάκια [ta paˈpakya]",
-      "core": false
-    },
-    {
-      "id": "πενήντα",
-      "lesson": "06",
-      "greek": "πενήντα",
-      "transcription": "[peˈninda]",
-      "meaning": "пятьдесят",
-      "note": "числительное",
       "core": true
     },
     {
@@ -2778,15 +3237,6 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "πώς λέγεστε;",
-      "lesson": "06",
-      "greek": "πώς λέγεστε;",
-      "transcription": "[pos ˈleyeste?]",
-      "meaning": "как вас зовут?",
-      "note": "вежливая форма λέγομαι [ˈleɣome]",
-      "core": true
-    },
-    {
       "id": "η Ρωσίδα",
       "lesson": "06",
       "greek": "η Ρωσίδα",
@@ -2814,12 +3264,12 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "σαράντα",
+      "id": "ρωτάω",
       "lesson": "06",
-      "greek": "σαράντα",
-      "transcription": "[saˈranda]",
-      "meaning": "сорок",
-      "note": "числительное",
+      "greek": "ρωτάω",
+      "transcription": "[roˈtao]",
+      "meaning": "спрашивать",
+      "note": "тип Β1",
       "core": true
     },
     {
@@ -2850,15 +3300,6 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "η τελεία",
-      "lesson": "06",
-      "greek": "η τελεία",
-      "transcription": "[i teˈlia]",
-      "meaning": "точка",
-      "note": "не путать с τέλεια [ˈtelia] — «отлично»",
-      "core": false
-    },
-    {
       "id": "η Τουρκάλα",
       "lesson": "06",
       "greek": "η Τουρκάλα",
@@ -2886,31 +3327,13 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "τριάντα",
+      "id": "τραγουδάω",
       "lesson": "06",
-      "greek": "τριάντα",
-      "transcription": "[triˈanda]",
-      "meaning": "тридцать",
-      "note": "числительное",
+      "greek": "τραγουδάω",
+      "transcription": "[traɣuˈðao]",
+      "meaning": "петь",
+      "note": "тип Β1",
       "core": true
-    },
-    {
-      "id": "η φοιτήτρια",
-      "lesson": "06",
-      "greek": "η φοιτήτρια",
-      "transcription": "[i fitiˈtria]",
-      "meaning": "студентка",
-      "note": "ο φοιτητής [o fitiˈtis] — студент",
-      "core": true
-    },
-    {
-      "id": "η φωτογραφία",
-      "lesson": "06",
-      "greek": "η φωτογραφία",
-      "transcription": "[i fotoɣraˈfia]",
-      "meaning": "фотография",
-      "note": "οι φωτογραφίες [i fotoɣraˈfies]",
-      "core": false
     },
     {
       "id": "χαιρετάω",
@@ -2931,30 +3354,21 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "αγαπημένος",
+      "lesson": "07",
+      "greek": "αγαπημένος",
+      "transcription": "[aɣapiˈmenos]",
+      "meaning": "любимый",
+      "note": "αγαπημένη / αγαπημένο [aɣapiˈmeni / aɣapiˈmeno]; о любимом блюде",
+      "core": true
+    },
+    {
       "id": "η αίτηση",
       "lesson": "07",
       "greek": "η αίτηση",
       "transcription": "[i ˈetisi]",
       "meaning": "заявление, заявка",
       "note": "οι αιτήσεις [i eˈtisis]",
-      "core": true
-    },
-    {
-      "id": "το αμφιθέατρο",
-      "lesson": "07",
-      "greek": "το αμφιθέατρο",
-      "transcription": "[to amfiˈθeatro]",
-      "meaning": "амфитеатр; большая аудитория",
-      "note": "τα αμφιθέατρα [ta amfiˈθeatra]",
-      "core": false
-    },
-    {
-      "id": "ο άντρας",
-      "lesson": "07",
-      "greek": "ο άντρας",
-      "transcription": "[o ˈandras]",
-      "meaning": "мужчина",
-      "note": "οι άντρες [i ˈandres]",
       "core": true
     },
     {
@@ -3003,24 +3417,6 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "η βιβλιοθήκη",
-      "lesson": "07",
-      "greek": "η βιβλιοθήκη",
-      "transcription": "[i vivlioˈθiki]",
-      "meaning": "библиотека",
-      "note": "οι βιβλιοθήκες [i vivlioˈθikes]",
-      "core": true
-    },
-    {
-      "id": "βοηθάω",
-      "lesson": "07",
-      "greek": "βοηθάω",
-      "transcription": "[voiˈθao]",
-      "meaning": "помогать",
-      "note": "глагол типа Β на -άω [-ˈao]",
-      "core": true
-    },
-    {
       "id": "τα βουλγαρικά",
       "lesson": "07",
       "greek": "τα βουλγαρικά",
@@ -3028,6 +3424,15 @@ window.GREEK_VOCABULARY = {
       "meaning": "болгарский язык",
       "note": "множественное число",
       "core": false
+    },
+    {
+      "id": "η γιαγιά",
+      "lesson": "07",
+      "greek": "η γιαγιά",
+      "transcription": "[i yaˈya]",
+      "meaning": "бабушка",
+      "note": "οι γιαγιάδες [i yaˈyaðes]",
+      "core": true
     },
     {
       "id": "ο γιατρός / η γιατρός",
@@ -3039,6 +3444,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "ο γιος",
+      "lesson": "07",
+      "greek": "ο γιος",
+      "transcription": "[o yos]",
+      "meaning": "сын",
+      "note": "οι γιοι [i yi]",
+      "core": true
+    },
+    {
       "id": "η γνώση της ελληνικής γλώσσας",
       "lesson": "07",
       "greek": "η γνώση της ελληνικής γλώσσας",
@@ -3046,6 +3460,15 @@ window.GREEK_VOCABULARY = {
       "meaning": "знание греческого языка",
       "note": "заголовок шкалы",
       "core": false
+    },
+    {
+      "id": "οι γονείς",
+      "lesson": "07",
+      "greek": "οι γονείς",
+      "transcription": "[i ɣoˈnis]",
+      "meaning": "родители",
+      "note": "только множественное число",
+      "core": true
     },
     {
       "id": "ο γραμματέας / η γραμματέας",
@@ -3066,15 +3489,6 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "η γυναίκα",
-      "lesson": "07",
-      "greek": "η γυναίκα",
-      "transcription": "[i yiˈneka]",
-      "meaning": "женщина",
-      "note": "οι γυναίκες [i yiˈnekes]",
-      "core": true
-    },
-    {
       "id": "το διαβατήριο",
       "lesson": "07",
       "greek": "το διαβατήριο",
@@ -3082,24 +3496,6 @@ window.GREEK_VOCABULARY = {
       "meaning": "паспорт",
       "note": "τα διαβατήρια [ta ðiavaˈtiria]",
       "core": true
-    },
-    {
-      "id": "το διδακτορικό",
-      "lesson": "07",
-      "greek": "το διδακτορικό",
-      "transcription": "[to ðiðaktoriˈko]",
-      "meaning": "докторантура; докторская работа",
-      "note": "τα διδακτορικά [ta ðiðaktoriˈka]",
-      "core": false
-    },
-    {
-      "id": "το δίπλωμα",
-      "lesson": "07",
-      "greek": "το δίπλωμα",
-      "transcription": "[to ˈðiploma]",
-      "meaning": "диплом",
-      "note": "τα διπλώματα [ta ðiˈplomata]",
-      "core": false
     },
     {
       "id": "ο διπλωμάτης",
@@ -3111,21 +3507,30 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "η εγγονή",
+      "lesson": "07",
+      "greek": "η εγγονή",
+      "transcription": "[i eŋgoˈni]",
+      "meaning": "внучка",
+      "note": "οι εγγονές [i eŋgoˈnes]",
+      "core": true
+    },
+    {
+      "id": "ο εγγονός",
+      "lesson": "07",
+      "greek": "ο εγγονός",
+      "transcription": "[o eŋgoˈnos]",
+      "meaning": "внук",
+      "note": "οι εγγονοί [i eŋgoˈni]",
+      "core": true
+    },
+    {
       "id": "η εθνικότητα",
       "lesson": "07",
       "greek": "η εθνικότητα",
       "transcription": "[i eθnikoˈtita]",
       "meaning": "национальность",
       "note": "οι εθνικότητες [i eθnikoˈtites]",
-      "core": true
-    },
-    {
-      "id": "το εστιατόριο",
-      "lesson": "07",
-      "greek": "το εστιατόριο",
-      "transcription": "[to estiaˈtorio]",
-      "meaning": "ресторан",
-      "note": "τα εστιατόρια [ta estiaˈtoria]",
       "core": true
     },
     {
@@ -3138,6 +3543,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "ο θείος",
+      "lesson": "07",
+      "greek": "ο θείος",
+      "transcription": "[o ˈθios]",
+      "meaning": "дядя",
+      "note": "οι θείοι [i ˈθii]",
+      "core": true
+    },
+    {
       "id": "τα ιαπωνικά",
       "lesson": "07",
       "greek": "τα ιαπωνικά",
@@ -3145,33 +3559,6 @@ window.GREEK_VOCABULARY = {
       "meaning": "японский язык",
       "note": "множественное число",
       "core": false
-    },
-    {
-      "id": "καθόλου",
-      "lesson": "07",
-      "greek": "καθόλου",
-      "transcription": "[kaˈθolu]",
-      "meaning": "совсем не; нисколько",
-      "note": "уровень знания",
-      "core": true
-    },
-    {
-      "id": "καταλαβαίνω",
-      "lesson": "07",
-      "greek": "καταλαβαίνω",
-      "transcription": "[katalaˈveno]",
-      "meaning": "понимать",
-      "note": "глагол типа А; также конспект текущего урока 06, PDF 1 и 5",
-      "core": true
-    },
-    {
-      "id": "η καφετέρια",
-      "lesson": "07",
-      "greek": "η καφετέρια",
-      "transcription": "[i kafeˈteria]",
-      "meaning": "кафе",
-      "note": "οι καφετέριες [i kafeˈteries]",
-      "core": true
     },
     {
       "id": "τα κινέζικα",
@@ -3192,6 +3579,24 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "η κοπέλα",
+      "lesson": "07",
+      "greek": "η κοπέλα",
+      "transcription": "[i koˈpela]",
+      "meaning": "девушка; подруга",
+      "note": "οι κοπέλες [i koˈpeles]",
+      "core": true
+    },
+    {
+      "id": "η κόρη",
+      "lesson": "07",
+      "greek": "η κόρη",
+      "transcription": "[i ˈkori]",
+      "meaning": "дочь",
+      "note": "οι κόρες [i ˈkores]",
+      "core": true
+    },
+    {
       "id": "η κτηνίατρος",
       "lesson": "07",
       "greek": "η κτηνίατρος",
@@ -3199,24 +3604,6 @@ window.GREEK_VOCABULARY = {
       "meaning": "ветеринар — женщина",
       "note": "οι κτηνίατροι [i ktiniˈatri]",
       "core": false
-    },
-    {
-      "id": "το κυλικείο",
-      "lesson": "07",
-      "greek": "το κυλικείο",
-      "transcription": "[to kiliˈkio]",
-      "meaning": "буфет, столовая при учреждении",
-      "note": "τα κυλικεία [ta kiliˈkia]",
-      "core": false
-    },
-    {
-      "id": "λίγο",
-      "lesson": "07",
-      "greek": "λίγο",
-      "transcription": "[ˈliɣo]",
-      "meaning": "немного",
-      "note": "уровень знания",
-      "core": true
     },
     {
       "id": "ο μάγειρας",
@@ -3228,30 +3615,12 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "ο μαρκαδόρος",
+      "id": "μαγειρεύω",
       "lesson": "07",
-      "greek": "ο μαρκαδόρος",
-      "transcription": "[o markaˈðoros]",
-      "meaning": "маркер",
-      "note": "οι μαρκαδόροι [i markaˈðori]",
-      "core": true
-    },
-    {
-      "id": "το μέρος",
-      "lesson": "07",
-      "greek": "το μέρος",
-      "transcription": "[to ˈmeros]",
-      "meaning": "место",
-      "note": "τα μέρη [ta ˈmeri]",
-      "core": true
-    },
-    {
-      "id": "το μεταπτυχιακό",
-      "lesson": "07",
-      "greek": "το μεταπτυχιακό",
-      "transcription": "[to metaptihiaˈko]",
-      "meaning": "магистратура; последипломная программа",
-      "note": "τα μεταπτυχιακά [ta metaptihiaˈka]",
+      "greek": "μαγειρεύω",
+      "transcription": "[mayiˈrevo]",
+      "meaning": "готовить еду",
+      "note": "глагол типа Α",
       "core": true
     },
     {
@@ -3262,24 +3631,6 @@ window.GREEK_VOCABULARY = {
       "meaning": "среднее знание",
       "note": "формулировка записки",
       "core": false
-    },
-    {
-      "id": "το μουσείο",
-      "lesson": "07",
-      "greek": "το μουσείο",
-      "transcription": "[to muˈsio]",
-      "meaning": "музей",
-      "note": "τα μουσεία [ta muˈsia]",
-      "core": false
-    },
-    {
-      "id": "τα Νομικά",
-      "lesson": "07",
-      "greek": "τα Νομικά",
-      "transcription": "[ta nomiˈka]",
-      "meaning": "право, юридические науки",
-      "note": "только множественное число",
-      "core": true
     },
     {
       "id": "ο ξυλουργός",
@@ -3309,6 +3660,24 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "παντρεμένος / παντρεμένη / παντρεμένο",
+      "lesson": "07",
+      "greek": "παντρεμένος / παντρεμένη / παντρεμένο",
+      "transcription": "[pandreˈmenos / pandreˈmeni / pandreˈmeno]",
+      "meaning": "женатый / замужняя",
+      "note": "прилагательное",
+      "core": true
+    },
+    {
+      "id": "ο παππούς",
+      "lesson": "07",
+      "greek": "ο παππούς",
+      "transcription": "[o paˈpus]",
+      "meaning": "дедушка",
+      "note": "οι παππούδες [i paˈpuðes]",
+      "core": true
+    },
+    {
       "id": "η περιοχή",
       "lesson": "07",
       "greek": "η περιοχή",
@@ -3325,15 +3694,6 @@ window.GREEK_VOCABULARY = {
       "meaning": "площадь",
       "note": "οι πλατείες [i plaˈties]; категория «адрес» в №6",
       "core": false
-    },
-    {
-      "id": "πολύ καλά",
-      "lesson": "07",
-      "greek": "πολύ καλά",
-      "transcription": "[poˈli kaˈla]",
-      "meaning": "очень хорошо",
-      "note": "уровень знания",
-      "core": true
     },
     {
       "id": "τα πολωνικά",
@@ -3381,15 +3741,6 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "το σπουδαστήριο",
-      "lesson": "07",
-      "greek": "το σπουδαστήριο",
-      "transcription": "[to spuðaˈstirio]",
-      "meaning": "читальный зал; учебная комната",
-      "note": "τα σπουδαστήρια [ta spuðaˈstiria]",
-      "core": false
-    },
-    {
       "id": "συζητάω",
       "lesson": "07",
       "greek": "συζητάω",
@@ -3405,6 +3756,24 @@ window.GREEK_VOCABULARY = {
       "transcription": "[o ˈsindrofos / i ˈsindrofos]",
       "meaning": "партнёр / партнёрша",
       "note": "οι σύντροφοι [i ˈsindrofi]",
+      "core": false
+    },
+    {
+      "id": "συχνά",
+      "lesson": "07",
+      "greek": "συχνά",
+      "transcription": "[sihˈna]",
+      "meaning": "часто",
+      "note": "наречие",
+      "core": true
+    },
+    {
+      "id": "η σχέση",
+      "lesson": "07",
+      "greek": "η σχέση",
+      "transcription": "[i ˈshesi]",
+      "meaning": "отношения; связь",
+      "note": "οι σχέσεις [i ˈshesis]; έχω σχέση [ˈeho ˈshesi]",
       "core": false
     },
     {
@@ -3435,13 +3804,22 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "ο υπολογιστής",
+      "id": "το φαγητό",
       "lesson": "07",
-      "greek": "ο υπολογιστής",
-      "transcription": "[o ipoloyiˈstis]",
-      "meaning": "компьютер",
-      "note": "οι υπολογιστές [i ipoloyiˈstes]",
+      "greek": "το φαγητό",
+      "transcription": "[to fayiˈto]",
+      "meaning": "еда; блюдо",
+      "note": "τα φαγητά [ta fayiˈta]",
       "core": true
+    },
+    {
+      "id": "ο φιλόσοφος",
+      "lesson": "07",
+      "greek": "ο φιλόσοφος",
+      "transcription": "[o fiˈlosofos]",
+      "meaning": "философ",
+      "note": "οι φιλόσοφοι [i fiˈlosofi]",
+      "core": false
     },
     {
       "id": "φτιάχνω",
@@ -3462,6 +3840,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "ο φωτογράφος",
+      "lesson": "07",
+      "greek": "ο φωτογράφος",
+      "transcription": "[o fotoˈɣrafos]",
+      "meaning": "фотограф",
+      "note": "οι φωτογράφοι [i fotoˈɣrafi]",
+      "core": false
+    },
+    {
       "id": "χαμογελάω",
       "lesson": "07",
       "greek": "χαμογελάω",
@@ -3477,51 +3864,6 @@ window.GREEK_VOCABULARY = {
       "transcription": "[ˈpsahno]",
       "meaning": "искать",
       "note": "подсказка к упражнению 15",
-      "core": true
-    },
-    {
-      "id": "η Ψυχολογία",
-      "lesson": "07",
-      "greek": "η Ψυχολογία",
-      "transcription": "[i psiholoˈyia]",
-      "meaning": "психология",
-      "note": "учебный предмет",
-      "core": false
-    },
-    {
-      "id": "αγαπάω",
-      "lesson": "08",
-      "greek": "αγαπάω",
-      "transcription": "[aɣaˈpao]",
-      "meaning": "любить",
-      "note": "тип Β1",
-      "core": true
-    },
-    {
-      "id": "αγαπημένος",
-      "lesson": "08",
-      "greek": "αγαπημένος",
-      "transcription": "[aɣapiˈmenos]",
-      "meaning": "любимый",
-      "note": "αγαπημένη / αγαπημένο [aɣapiˈmeni / aɣapiˈmeno]; о любимом блюде",
-      "core": true
-    },
-    {
-      "id": "η αδερφή / η αδελφή",
-      "lesson": "08",
-      "greek": "η αδερφή / η αδελφή",
-      "transcription": "[i aðerˈfi / i aðelˈfi]",
-      "meaning": "сестра",
-      "note": "οι αδερφές / οι αδελφές [i aðerˈfes / i aðelˈfes]",
-      "core": true
-    },
-    {
-      "id": "ο αδερφός / ο αδελφός",
-      "lesson": "08",
-      "greek": "ο αδερφός / ο αδελφός",
-      "transcription": "[o aðerˈfos / o aðelˈfos]",
-      "meaning": "брат",
-      "note": "οι αδερφοί / οι αδελφοί [i aðerˈfi / i aðelˈfi]; τα αδέρφια [ta aˈðerfya] — братья и сёстры",
       "core": true
     },
     {
@@ -3579,33 +3921,6 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "η γιαγιά",
-      "lesson": "08",
-      "greek": "η γιαγιά",
-      "transcription": "[i yaˈya]",
-      "meaning": "бабушка",
-      "note": "οι γιαγιάδες [i yaˈyaðes]",
-      "core": true
-    },
-    {
-      "id": "ο γιος",
-      "lesson": "08",
-      "greek": "ο γιος",
-      "transcription": "[o yos]",
-      "meaning": "сын",
-      "note": "οι γιοι [i yi]",
-      "core": true
-    },
-    {
-      "id": "οι γονείς",
-      "lesson": "08",
-      "greek": "οι γονείς",
-      "transcription": "[i ɣoˈnis]",
-      "meaning": "родители",
-      "note": "только множественное число",
-      "core": true
-    },
-    {
       "id": "διψάω",
       "lesson": "08",
       "greek": "διψάω",
@@ -3622,24 +3937,6 @@ window.GREEK_VOCABULARY = {
       "meaning": "комната",
       "note": "τα δωμάτια [ta ðoˈmatia]; дополнительное упражнение",
       "core": false
-    },
-    {
-      "id": "η εγγονή",
-      "lesson": "08",
-      "greek": "η εγγονή",
-      "transcription": "[i eŋgoˈni]",
-      "meaning": "внучка",
-      "note": "οι εγγονές [i eŋgoˈnes]",
-      "core": true
-    },
-    {
-      "id": "ο εγγονός",
-      "lesson": "08",
-      "greek": "ο εγγονός",
-      "transcription": "[o eŋgoˈnos]",
-      "meaning": "внук",
-      "note": "οι εγγονοί [i eŋgoˈni]",
-      "core": true
     },
     {
       "id": "ελεύθερος",
@@ -3705,15 +4002,6 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "ο θείος",
-      "lesson": "08",
-      "greek": "ο θείος",
-      "transcription": "[o ˈθios]",
-      "meaning": "дядя",
-      "note": "οι θείοι [i ˈθii]",
-      "core": true
-    },
-    {
       "id": "το καλοκαίρι",
       "lesson": "08",
       "greek": "το καλοκαίρι",
@@ -3739,24 +4027,6 @@ window.GREEK_VOCABULARY = {
       "meaning": "гитара",
       "note": "οι κιθάρες [i kiˈθares]",
       "core": false
-    },
-    {
-      "id": "η κοπέλα",
-      "lesson": "08",
-      "greek": "η κοπέλα",
-      "transcription": "[i koˈpela]",
-      "meaning": "девушка; подруга",
-      "note": "οι κοπέλες [i koˈpeles]",
-      "core": true
-    },
-    {
-      "id": "η κόρη",
-      "lesson": "08",
-      "greek": "η κόρη",
-      "transcription": "[i ˈkori]",
-      "meaning": "дочь",
-      "note": "οι κόρες [i ˈkores]",
-      "core": true
     },
     {
       "id": "το κρέας",
@@ -3795,24 +4065,6 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "μαγειρεύω",
-      "lesson": "08",
-      "greek": "μαγειρεύω",
-      "transcription": "[mayiˈrevo]",
-      "meaning": "готовить еду",
-      "note": "глагол типа Α",
-      "core": true
-    },
-    {
-      "id": "η μαμά",
-      "lesson": "08",
-      "greek": "η μαμά",
-      "transcription": "[i maˈma]",
-      "meaning": "мама",
-      "note": "οι μαμάδες [i maˈmaðes]; разговорное",
-      "core": true
-    },
-    {
       "id": "το μοναχοπαίδι",
       "lesson": "08",
       "greek": "το μοναχοπαίδι",
@@ -3828,15 +4080,6 @@ window.GREEK_VOCABULARY = {
       "transcription": "[i musiˈki]",
       "meaning": "музыка",
       "note": "οι μουσικές [i musiˈkes]; обычно единственное число",
-      "core": false
-    },
-    {
-      "id": "το μωρό",
-      "lesson": "08",
-      "greek": "το μωρό",
-      "transcription": "[to moˈro]",
-      "meaning": "младенец",
-      "note": "τα μωρά [ta moˈra]; дополнительное упражнение",
       "core": false
     },
     {
@@ -3885,33 +4128,6 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
-      "id": "παίζω",
-      "lesson": "08",
-      "greek": "παίζω",
-      "transcription": "[ˈpezo]",
-      "meaning": "играть",
-      "note": "глагол типа Α",
-      "core": true
-    },
-    {
-      "id": "παντρεμένος / παντρεμένη / παντρεμένο",
-      "lesson": "08",
-      "greek": "παντρεμένος / παντρεμένη / παντρεμένο",
-      "transcription": "[pandreˈmenos / pandreˈmeni / pandreˈmeno]",
-      "meaning": "женатый / замужняя",
-      "note": "прилагательное",
-      "core": true
-    },
-    {
-      "id": "ο παππούς",
-      "lesson": "08",
-      "greek": "ο παππούς",
-      "transcription": "[o paˈpus]",
-      "meaning": "дедушка",
-      "note": "οι παππούδες [i paˈpuðes]",
-      "core": true
-    },
-    {
       "id": "το πάρκο",
       "lesson": "08",
       "greek": "το πάρκο",
@@ -3954,15 +4170,6 @@ window.GREEK_VOCABULARY = {
       "transcription": "[to proiˈno]",
       "meaning": "завтрак",
       "note": "τα πρωινά [ta proiˈna]",
-      "core": true
-    },
-    {
-      "id": "ρωτάω",
-      "lesson": "08",
-      "greek": "ρωτάω",
-      "transcription": "[roˈtao]",
-      "meaning": "спрашивать",
-      "note": "тип Β1",
       "core": true
     },
     {
@@ -4047,24 +4254,6 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "συχνά",
-      "lesson": "08",
-      "greek": "συχνά",
-      "transcription": "[sihˈna]",
-      "meaning": "часто",
-      "note": "наречие",
-      "core": true
-    },
-    {
-      "id": "η σχέση",
-      "lesson": "08",
-      "greek": "η σχέση",
-      "transcription": "[i ˈshesi]",
-      "meaning": "отношения; связь",
-      "note": "οι σχέσεις [i ˈshesis]; έχω σχέση [ˈeho ˈshesi]",
-      "core": false
-    },
-    {
       "id": "το τάμπλετ",
       "lesson": "08",
       "greek": "το τάμπλετ",
@@ -4083,30 +4272,12 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
-      "id": "τραγουδάω",
-      "lesson": "08",
-      "greek": "τραγουδάω",
-      "transcription": "[traɣuˈðao]",
-      "meaning": "петь",
-      "note": "тип Β1",
-      "core": true
-    },
-    {
       "id": "το τραγούδι",
       "lesson": "08",
       "greek": "το τραγούδι",
       "transcription": "[to traˈɣuði]",
       "meaning": "песня",
       "note": "τα τραγούδια [ta traˈɣuðya]",
-      "core": true
-    },
-    {
-      "id": "το φαγητό",
-      "lesson": "08",
-      "greek": "το φαγητό",
-      "transcription": "[to fayiˈto]",
-      "meaning": "еда; блюдо",
-      "note": "τα φαγητά [ta fayiˈta]",
       "core": true
     },
     {

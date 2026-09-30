@@ -41,8 +41,9 @@ Use existing pages rather than creating near-duplicates. Start from templates in
 
 ## Material traceability requirements
 
-- Put the lesson-specific inventory in a «Материалы и качество» section on the
-  lesson page; do not create a separate lesson source card.
+- Put the lesson inventory and coverage matrix in
+  `extracted/lessons/lesson-NN-source-audit.md`; do not show processing reports
+  on learner pages or create a separate lesson source card.
 - List exact paths under `materials/`, file sizes, page/slide counts or audio
   durations.
 - State whether each PDF is a scan, has a usable text layer, or has broken font
