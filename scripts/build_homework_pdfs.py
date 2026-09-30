@@ -23,6 +23,7 @@ PACKS = {
            ('../homework/05/lesson-05-current-worksheet.pdf', [1, 2, 3, 4])],
     '06': [(MAIN, [50, 51])],
     '07': [('../homework/07/lesson-07-current-exercise-05.png', [1])],
+    '08': [(MAIN, [59]), (WORK, [11, 13])],
 }
 
 def main():

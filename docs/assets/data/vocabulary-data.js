@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 455,
-  "core": 280,
+  "total": 461,
+  "core": 283,
   "lessons": {
     "01": {
       "total": 57,
@@ -32,8 +32,8 @@ window.GREEK_VOCABULARY = {
       "core": 33
     },
     "08": {
-      "total": 32,
-      "core": 27
+      "total": 38,
+      "core": 30
     },
     "09": {
       "total": 40,
@@ -3543,6 +3543,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "ελεύθερος",
+      "lesson": "08",
+      "greek": "ελεύθερος",
+      "transcription": "[eˈlefθeros]",
+      "meaning": "свободный; не в отношениях",
+      "note": "ελεύθερη / ελεύθερο [eˈlefθeri / eˈlefθero]",
+      "core": true
+    },
+    {
       "id": "έξω",
       "lesson": "08",
       "greek": "έξω",
@@ -3633,6 +3642,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "ξεκινάω",
+      "lesson": "08",
+      "greek": "ξεκινάω",
+      "transcription": "[ksekiˈnao]",
+      "meaning": "я начинаю; отправляюсь",
+      "note": "модель Β1",
+      "core": true
+    },
+    {
       "id": "η ξένη γλώσσα",
       "lesson": "08",
       "greek": "η ξένη γλώσσα",
@@ -3678,6 +3696,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "προτιμάω",
+      "lesson": "08",
+      "greek": "προτιμάω",
+      "transcription": "[protiˈmao]",
+      "meaning": "я предпочитаю",
+      "note": "модель Β1",
+      "core": false
+    },
+    {
       "id": "το πρωινό",
       "lesson": "08",
       "greek": "το πρωινό",
@@ -3714,6 +3741,15 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "το σταθερό",
+      "lesson": "08",
+      "greek": "το σταθερό",
+      "transcription": "[to staθeˈro]",
+      "meaning": "стационарный телефон",
+      "note": "τα σταθερά [ta staθeˈra]; сокращённое название",
+      "core": false
+    },
+    {
       "id": "σταματάω",
       "lesson": "08",
       "greek": "σταματάω",
@@ -3739,6 +3775,15 @@ window.GREEK_VOCABULARY = {
       "meaning": "часто",
       "note": "наречие",
       "core": true
+    },
+    {
+      "id": "το τάμπλετ",
+      "lesson": "08",
+      "greek": "το τάμπλετ",
+      "transcription": "[to ˈtablet]",
+      "meaning": "планшет",
+      "note": "τα τάμπλετ [ta ˈtablet]; не изменяется",
+      "core": false
     },
     {
       "id": "ταξιδεύω",
@@ -3774,6 +3819,15 @@ window.GREEK_VOCABULARY = {
       "transcription": "[foˈrao]",
       "meaning": "носить одежду",
       "note": "тип Β1",
+      "core": true
+    },
+    {
+      "id": "χωρισμένος",
+      "lesson": "08",
+      "greek": "χωρισμένος",
+      "transcription": "[horisˈmenos]",
+      "meaning": "разведённый; расставшийся с партнёром",
+      "note": "χωρισμένη / χωρισμένο [horisˈmeni / horisˈmeno]",
       "core": true
     },
     {
