@@ -3888,7 +3888,7 @@ window.GREEK_VOCABULARY = {
       "id": "ο ανιψιός",
       "lesson": "08",
       "greek": "ο ανιψιός",
-      "transcription": "[o anipˈs·hos]",
+      "transcription": "[o aniˈpsyos]",
       "meaning": "племянник",
       "note": "οι ανιψιοί [i anipˈsi]",
       "core": true
