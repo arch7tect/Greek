@@ -24,7 +24,7 @@ A4: сначала читай левую колонку
 | 4. Знакомство | Имя, происхождение, национальность, «как дела?» | [Знакомство](../reference/greetings-and-introductions.md) |
 | 5. Жизнь, учёба и языки | Где живёшь, где работаешь, что изучаешь, на каком языке говоришь | [Урок 04](../lessons/lesson-04-current.md), [урок 06](../lessons/lesson-06-current.md) |
 | 6. Фразы на каждый день | Приветствия, прощания, спасибо и пожалуйста | [Фразы общения](../reference/greetings-and-introductions.md) |
-| 7. Род и артикли | Род по окончанию, конкретный / какой-то, «из» и «в» | [Артикли](../reference/grammar/nominative-articles.md), [предлоги](../reference/grammar/prepositions-accusative.md) |
+| 7. Артикли и предлоги | Род; из / от, в / на / к, с, для / о; артикли после предлогов | [Артикли](../reference/grammar/nominative-articles.md), [предлоги](../reference/grammar/prepositions-accusative.md) |
 | 8. Числа | 0–12, десятки до 100 и составление остальных чисел | [Числительные](../reference/numbers-11-100.md) |
 | 9. Как хорошо и сколько | Прекрасно / хорошо / так себе; немного / совсем немного / совсем не | [Оттенки и отрицание](../lessons/lesson-06-current.md#language-level) |
 | 10. Семья: близкие | Родители, дети, братья и сёстры, бабушка и дедушка, внуки | [Семья](../lessons/lesson-08-current.md#family) |
