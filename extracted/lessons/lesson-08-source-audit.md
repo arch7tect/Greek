@@ -88,6 +88,11 @@ Lesson layout check: 8/8. Strict MkDocs build and git diff whitespace check pass
 Deployment dry run passed. Publication follows commit and successful push.
 # Согласование карточек семьи
 
+Текущее пользовательское упрощение: для ανιψιά принято [aniˈpsya], для
+ανιψιές — [aniˈpsyes]. Это мнемоническая запись слитного сочетания, не IPA;
+фонетическая оговорка сохранена в справочнике и уроке. Мужские формы не менялись.
+Пересобраны словарь, тренажёр и обе версии уроковых/сквозных карточек.
+
 Уточнение произношения: статья «ανιψιός» в Λεξικό της κοινής νεοελληνικής,
 https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=ανιψιός&dq=
 даёт [anipsxós], женское [anipsxá], с палатальным x. В учебной системе сохраняем

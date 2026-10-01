@@ -19,7 +19,7 @@ window.GREEK_FAMILY_POSSESSIVES_DATA = {
         ["rel-male-cousin", "Сын моего дяди или моей тёти", "ο ξάδερφος [o ˈksaðerfos]", "ο ξάδερφος / ο ξάδελφος [o ˈksaðerfos / o ˈksaðelfos] — двоюродный брат."],
         ["rel-female-cousin", "Дочь моего дяди или моей тёти", "η ξαδέρφη [i ksaˈðerfi]", "η ξαδέρφη / η ξαδέλφη [i ksaˈðerfi / i ksaˈðelfi] — двоюродная сестра."],
         ["rel-nephew", "Сын моего брата или моей сестры", "ο ανιψιός [o anipˈs·hos]", "ο ανιψιός [o anipˈs·hos] — племянник; s·h = с + мягкое х, не ш."],
-        ["rel-niece", "Дочь моего брата или моей сестры", "η ανιψιά [i anipˈs·ha]", "η ανιψιά [i anipˈs·ha] — племянница; s·h = с + мягкое х, не ш."],
+        ["rel-niece", "Дочь моего брата или моей сестры", "η ανιψιά [i aniˈpsya]", "η ανιψιά [i aniˈpsya] — племянница; psya — слитно, без отдельного «и»."],
         ["rel-only-child", "Ребёнок, у которого нет братьев и сестёр", "το μοναχοπαίδι [to monahoˈpeði]", "το μοναχοπαίδι [to monahoˈpeði] — единственный ребёнок."]
       ].map(([id, prompt, answer, detail]) => ({ id, lesson: "09", prompt, answer, detail }))
     },

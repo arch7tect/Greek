@@ -3879,9 +3879,9 @@ window.GREEK_VOCABULARY = {
       "id": "η ανιψιά",
       "lesson": "08",
       "greek": "η ανιψιά",
-      "transcription": "[i anipˈs·ha]",
+      "transcription": "[i aniˈpsya]",
       "meaning": "племянница",
-      "note": "οι ανιψιές [i anipˈs·hes]",
+      "note": "οι ανιψιές [i aniˈpsyes]",
       "core": true
     },
     {
