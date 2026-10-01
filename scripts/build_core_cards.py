@@ -112,7 +112,9 @@ def build_print():
     c.setTitle('Главное · памятка A4')
     page_w, page_h = A4
     # Two topics per column, measured independently; no automatic font shrinking.
-    for start in range(0, len(CARDS), 4):
+    layout = [((0, 1), (2, 6)), ((3, 7), (4, 5)), ((8, 9), (10,))]
+    assert sorted(i for page in layout for col in page for i in col) == list(range(len(CARDS)))
+    for page_number, page in enumerate(layout, 1):
         c.setFont('CoreBold', 15)
         c.setFillColor(colors.HexColor(ACCENT))
         c.drawString(28, page_h - 32, 'ГЛАВНОЕ · ПОВТОРЯТЬ РЕГУЛЯРНО')
@@ -120,16 +122,13 @@ def build_print():
             x = 28 + col * ((page_w - 56) / 2 + 6)
             width = (page_w - 68) / 2
             top = page_h - 63
-            for row in range(2):
-                idx = start + col * 2 + row
-                if idx >= len(CARDS):
-                    break
+            for idx in page[col]:
                 bottom = card(c, CARDS[idx], idx + 1, x, top, width, 10.3, draw=False)
                 assert bottom > 40, (CARDS[idx]['title'], bottom)
                 card(c, CARDS[idx], idx + 1, x, top, width, 10.3)
                 top = bottom - 20
         c.setFont('Core', 10)
-        c.drawRightString(page_w - 28, 22, f'{start // 4 + 1} / {(len(CARDS) + 3) // 4}')
+        c.drawRightString(page_w - 28, 22, f'{page_number} / {len(layout)}')
         c.showPage()
     c.save()
     return path
