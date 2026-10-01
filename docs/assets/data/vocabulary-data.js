@@ -3879,18 +3879,18 @@ window.GREEK_VOCABULARY = {
       "id": "η ανιψιά",
       "lesson": "08",
       "greek": "η ανιψιά",
-      "transcription": "[i anipˈsha]",
+      "transcription": "[i anipˈs·ha]",
       "meaning": "племянница",
-      "note": "οι ανιψιές [i anipˈshes]",
+      "note": "οι ανιψιές [i anipˈs·hes]",
       "core": true
     },
     {
       "id": "ο ανιψιός",
       "lesson": "08",
       "greek": "ο ανιψιός",
-      "transcription": "[o anipˈshos]",
+      "transcription": "[o anipˈs·hos]",
       "meaning": "племянник",
-      "note": "οι ανιψιοί [i anipˈshi]",
+      "note": "οι ανιψιοί [i anipˈsi]",
       "core": true
     },
     {

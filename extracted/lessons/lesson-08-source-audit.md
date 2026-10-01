@@ -88,6 +88,13 @@ Lesson layout check: 8/8. Strict MkDocs build and git diff whitespace check pass
 Deployment dry run passed. Publication follows commit and successful push.
 # Согласование карточек семьи
 
+Уточнение произношения: статья «ανιψιός» в Λεξικό της κοινής νεοελληνικής,
+https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=ανιψιός&dq=
+даёт [anipsxós], женское [anipsxá], с палатальным x. В учебной системе сохраняем
+s + мягкое h, но разделяем как s·h, чтобы не читать английское sh. Обновлены
+урок, домашка, словарь, тренажёр, уроковые и сквозные карточки; у множественного
+ανιψιοί исправлено ошибочное shi на si. Это уточнение записи, не замена звука на ш.
+
 Проверка распределения: супруги уже объяснены в
 `docs/lessons/lesson-08-current.md#family`, но отсутствовали в карточках урока.
 В `scripts/mobile-data/lesson-08.json`, карточка «Отношения и дети», добавлены
