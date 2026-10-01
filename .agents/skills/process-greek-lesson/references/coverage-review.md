@@ -41,6 +41,19 @@ unverified material. Checking headings alone is not a full course audit.
 - Rebuild affected A4/phone outputs from shared data only when their contents
   change. Inspect final rendering and preserve stable links.
 
+### Lesson cards and cross-course cards
+
+The cross-course set selects and generalizes verified lesson material; it must
+not be the only place where an essential word or rule is taught. Before promoting
+an item, locate its explanation in a lesson and its appropriate lesson revision
+card. Keep essential semantic pairs together (for example husband/wife), especially
+when required by that lesson's homework. Repair an omission in the existing lesson
+card before promoting it; do not add cards or reproduce the entire dictionary.
+Previously learned background may link to an earlier lesson card rather than be
+copied into every new lesson. Record these mappings in the internal source audit.
+Check both A4 and phone outputs, and inspect the actual card before giving a learner
+a link: a matching title alone does not prove that the requested material is there.
+
 ## Vocabulary and learner access
 
 Compare reading/exercise words against all dictionaries. Distinguish missing

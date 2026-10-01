@@ -86,3 +86,14 @@ No clipped text or overlapping blocks; homework sheets preserve the original pag
 Vocabulary generator/check: 461 entries, lesson 08 total 38 (six new).
 Lesson layout check: 8/8. Strict MkDocs build and git diff whitespace check passed.
 Deployment dry run passed. Publication follows commit and successful push.
+# Согласование карточек семьи
+
+Проверка распределения: супруги уже объяснены в
+`docs/lessons/lesson-08-current.md#family`, но отсутствовали в карточках урока.
+В `scripts/mobile-data/lesson-08.json`, карточка «Отношения и дети», добавлены
+«мой муж» и «моя жена» из существующего разбора; сквозная карточка 11 теперь
+обобщает их вместе с дальними родственниками из карточки 3 и отношениями из
+карточки 4. Близкие родственники сквозной карточки 10 повторяют материал урока
+07; в уроке 08 полный перечень повторён в разделе family. Новые карточки не
+добавлялись. Пересобраны и визуально проверены телефонная карточка 4 и A4:
+сохранены 4 телефонные страницы, 1 страница A4 и прежние размеры шрифта.

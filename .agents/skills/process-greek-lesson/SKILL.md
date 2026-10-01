@@ -75,7 +75,9 @@ Create or update only the pages justified by the material:
    it.
 6. Compact lesson revision cards when justified. Review the cross-course core
    set and Q&A separately; extend an existing topic before adding a card.
-   Keep detailed teaching and full texts in the lesson, not cards.
+   Keep detailed teaching and full texts in the lesson, not cards. Cross-course
+   cards select and generalize lesson material; verify their lesson/card mapping
+   using the coverage-review reference, rather than leaving essentials only in core.
 7. Training material only when enough verified content exists; do not invent
    exercises merely to fill the section.
 
