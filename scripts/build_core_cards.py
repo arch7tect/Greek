@@ -126,7 +126,7 @@ def build_print():
                 bottom = card(c, CARDS[idx], idx + 1, x, top, width, 10.3, draw=False)
                 assert bottom > 40, (CARDS[idx]['title'], bottom)
                 card(c, CARDS[idx], idx + 1, x, top, width, 10.3)
-                top = bottom - 20
+                top = bottom - 16
         c.setFont('Core', 10)
         c.drawRightString(page_w - 28, 22, f'{page_number} / {len(layout)}')
         c.showPage()

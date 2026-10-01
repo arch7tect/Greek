@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 490,
-  "core": 285,
+  "total": 491,
+  "core": 286,
   "lessons": {
     "01": {
       "total": 57,
@@ -32,8 +32,8 @@ window.GREEK_VOCABULARY = {
       "core": 32
     },
     "08": {
-      "total": 50,
-      "core": 34
+      "total": 51,
+      "core": 35
     },
     "09": {
       "total": 15,
@@ -4063,6 +4063,15 @@ window.GREEK_VOCABULARY = {
       "meaning": "волк",
       "note": "οι λύκοι [i ˈliki]; в выражении «голоден как волк»",
       "core": false
+    },
+    {
+      "id": "μεγάλος",
+      "lesson": "08",
+      "greek": "μεγάλος",
+      "transcription": "[meˈɣalos]",
+      "meaning": "большой",
+      "note": "μεγάλη / μεγάλο [meˈɣali / meˈɣalo] — большая / большое; согласуется с родом существительного",
+      "core": true
     },
     {
       "id": "το μοναχοπαίδι",
