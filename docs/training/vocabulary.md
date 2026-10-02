@@ -4,7 +4,7 @@
 первый разговорный и учебный минимум, а «Все слова» добавляет лексику
 фонетических упражнений. Одна сессия содержит до десяти карточек.
 
-Общий словарь насчитывает 386 единиц, но он не выдаётся одной сессией. Текущий
+Словарь пополняется с каждым уроком, но не выдаётся одной сессией. Текущий
 урок 01 открывается в режиме «Основные» с 26 словами; полный набор урока
 содержит 57. Старые уроки остаются доступными по отдельным кнопкам.
 
@@ -33,6 +33,7 @@
       <div class="trainer__modes vocabulary-trainer__two-modes">
         <button type="button" data-vocabulary-direction="greek-to-russian" aria-pressed="true">Греческий → русский</button>
         <button type="button" data-vocabulary-direction="russian-to-greek" aria-pressed="false">Русский → греческий</button>
+        <button type="button" data-vocabulary-direction="writing" aria-pressed="false">Русский → написать</button>
         <button type="button" data-vocabulary-direction="article" aria-pressed="false">Артикль</button>
       </div>
     </fieldset>
@@ -54,6 +55,16 @@
     <button id="vocabulary-trainer-reveal" class="vocabulary-trainer__action" type="button">Показать ответ</button>
   </section>
 
+  <form id="vocabulary-trainer-writing" class="vocabulary-trainer__writing" hidden>
+    <label for="vocabulary-trainer-input">Напишите по-гречески</label>
+    <input id="vocabulary-trainer-input" type="text" lang="el" autocomplete="off" autocapitalize="off" spellcheck="false" aria-describedby="vocabulary-trainer-writing-help vocabulary-trainer-writing-feedback">
+    <p id="vocabulary-trainer-writing-help">Существительное — с артиклем. Если есть несколько словарных вариантов, достаточно одного.</p>
+    <div id="vocabulary-trainer-keyboard" class="vocabulary-trainer__keyboard" role="group" aria-label="Греческие буквы по алфавиту"></div>
+    <button id="vocabulary-trainer-check" class="vocabulary-trainer__action" type="submit">Проверить</button>
+    <div id="vocabulary-trainer-writing-feedback" class="vocabulary-trainer__writing-feedback" aria-live="polite"></div>
+    <button id="vocabulary-trainer-next" class="vocabulary-trainer__action" type="button" hidden>Дальше</button>
+  </form>
+
   <div id="vocabulary-trainer-answer" class="vocabulary-trainer__answer" aria-live="polite" hidden></div>
   <div id="vocabulary-trainer-ratings" class="vocabulary-trainer__ratings" hidden>
     <button type="button" data-vocabulary-rating="again">1 · Не помню</button>
@@ -66,6 +77,7 @@
 
 <script src="../../assets/data/vocabulary-data.js"></script>
 <script src="../../assets/javascripts/trainer-engine.js"></script>
+<script src="../../assets/javascripts/vocabulary-writing.js"></script>
 <script src="../../assets/javascripts/vocabulary-trainer.js"></script>
 
 Оценка «Не помню» возвращает карточку в текущую сессию, «Сомневаюсь» — в
@@ -82,6 +94,20 @@
 с артикля и раскрыла бы ответ. Род существительного — основа для выбора
 винительных форм в
 [тренажёре `από` `[aˈpo]` и `σε` `[se]`](accusative-after-apo-se.md).
+
+В направлении **«Русский → написать»** введите греческое слово или фразу и
+нажмите «Проверить» либо `Enter`. Гласные с ударением и двумя точками стоят
+рядом с обычными; конечная сигма — рядом с обычной. Экранная клавиатура
+добавляет букву в место курсора и заменяет выделенный текст. Пробел, удаление,
+знаки и заглавные вводятся обычной клавиатурой.
+
+Проверка различает ошибку в буквах и ошибку только в ударении; показывает
+правильное написание и выделяет отличающийся участок. Регистр и лишние
+пробелы не учитываются, но артикль, ударение и две точки важны.
+Варианты, записанные через косую черту в словаре, принимаются по одному.
+После ошибки можно исправить ответ; слово всё равно вернётся в конце сессии.
+«Показать ответ» также оставляет слово для повторения. Прогресс письма
+сохраняется отдельно от устного вспоминания; оценка результата автоматическая.
 
 Состав наборов автоматически строится из [общего словаря](../vocabulary/all.md).
 Имена людей не включаются.

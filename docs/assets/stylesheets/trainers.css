@@ -250,6 +250,64 @@
   border-color: var(--md-primary-fg-color);
 }
 
+.vocabulary-trainer__writing[hidden] {
+  display: none;
+}
+
+.vocabulary-trainer__writing input {
+  display: block;
+  width: 100%;
+  margin-top: 0.4rem;
+  padding: 0.65rem;
+  font: inherit;
+  font-size: 1.25rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 2px solid var(--md-default-fg-color--light);
+  border-radius: 0.25rem;
+}
+
+.vocabulary-trainer__keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.vocabulary-trainer__key-group {
+  display: inline-flex;
+  gap: 0.12rem;
+}
+
+.vocabulary-trainer__keyboard button {
+  min-width: 2.2rem;
+  min-height: 2.4rem;
+  padding: 0.25rem;
+  font-size: 1.2rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--light);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.vocabulary-trainer__keyboard button:focus-visible,
+.vocabulary-trainer__writing input:focus-visible {
+  outline: 2px solid var(--md-primary-fg-color);
+  outline-offset: 2px;
+}
+
+.vocabulary-trainer__writing-feedback {
+  margin-top: 0.7rem;
+  font-weight: 600;
+  white-space: pre-line;
+}
+
+.vocabulary-trainer__writing-feedback mark {
+  padding: 0.1rem;
+  background: #ffe29a;
+  color: #362b0d;
+}
+
 @media (max-width: 36rem) {
   .trainer__choices {
     grid-template-columns: 1fr;

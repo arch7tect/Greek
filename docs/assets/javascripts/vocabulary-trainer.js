@@ -36,8 +36,16 @@
   const reveal = root.querySelector("#vocabulary-trainer-reveal");
   const answer = root.querySelector("#vocabulary-trainer-answer");
   const ratings = root.querySelector("#vocabulary-trainer-ratings");
+  const writing = root.querySelector("#vocabulary-trainer-writing");
+  const input = root.querySelector("#vocabulary-trainer-input");
+  const keyboard = root.querySelector("#vocabulary-trainer-keyboard");
+  const check = root.querySelector("#vocabulary-trainer-check");
+  const feedback = root.querySelector("#vocabulary-trainer-writing-feedback");
+  const next = root.querySelector("#vocabulary-trainer-next");
+  const { letters, normalize, variants, compare } = window.GreekWriting;
   const storageKey = "greek-vocabulary-progress-v3";
   const progressStore = createStore(storageKey);
+  const writingStore = createStore("greek-vocabulary-writing-progress-v1");
   const day = 24 * 60 * 60 * 1000;
   const intervals = [1, 3, 7, 14, 30];
   const articlePattern = /^(ο|η|το|οι|τα)\s+/;
@@ -46,11 +54,111 @@
   let activeLesson = new URLSearchParams(window.location.search).get("lesson") || firstLesson;
   if (!Object.hasOwn(vocabulary.lessons, activeLesson)) activeLesson = firstLesson;
   let activeScope = "core";
-  let activeDirection = "greek-to-russian";
+  const requestedDirection = new URLSearchParams(window.location.search).get("direction");
+  let activeDirection = directionButtons.some((button) => button.dataset.vocabularyDirection === requestedDirection)
+    ? requestedDirection : "greek-to-russian";
   let queue = [];
   let current = null;
   let shownCount = 0;
   let progressState = progressStore.get();
+  let writingFirstResult = null;
+  let writingResolved = false;
+  const isWriting = () => activeDirection === "writing";
+
+  letters.forEach((group) => {
+    const container = document.createElement("span");
+    container.className = "vocabulary-trainer__key-group";
+    [...group].forEach((letter) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = letter;
+      button.lang = "el";
+      button.addEventListener("pointerdown", (event) => event.preventDefault());
+      button.addEventListener("click", () => {
+        if (!current || writingResolved) return;
+        input.setRangeText(letter, input.selectionStart, input.selectionEnd, "end");
+        input.focus({ preventScroll: true });
+      });
+      container.append(button);
+    });
+    keyboard.append(container);
+  });
+
+  function saveProgress(rating) {
+    const previous = progressState[current.id] || { level: 0, due: 0 };
+    if (rating !== "know") progressState[current.id] = { level: 0, due: 0 };
+    else {
+      const level = Math.min(previous.level + 1, intervals.length);
+      progressState[current.id] = { level, due: Date.now() + intervals[level - 1] * day };
+    }
+    (isWriting() ? writingStore : progressStore).set(progressState);
+  }
+
+  function acceptedAnswers() {
+    // Different entries with exactly the same meaning are not distinguishable
+    // from the Russian prompt; accept their attested spellings too.
+    return [...new Set(vocabulary.words
+      .filter((word) => normalize(word.meaning) === normalize(current.meaning))
+      .flatMap((word) => variants(word.greek)))];
+  }
+
+  function showDifference(actual, expected) {
+    const chars = [...normalize(actual)];
+    const target = [...expected];
+    let start = 0;
+    while (start < chars.length && start < target.length && chars[start] === target[start]) start += 1;
+    let end = target.length;
+    let actualEnd = chars.length;
+    while (end > start && actualEnd > start && target[end - 1] === chars[actualEnd - 1]) {
+      end -= 1;
+      actualEnd -= 1;
+    }
+    feedback.append("\nПравильно: ", target.slice(0, start).join(""));
+    const mark = document.createElement("mark");
+    mark.textContent = target.slice(start, end).join("") || "[убрать лишнее]";
+    feedback.append(mark, target.slice(end).join(""));
+  }
+
+  function finishWriting(correct) {
+    if (writingFirstResult === null) {
+      writingFirstResult = correct;
+      saveProgress(correct ? "know" : "again");
+    }
+    writingResolved = correct;
+    input.readOnly = correct;
+    check.hidden = correct;
+    keyboard.querySelectorAll("button").forEach((button) => { button.disabled = correct; });
+    next.hidden = false;
+    if (correct) next.focus();
+    updateProgress();
+  }
+
+  writing.addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (!current || !isWriting() || writingResolved) return;
+    const result = compare(input.value, acceptedAnswers());
+    if (result.kind === "empty") {
+      feedback.textContent = "Сначала напишите ответ.";
+      input.focus();
+      return;
+    }
+    feedback.textContent = result.kind === "correct" ? "Верно!"
+      : result.kind === "stress" ? "Буквы верные — проверьте ударение."
+        : "Есть ошибка в написании. Сверьте выделенный участок.";
+    if (result.kind !== "correct") showDifference(input.value, result.expected);
+    finishWriting(result.kind === "correct");
+    if (result.kind === "correct") {
+      reveal.hidden = true;
+      answer.textContent = formatAnswer(current);
+      answer.hidden = false;
+    }
+  });
+  next.addEventListener("click", () => {
+    if (!current || !isWriting() || writingFirstResult === null) return;
+    if (!writingFirstResult) queue.push(current);
+    current = null;
+    showCard();
+  });
 
   function selectedWords() {
     return vocabulary.words.filter((word) => (
@@ -122,6 +230,7 @@
     reveal.hidden = true;
     answer.hidden = true;
     ratings.hidden = true;
+    writing.hidden = true;
     updateProgress();
   }
 
@@ -148,10 +257,24 @@
     answer.textContent = "";
     answer.hidden = true;
     ratings.hidden = true;
+    writing.hidden = !isWriting();
+    writingFirstResult = null;
+    writingResolved = false;
+    input.value = "";
+    input.readOnly = false;
+    check.hidden = false;
+    next.hidden = true;
+    feedback.textContent = "";
+    keyboard.querySelectorAll("button").forEach((button) => { button.disabled = false; });
+    if (isWriting()) {
+      promptLabel.textContent = "Напишите греческое слово или фразу";
+      input.focus();
+    }
     updateProgress();
   }
 
   function startSession() {
+    progressState = (isWriting() ? writingStore : progressStore).get();
     queue = makeSession();
     shownCount = 0;
     current = null;
@@ -166,21 +289,24 @@
     answer.textContent = formatAnswer(current);
     answer.hidden = false;
     ratings.hidden = false;
+    if (isWriting()) {
+      ratings.hidden = true;
+      finishWriting(false);
+      writingResolved = true;
+      input.readOnly = true;
+      check.hidden = true;
+      keyboard.querySelectorAll("button").forEach((button) => { button.disabled = true; });
+      feedback.textContent = "Ответ открыт. Слово вернётся для письменного повторения.";
+      next.focus();
+    }
   }
 
   function rate(rating) {
     if (!current || ratings.hidden) return;
-    const previous = progressState[current.id] || { level: 0, due: 0 };
+    saveProgress(rating);
     if (rating === "again") {
-      progressState[current.id] = { level: 0, due: 0 };
       queue.push(current);
-    } else if (rating === "unsure") {
-      progressState[current.id] = { level: 0, due: 0 };
-    } else {
-      const level = Math.min(previous.level + 1, intervals.length);
-      progressState[current.id] = { level, due: Date.now() + intervals[level - 1] * day };
     }
-    progressStore.set(progressState);
     current = null;
     showCard();
   }
@@ -201,6 +327,7 @@
     });
   });
   directionButtons.forEach((button) => {
+    if (button.dataset.vocabularyDirection === activeDirection) setPressed(directionButtons, button);
     button.addEventListener("click", () => {
       activeDirection = button.dataset.vocabularyDirection;
       setPressed(directionButtons, button);
