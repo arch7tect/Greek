@@ -24,6 +24,7 @@ PACKS = {
     '06': [(MAIN, [50, 51])],
     '07': [('../homework/07/lesson-07-current-exercise-05.png', [1])],
     '08': [(MAIN, [59]), (WORK, [11, 13])],
+    '09': [(MAIN, [64, 65]), ('../homework/09/lesson-09-current-exercise-18.png', [1])],
 }
 
 def main():

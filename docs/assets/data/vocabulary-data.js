@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 491,
-  "core": 286,
+  "total": 549,
+  "core": 324,
   "lessons": {
     "01": {
       "total": 57,
@@ -36,8 +36,8 @@ window.GREEK_VOCABULARY = {
       "core": 35
     },
     "09": {
-      "total": 15,
-      "core": 12
+      "total": 73,
+      "core": 50
     }
   },
   "words": [
@@ -4335,6 +4335,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "ο άνεργος / η άνεργη",
+      "lesson": "09",
+      "greek": "ο άνεργος / η άνεργη",
+      "transcription": "[o ˈanerɣos / i ˈaneryi]",
+      "meaning": "безработный / безработная",
+      "note": "οι άνεργοι / οι άνεργες [i ˈaneryi / i ˈaneryes]",
+      "core": true
+    },
+    {
       "id": "ανοίγω",
       "lesson": "09",
       "greek": "ανοίγω",
@@ -4353,12 +4362,201 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "ο αρχαιολόγος / η αρχαιολόγος",
+      "lesson": "09",
+      "greek": "ο αρχαιολόγος / η αρχαιολόγος",
+      "transcription": "[o arheoˈloɣos / i arheoˈloɣos]",
+      "meaning": "археолог",
+      "note": "οι αρχαιολόγοι [i arheoˈloɣi]",
+      "core": false
+    },
+    {
+      "id": "η αστυνομία",
+      "lesson": "09",
+      "greek": "η αστυνομία",
+      "transcription": "[i astinoˈmia]",
+      "meaning": "полиция",
+      "note": "название организации; в этом значении учим единственное число",
+      "core": true
+    },
+    {
+      "id": "το αστυνομικό τμήμα",
+      "lesson": "09",
+      "greek": "το αστυνομικό τμήμα",
+      "transcription": "[to astinomiˈko ˈtmima]",
+      "meaning": "полицейское отделение",
+      "note": "τα αστυνομικά τμήματα [ta astinomiˈka ˈtmimata]",
+      "core": true
+    },
+    {
+      "id": "ο αστυνομικός / η αστυνομικός",
+      "lesson": "09",
+      "greek": "ο αστυνομικός / η αστυνομικός",
+      "transcription": "[o astinomiˈkos / i astinomiˈkos]",
+      "meaning": "полицейский",
+      "note": "οι αστυνομικοί [i astinomiˈki]",
+      "core": true
+    },
+    {
+      "id": "ασχολούμαι",
+      "lesson": "09",
+      "greek": "ασχολούμαι",
+      "transcription": "[ashoˈlume]",
+      "meaning": "занимаюсь",
+      "note": "ασχολείσαι / ασχολείστε [ashoˈlise / ashoˈliste]; не модель Α1",
+      "core": false
+    },
+    {
+      "id": "το βενζινάδικο",
+      "lesson": "09",
+      "greek": "το βενζινάδικο",
+      "transcription": "[to venziˈnaðiko]",
+      "meaning": "заправка",
+      "note": "τα βενζινάδικα [ta venziˈnaðika]",
+      "core": true
+    },
+    {
+      "id": "το γραφείο",
+      "lesson": "09",
+      "greek": "το γραφείο",
+      "transcription": "[to ɣraˈfio]",
+      "meaning": "офис; письменный стол",
+      "note": "τα γραφεία [ta ɣraˈfia]; в вопросе о работе — офис",
+      "core": true
+    },
+    {
+      "id": "ο γυμναστής",
+      "lesson": "09",
+      "greek": "ο γυμναστής",
+      "transcription": "[o yimnaˈstis]",
+      "meaning": "тренер; преподаватель физкультуры",
+      "note": "οι γυμναστές [i yimnaˈstes]",
+      "core": false
+    },
+    {
+      "id": "ο δάσκαλος",
+      "lesson": "09",
+      "greek": "ο δάσκαλος",
+      "transcription": "[o ˈðaskalos]",
+      "meaning": "учитель",
+      "note": "οι δάσκαλοι [i ˈðaskali]",
+      "core": true
+    },
+    {
+      "id": "ο δημοσιογράφος / η δημοσιογράφος",
+      "lesson": "09",
+      "greek": "ο δημοσιογράφος / η δημοσιογράφος",
+      "transcription": "[o ðimosioˈɣrafos / i ðimosioˈɣrafos]",
+      "meaning": "журналист",
+      "note": "οι δημοσιογράφοι [i ðimosioˈɣrafi]",
+      "core": false
+    },
+    {
+      "id": "το δικηγορικό γραφείο",
+      "lesson": "09",
+      "greek": "το δικηγορικό γραφείο",
+      "transcription": "[to ðikiɣoriˈko ɣraˈfio]",
+      "meaning": "адвокатская контора",
+      "note": "τα δικηγορικά γραφεία [ta ðikiɣoriˈka ɣraˈfia]",
+      "core": true
+    },
+    {
+      "id": "ο δικηγόρος / η δικηγόρος",
+      "lesson": "09",
+      "greek": "ο δικηγόρος / η δικηγόρος",
+      "transcription": "[o ðikiˈɣoros / i ðikiˈɣoros]",
+      "meaning": "адвокат",
+      "note": "οι δικηγόροι [i ðikiˈɣori]",
+      "core": true
+    },
+    {
+      "id": "έγκυος",
+      "lesson": "09",
+      "greek": "έγκυος",
+      "transcription": "[ˈeŋgios]",
+      "meaning": "беременная",
+      "note": "в диалоге срок четыре месяца",
+      "core": false
+    },
+    {
       "id": "έλα / ελάτε",
       "lesson": "09",
       "greek": "έλα / ελάτε",
       "transcription": "[ˈela / eˈlate]",
       "meaning": "иди / идите; давай / давайте",
       "note": "единственное / вежливое или множественное",
+      "core": true
+    },
+    {
+      "id": "το εμπορικό κέντρο",
+      "lesson": "09",
+      "greek": "το εμπορικό κέντρο",
+      "transcription": "[to emporiˈko ˈkendro]",
+      "meaning": "торговый центр",
+      "note": "τα εμπορικά κέντρα [ta emporiˈka ˈkendra]; учебник №9",
+      "core": true
+    },
+    {
+      "id": "το επάγγελμα",
+      "lesson": "09",
+      "greek": "το επάγγελμα",
+      "transcription": "[to eˈpaŋgelma]",
+      "meaning": "профессия",
+      "note": "τα επαγγέλματα [ta epaŋˈgelmata]",
+      "core": true
+    },
+    {
+      "id": "ο ηθοποιός / η ηθοποιός",
+      "lesson": "09",
+      "greek": "ο ηθοποιός / η ηθοποιός",
+      "transcription": "[o iθopiˈos / i iθopiˈos]",
+      "meaning": "актёр / актриса",
+      "note": "οι ηθοποιοί [i iθopiˈi]",
+      "core": true
+    },
+    {
+      "id": "η καθηγήτρια",
+      "lesson": "09",
+      "greek": "η καθηγήτρια",
+      "transcription": "[i kaθiˈyitria]",
+      "meaning": "преподавательница",
+      "note": "οι καθηγήτριες [i kaθiˈyitries]",
+      "core": true
+    },
+    {
+      "id": "το κατάστημα",
+      "lesson": "09",
+      "greek": "το κατάστημα",
+      "transcription": "[to kaˈtastima]",
+      "meaning": "магазин",
+      "note": "τα καταστήματα [ta kataˈstimata]",
+      "core": true
+    },
+    {
+      "id": "η κλινική",
+      "lesson": "09",
+      "greek": "η κλινική",
+      "transcription": "[i kliniˈki]",
+      "meaning": "клиника",
+      "note": "οι κλινικές [i kliniˈkes]",
+      "core": false
+    },
+    {
+      "id": "το κομμωτήριο",
+      "lesson": "09",
+      "greek": "το κομμωτήριο",
+      "transcription": "[to komoˈtirio]",
+      "meaning": "парикмахерская",
+      "note": "τα κομμωτήρια [ta komoˈtiria]",
+      "core": true
+    },
+    {
+      "id": "ο κομμωτής",
+      "lesson": "09",
+      "greek": "ο κομμωτής",
+      "transcription": "[o komoˈtis]",
+      "meaning": "парикмахер, мужчина",
+      "note": "οι κομμωτές [i komoˈtes]",
       "core": true
     },
     {
@@ -4371,6 +4569,15 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "η μαγείρισσα",
+      "lesson": "09",
+      "greek": "η μαγείρισσα",
+      "transcription": "[i maˈyirisa]",
+      "meaning": "повар, женщина",
+      "note": "οι μαγείρισσες [i maˈyirises]",
+      "core": true
+    },
+    {
       "id": "η μάνα",
       "lesson": "09",
       "greek": "η μάνα",
@@ -4380,12 +4587,66 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "ο μανάβης",
+      "lesson": "09",
+      "greek": "ο μανάβης",
+      "transcription": "[o maˈnavis]",
+      "meaning": "продавец овощей и фруктов",
+      "note": "οι μανάβηδες [i maˈnaviðes]",
+      "core": false
+    },
+    {
+      "id": "το μανάβικο",
+      "lesson": "09",
+      "greek": "το μανάβικο",
+      "transcription": "[to maˈnaviko]",
+      "meaning": "овощная лавка",
+      "note": "τα μανάβικα [ta maˈnavika]",
+      "core": false
+    },
+    {
+      "id": "η μανάβισσα",
+      "lesson": "09",
+      "greek": "η μανάβισσα",
+      "transcription": "[i maˈnavisa]",
+      "meaning": "продавщица овощей и фруктов",
+      "note": "οι μανάβισσες [i maˈnavises]",
+      "core": false
+    },
+    {
+      "id": "Με το καλό!",
+      "lesson": "09",
+      "greek": "Με το καλό!",
+      "transcription": "[me to kaˈlo]",
+      "meaning": "пусть всё пройдёт хорошо!",
+      "note": "пожелание благополучного события",
+      "core": false
+    },
+    {
       "id": "μεγάλος / μεγάλη / μεγάλο",
       "lesson": "09",
       "greek": "μεγάλος / μεγάλη / μεγάλο",
       "transcription": "[meˈɣalos / meˈɣali / meˈɣalo]",
       "meaning": "большой; старший",
       "note": "в диалоге η μεγάλη μου αδερφή [i meˈɣali mu aðerˈfi]",
+      "core": true
+    },
+    {
+      "id": "ο μήνας",
+      "lesson": "09",
+      "greek": "ο μήνας",
+      "transcription": "[o ˈminas]",
+      "meaning": "месяц",
+      "note": "οι μήνες [i ˈmines]; срок: μηνών [miˈnon]",
+      "core": false
+    },
+    {
+      "id": "ο μηχανικός / η μηχανικός",
+      "lesson": "09",
+      "greek": "ο μηχανικός / η μηχανικός",
+      "transcription": "[o mihaniˈkos / i mihaniˈkos]",
+      "meaning": "инженер; механик",
+      "note": "οι μηχανικοί [i mihaniˈki]; значение определяется местом работы",
       "core": true
     },
     {
@@ -4407,6 +4668,60 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "ο νοσηλευτής",
+      "lesson": "09",
+      "greek": "ο νοσηλευτής",
+      "transcription": "[o nosilefˈtis]",
+      "meaning": "медбрат",
+      "note": "οι νοσηλευτές [i nosilefˈtes]; другая пара из таблицы",
+      "core": false
+    },
+    {
+      "id": "η νοσηλεύτρια",
+      "lesson": "09",
+      "greek": "η νοσηλεύτρια",
+      "transcription": "[i nosiˈleftria]",
+      "meaning": "медсестра",
+      "note": "οι νοσηλεύτριες [i nosiˈleftries]",
+      "core": false
+    },
+    {
+      "id": "η νοσοκόμα",
+      "lesson": "09",
+      "greek": "η νοσοκόμα",
+      "transcription": "[i nosoˈkoma]",
+      "meaning": "медсестра",
+      "note": "οι νοσοκόμες [i nosoˈkomes]",
+      "core": true
+    },
+    {
+      "id": "το νοσοκομείο",
+      "lesson": "09",
+      "greek": "το νοσοκομείο",
+      "transcription": "[to nosokoˈmio]",
+      "meaning": "больница",
+      "note": "τα νοσοκομεία [ta nosokoˈmia]",
+      "core": true
+    },
+    {
+      "id": "ο νοσοκόμος",
+      "lesson": "09",
+      "greek": "ο νοσοκόμος",
+      "transcription": "[o nosoˈkomos]",
+      "meaning": "медбрат",
+      "note": "οι νοσοκόμοι [i nosoˈkomi]",
+      "core": true
+    },
+    {
+      "id": "τα Οικονομικά",
+      "lesson": "09",
+      "greek": "τα Οικονομικά",
+      "transcription": "[ta ikonomiˈka]",
+      "meaning": "экономика, экономические науки",
+      "note": "название специальности во множественном числе",
+      "core": false
+    },
+    {
       "id": "πάνω στην ώρα",
       "lesson": "09",
       "greek": "πάνω στην ώρα",
@@ -4425,12 +4740,84 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "Πόσων χρονών είσαι;",
+      "lesson": "09",
+      "greek": "Πόσων χρονών είσαι;",
+      "transcription": "[ˈposon hroˈnon ˈise]",
+      "meaning": "сколько тебе лет?",
+      "note": "вежливо Πόσων χρονών είστε; [ˈposon hroˈnon ˈiste]",
+      "core": true
+    },
+    {
+      "id": "η πρεσβεία",
+      "lesson": "09",
+      "greek": "η πρεσβεία",
+      "transcription": "[i presˈvia]",
+      "meaning": "посольство",
+      "note": "οι πρεσβείες [i presˈvies]",
+      "core": false
+    },
+    {
+      "id": "ο πωλητής",
+      "lesson": "09",
+      "greek": "ο πωλητής",
+      "transcription": "[o poliˈtis]",
+      "meaning": "продавец",
+      "note": "οι πωλητές [i poliˈtes]",
+      "core": true
+    },
+    {
+      "id": "το σαλόνι",
+      "lesson": "09",
+      "greek": "το σαλόνι",
+      "transcription": "[to saˈloni]",
+      "meaning": "гостиная",
+      "note": "τα σαλόνια [ta saˈlonya]",
+      "core": false
+    },
+    {
       "id": "σε λίγο",
       "lesson": "09",
       "greek": "σε λίγο",
       "transcription": "[se ˈliɣo]",
       "meaning": "скоро; через немного времени",
       "note": "устойчивая фраза",
+      "core": true
+    },
+    {
+      "id": "η σερβιτόρα",
+      "lesson": "09",
+      "greek": "η σερβιτόρα",
+      "transcription": "[i serviˈtora]",
+      "meaning": "официантка",
+      "note": "οι σερβιτόρες [i serviˈtores]",
+      "core": true
+    },
+    {
+      "id": "ο σερβιτόρος",
+      "lesson": "09",
+      "greek": "ο σερβιτόρος",
+      "transcription": "[o serviˈtoros]",
+      "meaning": "официант",
+      "note": "οι σερβιτόροι [i serviˈtori]",
+      "core": true
+    },
+    {
+      "id": "το σουπερμάρκετ",
+      "lesson": "09",
+      "greek": "το σουπερμάρκετ",
+      "transcription": "[to superˈmarket]",
+      "meaning": "супермаркет",
+      "note": "τα σουπερμάρκετ [ta superˈmarket]; также написание через дефис",
+      "core": true
+    },
+    {
+      "id": "το σπίτι",
+      "lesson": "09",
+      "greek": "το σπίτι",
+      "transcription": "[to ˈspiti]",
+      "meaning": "дом",
+      "note": "τα σπίτια [ta ˈspitya]",
       "core": true
     },
     {
@@ -4458,6 +4845,141 @@ window.GREEK_VOCABULARY = {
       "transcription": "[i simfiˈtitria]",
       "meaning": "однокурсница",
       "note": "οι συμφοιτήτριες [i simfiˈtitries]",
+      "core": true
+    },
+    {
+      "id": "το συνεργείο",
+      "lesson": "09",
+      "greek": "το συνεργείο",
+      "transcription": "[to sinerˈyio]",
+      "meaning": "автомастерская",
+      "note": "τα συνεργεία [ta sinerˈyia]",
+      "core": true
+    },
+    {
+      "id": "ο συνταξιούχος / η συνταξιούχος",
+      "lesson": "09",
+      "greek": "ο συνταξιούχος / η συνταξιούχος",
+      "transcription": "[o sindaksiˈuhos / i sindaksiˈuhos]",
+      "meaning": "пенсионер / пенсионерка",
+      "note": "οι συνταξιούχοι [i sindaksiˈuhi]",
+      "core": true
+    },
+    {
+      "id": "η ταινία",
+      "lesson": "09",
+      "greek": "η ταινία",
+      "transcription": "[i teˈnia]",
+      "meaning": "фильм",
+      "note": "οι ταινίες [i teˈnies]",
+      "core": true
+    },
+    {
+      "id": "ο ταμίας / η ταμίας",
+      "lesson": "09",
+      "greek": "ο ταμίας / η ταμίας",
+      "transcription": "[o taˈmias / i taˈmias]",
+      "meaning": "кассир",
+      "note": "οι ταμίες [i taˈmies]",
+      "core": true
+    },
+    {
+      "id": "ο ταξιτζής",
+      "lesson": "09",
+      "greek": "ο ταξιτζής",
+      "transcription": "[o taksiˈdzis]",
+      "meaning": "таксист",
+      "note": "οι ταξιτζήδες [i taksiˈdziðes]",
+      "core": false
+    },
+    {
+      "id": "η ταξιτζού",
+      "lesson": "09",
+      "greek": "η ταξιτζού",
+      "transcription": "[i taksiˈdzu]",
+      "meaning": "таксистка",
+      "note": "οι ταξιτζούδες [i taksiˈdzuðes]",
+      "core": false
+    },
+    {
+      "id": "ο τεχνικός / η τεχνικός",
+      "lesson": "09",
+      "greek": "ο τεχνικός / η τεχνικός",
+      "transcription": "[o tehniˈkos / i tehniˈkos]",
+      "meaning": "техник",
+      "note": "οι τεχνικοί [i tehniˈki]",
+      "core": false
+    },
+    {
+      "id": "ο τραγουδιστής",
+      "lesson": "09",
+      "greek": "ο τραγουδιστής",
+      "transcription": "[o traɣuðiˈstis]",
+      "meaning": "певец",
+      "note": "οι τραγουδιστές [i traɣuðiˈstes]",
+      "core": true
+    },
+    {
+      "id": "η τραγουδίστρια",
+      "lesson": "09",
+      "greek": "η τραγουδίστρια",
+      "transcription": "[i traɣuˈðistria]",
+      "meaning": "певица",
+      "note": "οι τραγουδίστριες [i traɣuˈðistries]",
+      "core": true
+    },
+    {
+      "id": "ο υπάλληλος / η υπάλληλος",
+      "lesson": "09",
+      "greek": "ο υπάλληλος / η υπάλληλος",
+      "transcription": "[o iˈpalilos / i iˈpalilos]",
+      "meaning": "сотрудник / сотрудница",
+      "note": "οι υπάλληλοι [i iˈpalili]",
+      "core": true
+    },
+    {
+      "id": "το φαρμακείο",
+      "lesson": "09",
+      "greek": "το φαρμακείο",
+      "transcription": "[to farmaˈkio]",
+      "meaning": "аптека",
+      "note": "τα φαρμακεία [ta farmaˈkia]",
+      "core": true
+    },
+    {
+      "id": "ο φαρμακοποιός / η φαρμακοποιός",
+      "lesson": "09",
+      "greek": "ο φαρμακοποιός / η φαρμακοποιός",
+      "transcription": "[o farmakopiˈos / i farmakopiˈos]",
+      "meaning": "фармацевт",
+      "note": "οι φαρμακοποιοί [i farmakopiˈi]",
+      "core": true
+    },
+    {
+      "id": "η Φιλολογία",
+      "lesson": "09",
+      "greek": "η Φιλολογία",
+      "transcription": "[i filoloˈyia]",
+      "meaning": "филология",
+      "note": "название специальности; учим в единственном числе",
+      "core": false
+    },
+    {
+      "id": "ο φοιτητής",
+      "lesson": "09",
+      "greek": "ο φοιτητής",
+      "transcription": "[o fitiˈtis]",
+      "meaning": "студент",
+      "note": "οι φοιτητές [i fitiˈtes]",
+      "core": true
+    },
+    {
+      "id": "ο χρόνος",
+      "lesson": "09",
+      "greek": "ο χρόνος",
+      "transcription": "[o ˈhronos]",
+      "meaning": "год",
+      "note": "τα χρόνια [ta ˈhronya]; возраст: χρονών [hroˈnon]",
       "core": true
     }
   ]

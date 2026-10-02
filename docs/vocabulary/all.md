@@ -1,6 +1,6 @@
 # Общий словарь
 
-**Всего активных слов и устойчивых формул:** 491
+**Всего активных слов и устойчивых формул:** 549
 
 Словарь автоматически собирается из словарей уроков. Внутри каждого урока
 записи отсортированы по греческому алфавиту; подробный контекст находится
@@ -531,17 +531,75 @@
 | Слово | Транскрипция | Значение | Форма / примечание | Впервые встретилось |
 |---|---|---|---|---|
 | `ακόμα` | `[aˈkoma]` | ещё; всё ещё | наречие | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
+| `ο άνεργος / η άνεργη` | `[o ˈanerɣos / i ˈaneryi]` | безработный / безработная | `οι άνεργοι / οι άνεργες` `[i ˈaneryi / i ˈaneryes]` | [Урок 09, раздел](lesson-09.md#current-pass) |
 | `ανοίγω` | `[aˈniɣo]` | открывать | глагол типа Α | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
 | `αρραβωνιασμένος / αρραβωνιασμένη` | `[aravoniazˈmenos / aravoniazˈmeni]` | помолвленный / помолвленная | из утверждения `Σωστό ή Λάθος;` `[soˈsto i ˈlaθos?]` | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
+| `ο αρχαιολόγος / η αρχαιολόγος` | `[o arheoˈloɣos / i arheoˈloɣos]` | археолог | `οι αρχαιολόγοι` `[i arheoˈloɣi]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `η αστυνομία` | `[i astinoˈmia]` | полиция | название организации; в этом значении учим единственное число | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το αστυνομικό τμήμα` | `[to astinomiˈko ˈtmima]` | полицейское отделение | `τα αστυνομικά τμήματα` `[ta astinomiˈka ˈtmimata]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο αστυνομικός / η αστυνομικός` | `[o astinomiˈkos / i astinomiˈkos]` | полицейский | `οι αστυνομικοί` `[i astinomiˈki]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ασχολούμαι` | `[ashoˈlume]` | занимаюсь | `ασχολείσαι / ασχολείστε` `[ashoˈlise / ashoˈliste]`; не модель Α1 | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το βενζινάδικο` | `[to venziˈnaðiko]` | заправка | `τα βενζινάδικα` `[ta venziˈnaðika]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το γραφείο` | `[to ɣraˈfio]` | офис; письменный стол | `τα γραφεία` `[ta ɣraˈfia]`; в вопросе о работе — офис | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο γυμναστής` | `[o yimnaˈstis]` | тренер; преподаватель физкультуры | `οι γυμναστές` `[i yimnaˈstes]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο δάσκαλος` | `[o ˈðaskalos]` | учитель | `οι δάσκαλοι` `[i ˈðaskali]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο δημοσιογράφος / η δημοσιογράφος` | `[o ðimosioˈɣrafos / i ðimosioˈɣrafos]` | журналист | `οι δημοσιογράφοι` `[i ðimosioˈɣrafi]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το δικηγορικό γραφείο` | `[to ðikiɣoriˈko ɣraˈfio]` | адвокатская контора | `τα δικηγορικά γραφεία` `[ta ðikiɣoriˈka ɣraˈfia]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο δικηγόρος / η δικηγόρος` | `[o ðikiˈɣoros / i ðikiˈɣoros]` | адвокат | `οι δικηγόροι` `[i ðikiˈɣori]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `έγκυος` | `[ˈeŋgios]` | беременная | в диалоге срок четыре месяца | [Урок 09, раздел](lesson-09.md#current-pass) |
 | `έλα / ελάτε` | `[ˈela / eˈlate]` | иди / идите; давай / давайте | единственное / вежливое или множественное | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
+| `το εμπορικό κέντρο` | `[to emporiˈko ˈkendro]` | торговый центр | `τα εμπορικά κέντρα` `[ta emporiˈka ˈkendra]`; учебник №9 | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το επάγγελμα` | `[to eˈpaŋgelma]` | профессия | `τα επαγγέλματα` `[ta epaŋˈgelmata]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο ηθοποιός / η ηθοποιός` | `[o iθopiˈos / i iθopiˈos]` | актёр / актриса | `οι ηθοποιοί` `[i iθopiˈi]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `η καθηγήτρια` | `[i kaθiˈyitria]` | преподавательница | `οι καθηγήτριες` `[i kaθiˈyitries]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το κατάστημα` | `[to kaˈtastima]` | магазин | `τα καταστήματα` `[ta kataˈstimata]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `η κλινική` | `[i kliniˈki]` | клиника | `οι κλινικές` `[i kliniˈkes]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το κομμωτήριο` | `[to komoˈtirio]` | парикмахерская | `τα κομμωτήρια` `[ta komoˈtiria]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο κομμωτής` | `[o komoˈtis]` | парикмахер, мужчина | `οι κομμωτές` `[i komoˈtes]` | [Урок 09, раздел](lesson-09.md#current-pass) |
 | `το κουδούνι` | `[to kuˈðuni]` | звонок | `τα κουδούνια` `[ta kuˈðunya]` | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
+| `η μαγείρισσα` | `[i maˈyirisa]` | повар, женщина | `οι μαγείρισσες` `[i maˈyirises]` | [Урок 09, раздел](lesson-09.md#current-pass) |
 | `η μάνα` | `[i ˈmana]` | мать; мама | `οι μάνες` `[i ˈmanes]`; разговорное | [Урок 09, упр. 1](lesson-09.md#lesson-09-family) |
+| `ο μανάβης` | `[o maˈnavis]` | продавец овощей и фруктов | `οι μανάβηδες` `[i maˈnaviðes]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το μανάβικο` | `[to maˈnaviko]` | овощная лавка | `τα μανάβικα` `[ta maˈnavika]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `η μανάβισσα` | `[i maˈnavisa]` | продавщица овощей и фруктов | `οι μανάβισσες` `[i maˈnavises]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `Με το καλό!` | `[me to kaˈlo]` | пусть всё пройдёт хорошо! | пожелание благополучного события | [Урок 09, раздел](lesson-09.md#current-pass) |
 | `μεγάλος / μεγάλη / μεγάλο` | `[meˈɣalos / meˈɣali / meˈɣalo]` | большой; старший | в диалоге `η μεγάλη μου αδερφή` `[i meˈɣali mu aðerˈfi]` | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
+| `ο μήνας` | `[o ˈminas]` | месяц | `οι μήνες` `[i ˈmines]`; срок: `μηνών` `[miˈnon]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο μηχανικός / η μηχανικός` | `[o mihaniˈkos / i mihaniˈkos]` | инженер; механик | `οι μηχανικοί` `[i mihaniˈki]`; значение определяется местом работы | [Урок 09, раздел](lesson-09.md#current-pass) |
 | `μικρός / μικρή / μικρό` | `[miˈkros / miˈkri / miˈkro]` | маленький; младший | в диалоге `ο μικρός μου αδερφός` `[o miˈkros mu aðerˈfos]` | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
 | `η Νομική` | `[i nomiˈki]` | юридический факультет | ср. `τα Νομικά` `[ta nomiˈka]` — право | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
+| `ο νοσηλευτής` | `[o nosilefˈtis]` | медбрат | `οι νοσηλευτές` `[i nosilefˈtes]`; другая пара из таблицы | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `η νοσηλεύτρια` | `[i nosiˈleftria]` | медсестра | `οι νοσηλεύτριες` `[i nosiˈleftries]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `η νοσοκόμα` | `[i nosoˈkoma]` | медсестра | `οι νοσοκόμες` `[i nosoˈkomes]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το νοσοκομείο` | `[to nosokoˈmio]` | больница | `τα νοσοκομεία` `[ta nosokoˈmia]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο νοσοκόμος` | `[o nosoˈkomos]` | медбрат | `οι νοσοκόμοι` `[i nosoˈkomi]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `τα Οικονομικά` | `[ta ikonomiˈka]` | экономика, экономические науки | название специальности во множественном числе | [Урок 09, раздел](lesson-09.md#current-pass) |
 | `πάνω στην ώρα` | `[ˈpano stin ˈora]` | как раз вовремя | устойчивая фраза | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
 | `ποιος / ποια / ποιο` | `[ˈpios / ˈpia / ˈpio]` | кто? какой? | согласуется с родом и числом | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
+| `Πόσων χρονών είσαι;` | `[ˈposon hroˈnon ˈise]` | сколько тебе лет? | вежливо `Πόσων χρονών είστε;` `[ˈposon hroˈnon ˈiste]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `η πρεσβεία` | `[i presˈvia]` | посольство | `οι πρεσβείες` `[i presˈvies]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο πωλητής` | `[o poliˈtis]` | продавец | `οι πωλητές` `[i poliˈtes]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το σαλόνι` | `[to saˈloni]` | гостиная | `τα σαλόνια` `[ta saˈlonya]` | [Урок 09, раздел](lesson-09.md#current-pass) |
 | `σε λίγο` | `[se ˈliɣo]` | скоро; через немного времени | устойчивая фраза | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
+| `η σερβιτόρα` | `[i serviˈtora]` | официантка | `οι σερβιτόρες` `[i serviˈtores]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο σερβιτόρος` | `[o serviˈtoros]` | официант | `οι σερβιτόροι` `[i serviˈtori]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το σουπερμάρκετ` | `[to superˈmarket]` | супермаркет | `τα σουπερμάρκετ` `[ta superˈmarket]`; также написание через дефис | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το σπίτι` | `[to ˈspiti]` | дом | `τα σπίτια` `[ta ˈspitya]` | [Урок 09, раздел](lesson-09.md#current-pass) |
 | `η σύζυγος` | `[i ˈsiziɣos]` | супруга | `οι σύζυγοι` `[i ˈsiziɣi]` | [Урок 09, упр. 1](lesson-09.md#lesson-09-family) |
 | `ο συμφοιτητής` | `[o simfitiˈtis]` | однокурсник | `οι συμφοιτητές` `[i simfitiˈtes]` | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
 | `η συμφοιτήτρια` | `[i simfiˈtitria]` | однокурсница | `οι συμφοιτήτριες` `[i simfiˈtitries]` | [Урок 09, диалог](lesson-09.md#lesson-09-dialogue) |
+| `το συνεργείο` | `[to sinerˈyio]` | автомастерская | `τα συνεργεία` `[ta sinerˈyia]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο συνταξιούχος / η συνταξιούχος` | `[o sindaksiˈuhos / i sindaksiˈuhos]` | пенсионер / пенсионерка | `οι συνταξιούχοι` `[i sindaksiˈuhi]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `η ταινία` | `[i teˈnia]` | фильм | `οι ταινίες` `[i teˈnies]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο ταμίας / η ταμίας` | `[o taˈmias / i taˈmias]` | кассир | `οι ταμίες` `[i taˈmies]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο ταξιτζής` | `[o taksiˈdzis]` | таксист | `οι ταξιτζήδες` `[i taksiˈdziðes]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `η ταξιτζού` | `[i taksiˈdzu]` | таксистка | `οι ταξιτζούδες` `[i taksiˈdzuðes]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο τεχνικός / η τεχνικός` | `[o tehniˈkos / i tehniˈkos]` | техник | `οι τεχνικοί` `[i tehniˈki]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο τραγουδιστής` | `[o traɣuðiˈstis]` | певец | `οι τραγουδιστές` `[i traɣuðiˈstes]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `η τραγουδίστρια` | `[i traɣuˈðistria]` | певица | `οι τραγουδίστριες` `[i traɣuˈðistries]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο υπάλληλος / η υπάλληλος` | `[o iˈpalilos / i iˈpalilos]` | сотрудник / сотрудница | `οι υπάλληλοι` `[i iˈpalili]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `το φαρμακείο` | `[to farmaˈkio]` | аптека | `τα φαρμακεία` `[ta farmaˈkia]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο φαρμακοποιός / η φαρμακοποιός` | `[o farmakopiˈos / i farmakopiˈos]` | фармацевт | `οι φαρμακοποιοί` `[i farmakopiˈi]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `η Φιλολογία` | `[i filoloˈyia]` | филология | название специальности; учим в единственном числе | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο φοιτητής` | `[o fitiˈtis]` | студент | `οι φοιτητές` `[i fitiˈtes]` | [Урок 09, раздел](lesson-09.md#current-pass) |
+| `ο χρόνος` | `[o ˈhronos]` | год | `τα χρόνια` `[ta ˈhronya]`; возраст: `χρονών` `[hroˈnon]` | [Урок 09, раздел](lesson-09.md#current-pass) |

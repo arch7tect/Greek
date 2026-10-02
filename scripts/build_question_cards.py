@@ -128,7 +128,9 @@ md = ['# Вопросы и ответы — сквозной сборник', ''
       'Разборы: [знакомство](../lessons/lesson-03-introductions-and-eimai.md), '
       '[общение и жильё](../lessons/lesson-04-current.md), '
       '[запись на занятия](../lessons/lesson-05-current.md#registration), '
-      '[языки и учёба](../lessons/lesson-06-current.md).', '']
+      '[языки и учёба](../lessons/lesson-06-current.md), '
+      '[семья](../lessons/lesson-08-current.md), '
+      '[профессия и возраст](../lessons/lesson-09-current.md).', '']
 for block in blocks:
     md += [f'## {block["id"]}. {block["title"]} {{ #q{block["id"]} }}', '']
     for label, greek, trans, ru in block['rows']:
