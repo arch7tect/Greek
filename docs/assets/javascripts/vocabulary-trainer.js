@@ -3,7 +3,7 @@
   if (!root) return;
 
   const vocabulary = window.GREEK_VOCABULARY;
-  const { createStore, shuffle } = window.GreekTrainer;
+  const { createVocabularyProgress, shuffle } = window.GreekTrainer;
   if (!vocabulary?.words?.length) {
     root.textContent = "Не удалось загрузить словарь тренажёра.";
     return;
@@ -26,6 +26,11 @@
   const directionButtons = [...root.querySelectorAll("[data-vocabulary-direction]")];
   const ratingButtons = [...root.querySelectorAll("[data-vocabulary-rating]")];
   const restart = root.querySelector("#vocabulary-trainer-restart");
+  const reset = root.querySelector("#vocabulary-trainer-reset");
+  const resetPanel = root.querySelector("#vocabulary-trainer-reset-panel");
+  const resetDescription = root.querySelector("#vocabulary-trainer-reset-description");
+  const resetConfirm = root.querySelector("#vocabulary-trainer-reset-confirm");
+  const resetCancel = root.querySelector("#vocabulary-trainer-reset-cancel");
   const progressText = root.querySelector("#vocabulary-trainer-progress");
   const learnedText = root.querySelector("#vocabulary-trainer-learned");
   const promptLabel = root.querySelector("#vocabulary-trainer-prompt-label");
@@ -43,9 +48,7 @@
   const feedback = root.querySelector("#vocabulary-trainer-writing-feedback");
   const next = root.querySelector("#vocabulary-trainer-next");
   const { letters, normalize, variants, compare } = window.GreekWriting;
-  const storageKey = "greek-vocabulary-progress-v3";
-  const progressStore = createStore(storageKey);
-  const writingStore = createStore("greek-vocabulary-writing-progress-v1");
+  const progressStore = createVocabularyProgress();
   const day = 24 * 60 * 60 * 1000;
   const intervals = [1, 3, 7, 14, 30];
   const articlePattern = /^(ο|η|το|οι|τα)\s+/;
@@ -60,7 +63,7 @@
   let queue = [];
   let current = null;
   let shownCount = 0;
-  let progressState = progressStore.get();
+  let progressState = progressStore.get(activeDirection);
   let writingFirstResult = null;
   let writingResolved = false;
   const isWriting = () => activeDirection === "writing";
@@ -91,7 +94,7 @@
       const level = Math.min(previous.level + 1, intervals.length);
       progressState[current.id] = { level, due: Date.now() + intervals[level - 1] * day };
     }
-    (isWriting() ? writingStore : progressStore).set(progressState);
+    progressStore.set(activeDirection, progressState);
   }
 
   function acceptedAnswers() {
@@ -274,7 +277,9 @@
   }
 
   function startSession() {
-    progressState = (isWriting() ? writingStore : progressStore).get();
+    resetPanel.hidden = true;
+    reset.setAttribute("aria-expanded", "false");
+    progressState = progressStore.get(activeDirection);
     queue = makeSession();
     shownCount = 0;
     current = null;
@@ -338,6 +343,22 @@
     button.addEventListener("click", () => rate(button.dataset.vocabularyRating));
   });
   restart.addEventListener("click", startSession);
+  reset.addEventListener("click", () => {
+    const direction = directionButtons.find((button) => button.dataset.vocabularyDirection === activeDirection).textContent;
+    resetDescription.textContent = `Начать урок ${activeLesson} заново в режиме «${direction}»? Сбросятся основные и дополнительные слова этого урока. Другие уроки и режимы сохранятся.`;
+    resetPanel.hidden = false;
+    reset.setAttribute("aria-expanded", "true");
+    resetConfirm.focus();
+  });
+  resetCancel.addEventListener("click", () => {
+    resetPanel.hidden = true;
+    reset.setAttribute("aria-expanded", "false");
+    reset.focus();
+  });
+  resetConfirm.addEventListener("click", () => {
+    progressStore.reset(activeDirection, vocabulary.words.filter((word) => word.lesson === activeLesson).map((word) => word.id));
+    startSession();
+  });
   hint.addEventListener("click", () => {
     if (!current) return;
     hintText.textContent = current.transcription;

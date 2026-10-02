@@ -41,6 +41,35 @@
     };
   };
 
+  const createVocabularyProgress = (storageOverride) => {
+    const store = createStore("greek-vocabulary-progress-v4", storageOverride);
+    let state = store.get();
+    if (!isRecord(state.modes)) {
+      // The old format did not record direction. Preserve it only for reading;
+      // copying it to every mode would incorrectly mark those skills learned.
+      state = { modes: {
+        "greek-to-russian": createStore("greek-vocabulary-progress-v3", storageOverride).get(),
+        "russian-to-greek": {},
+        article: {},
+        writing: createStore("greek-vocabulary-writing-progress-v1", storageOverride).get()
+      } };
+      store.set(state);
+    }
+    return {
+      get: (direction) => isRecord(state.modes[direction]) ? state.modes[direction] : {},
+      set: (direction, progress) => {
+        state.modes[direction] = isRecord(progress) ? progress : {};
+        store.set(state);
+      },
+      reset: (direction, ids) => {
+        const progress = { ...(isRecord(state.modes[direction]) ? state.modes[direction] : {}) };
+        ids.forEach((id) => { delete progress[id]; });
+        state.modes[direction] = progress;
+        store.set(state);
+      }
+    };
+  };
+
   const normalizeCardProgress = (progress) => ({
     errors: Number.isInteger(progress?.errors) && progress.errors > 0 ? progress.errors : 0,
     streak: Number.isInteger(progress?.streak) && progress.streak > 0 ? progress.streak : 0
@@ -370,6 +399,7 @@
   const api = {
     shuffle,
     createStore,
+    createVocabularyProgress,
     updateCardProgress,
     orderCards,
     countWeakCards,

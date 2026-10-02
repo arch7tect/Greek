@@ -4,6 +4,7 @@
 
   const {
     createStore,
+    createVocabularyProgress,
     summarizeQuizProgress,
     summarizeVocabularyProgress,
     filterByLesson,
@@ -35,17 +36,24 @@
   const vocabularySection = () => {
     const vocabulary = window.GREEK_VOCABULARY;
     if (!vocabulary?.words?.length) return null;
-    const progress = createStore("greek-vocabulary-progress-v3").get();
+    const progress = createVocabularyProgress();
     const words = vocabulary.words.filter((word) => (
       word.core && (lessonLimit === "all" || word.lesson <= lessonLimit)
     ));
-    const summary = summarizeVocabularyProgress(words, progress, Date.now());
-    const due = summary.due ? `, к повторению сейчас: ${summary.due}` : "";
+    const modes = [
+      ["greek-to-russian", "Греческий → русский"],
+      ["russian-to-greek", "Русский → греческий"],
+      ["writing", "Русский → написать"],
+      ["article", "Артикль"]
+    ].map(([key, title]) => {
+      const items = key === "article" ? words.filter((word) => /^(ο|η|το|οι|τα)\s+/.test(word.greek)) : words;
+      return { title, summary: summarizeVocabularyProgress(items, progress.get(key), Date.now()) };
+    });
     return {
       title: "Слова по урокам",
       href: "../training/vocabulary/",
-      touched: summary.started > 0,
-      lines: [`основных слов изучено ${summary.learned} из ${summary.total}${due}`]
+      touched: modes.some(({ summary }) => summary.started > 0),
+      lines: modes.map(({ title, summary }) => `${title} — изучено ${summary.learned} из ${summary.total}${summary.due ? `, к повторению сейчас: ${summary.due}` : ""}`)
     };
   };
 
