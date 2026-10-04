@@ -32,6 +32,12 @@ BOOKS = {
     book.slug: book
     for book in (
         Book(
+            "taxidi-stin-ellada-1-revised",
+            "Ταξίδι στην Ελλάδα 1 — шестое улучшенное издание",
+            ROOT / "materials/books/taxidi-stin-ellada-1-revised.pdf",
+            274,
+        ),
+        Book(
             "taxidi-stin-ellada-1",
             "Ταξίδι στην Ελλάδα 1",
             ROOT / "materials/books/taxidi-stin-ellada-1.pdf",
@@ -67,6 +73,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--workers", type=int, default=3)
     parser.add_argument("--dpi", type=int, default=150)
     parser.add_argument("--retries", type=int, default=3)
+    parser.add_argument("--merge-only", action="store_true", help="Merge saved recognition without new model requests.")
+    parser.add_argument("--unrecognized-pages", type=int, nargs="*", default=[], help="Explicit failed pages to record as gaps; requires --merge-only and one book.")
     return parser.parse_args()
 
 
@@ -226,7 +234,7 @@ def run_codex(
     return book.slug, start, end, f"failed: {last_error}"
 
 
-def merge_book(book: Book, model: str, batch_size: int) -> Path:
+def merge_book(book: Book, model: str, batch_size: int, unrecognized_pages: list[int] | None = None) -> Path:
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
     output = OUTPUT_ROOT / f"{book.slug}.md"
     parts = [
@@ -239,19 +247,45 @@ def merge_book(book: Book, model: str, batch_size: int) -> Path:
         "модель не смогла уверенно прочитать. Рукописные пометки отделены от печатного "
         "текста и не считаются ключом или исправлением преподавателя.\n\n",
     ]
+    gaps = set(unrecognized_pages or [])
+    if not gaps.issubset(set(expected_pages(1, book.pages))):
+        raise ValueError("Unrecognized page number is outside the book")
+    if gaps:
+        parts.append("**Не распознаны:** PDF-страницы " + ", ".join(map(str, sorted(gaps))) + ". Заглушки ниже — редакционные отметки, не результат OCR.\n\n")
     for start, end in chunks(book.pages, batch_size):
         path = batch_path(book, start, end)
         if not validate_batch(path, start, end):
-            raise RuntimeError(f"Cannot merge invalid or missing batch: {path}")
-        parts.append(path.read_text().rstrip() + "\n\n")
+            for page in expected_pages(start, end):
+                single = batch_path(book, page, page)
+                if page in gaps:
+                    if validate_batch(single, page, page):
+                        raise ValueError(f"Page {page} has valid OCR; do not label it unrecognized")
+                    parts.append(f"## PDF-страница {page}\n\n[проверить] [OCR не выполнен] Запрос распознавания не завершился из-за ограничения сервиса; текст страницы не восстановлен. Открыть страницу оригинального PDF.\n\n")
+                elif validate_batch(single, page, page):
+                    parts.append(single.read_text().rstrip() + "\n\n")
+                else:
+                    raise RuntimeError(f"Cannot merge invalid or missing page: {single}")
+        else:
+            if gaps.intersection(expected_pages(start, end)):
+                raise ValueError(f"Batch {start}-{end} has valid OCR; do not label its pages unrecognized")
+            parts.append(path.read_text().rstrip() + "\n\n")
     output.write_text("".join(parts).rstrip() + "\n")
     normalize_markdown(output)
+    if [int(value) for value in PAGE_HEADING.findall(output.read_text())] != expected_pages(1, book.pages):
+        raise RuntimeError("Merged corpus has missing, duplicate, or unordered page headings")
     return output
 
 
 def main() -> int:
     args = parse_args()
     selected = [BOOKS[slug] for slug in args.books]
+    if args.unrecognized_pages and (not args.merge_only or len(selected) != 1):
+        raise ValueError("--unrecognized-pages requires --merge-only and exactly one book")
+    if args.merge_only:
+        for book in selected:
+            output = merge_book(book, args.model, args.batch_size, args.unrecognized_pages)
+            print(f"Merged {output.relative_to(ROOT)}; unrecognized pages: {args.unrecognized_pages}", flush=True)
+        return 0
     tasks = [
         (book, start, end)
         for book in selected
