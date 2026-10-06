@@ -92,6 +92,7 @@ nav:
       - Урок 07 — языки, профессии и семья: lessons/lesson-07-current.md
       - Урок 08 — семья, отношения и «чей?»: lessons/lesson-08-current.md
       - Урок 09 — профессии и возраст: lessons/lesson-09-current.md
+      - Урок 10 — работа и рассказ о себе: lessons/lesson-10-current.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -119,6 +120,7 @@ nav:
       - Урок 07 — новые слова: vocabulary/lesson-07.md
       - Урок 08 — новые слова: vocabulary/lesson-08.md
       - Урок 09 — новые слова: vocabulary/lesson-09.md
+      - Урок 10 — новые слова и повторение: vocabulary/lesson-10.md
   - Коротко для памяти:
       - memory/index.md
       - Главное — сквозные карточки: memory/core.md
@@ -133,6 +135,7 @@ nav:
       - Урок 07: memory/lesson-07-current.md
       - Урок 08: memory/lesson-08-current.md
       - Урок 09: memory/lesson-09-current.md
+      - Урок 10: memory/lesson-10-current.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -145,6 +148,7 @@ nav:
           - К уроку 07: homework/lesson-07-current.md
           - К уроку 08: homework/lesson-08-current.md
           - К уроку 09: homework/lesson-09-current.md
+          - К уроку 10: homework/lesson-10-current.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md

@@ -165,7 +165,7 @@
 
   function selectedWords() {
     return vocabulary.words.filter((word) => (
-      word.lesson === activeLesson
+      (word.lessons || [word.lesson]).includes(activeLesson)
       && (activeScope === "all" || word.core)
       && (activeDirection !== "article" || articlePattern.test(word.greek))
     ));

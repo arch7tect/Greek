@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 549,
-  "core": 324,
+  "total": 593,
+  "core": 348,
   "lessons": {
     "01": {
       "total": 57,
@@ -38,12 +38,19 @@ window.GREEK_VOCABULARY = {
     "09": {
       "total": 73,
       "core": 50
+    },
+    "10": {
+      "total": 116,
+      "core": 76
     }
   },
   "words": [
     {
       "id": "το αεροπλάνο",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το αεροπλάνο",
       "transcription": "[to aeroˈplano]",
       "meaning": "самолёт",
@@ -53,6 +60,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το βιβλίο",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το βιβλίο",
       "transcription": "[to viˈvlio]",
       "meaning": "книга",
@@ -62,6 +72,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η βιολογία",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "η βιολογία",
       "transcription": "[i violoˈyia]",
       "meaning": "биология",
@@ -71,6 +84,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η γεωγραφία",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "η γεωγραφία",
       "transcription": "[i yeoɣraˈfia]",
       "meaning": "география",
@@ -80,6 +96,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "γράφω",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "γράφω",
       "transcription": "[ˈɣrafo]",
       "meaning": "писать",
@@ -89,6 +108,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το δάσος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το δάσος",
       "transcription": "[to ˈðasos]",
       "meaning": "лес",
@@ -98,6 +120,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο δήμος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο δήμος",
       "transcription": "[o ˈðimos]",
       "meaning": "муниципалитет",
@@ -107,6 +132,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "διαβάζω",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "διαβάζω",
       "transcription": "[ðiaˈvazo]",
       "meaning": "читать; учиться",
@@ -116,6 +144,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο δόλος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο δόλος",
       "transcription": "[o ˈðolos]",
       "meaning": "обман; умысел",
@@ -125,6 +156,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο δρόμος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο δρόμος",
       "transcription": "[o ˈðromos]",
       "meaning": "дорога; улица",
@@ -134,6 +168,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το θέατρο",
       "lesson": "01",
+      "lessons": [
+        "01",
+        "10"
+      ],
       "greek": "το θέατρο",
       "transcription": "[to ˈθeatro]",
       "meaning": "театр",
@@ -143,6 +181,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "θέλω",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "θέλω",
       "transcription": "[ˈθelo]",
       "meaning": "хотеть",
@@ -152,6 +193,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το θέρος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το θέρος",
       "transcription": "[to ˈθeros]",
       "meaning": "лето; жатва",
@@ -161,6 +205,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η θήκη",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "η θήκη",
       "transcription": "[i ˈθiki]",
       "meaning": "футляр; чехол",
@@ -170,6 +217,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο θίασος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο θίασος",
       "transcription": "[o ˈθiasos]",
       "meaning": "театральная труппа",
@@ -179,6 +229,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο θόλος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο θόλος",
       "transcription": "[o ˈθolos]",
       "meaning": "купол",
@@ -188,6 +241,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το θράσος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το θράσος",
       "transcription": "[to ˈθrasos]",
       "meaning": "наглость; дерзость",
@@ -197,6 +253,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το θυμάρι",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το θυμάρι",
       "transcription": "[to θiˈmari]",
       "meaning": "тимьян",
@@ -206,6 +265,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο θυμός",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο θυμός",
       "transcription": "[o θiˈmos]",
       "meaning": "гнев",
@@ -215,6 +277,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "καλημέρα",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "καλημέρα",
       "transcription": "[kaliˈmera]",
       "meaning": "доброе утро; добрый день",
@@ -224,6 +289,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο καφές",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο καφές",
       "transcription": "[o kaˈfes]",
       "meaning": "кофе",
@@ -233,6 +301,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η κιμωλία",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "η κιμωλία",
       "transcription": "[i kimoˈlia]",
       "meaning": "мел",
@@ -242,6 +313,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μάθημα",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το μάθημα",
       "transcription": "[to ˈmaθima]",
       "meaning": "урок; учебный предмет",
@@ -251,6 +325,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα μαθηματικά",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "τα μαθηματικά",
       "transcription": "[ta maθimatiˈka]",
       "meaning": "математика",
@@ -260,6 +337,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο μαθητής",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο μαθητής",
       "transcription": "[o maθiˈtis]",
       "meaning": "ученик",
@@ -269,6 +349,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η μαθήτρια",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "η μαθήτρια",
       "transcription": "[i maˈθitria]",
       "meaning": "ученица",
@@ -278,6 +361,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μετρό",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το μετρό",
       "transcription": "[to meˈtro]",
       "meaning": "метро",
@@ -287,6 +373,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μιλάω",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "μιλάω",
       "transcription": "[miˈlao]",
       "meaning": "говорить",
@@ -296,6 +385,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μολύβι",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το μολύβι",
       "transcription": "[to moˈlivi]",
       "meaning": "карандаш",
@@ -305,6 +397,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το παράθυρο",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το παράθυρο",
       "transcription": "[to paˈraθiro]",
       "meaning": "окно",
@@ -314,6 +409,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "παρακαλώ",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "παρακαλώ",
       "transcription": "[parakaˈlo]",
       "meaning": "пожалуйста; прошу",
@@ -323,6 +421,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το πάτωμα",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το πάτωμα",
       "transcription": "[to ˈpatoma]",
       "meaning": "пол",
@@ -332,6 +433,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο πηλός",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο πηλός",
       "transcription": "[o piˈlos]",
       "meaning": "глина",
@@ -341,6 +445,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το πιθάρι",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το πιθάρι",
       "transcription": "[to piˈθari]",
       "meaning": "большой глиняный кувшин",
@@ -350,6 +457,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο πίνακας",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο πίνακας",
       "transcription": "[o ˈpinakas]",
       "meaning": "доска; таблица; картина",
@@ -359,6 +469,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο πόνος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο πόνος",
       "transcription": "[o ˈponos]",
       "meaning": "боль",
@@ -368,6 +481,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η πόρτα",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "η πόρτα",
       "transcription": "[i ˈporta]",
       "meaning": "дверь",
@@ -377,6 +493,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο σάκος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο σάκος",
       "transcription": "[o ˈsakos]",
       "meaning": "мешок; сумка",
@@ -386,6 +505,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η σαλάτα",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "η σαλάτα",
       "transcription": "[i saˈlata]",
       "meaning": "салат",
@@ -395,6 +517,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το στυλό",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το στυλό",
       "transcription": "[to stiˈlo]",
       "meaning": "ручка",
@@ -404,6 +529,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σώμα",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το σώμα",
       "transcription": "[to ˈsoma]",
       "meaning": "тело",
@@ -413,6 +541,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η ταβέρνα",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "η ταβέρνα",
       "transcription": "[i taˈverna]",
       "meaning": "таверна",
@@ -422,6 +553,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η τάξη",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "η τάξη",
       "transcription": "[i ˈtaksi]",
       "meaning": "класс; порядок",
@@ -431,6 +565,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το τετράδιο",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το τετράδιο",
       "transcription": "[to teˈtraðio]",
       "meaning": "тетрадь",
@@ -440,6 +577,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το τηλέφωνο",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το τηλέφωνο",
       "transcription": "[to tiˈlefono]",
       "meaning": "телефон",
@@ -449,6 +589,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η τίγρη",
       "lesson": "01",
+      "lessons": [
+        "01",
+        "10"
+      ],
       "greek": "η τίγρη",
       "transcription": "[i ˈtiɣri]",
       "meaning": "тигр",
@@ -458,6 +602,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η τιμή",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "η τιμή",
       "transcription": "[i tiˈmi]",
       "meaning": "цена; честь",
@@ -467,6 +614,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο τόνος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο τόνος",
       "transcription": "[o ˈtonos]",
       "meaning": "ударение; тон",
@@ -476,6 +626,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το τυρί",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το τυρί",
       "transcription": "[to tiˈri]",
       "meaning": "сыр",
@@ -485,6 +638,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το φίδι",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το φίδι",
       "transcription": "[to ˈfiði]",
       "meaning": "змея",
@@ -494,6 +650,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο φίλος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο φίλος",
       "transcription": "[o ˈfilos]",
       "meaning": "друг",
@@ -503,6 +662,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο φόβος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο φόβος",
       "transcription": "[o ˈfovos]",
       "meaning": "страх",
@@ -512,6 +674,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο φόνος",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "ο φόνος",
       "transcription": "[o ˈfonos]",
       "meaning": "убийство",
@@ -521,6 +686,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η φόρα",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "η φόρα",
       "transcription": "[i ˈfora]",
       "meaning": "разгон; порыв",
@@ -530,6 +698,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το φύλλο",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "το φύλλο",
       "transcription": "[to ˈfilo]",
       "meaning": "лист",
@@ -539,6 +710,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η φυσική",
       "lesson": "01",
+      "lessons": [
+        "01"
+      ],
       "greek": "η φυσική",
       "transcription": "[i fisiˈki]",
       "meaning": "физика",
@@ -548,6 +722,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το φως",
       "lesson": "01",
+      "lessons": [
+        "01",
+        "10"
+      ],
       "greek": "το φως",
       "transcription": "[to fos]",
       "meaning": "свет",
@@ -557,6 +735,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Αίγυπτος",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η Αίγυπτος",
       "transcription": "[i ˈeyiptos]",
       "meaning": "Египет",
@@ -566,6 +747,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "αντίο",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "αντίο",
       "transcription": "[aˈdio]",
       "meaning": "до свидания",
@@ -575,6 +759,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "από",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "από",
       "transcription": "[aˈpo]",
       "meaning": "из; от",
@@ -584,6 +771,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "αυτός / αυτή / αυτό",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "αυτός / αυτή / αυτό",
       "transcription": "[afˈtos / afˈti / afˈto]",
       "meaning": "этот; он / эта; она / это; оно",
@@ -593,6 +783,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η βάση",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η βάση",
       "transcription": "[i ˈvasi]",
       "meaning": "основа; база",
@@ -602,6 +795,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το βήμα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το βήμα",
       "transcription": "[to ˈvima]",
       "meaning": "шаг",
@@ -611,6 +807,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το βόδι",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το βόδι",
       "transcription": "[to ˈvoði]",
       "meaning": "вол",
@@ -620,6 +819,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο γάιδαρος",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "ο γάιδαρος",
       "transcription": "[o ˈɣaiðaros]",
       "meaning": "осёл",
@@ -629,6 +831,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το γάλα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το γάλα",
       "transcription": "[to ˈɣala]",
       "meaning": "молоко",
@@ -638,6 +843,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Γαλλία",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η Γαλλία",
       "transcription": "[i ɣaˈlia]",
       "meaning": "Франция",
@@ -647,6 +855,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το γάντι",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το γάντι",
       "transcription": "[to ˈɣandi]",
       "meaning": "перчатка",
@@ -656,6 +867,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η γάτα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η γάτα",
       "transcription": "[i ˈɣata]",
       "meaning": "кошка",
@@ -665,6 +879,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "γεια",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "γεια",
       "transcription": "[ya]",
       "meaning": "привет; пока",
@@ -674,6 +891,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "γεια χαρά",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "γεια χαρά",
       "transcription": "[ya haˈra]",
       "meaning": "пока; всего хорошего",
@@ -683,6 +903,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο γέρος",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "ο γέρος",
       "transcription": "[o ˈyeros]",
       "meaning": "старик",
@@ -692,6 +915,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το γκαράζ",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το γκαράζ",
       "transcription": "[to gaˈraz]",
       "meaning": "гараж",
@@ -701,6 +927,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η γκάφα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η γκάφα",
       "transcription": "[i ˈgafa]",
       "meaning": "промах; оплошность",
@@ -710,6 +939,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το γκολφ",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το γκολφ",
       "transcription": "[to golf]",
       "meaning": "гольф",
@@ -719,6 +951,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο γκρεμός",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "ο γκρεμός",
       "transcription": "[o greˈmos]",
       "meaning": "обрыв; пропасть",
@@ -728,6 +963,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Γλυφάδα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η Γλυφάδα",
       "transcription": "[i ɣliˈfaða]",
       "meaning": "Глифада",
@@ -737,6 +975,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η γραμματική",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η γραμματική",
       "transcription": "[i ɣramatiˈki]",
       "meaning": "грамматика",
@@ -746,6 +987,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το δάκρυ",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το δάκρυ",
       "transcription": "[to ˈðakri]",
       "meaning": "слеза",
@@ -755,6 +999,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το δέμα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το δέμα",
       "transcription": "[to ˈðema]",
       "meaning": "посылка; свёрток",
@@ -764,6 +1011,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δεν ξέρω",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "δεν ξέρω",
       "transcription": "[ðen ˈksero]",
       "meaning": "я не знаю",
@@ -773,6 +1023,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η δημοκρατία",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η δημοκρατία",
       "transcription": "[i ðimokraˈtia]",
       "meaning": "демократия",
@@ -782,6 +1035,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δίνω",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "δίνω",
       "transcription": "[ˈðino]",
       "meaning": "давать",
@@ -791,6 +1047,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δουλεύω",
       "lesson": "02",
+      "lessons": [
+        "02",
+        "10"
+      ],
       "greek": "δουλεύω",
       "transcription": "[ðuˈlevo]",
       "meaning": "работать",
@@ -800,6 +1060,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το δώρο",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το δώρο",
       "transcription": "[to ˈðoro]",
       "meaning": "подарок",
@@ -809,6 +1072,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "είμαι",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "είμαι",
       "transcription": "[ˈime]",
       "meaning": "быть; я есть",
@@ -818,6 +1084,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εντάξει",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "εντάξει",
       "transcription": "[enˈdaksi]",
       "meaning": "хорошо; ладно",
@@ -827,6 +1096,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εσένα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "εσένα",
       "transcription": "[eˈsena]",
       "meaning": "тебя; а тебя?",
@@ -836,6 +1108,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ευτυχώς",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "ευτυχώς",
       "transcription": "[eftiˈhos]",
       "meaning": "к счастью",
@@ -845,6 +1120,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ευχαριστώ",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "ευχαριστώ",
       "transcription": "[efhariˈsto]",
       "meaning": "спасибо; благодарю",
@@ -854,6 +1132,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Ισπανία",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η Ισπανία",
       "transcription": "[i ispaˈnia]",
       "meaning": "Испания",
@@ -863,6 +1144,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο καθηγητής",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "ο καθηγητής",
       "transcription": "[o kaθiyiˈtis]",
       "meaning": "преподаватель",
@@ -872,6 +1156,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "και",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "και",
       "transcription": "[ke]",
       "meaning": "и",
@@ -881,6 +1168,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "κάτι",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "κάτι",
       "transcription": "[ˈkati]",
       "meaning": "что-то",
@@ -890,6 +1180,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το κερί",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το κερί",
       "transcription": "[to keˈri]",
       "meaning": "свеча",
@@ -899,6 +1192,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "κι εγώ",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "κι εγώ",
       "transcription": "[ki eˈɣo]",
       "meaning": "я тоже; мне тоже",
@@ -908,6 +1204,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο κόπος",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "ο κόπος",
       "transcription": "[o ˈkopos]",
       "meaning": "труд; усилие",
@@ -917,6 +1216,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα λέμε",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "τα λέμε",
       "transcription": "[ta ˈleme]",
       "meaning": "увидимся; ещё поговорим",
@@ -926,6 +1228,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "λοιπόν",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "λοιπόν",
       "transcription": "[liˈpon]",
       "meaning": "итак; ну что ж",
@@ -935,6 +1240,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Μαδρίτη",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η Μαδρίτη",
       "transcription": "[i maˈðriti]",
       "meaning": "Мадрид",
@@ -944,6 +1252,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μέλι",
       "lesson": "02",
+      "lessons": [
+        "02",
+        "10"
+      ],
       "greek": "το μέλι",
       "transcription": "[to ˈmeli]",
       "meaning": "мёд",
@@ -953,6 +1265,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η μπάλα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η μπάλα",
       "transcription": "[i ˈbala]",
       "meaning": "мяч; шар",
@@ -962,6 +1277,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο μπαμπάς",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "ο μπαμπάς",
       "transcription": "[o baˈbas]",
       "meaning": "папа",
@@ -971,6 +1289,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η μπανάνα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η μπανάνα",
       "transcription": "[i baˈnana]",
       "meaning": "банан",
@@ -980,6 +1301,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μπάσκετ",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το μπάσκετ",
       "transcription": "[to ˈbasket]",
       "meaning": "баскетбол",
@@ -989,6 +1313,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η μπίρα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η μπίρα",
       "transcription": "[i ˈbira]",
       "meaning": "пиво",
@@ -998,6 +1325,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μπρίκι",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το μπρίκι",
       "transcription": "[to ˈbriki]",
       "meaning": "турка для кофе",
@@ -1007,6 +1337,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ναι",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "ναι",
       "transcription": "[ne]",
       "meaning": "да",
@@ -1016,6 +1349,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο Νείλος",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "ο Νείλος",
       "transcription": "[o ˈnilos]",
       "meaning": "Нил",
@@ -1025,6 +1361,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η νεράιδα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η νεράιδα",
       "transcription": "[i neˈraiða]",
       "meaning": "фея",
@@ -1034,6 +1373,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η νταντά",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η νταντά",
       "transcription": "[i daˈda]",
       "meaning": "няня",
@@ -1043,6 +1385,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το ντεκολτέ",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το ντεκολτέ",
       "transcription": "[to dekolˈte]",
       "meaning": "декольте",
@@ -1052,6 +1397,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το ντίζελ",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το ντίζελ",
       "transcription": "[to ˈdizel]",
       "meaning": "дизельное топливо",
@@ -1061,6 +1409,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η ντομάτα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η ντομάτα",
       "transcription": "[i doˈmata]",
       "meaning": "помидор",
@@ -1070,6 +1421,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η οικογένεια",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η οικογένεια",
       "transcription": "[i ikoˈyenia]",
       "meaning": "семья",
@@ -1079,6 +1433,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "όχι",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "όχι",
       "transcription": "[ˈohi]",
       "meaning": "нет",
@@ -1088,6 +1445,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το παιδί",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το παιδί",
       "transcription": "[to peˈði]",
       "meaning": "ребёнок",
@@ -1097,6 +1457,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το Παρίσι",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το Παρίσι",
       "transcription": "[to paˈrisi]",
       "meaning": "Париж",
@@ -1106,6 +1469,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο πατέρας",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "ο πατέρας",
       "transcription": "[o paˈteras]",
       "meaning": "отец",
@@ -1115,6 +1481,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πέρα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "πέρα",
       "transcription": "[ˈpera]",
       "meaning": "дальше; за пределами",
@@ -1124,6 +1493,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το πλοίο",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το πλοίο",
       "transcription": "[to ˈplio]",
       "meaning": "корабль",
@@ -1133,6 +1505,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το πόδι",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το πόδι",
       "transcription": "[to ˈpoði]",
       "meaning": "нога",
@@ -1142,6 +1517,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πόσος / πόση / πόσο",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "πόσος / πόση / πόσο",
       "transcription": "[ˈposos / ˈposi / ˈposo]",
       "meaning": "сколько; какой по количеству",
@@ -1151,6 +1529,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το πρόγραμμα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το πρόγραμμα",
       "transcription": "[to ˈproɣrama]",
       "meaning": "программа; расписание",
@@ -1160,6 +1541,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σούπερ μάρκετ",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το σούπερ μάρκετ",
       "transcription": "[to ˈsuper ˈmarket]",
       "meaning": "супермаркет",
@@ -1169,6 +1553,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σχολείο",
       "lesson": "02",
+      "lessons": [
+        "02",
+        "10"
+      ],
       "greek": "το σχολείο",
       "transcription": "[to shoˈlio]",
       "meaning": "школа",
@@ -1178,6 +1566,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Ταϊβάν",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η Ταϊβάν",
       "transcription": "[i taiˈvan]",
       "meaning": "Тайвань",
@@ -1187,6 +1578,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Τζαμάικα",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η Τζαμάικα",
       "transcription": "[i dzaˈmaika]",
       "meaning": "Ямайка",
@@ -1196,6 +1590,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "χαίρω πολύ",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "χαίρω πολύ",
       "transcription": "[ˈhero poˈli]",
       "meaning": "очень приятно",
@@ -1205,6 +1602,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η χαρά",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "η χαρά",
       "transcription": "[i haˈra]",
       "meaning": "радость",
@@ -1214,6 +1614,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "χάρηκα πολύ",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "χάρηκα πολύ",
       "transcription": "[ˈharika poˈli]",
       "meaning": "было очень приятно",
@@ -1223,6 +1626,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το χέρι",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "το χέρι",
       "transcription": "[to ˈheri]",
       "meaning": "рука",
@@ -1232,6 +1638,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ωραία",
       "lesson": "02",
+      "lessons": [
+        "02"
+      ],
       "greek": "ωραία",
       "transcription": "[oˈrea]",
       "meaning": "хорошо; отлично",
@@ -1241,6 +1650,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Βουλγαρία",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "η Βουλγαρία",
       "transcription": "[i vulɣaˈria]",
       "meaning": "Болгария",
@@ -1250,6 +1662,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Βραζιλία",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "η Βραζιλία",
       "transcription": "[i vraziˈlia]",
       "meaning": "Бразилия",
@@ -1259,6 +1674,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Γερμανία",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "η Γερμανία",
       "transcription": "[i yermaˈnia]",
       "meaning": "Германия",
@@ -1268,6 +1686,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η δασκάλα",
       "lesson": "03",
+      "lessons": [
+        "03",
+        "10"
+      ],
       "greek": "η δασκάλα",
       "transcription": "[i ðaˈskala]",
       "meaning": "учительница",
@@ -1277,6 +1699,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εγώ",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "εγώ",
       "transcription": "[eˈɣo]",
       "meaning": "я",
@@ -1286,6 +1711,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εδώ",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "εδώ",
       "transcription": "[eˈðo]",
       "meaning": "здесь; сюда",
@@ -1295,6 +1723,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εμείς",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "εμείς",
       "transcription": "[eˈmis]",
       "meaning": "мы",
@@ -1304,6 +1735,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εμένα",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "εμένα",
       "transcription": "[eˈmena]",
       "meaning": "меня; а меня",
@@ -1313,6 +1747,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εσάς",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "εσάς",
       "transcription": "[eˈsas]",
       "meaning": "вас; а вас",
@@ -1322,6 +1759,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εσείς",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "εσείς",
       "transcription": "[eˈsis]",
       "meaning": "вы",
@@ -1331,6 +1771,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εσύ",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "εσύ",
       "transcription": "[eˈsi]",
       "meaning": "ты",
@@ -1340,6 +1783,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Ιταλία",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "η Ιταλία",
       "transcription": "[i itaˈlia]",
       "meaning": "Италия",
@@ -1349,6 +1795,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "καλώς ήρθες / καλώς ήρθατε",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "καλώς ήρθες / καλώς ήρθατε",
       "transcription": "[kaˈlos ˈirθes / kaˈlos ˈirθate]",
       "meaning": "добро пожаловать",
@@ -1358,6 +1807,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η κυρία",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "η κυρία",
       "transcription": "[i kiˈria]",
       "meaning": "госпожа; вежливое обращение к женщине",
@@ -1367,6 +1819,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο κύριος",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "ο κύριος",
       "transcription": "[o ˈkirios]",
       "meaning": "господин; вежливое обращение к мужчине",
@@ -1376,6 +1831,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "λέγομαι",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "λέγομαι",
       "transcription": "[ˈleɣome]",
       "meaning": "зваться; меня зовут",
@@ -1385,6 +1843,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "με λένε",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "με λένε",
       "transcription": "[me ˈlene]",
       "meaning": "меня зовут",
@@ -1394,6 +1855,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μου",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "μου",
       "transcription": "[mu]",
       "meaning": "мой; моя; моё",
@@ -1403,6 +1867,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ξέρω",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "ξέρω",
       "transcription": "[ˈksero]",
       "meaning": "знать",
@@ -1412,6 +1879,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "σας",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "σας",
       "transcription": "[sas]",
       "meaning": "вас; ваш",
@@ -1421,6 +1891,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Σμύρνη",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "η Σμύρνη",
       "transcription": "[i ˈzmirni]",
       "meaning": "Смирна; Измир",
@@ -1430,6 +1903,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τέλεια",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "τέλεια",
       "transcription": "[ˈtelia]",
       "meaning": "отлично; замечательно",
@@ -1439,6 +1915,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Τουρκία",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "η Τουρκία",
       "transcription": "[i turˈkia]",
       "meaning": "Турция",
@@ -1448,6 +1927,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η φοιτήτρια",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "η φοιτήτρια",
       "transcription": "[i fiˈtitria]",
       "meaning": "студентка",
@@ -1457,6 +1939,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "χαίρετε",
       "lesson": "03",
+      "lessons": [
+        "03"
+      ],
       "greek": "χαίρετε",
       "transcription": "[ˈherete]",
       "meaning": "здравствуйте",
@@ -1466,6 +1951,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ακριβώς",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "ακριβώς",
       "transcription": "[akriˈvos]",
       "meaning": "точно; именно",
@@ -1475,6 +1963,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η αλήθεια",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "η αλήθεια",
       "transcription": "[i aˈliθya]",
       "meaning": "правда",
@@ -1484,6 +1975,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "αρχίζω",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "αρχίζω",
       "transcription": "[arˈhizo]",
       "meaning": "начинать",
@@ -1493,6 +1987,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "γιατί",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "γιατί",
       "transcription": "[yaˈti]",
       "meaning": "почему; потому что",
@@ -1502,6 +1999,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η γραμματεία",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "η γραμματεία",
       "transcription": "[i ɣramaˈtia]",
       "meaning": "секретариат; администрация",
@@ -1511,6 +2011,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δέκα",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "δέκα",
       "transcription": "[ˈðeka]",
       "meaning": "10",
@@ -1520,6 +2023,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δεν",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "δεν",
       "transcription": "[ðen]",
       "meaning": "не",
@@ -1529,6 +2035,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δύο",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "δύο",
       "transcription": "[ˈðio]",
       "meaning": "2",
@@ -1538,6 +2047,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα ελληνικά",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "τα ελληνικά",
       "transcription": "[ta eliniˈka]",
       "meaning": "греческий язык",
@@ -1547,6 +2059,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ένα",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "ένα",
       "transcription": "[ˈena]",
       "meaning": "1",
@@ -1556,6 +2071,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εννιά / εννέα",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "εννιά / εννέα",
       "transcription": "[eˈnya / eˈnea]",
       "meaning": "9",
@@ -1565,6 +2083,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "έξι",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "έξι",
       "transcription": "[ˈeksi]",
       "meaning": "6",
@@ -1574,6 +2095,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "έτσι κι έτσι",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "έτσι κι έτσι",
       "transcription": "[ˈetsi ki ˈetsi]",
       "meaning": "так себе",
@@ -1583,6 +2107,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εφτά / επτά",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "εφτά / επτά",
       "transcription": "[eˈfta / eˈpta]",
       "meaning": "7",
@@ -1592,6 +2119,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "έχω",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "έχω",
       "transcription": "[ˈeho]",
       "meaning": "иметь",
@@ -1601,6 +2131,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Καισαριανή",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "η Καισαριανή",
       "transcription": "[i kesariaˈni]",
       "meaning": "Кесариани",
@@ -1610,6 +2143,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "καλά",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "καλά",
       "transcription": "[kaˈla]",
       "meaning": "хорошо",
@@ -1619,6 +2155,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "καλούτσικα",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "καλούτσικα",
       "transcription": "[kaˈlutsika]",
       "meaning": "неплохо; так, ничего",
@@ -1628,6 +2167,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο Καναδάς",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "ο Καναδάς",
       "transcription": "[o kanaˈðas]",
       "meaning": "Канада",
@@ -1637,6 +2179,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "κάνω",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "κάνω",
       "transcription": "[ˈkano]",
       "meaning": "делать",
@@ -1646,6 +2191,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "καταλαβαίνω",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "καταλαβαίνω",
       "transcription": "[katalaˈveno]",
       "meaning": "понимать",
@@ -1655,6 +2203,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "κοντά",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "κοντά",
       "transcription": "[koˈnda]",
       "meaning": "близко; рядом",
@@ -1664,6 +2215,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μαζί",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "μαζί",
       "transcription": "[maˈzi]",
       "meaning": "вместе",
@@ -1673,6 +2227,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μαθαίνω",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "μαθαίνω",
       "transcription": "[maˈθeno]",
       "meaning": "учить; изучать",
@@ -1682,6 +2239,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μας",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "μας",
       "transcription": "[mas]",
       "meaning": "наш; наша; наше",
@@ -1691,6 +2251,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μένω",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "μένω",
       "transcription": "[ˈmeno]",
       "meaning": "жить; оставаться",
@@ -1700,6 +2263,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μηδέν",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "μηδέν",
       "transcription": "[miˈðen]",
       "meaning": "0",
@@ -1709,6 +2275,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μια χαρά",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "μια χαρά",
       "transcription": "[mya haˈra]",
       "meaning": "прекрасно; отлично",
@@ -1718,6 +2287,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μόνο",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "μόνο",
       "transcription": "[ˈmono]",
       "meaning": "только",
@@ -1727,6 +2299,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "όχι και τόσο καλά",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "όχι και τόσο καλά",
       "transcription": "[ˈohi ke ˈtoso kaˈla]",
       "meaning": "не так уж хорошо",
@@ -1736,6 +2311,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "οχτώ / οκτώ",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "οχτώ / οκτώ",
       "transcription": "[oˈhto / oˈkto]",
       "meaning": "8",
@@ -1745,6 +2323,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το Παγκράτι",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "το Παγκράτι",
       "transcription": "[to paŋˈgrati]",
       "meaning": "Панграти",
@@ -1754,6 +2335,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "παίζω",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "παίζω",
       "transcription": "[ˈpezo]",
       "meaning": "играть",
@@ -1763,6 +2347,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πέντε",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "πέντε",
       "transcription": "[ˈpende]",
       "meaning": "5",
@@ -1772,6 +2359,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πηγαίνω",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "πηγαίνω",
       "transcription": "[piˈyeno]",
       "meaning": "идти; ехать",
@@ -1781,6 +2371,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πολύ",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "πολύ",
       "transcription": "[poˈli]",
       "meaning": "очень; много",
@@ -1790,6 +2383,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πολύ καλά",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "πολύ καλά",
       "transcription": "[poˈli kaˈla]",
       "meaning": "очень хорошо",
@@ -1799,6 +2395,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πού",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "πού",
       "transcription": "[pu]",
       "meaning": "где; куда",
@@ -1808,6 +2407,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πρώτος / πρώτη / πρώτο",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "πρώτος / πρώτη / πρώτο",
       "transcription": "[ˈprotos / ˈproti / ˈproto]",
       "meaning": "первый",
@@ -1817,6 +2419,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "σήμερα",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "σήμερα",
       "transcription": "[ˈsimera]",
       "meaning": "сегодня",
@@ -1826,6 +2431,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο σκύλος",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "ο σκύλος",
       "transcription": "[o ˈskilos]",
       "meaning": "собака",
@@ -1835,6 +2443,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "σπουδάζω",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "σπουδάζω",
       "transcription": "[spuˈðazo]",
       "meaning": "учиться; изучать в вузе",
@@ -1844,6 +2455,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τέσσερα",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "τέσσερα",
       "transcription": "[ˈtesera]",
       "meaning": "4",
@@ -1853,6 +2467,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τι",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "τι",
       "transcription": "[ti]",
       "meaning": "что; как в вопросе о делах",
@@ -1862,6 +2479,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τρία",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "τρία",
       "transcription": "[ˈtria]",
       "meaning": "3",
@@ -1871,6 +2491,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τώρα",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "τώρα",
       "transcription": "[ˈtora]",
       "meaning": "сейчас",
@@ -1880,6 +2503,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "φεύγω",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "φεύγω",
       "transcription": "[ˈfevɣo]",
       "meaning": "уходить; уезжать",
@@ -1889,6 +2515,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "χάλια",
       "lesson": "04",
+      "lessons": [
+        "04"
+      ],
       "greek": "χάλια",
       "transcription": "[ˈhalya]",
       "meaning": "ужасно; очень плохо",
@@ -1898,6 +2527,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "αγοράζω",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "αγοράζω",
       "transcription": "[aɣoˈrazo]",
       "meaning": "покупать",
@@ -1907,6 +2539,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Αθήνα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Αθήνα",
       "transcription": "[i aˈθina]",
       "meaning": "Афины",
@@ -1916,6 +2551,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Αλβανία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Αλβανία",
       "transcription": "[i alvaˈnia]",
       "meaning": "Албания",
@@ -1925,6 +2563,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η αλλεργία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η αλλεργία",
       "transcription": "[i alerˈyia]",
       "meaning": "аллергия",
@@ -1934,6 +2575,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το αμφιθέατρο",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το αμφιθέατρο",
       "transcription": "[to amfiˈθeatro]",
       "meaning": "амфитеатр; большая аудитория",
@@ -1943,6 +2587,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο άντρας",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ο άντρας",
       "transcription": "[o ˈandras]",
       "meaning": "мужчина",
@@ -1952,6 +2599,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "αριστερά",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "αριστερά",
       "transcription": "[aristeˈra]",
       "meaning": "слева; налево",
@@ -1961,6 +2611,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η αρχαιολογία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η αρχαιολογία",
       "transcription": "[i arheoloˈyia]",
       "meaning": "археология",
@@ -1970,6 +2623,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η άσκηση",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η άσκηση",
       "transcription": "[i ˈaskisi]",
       "meaning": "упражнение",
@@ -1979,6 +2635,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η αστρολογία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η αστρολογία",
       "transcription": "[i astroloˈyia]",
       "meaning": "астрология",
@@ -1988,6 +2647,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Αυστρία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Αυστρία",
       "transcription": "[i afˈstria]",
       "meaning": "Австрия",
@@ -1997,6 +2659,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Βαρκελώνη",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Βαρκελώνη",
       "transcription": "[i varkeˈloni]",
       "meaning": "Барселона",
@@ -2006,6 +2671,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η βιβλιοθήκη",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η βιβλιοθήκη",
       "transcription": "[i vivlioˈθiki]",
       "meaning": "библиотека",
@@ -2015,6 +2683,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η βιογραφία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η βιογραφία",
       "transcription": "[i vioɣraˈfia]",
       "meaning": "биография",
@@ -2024,6 +2695,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "βλέπω",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "βλέπω",
       "transcription": "[ˈvlepo]",
       "meaning": "смотреть; видеть",
@@ -2033,6 +2707,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η βόλτα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η βόλτα",
       "transcription": "[i ˈvolta]",
       "meaning": "прогулка",
@@ -2042,6 +2719,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Γεωργία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Γεωργία",
       "transcription": "[i yeorˈyia]",
       "meaning": "Грузия",
@@ -2051,6 +2731,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η γυναίκα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η γυναίκα",
       "transcription": "[i yiˈneka]",
       "meaning": "женщина",
@@ -2060,6 +2743,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δεκαεννιά / δεκαεννέα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "δεκαεννιά / δεκαεννέα",
       "transcription": "[ðekaeˈnya / ðekaeˈnea]",
       "meaning": "девятнадцать",
@@ -2069,6 +2755,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δεκαέξι",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "δεκαέξι",
       "transcription": "[ðekaˈeksi]",
       "meaning": "шестнадцать",
@@ -2078,6 +2767,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δεκαεφτά / δεκαεπτά",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "δεκαεφτά / δεκαεπτά",
       "transcription": "[ðekaeˈfta / ðekaeˈpta]",
       "meaning": "семнадцать",
@@ -2087,6 +2779,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δεκαοχτώ / δεκαοκτώ",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "δεκαοχτώ / δεκαοκτώ",
       "transcription": "[ðekaoˈhto / ðekaoˈkto]",
       "meaning": "восемнадцать",
@@ -2096,6 +2791,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δεκαπέντε",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "δεκαπέντε",
       "transcription": "[ðekaˈpende]",
       "meaning": "пятнадцать",
@@ -2105,6 +2803,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δεκατέσσερα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "δεκατέσσερα",
       "transcription": "[ðekaˈtesera]",
       "meaning": "четырнадцать",
@@ -2114,6 +2815,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δεκατρία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "δεκατρία",
       "transcription": "[ðekaˈtria]",
       "meaning": "тринадцать",
@@ -2123,6 +2827,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δεξιά",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "δεξιά",
       "transcription": "[ðeˈksia]",
       "meaning": "справа; направо",
@@ -2132,6 +2839,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το διάλειμμα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το διάλειμμα",
       "transcription": "[to ˈðyalima]",
       "meaning": "перерыв; перемена",
@@ -2141,6 +2851,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο διάλογος",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ο διάλογος",
       "transcription": "[o ðiˈaloɣos]",
       "meaning": "диалог",
@@ -2150,6 +2863,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η διεύθυνση",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η διεύθυνση",
       "transcription": "[i ðiˈefθinsi]",
       "meaning": "адрес",
@@ -2159,6 +2875,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το δίπλωμα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το δίπλωμα",
       "transcription": "[to ˈðiploma]",
       "meaning": "диплом",
@@ -2168,6 +2887,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δώδεκα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "δώδεκα",
       "transcription": "[ˈðoðeka]",
       "meaning": "двенадцать",
@@ -2177,6 +2899,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εβδομήντα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "εβδομήντα",
       "transcription": "[evðoˈminda]",
       "meaning": "семьдесят",
@@ -2186,6 +2911,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η εγγραφή",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η εγγραφή",
       "transcription": "[i eŋgraˈfi]",
       "meaning": "запись, регистрация",
@@ -2195,6 +2923,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "είκοσι",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "είκοσι",
       "transcription": "[ˈikosi]",
       "meaning": "двадцать",
@@ -2204,6 +2935,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το εισιτήριο",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το εισιτήριο",
       "transcription": "[to isiˈtirio]",
       "meaning": "билет",
@@ -2213,6 +2947,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εκατό",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "εκατό",
       "transcription": "[ekaˈto]",
       "meaning": "сто",
@@ -2222,6 +2959,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο ελέφαντας",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ο ελέφαντας",
       "transcription": "[o eˈlefantas]",
       "meaning": "слон",
@@ -2231,6 +2971,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ενενήντα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ενενήντα",
       "transcription": "[eneˈninda]",
       "meaning": "девяносто",
@@ -2240,6 +2983,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "έντεκα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "έντεκα",
       "transcription": "[ˈendeka]",
       "meaning": "одиннадцать",
@@ -2249,6 +2995,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "εξήντα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "εξήντα",
       "transcription": "[eˈksinda]",
       "meaning": "шестьдесят",
@@ -2258,6 +3007,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το εστιατόριο",
       "lesson": "05",
+      "lessons": [
+        "05",
+        "10"
+      ],
       "greek": "το εστιατόριο",
       "transcription": "[to estiaˈtorio]",
       "meaning": "ресторан",
@@ -2267,6 +3020,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η εφημερίδα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η εφημερίδα",
       "transcription": "[i efimeˈriða]",
       "meaning": "газета",
@@ -2276,6 +3032,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το ζώο",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το ζώο",
       "transcription": "[to ˈzoo]",
       "meaning": "животное",
@@ -2285,6 +3044,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Θεσσαλονίκη",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Θεσσαλονίκη",
       "transcription": "[i θesaloˈniki]",
       "meaning": "Салоники",
@@ -2294,6 +3056,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Ισπανίδα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Ισπανίδα",
       "transcription": "[i ispaˈniða]",
       "meaning": "испанка",
@@ -2303,6 +3068,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Ιστορία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Ιστορία",
       "transcription": "[i istoˈria]",
       "meaning": "история",
@@ -2312,6 +3080,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "κάθε",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "κάθε",
       "transcription": "[ˈkaθe]",
       "meaning": "каждый",
@@ -2321,6 +3092,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "καλή αρχή",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "καλή αρχή",
       "transcription": "[kaˈli arˈhi]",
       "meaning": "удачного начала!",
@@ -2330,6 +3104,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η κάρτα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η κάρτα",
       "transcription": "[i ˈkarta]",
       "meaning": "карточка",
@@ -2339,6 +3116,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η καταστροφή",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η καταστροφή",
       "transcription": "[i kataˈstrofi]",
       "meaning": "катастрофа; разрушение",
@@ -2348,6 +3128,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η καφετέρια",
       "lesson": "05",
+      "lessons": [
+        "05",
+        "10"
+      ],
       "greek": "η καφετέρια",
       "transcription": "[i kafeˈteria]",
       "meaning": "кафе",
@@ -2357,6 +3141,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο κινηματογράφος",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ο κινηματογράφος",
       "transcription": "[o kinimatoˈɣrafos]",
       "meaning": "кино; кинотеатр",
@@ -2366,6 +3153,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το κινητό",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το κινητό",
       "transcription": "[to kiniˈto]",
       "meaning": "мобильный телефон",
@@ -2375,6 +3165,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το κομπιούτερ",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το κομπιούτερ",
       "transcription": "[to koˈbiuter]",
       "meaning": "компьютер",
@@ -2384,6 +3177,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Κρήτη",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Κρήτη",
       "transcription": "[i ˈkriti]",
       "meaning": "Крит",
@@ -2393,6 +3189,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το κυλικείο",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το κυλικείο",
       "transcription": "[to kiliˈkio]",
       "meaning": "буфет, столовая при учреждении",
@@ -2402,6 +3201,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Κυψέλη",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Κυψέλη",
       "transcription": "[i kiˈpseli]",
       "meaning": "Кипсели",
@@ -2411,6 +3213,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το λιοντάρι",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το λιοντάρι",
       "transcription": "[to lioˈndari]",
       "meaning": "лев",
@@ -2420,6 +3225,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μάλιστα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "μάλιστα",
       "transcription": "[ˈmalista]",
       "meaning": "да, конечно; так точно",
@@ -2429,6 +3237,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο μαρκαδόρος",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ο μαρκαδόρος",
       "transcription": "[o markaˈðoros]",
       "meaning": "маркер",
@@ -2438,6 +3249,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μέιλ",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το μέιλ",
       "transcription": "[to ˈmeil]",
       "meaning": "имейл",
@@ -2447,6 +3261,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μουσείο",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το μουσείο",
       "transcription": "[to muˈsio]",
       "meaning": "музей",
@@ -2456,6 +3273,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μωρό",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το μωρό",
       "transcription": "[to moˈro]",
       "meaning": "младенец",
@@ -2465,6 +3285,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ογδόντα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ογδόντα",
       "transcription": "[oɣˈðonda]",
       "meaning": "восемьдесят",
@@ -2474,6 +3297,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ορίστε",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ορίστε",
       "transcription": "[oˈriste]",
       "meaning": "вот, пожалуйста; слушаю",
@@ -2483,6 +3309,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Ουκρανία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Ουκρανία",
       "transcription": "[i ukraˈnia]",
       "meaning": "Украина",
@@ -2492,6 +3321,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το Πακιστάν",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το Πακιστάν",
       "transcription": "[to pakiˈstan]",
       "meaning": "Пакистан",
@@ -2501,6 +3333,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το πανεπιστήμιο",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το πανεπιστήμιο",
       "transcription": "[to panepiˈstimio]",
       "meaning": "университет",
@@ -2510,6 +3345,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το παπάκι",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το παπάκι",
       "transcription": "[to paˈpaki]",
       "meaning": "значок @; утёнок",
@@ -2519,6 +3357,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα Πατήσια",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "τα Πατήσια",
       "transcription": "[ta paˈtisya]",
       "meaning": "Патисия",
@@ -2528,6 +3369,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο Πειραιάς",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ο Πειραιάς",
       "transcription": "[o pireˈas]",
       "meaning": "Пирей",
@@ -2537,6 +3381,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πενήντα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "πενήντα",
       "transcription": "[peˈninda]",
       "meaning": "пятьдесят",
@@ -2546,6 +3393,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "περιμένω",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "περιμένω",
       "transcription": "[periˈmeno]",
       "meaning": "ждать",
@@ -2555,6 +3405,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πίνω",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "πίνω",
       "transcription": "[ˈpino]",
       "meaning": "пить",
@@ -2564,6 +3417,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πότε",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "πότε",
       "transcription": "[ˈpote]",
       "meaning": "когда?",
@@ -2573,6 +3429,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πώς λέγεστε;",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "πώς λέγεστε;",
       "transcription": "[pos ˈleyeste?]",
       "meaning": "как вас зовут?",
@@ -2582,6 +3441,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το ραδιόφωνο",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το ραδιόφωνο",
       "transcription": "[to raðiˈofono]",
       "meaning": "радио",
@@ -2591,6 +3453,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το ράφι",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το ράφι",
       "transcription": "[to ˈrafi]",
       "meaning": "полка",
@@ -2600,6 +3465,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο ρυθμός",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ο ρυθμός",
       "transcription": "[o riθˈmos]",
       "meaning": "ритм",
@@ -2609,6 +3477,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "σαράντα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "σαράντα",
       "transcription": "[saˈranda]",
       "meaning": "сорок",
@@ -2618,6 +3489,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σουβλάκι",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το σουβλάκι",
       "transcription": "[to suˈvlaki]",
       "meaning": "сувлаки",
@@ -2627,6 +3501,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σπουδαστήριο",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το σπουδαστήριο",
       "transcription": "[to spuðaˈstirio]",
       "meaning": "читальный зал; учебная комната",
@@ -2636,6 +3513,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σφουγγάρι",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το σφουγγάρι",
       "transcription": "[to sfuŋˈgari]",
       "meaning": "губка",
@@ -2645,6 +3525,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η τελεία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η τελεία",
       "transcription": "[i teˈlia]",
       "meaning": "точка",
@@ -2654,6 +3537,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τελειώνω",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "τελειώνω",
       "transcription": "[teliˈono]",
       "meaning": "заканчивать",
@@ -2663,6 +3549,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η τεχνολογία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η τεχνολογία",
       "transcription": "[i tehnoloˈyia]",
       "meaning": "технология",
@@ -2672,6 +3561,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο τοίχος",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ο τοίχος",
       "transcription": "[o ˈtihos]",
       "meaning": "стена",
@@ -2681,6 +3573,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η τραγωδία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η τραγωδία",
       "transcription": "[i traɣoˈðia]",
       "meaning": "трагедия",
@@ -2690,6 +3585,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η τράπεζα",
       "lesson": "05",
+      "lessons": [
+        "05",
+        "10"
+      ],
       "greek": "η τράπεζα",
       "transcription": "[i ˈtrapeza]",
       "meaning": "банк",
@@ -2699,6 +3598,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το τρένο",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "το τρένο",
       "transcription": "[to ˈtreno]",
       "meaning": "поезд",
@@ -2708,6 +3610,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τριάντα",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "τριάντα",
       "transcription": "[triˈanda]",
       "meaning": "тридцать",
@@ -2717,6 +3622,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο υπολογιστής",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ο υπολογιστής",
       "transcription": "[o ipoloyiˈstis]",
       "meaning": "компьютер",
@@ -2726,6 +3634,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Φιλοθέη",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Φιλοθέη",
       "transcription": "[i filoˈθei]",
       "meaning": "Филотеи",
@@ -2735,6 +3646,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η φιλοσοφία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η φιλοσοφία",
       "transcription": "[i filosoˈfia]",
       "meaning": "философия",
@@ -2744,6 +3658,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η φωτογραφία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η φωτογραφία",
       "transcription": "[i fotoɣraˈfia]",
       "meaning": "фотография",
@@ -2753,6 +3670,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο χάρτης",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "ο χάρτης",
       "transcription": "[o ˈhartis]",
       "meaning": "карта",
@@ -2762,6 +3682,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η ψυχή",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η ψυχή",
       "transcription": "[i psiˈhi]",
       "meaning": "душа",
@@ -2771,6 +3694,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Ψυχολογία",
       "lesson": "05",
+      "lessons": [
+        "05"
+      ],
       "greek": "η Ψυχολογία",
       "transcription": "[i psiholoˈyia]",
       "meaning": "психология",
@@ -2780,6 +3706,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "αγαπάω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "αγαπάω",
       "transcription": "[aɣaˈpao]",
       "meaning": "любить",
@@ -2789,6 +3718,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα αγγλικά",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "τα αγγλικά",
       "transcription": "[ta aŋgliˈka]",
       "meaning": "английский язык",
@@ -2798,6 +3730,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η αδερφή / η αδελφή",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η αδερφή / η αδελφή",
       "transcription": "[i aðerˈfi / i aðelˈfi]",
       "meaning": "сестра",
@@ -2807,6 +3742,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο αδερφός / ο αδελφός",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "ο αδερφός / ο αδελφός",
       "transcription": "[o aðerˈfos / o aðelˈfos]",
       "meaning": "брат",
@@ -2816,6 +3754,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "απαντάω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "απαντάω",
       "transcription": "[apaˈndao]",
       "meaning": "отвечаю",
@@ -2825,6 +3766,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο αριθμός",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "ο αριθμός",
       "transcription": "[o ariθˈmos]",
       "meaning": "номер; число",
@@ -2834,6 +3778,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "αρκετά καλά",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "αρκετά καλά",
       "transcription": "[arkeˈta kaˈla]",
       "meaning": "достаточно хорошо",
@@ -2843,6 +3790,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Αυστραλία",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η Αυστραλία",
       "transcription": "[i afstraˈlia]",
       "meaning": "Австралия",
@@ -2852,6 +3802,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Βιολογία",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η Βιολογία",
       "transcription": "[i violoˈyia]",
       "meaning": "биология",
@@ -2861,6 +3814,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "βοηθάω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "βοηθάω",
       "transcription": "[voiˈθao]",
       "meaning": "помогать",
@@ -2870,6 +3826,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Γαλλίδα",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η Γαλλίδα",
       "transcription": "[i ɣaˈliða]",
       "meaning": "француженка",
@@ -2879,6 +3838,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα γαλλικά",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "τα γαλλικά",
       "transcription": "[ta ɣaliˈka]",
       "meaning": "французский язык",
@@ -2888,6 +3850,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο Γάλλος",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "ο Γάλλος",
       "transcription": "[o ˈɣalos]",
       "meaning": "француз",
@@ -2897,6 +3862,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "γελάω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "γελάω",
       "transcription": "[yeˈlao]",
       "meaning": "смеюсь",
@@ -2906,6 +3874,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Γερμανίδα",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η Γερμανίδα",
       "transcription": "[i yermaˈniða]",
       "meaning": "немка",
@@ -2915,6 +3886,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα γερμανικά",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "τα γερμανικά",
       "transcription": "[ta yermaniˈka]",
       "meaning": "немецкий язык",
@@ -2924,6 +3898,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο Γερμανός",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "ο Γερμανός",
       "transcription": "[o yermaˈnos]",
       "meaning": "немец",
@@ -2933,6 +3910,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "για",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "για",
       "transcription": "[ya]",
       "meaning": "для; о",
@@ -2942,6 +3922,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το διδακτορικό",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "το διδακτορικό",
       "transcription": "[to ðiðaktoriˈko]",
       "meaning": "докторантура; докторская работа",
@@ -2951,6 +3934,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "διδάσκω",
       "lesson": "06",
+      "lessons": [
+        "06",
+        "10"
+      ],
       "greek": "διδάσκω",
       "transcription": "[ðiˈðasko]",
       "meaning": "преподавать",
@@ -2960,6 +3947,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η δουλειά",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η δουλειά",
       "transcription": "[i ðuˈlya]",
       "meaning": "работа",
@@ -2969,6 +3959,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "δυστυχώς",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "δυστυχώς",
       "transcription": "[ðistiˈhos]",
       "meaning": "к сожалению",
@@ -2978,6 +3971,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο Έλληνας",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "ο Έλληνας",
       "transcription": "[o ˈelinas]",
       "meaning": "грек",
@@ -2987,6 +3983,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Ελληνίδα",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η Ελληνίδα",
       "transcription": "[i eliˈniða]",
       "meaning": "гречанка",
@@ -2996,6 +3995,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το επώνυμο",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "το επώνυμο",
       "transcription": "[to eˈponimo]",
       "meaning": "фамилия",
@@ -3005,6 +4007,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η ζάχαρη",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η ζάχαρη",
       "transcription": "[i ˈzahari]",
       "meaning": "сахар",
@@ -3014,6 +4019,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Ιατρική",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η Ιατρική",
       "transcription": "[i iatriˈki]",
       "meaning": "медицина",
@@ -3023,6 +4031,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Ιταλίδα",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η Ιταλίδα",
       "transcription": "[i itaˈliða]",
       "meaning": "итальянка",
@@ -3032,6 +4043,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα ιταλικά",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "τα ιταλικά",
       "transcription": "[ta italiˈka]",
       "meaning": "итальянский язык",
@@ -3041,6 +4055,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο Ιταλός",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "ο Ιταλός",
       "transcription": "[o itaˈlos]",
       "meaning": "итальянец",
@@ -3050,6 +4067,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "καθόλου",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "καθόλου",
       "transcription": "[kaˈθolu]",
       "meaning": "совсем не; нисколько",
@@ -3059,6 +4079,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "κόβω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "κόβω",
       "transcription": "[ˈkovo]",
       "meaning": "резать",
@@ -3068,6 +4091,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "λέω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "λέω",
       "transcription": "[ˈleo]",
       "meaning": "говорить, сказать",
@@ -3077,6 +4103,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "λίγο",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "λίγο",
       "transcription": "[ˈliɣo]",
       "meaning": "немного",
@@ -3086,6 +4115,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο μάγος",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "ο μάγος",
       "transcription": "[o ˈmaɣos]",
       "meaning": "волшебник",
@@ -3095,6 +4127,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η μαμά",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η μαμά",
       "transcription": "[i maˈma]",
       "meaning": "мама",
@@ -3104,6 +4139,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μαχαίρι",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "το μαχαίρι",
       "transcription": "[to maˈheri]",
       "meaning": "нож",
@@ -3113,6 +4151,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "με",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "με",
       "transcription": "[me]",
       "meaning": "с",
@@ -3122,6 +4163,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μελετάω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "μελετάω",
       "transcription": "[meleˈtao]",
       "meaning": "изучаю, занимаюсь",
@@ -3131,6 +4175,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μέρος",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "το μέρος",
       "transcription": "[to ˈmeros]",
       "meaning": "место",
@@ -3140,6 +4187,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μεταπτυχιακό",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "το μεταπτυχιακό",
       "transcription": "[to metaptihiaˈko]",
       "meaning": "магистратура; последипломная программа",
@@ -3149,6 +4199,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η μητέρα",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η μητέρα",
       "transcription": "[i miˈtera]",
       "meaning": "мать",
@@ -3158,6 +4211,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Μόσχα",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η Μόσχα",
       "transcription": "[i ˈmosha]",
       "meaning": "Москва",
@@ -3167,6 +4223,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα Νομικά",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "τα Νομικά",
       "transcription": "[ta nomiˈka]",
       "meaning": "право, юридические науки",
@@ -3176,6 +4235,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η οδός",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η οδός",
       "transcription": "[i oˈðos]",
       "meaning": "улица",
@@ -3185,6 +4247,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "όμως",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "όμως",
       "transcription": "[ˈomos]",
       "meaning": "однако; но",
@@ -3194,6 +4259,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το όνομα",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "το όνομα",
       "transcription": "[to ˈonoma]",
       "meaning": "имя",
@@ -3203,6 +4271,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "περνάω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "περνάω",
       "transcription": "[perˈnao]",
       "meaning": "прохожу; провожу время",
@@ -3212,6 +4283,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "περπατάω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "περπατάω",
       "transcription": "[perpaˈtao]",
       "meaning": "иду пешком",
@@ -3221,6 +4295,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Πληροφορική",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η Πληροφορική",
       "transcription": "[i pliroforiˈki]",
       "meaning": "информатика",
@@ -3230,6 +4307,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η πόλη",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η πόλη",
       "transcription": "[i ˈpoli]",
       "meaning": "город",
@@ -3239,6 +4319,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Ρωσίδα",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η Ρωσίδα",
       "transcription": "[i roˈsiða]",
       "meaning": "русская",
@@ -3248,6 +4331,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα ρωσικά",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "τα ρωσικά",
       "transcription": "[ta rosiˈka]",
       "meaning": "русский язык",
@@ -3257,6 +4343,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο Ρώσος",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "ο Ρώσος",
       "transcription": "[o ˈrosos]",
       "meaning": "русский",
@@ -3266,6 +4355,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ρωτάω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "ρωτάω",
       "transcription": "[roˈtao]",
       "meaning": "спрашивать",
@@ -3275,6 +4367,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το Σίδνεϋ",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "το Σίδνεϋ",
       "transcription": "[to ˈsiðnei]",
       "meaning": "Сидней",
@@ -3284,6 +4379,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Στατιστική",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η Στατιστική",
       "transcription": "[i statistiˈki]",
       "meaning": "статистика",
@@ -3293,6 +4391,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "συναντάω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "συναντάω",
       "transcription": "[sinaˈndao]",
       "meaning": "встречаю",
@@ -3302,6 +4403,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Τουρκάλα",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "η Τουρκάλα",
       "transcription": "[i turˈkala]",
       "meaning": "турчанка",
@@ -3311,6 +4415,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα τουρκικά",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "τα τουρκικά",
       "transcription": "[ta turkiˈka]",
       "meaning": "турецкий язык",
@@ -3320,6 +4427,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο Τούρκος",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "ο Τούρκος",
       "transcription": "[o ˈturkos]",
       "meaning": "турок",
@@ -3329,6 +4439,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τραγουδάω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "τραγουδάω",
       "transcription": "[traɣuˈðao]",
       "meaning": "петь",
@@ -3338,6 +4451,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "χαιρετάω",
       "lesson": "06",
+      "lessons": [
+        "06"
+      ],
       "greek": "χαιρετάω",
       "transcription": "[hereˈtao]",
       "meaning": "приветствую",
@@ -3347,6 +4463,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το ψωμί",
       "lesson": "06",
+      "lessons": [
+        "06",
+        "10"
+      ],
       "greek": "το ψωμί",
       "transcription": "[to psoˈmi]",
       "meaning": "хлеб",
@@ -3356,6 +4476,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "αγαπημένος",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "αγαπημένος",
       "transcription": "[aɣapiˈmenos]",
       "meaning": "любимый",
@@ -3365,6 +4488,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η αίτηση",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η αίτηση",
       "transcription": "[i ˈetisi]",
       "meaning": "заявление, заявка",
@@ -3374,6 +4500,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα αραβικά",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "τα αραβικά",
       "transcription": "[ta araviˈka]",
       "meaning": "арабский язык",
@@ -3383,6 +4512,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο αριθμός διαβατηρίου",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ο αριθμός διαβατηρίου",
       "transcription": "[o ariθˈmos ðiavatiˈriu]",
       "meaning": "номер паспорта",
@@ -3392,6 +4524,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο αριθμός ταυτότητας",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ο αριθμός ταυτότητας",
       "transcription": "[o ariθˈmos tafˈtotitas]",
       "meaning": "номер удостоверения личности",
@@ -3401,6 +4536,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Αρχαιολογία",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η Αρχαιολογία",
       "transcription": "[i arheoloˈyia]",
       "meaning": "археология",
@@ -3410,6 +4548,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο αρχιτέκτονας",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ο αρχιτέκτονας",
       "transcription": "[o arhiˈtektonas]",
       "meaning": "архитектор",
@@ -3419,6 +4560,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα βουλγαρικά",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "τα βουλγαρικά",
       "transcription": "[ta vulɣariˈka]",
       "meaning": "болгарский язык",
@@ -3428,6 +4572,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η γιαγιά",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η γιαγιά",
       "transcription": "[i yaˈya]",
       "meaning": "бабушка",
@@ -3437,6 +4584,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο γιατρός / η γιατρός",
       "lesson": "07",
+      "lessons": [
+        "07",
+        "10"
+      ],
       "greek": "ο γιατρός / η γιατρός",
       "transcription": "[o yaˈtros / i yaˈtros]",
       "meaning": "врач",
@@ -3446,6 +4597,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο γιος",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ο γιος",
       "transcription": "[o yos]",
       "meaning": "сын",
@@ -3455,6 +4609,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η γνώση της ελληνικής γλώσσας",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η γνώση της ελληνικής γλώσσας",
       "transcription": "[i ˈɣnosi tis eliniˈkis ˈɣlosas]",
       "meaning": "знание греческого языка",
@@ -3464,6 +4621,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "οι γονείς",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "οι γονείς",
       "transcription": "[i ɣoˈnis]",
       "meaning": "родители",
@@ -3473,6 +4633,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο γραμματέας / η γραμματέας",
       "lesson": "07",
+      "lessons": [
+        "07",
+        "10"
+      ],
       "greek": "ο γραμματέας / η γραμματέας",
       "transcription": "[o ɣramaˈteas / i ɣramaˈteas]",
       "meaning": "секретарь",
@@ -3482,6 +4646,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η γυμνάστρια",
       "lesson": "07",
+      "lessons": [
+        "07",
+        "10"
+      ],
       "greek": "η γυμνάστρια",
       "transcription": "[i yimˈnastria]",
       "meaning": "тренер; преподаватель физкультуры",
@@ -3491,6 +4659,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το διαβατήριο",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "το διαβατήριο",
       "transcription": "[to ðiavaˈtirio]",
       "meaning": "паспорт",
@@ -3500,6 +4671,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο διπλωμάτης",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ο διπλωμάτης",
       "transcription": "[o ðiploˈmatis]",
       "meaning": "дипломат",
@@ -3509,6 +4683,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η εγγονή",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η εγγονή",
       "transcription": "[i eŋgoˈni]",
       "meaning": "внучка",
@@ -3518,6 +4695,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο εγγονός",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ο εγγονός",
       "transcription": "[o eŋgoˈnos]",
       "meaning": "внук",
@@ -3527,6 +4707,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η εθνικότητα",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η εθνικότητα",
       "transcription": "[i eθnikoˈtita]",
       "meaning": "национальность",
@@ -3536,6 +4719,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η ημερομηνία γέννησης",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η ημερομηνία γέννησης",
       "transcription": "[i imeromiˈnia ˈyenisis]",
       "meaning": "дата рождения",
@@ -3545,6 +4731,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο θείος",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ο θείος",
       "transcription": "[o ˈθios]",
       "meaning": "дядя",
@@ -3554,6 +4743,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα ιαπωνικά",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "τα ιαπωνικά",
       "transcription": "[ta iaponiˈka]",
       "meaning": "японский язык",
@@ -3563,6 +4755,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα κινέζικα",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "τα κινέζικα",
       "transcription": "[ta kiˈnezika]",
       "meaning": "китайский язык",
@@ -3572,6 +4767,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η κομμώτρια",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η κομμώτρια",
       "transcription": "[i koˈmotria]",
       "meaning": "парикмахер",
@@ -3581,6 +4779,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η κοπέλα",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η κοπέλα",
       "transcription": "[i koˈpela]",
       "meaning": "девушка; подруга",
@@ -3590,6 +4791,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η κόρη",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η κόρη",
       "transcription": "[i ˈkori]",
       "meaning": "дочь",
@@ -3599,6 +4803,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η κτηνίατρος",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η κτηνίατρος",
       "transcription": "[i ktiniˈatros]",
       "meaning": "ветеринар — женщина",
@@ -3608,6 +4815,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο μάγειρας",
       "lesson": "07",
+      "lessons": [
+        "07",
+        "10"
+      ],
       "greek": "ο μάγειρας",
       "transcription": "[o ˈmaɣiras]",
       "meaning": "повар",
@@ -3617,6 +4828,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μαγειρεύω",
       "lesson": "07",
+      "lessons": [
+        "07",
+        "10"
+      ],
       "greek": "μαγειρεύω",
       "transcription": "[mayiˈrevo]",
       "meaning": "готовить еду",
@@ -3626,6 +4841,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μέτρια γνώση",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "μέτρια γνώση",
       "transcription": "[ˈmetria ˈɣnosi]",
       "meaning": "среднее знание",
@@ -3635,6 +4853,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο ξυλουργός",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ο ξυλουργός",
       "transcription": "[o ksilurˈɣos]",
       "meaning": "столяр",
@@ -3644,6 +4865,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ξυπνάω",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ξυπνάω",
       "transcription": "[ksiˈpnao]",
       "meaning": "я просыпаюсь; бужу",
@@ -3653,6 +4877,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα ουγγρικά",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "τα ουγγρικά",
       "transcription": "[ta uŋgriˈka]",
       "meaning": "венгерский язык",
@@ -3662,6 +4889,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "παντρεμένος / παντρεμένη / παντρεμένο",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "παντρεμένος / παντρεμένη / παντρεμένο",
       "transcription": "[pandreˈmenos / pandreˈmeni / pandreˈmeno]",
       "meaning": "женатый / замужняя",
@@ -3671,6 +4901,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο παππούς",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ο παππούς",
       "transcription": "[o paˈpus]",
       "meaning": "дедушка",
@@ -3680,6 +4913,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η περιοχή",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η περιοχή",
       "transcription": "[i perioˈhi]",
       "meaning": "район; область",
@@ -3689,6 +4925,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η πλατεία",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η πλατεία",
       "transcription": "[i plaˈtia]",
       "meaning": "площадь",
@@ -3698,6 +4937,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα πολωνικά",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "τα πολωνικά",
       "transcription": "[ta poloniˈka]",
       "meaning": "польский язык",
@@ -3707,6 +4949,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "οι προσωπικές πληροφορίες",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "οι προσωπικές πληροφορίες",
       "transcription": "[i prosopiˈkes plirofoˈries]",
       "meaning": "личные данные",
@@ -3716,6 +4961,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το πτυχίο",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "το πτυχίο",
       "transcription": "[to ptiˈhio]",
       "meaning": "диплом, степень",
@@ -3725,6 +4973,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η πωλήτρια",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η πωλήτρια",
       "transcription": "[i poˈlitria]",
       "meaning": "продавщица",
@@ -3734,6 +4985,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα ρουμανικά",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "τα ρουμανικά",
       "transcription": "[ta rumaniˈka]",
       "meaning": "румынский язык",
@@ -3743,6 +4997,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "συζητάω",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "συζητάω",
       "transcription": "[siziˈtao]",
       "meaning": "я беседую, обсуждаю",
@@ -3752,6 +5009,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο σύντροφος / η σύντροφος",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ο σύντροφος / η σύντροφος",
       "transcription": "[o ˈsindrofos / i ˈsindrofos]",
       "meaning": "партнёр / партнёрша",
@@ -3761,6 +5021,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "συχνά",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "συχνά",
       "transcription": "[sihˈna]",
       "meaning": "часто",
@@ -3770,6 +5033,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η σχέση",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η σχέση",
       "transcription": "[i ˈshesi]",
       "meaning": "отношения; связь",
@@ -3779,6 +5045,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η ταυτότητα",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "η ταυτότητα",
       "transcription": "[i tafˈtotita]",
       "meaning": "удостоверение личности",
@@ -3788,6 +5057,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο ταχυδρομικός κώδικας",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ο ταχυδρομικός κώδικας",
       "transcription": "[o tahiðromiˈkos ˈkoðikas]",
       "meaning": "почтовый индекс",
@@ -3797,6 +5069,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα τσεχικά",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "τα τσεχικά",
       "transcription": "[ta tsehiˈka]",
       "meaning": "чешский язык",
@@ -3806,6 +5081,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το φαγητό",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "το φαγητό",
       "transcription": "[to fayiˈto]",
       "meaning": "еда; блюдо",
@@ -3815,6 +5093,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο φιλόσοφος",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ο φιλόσοφος",
       "transcription": "[o fiˈlosofos]",
       "meaning": "философ",
@@ -3824,6 +5105,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "φτιάχνω",
       "lesson": "07",
+      "lessons": [
+        "07",
+        "10"
+      ],
       "greek": "φτιάχνω",
       "transcription": "[ˈftiahno]",
       "meaning": "я делаю, готовлю",
@@ -3833,6 +5118,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το φύλο",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "το φύλο",
       "transcription": "[to ˈfilo]",
       "meaning": "пол",
@@ -3842,6 +5130,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο φωτογράφος",
       "lesson": "07",
+      "lessons": [
+        "07",
+        "10"
+      ],
       "greek": "ο φωτογράφος",
       "transcription": "[o fotoˈɣrafos]",
       "meaning": "фотограф",
@@ -3851,6 +5143,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "χαμογελάω",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "χαμογελάω",
       "transcription": "[hamoyeˈlao]",
       "meaning": "я улыбаюсь",
@@ -3860,6 +5155,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ψάχνω",
       "lesson": "07",
+      "lessons": [
+        "07"
+      ],
       "greek": "ψάχνω",
       "transcription": "[ˈpsahno]",
       "meaning": "искать",
@@ -3869,6 +5167,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ανεβαίνω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "ανεβαίνω",
       "transcription": "[aneˈveno]",
       "meaning": "подниматься; садиться в транспорт",
@@ -3878,6 +5179,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η ανιψιά",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "η ανιψιά",
       "transcription": "[i aniˈpsya]",
       "meaning": "племянница",
@@ -3887,6 +5191,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο ανιψιός",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "ο ανιψιός",
       "transcription": "[o aniˈpsyos]",
       "meaning": "племянник",
@@ -3896,6 +5203,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το αυτοκίνητο",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το αυτοκίνητο",
       "transcription": "[to aftoˈkinito]",
       "meaning": "автомобиль",
@@ -3905,6 +5215,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "βγαίνω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "βγαίνω",
       "transcription": "[ˈvɣeno]",
       "meaning": "выходить; проводить время вне дома",
@@ -3914,6 +5227,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το βραδινό",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το βραδινό",
       "transcription": "[to vraðiˈno]",
       "meaning": "ужин; вечерняя еда",
@@ -3923,6 +5239,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "διψάω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "διψάω",
       "transcription": "[ðiˈpsao]",
       "meaning": "хотеть пить",
@@ -3932,6 +5251,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το δωμάτιο",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το δωμάτιο",
       "transcription": "[to ðoˈmatio]",
       "meaning": "комната",
@@ -3941,6 +5263,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ελεύθερος",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "ελεύθερος",
       "transcription": "[eˈlefθeros]",
       "meaning": "свободный; не в отношениях",
@@ -3950,6 +5275,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "έξω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "έξω",
       "transcription": "[ˈekso]",
       "meaning": "наружу; вне дома",
@@ -3959,6 +5287,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το επίθετο",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το επίθετο",
       "transcription": "[to eˈpiθeto]",
       "meaning": "фамилия",
@@ -3968,6 +5299,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η εταιρεία",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "η εταιρεία",
       "transcription": "[i eteˈria]",
       "meaning": "компания",
@@ -3977,6 +5311,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "έτοιμος / έτοιμη / έτοιμο",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "έτοιμος / έτοιμη / έτοιμο",
       "transcription": "[ˈetimos / ˈetimi / ˈetimo]",
       "meaning": "готовый",
@@ -3986,6 +5323,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η ζέστη",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "η ζέστη",
       "transcription": "[i ˈzesti]",
       "meaning": "жара; тепло",
@@ -3995,6 +5335,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η θεία",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "η θεία",
       "transcription": "[i ˈθia]",
       "meaning": "тётя",
@@ -4004,6 +5347,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το καλοκαίρι",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το καλοκαίρι",
       "transcription": "[to kaloˈkeri]",
       "meaning": "лето",
@@ -4013,6 +5359,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "κατεβαίνω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "κατεβαίνω",
       "transcription": "[kateˈveno]",
       "meaning": "спускаться; выходить из транспорта",
@@ -4022,6 +5371,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η κιθάρα",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "η κιθάρα",
       "transcription": "[i kiˈθara]",
       "meaning": "гитара",
@@ -4031,6 +5383,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το κρέας",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το κρέας",
       "transcription": "[to ˈkreas]",
       "meaning": "мясо",
@@ -4040,6 +5395,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το κρύο",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το κρύο",
       "transcription": "[to ˈkrio]",
       "meaning": "холод",
@@ -4049,6 +5407,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το λεωφορείο",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το λεωφορείο",
       "transcription": "[to leofoˈrio]",
       "meaning": "автобус",
@@ -4058,6 +5419,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο λύκος",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "ο λύκος",
       "transcription": "[o ˈlikos]",
       "meaning": "волк",
@@ -4067,6 +5431,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μεγάλος",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "μεγάλος",
       "transcription": "[meˈɣalos]",
       "meaning": "большой",
@@ -4076,6 +5443,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μοναχοπαίδι",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το μοναχοπαίδι",
       "transcription": "[to monahoˈpeði]",
       "meaning": "единственный ребёнок",
@@ -4085,6 +5455,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η μουσική",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "η μουσική",
       "transcription": "[i musiˈki]",
       "meaning": "музыка",
@@ -4094,6 +5467,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η ξαδέρφη / η ξαδέλφη",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "η ξαδέρφη / η ξαδέλφη",
       "transcription": "[i ksaˈðerfi / i ksaˈðelfi]",
       "meaning": "двоюродная сестра",
@@ -4103,6 +5479,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο ξάδερφος / ο ξάδελφος",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "ο ξάδερφος / ο ξάδελφος",
       "transcription": "[o ˈksaðerfos / o ˈksaðelfos]",
       "meaning": "двоюродный брат",
@@ -4112,6 +5491,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ξεκινάω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "ξεκινάω",
       "transcription": "[ksekiˈnao]",
       "meaning": "я начинаю; отправляюсь",
@@ -4121,6 +5503,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η ξένη γλώσσα",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "η ξένη γλώσσα",
       "transcription": "[i ˈkseni ˈɣlosa]",
       "meaning": "иностранный язык",
@@ -4130,6 +5515,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο όροφος",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "ο όροφος",
       "transcription": "[o ˈorofos]",
       "meaning": "этаж",
@@ -4139,6 +5527,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το πάρκο",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το πάρκο",
       "transcription": "[to ˈparko]",
       "meaning": "парк",
@@ -4148,6 +5539,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πεινάω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "πεινάω",
       "transcription": "[piˈnao]",
       "meaning": "хотеть есть; быть голодным",
@@ -4157,6 +5551,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πονάω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "πονάω",
       "transcription": "[poˈnao]",
       "meaning": "болеть; испытывать боль",
@@ -4166,6 +5563,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "προτιμάω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "προτιμάω",
       "transcription": "[protiˈmao]",
       "meaning": "я предпочитаю",
@@ -4175,6 +5575,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το πρωινό",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το πρωινό",
       "transcription": "[to proiˈno]",
       "meaning": "завтрак",
@@ -4184,6 +5587,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σαββατοκύριακο",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το σαββατοκύριακο",
       "transcription": "[to savatokiˈriako]",
       "meaning": "выходные",
@@ -4193,6 +5599,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σάντουιτς",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το σάντουιτς",
       "transcription": "[to ˈsanduits]",
       "meaning": "сэндвич",
@@ -4202,6 +5611,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η σκάλα",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "η σκάλα",
       "transcription": "[i ˈskala]",
       "meaning": "лестница",
@@ -4211,6 +5623,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σόι",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το σόι",
       "transcription": "[to ˈsoi]",
       "meaning": "родня; семейный круг",
@@ -4220,6 +5635,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σταθερό",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το σταθερό",
       "transcription": "[to staθeˈro]",
       "meaning": "стационарный телефон",
@@ -4229,6 +5647,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "σταματάω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "σταματάω",
       "transcription": "[stamaˈtao]",
       "meaning": "останавливать(ся); прекращать",
@@ -4238,6 +5659,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η στάση",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "η στάση",
       "transcription": "[i ˈstasi]",
       "meaning": "остановка",
@@ -4247,6 +5671,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "οι συγγενείς",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "οι συγγενείς",
       "transcription": "[i sinyeˈnis]",
       "meaning": "родственники",
@@ -4256,6 +5683,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο σύζυγος",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "ο σύζυγος",
       "transcription": "[o ˈsiziɣos]",
       "meaning": "супруг",
@@ -4265,6 +5695,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το τάμπλετ",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το τάμπλετ",
       "transcription": "[to ˈtablet]",
       "meaning": "планшет",
@@ -4274,6 +5707,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ταξιδεύω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "ταξιδεύω",
       "transcription": "[taksiˈðevo]",
       "meaning": "путешествовать",
@@ -4283,6 +5719,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το τραγούδι",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "το τραγούδι",
       "transcription": "[to traˈɣuði]",
       "meaning": "песня",
@@ -4292,6 +5731,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η φοιτητική εστία",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "η φοιτητική εστία",
       "transcription": "[i fititiˈki eˈstia]",
       "meaning": "студенческое общежитие",
@@ -4301,6 +5743,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "φοράω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "φοράω",
       "transcription": "[foˈrao]",
       "meaning": "носить одежду",
@@ -4310,6 +5755,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "χωρίζω",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "χωρίζω",
       "transcription": "[hoˈrizo]",
       "meaning": "я расстаюсь; разделяю",
@@ -4319,6 +5767,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "χωρισμένος",
       "lesson": "08",
+      "lessons": [
+        "08"
+      ],
       "greek": "χωρισμένος",
       "transcription": "[horisˈmenos]",
       "meaning": "разведённый; расставшийся с партнёром",
@@ -4328,6 +5779,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ακόμα",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ακόμα",
       "transcription": "[aˈkoma]",
       "meaning": "ещё; всё ещё",
@@ -4337,6 +5792,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο άνεργος / η άνεργη",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο άνεργος / η άνεργη",
       "transcription": "[o ˈanerɣos / i ˈaneryi]",
       "meaning": "безработный / безработная",
@@ -4346,6 +5805,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ανοίγω",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "ανοίγω",
       "transcription": "[aˈniɣo]",
       "meaning": "открывать",
@@ -4355,6 +5817,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "αρραβωνιασμένος / αρραβωνιασμένη",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "αρραβωνιασμένος / αρραβωνιασμένη",
       "transcription": "[aravoniazˈmenos / aravoniazˈmeni]",
       "meaning": "помолвленный / помолвленная",
@@ -4364,6 +5829,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο αρχαιολόγος / η αρχαιολόγος",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο αρχαιολόγος / η αρχαιολόγος",
       "transcription": "[o arheoˈloɣos / i arheoˈloɣos]",
       "meaning": "археолог",
@@ -4373,6 +5842,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η αστυνομία",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "η αστυνομία",
       "transcription": "[i astinoˈmia]",
       "meaning": "полиция",
@@ -4382,6 +5855,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το αστυνομικό τμήμα",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το αστυνομικό τμήμα",
       "transcription": "[to astinomiˈko ˈtmima]",
       "meaning": "полицейское отделение",
@@ -4391,6 +5868,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο αστυνομικός / η αστυνομικός",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο αστυνομικός / η αστυνομικός",
       "transcription": "[o astinomiˈkos / i astinomiˈkos]",
       "meaning": "полицейский",
@@ -4400,6 +5881,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ασχολούμαι",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "ασχολούμαι",
       "transcription": "[ashoˈlume]",
       "meaning": "занимаюсь",
@@ -4409,6 +5893,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το βενζινάδικο",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το βενζινάδικο",
       "transcription": "[to venziˈnaðiko]",
       "meaning": "заправка",
@@ -4418,6 +5906,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το γραφείο",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το γραφείο",
       "transcription": "[to ɣraˈfio]",
       "meaning": "офис; письменный стол",
@@ -4427,6 +5919,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο γυμναστής",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο γυμναστής",
       "transcription": "[o yimnaˈstis]",
       "meaning": "тренер; преподаватель физкультуры",
@@ -4436,6 +5932,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο δάσκαλος",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο δάσκαλος",
       "transcription": "[o ˈðaskalos]",
       "meaning": "учитель",
@@ -4445,6 +5945,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο δημοσιογράφος / η δημοσιογράφος",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο δημοσιογράφος / η δημοσιογράφος",
       "transcription": "[o ðimosioˈɣrafos / i ðimosioˈɣrafos]",
       "meaning": "журналист",
@@ -4454,6 +5958,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το δικηγορικό γραφείο",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το δικηγορικό γραφείο",
       "transcription": "[to ðikiɣoriˈko ɣraˈfio]",
       "meaning": "адвокатская контора",
@@ -4463,6 +5971,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο δικηγόρος / η δικηγόρος",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο δικηγόρος / η δικηγόρος",
       "transcription": "[o ðikiˈɣoros / i ðikiˈɣoros]",
       "meaning": "адвокат",
@@ -4472,6 +5984,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "έγκυος",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "έγκυος",
       "transcription": "[ˈeŋgios]",
       "meaning": "беременная",
@@ -4481,6 +5996,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "έλα / ελάτε",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "έλα / ελάτε",
       "transcription": "[ˈela / eˈlate]",
       "meaning": "иди / идите; давай / давайте",
@@ -4490,6 +6008,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το εμπορικό κέντρο",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το εμπορικό κέντρο",
       "transcription": "[to emporiˈko ˈkendro]",
       "meaning": "торговый центр",
@@ -4499,6 +6021,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το επάγγελμα",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το επάγγελμα",
       "transcription": "[to eˈpaŋgelma]",
       "meaning": "профессия",
@@ -4508,6 +6034,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο ηθοποιός / η ηθοποιός",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο ηθοποιός / η ηθοποιός",
       "transcription": "[o iθopiˈos / i iθopiˈos]",
       "meaning": "актёр / актриса",
@@ -4517,6 +6047,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η καθηγήτρια",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "η καθηγήτρια",
       "transcription": "[i kaθiˈyitria]",
       "meaning": "преподавательница",
@@ -4526,6 +6060,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το κατάστημα",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το κατάστημα",
       "transcription": "[to kaˈtastima]",
       "meaning": "магазин",
@@ -4535,6 +6073,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η κλινική",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "η κλινική",
       "transcription": "[i kliniˈki]",
       "meaning": "клиника",
@@ -4544,6 +6086,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το κομμωτήριο",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το κομμωτήριο",
       "transcription": "[to komoˈtirio]",
       "meaning": "парикмахерская",
@@ -4553,6 +6099,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο κομμωτής",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο κομμωτής",
       "transcription": "[o komoˈtis]",
       "meaning": "парикмахер, мужчина",
@@ -4562,6 +6112,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το κουδούνι",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "το κουδούνι",
       "transcription": "[to kuˈðuni]",
       "meaning": "звонок",
@@ -4571,6 +6124,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η μαγείρισσα",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "η μαγείρισσα",
       "transcription": "[i maˈyirisa]",
       "meaning": "повар, женщина",
@@ -4580,6 +6137,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η μάνα",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "η μάνα",
       "transcription": "[i ˈmana]",
       "meaning": "мать; мама",
@@ -4589,6 +6149,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο μανάβης",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο μανάβης",
       "transcription": "[o maˈnavis]",
       "meaning": "продавец овощей и фруктов",
@@ -4598,6 +6162,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το μανάβικο",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το μανάβικο",
       "transcription": "[to maˈnaviko]",
       "meaning": "овощная лавка",
@@ -4607,6 +6175,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η μανάβισσα",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "η μανάβισσα",
       "transcription": "[i maˈnavisa]",
       "meaning": "продавщица овощей и фруктов",
@@ -4616,6 +6188,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "Με το καλό!",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "Με το καλό!",
       "transcription": "[me to kaˈlo]",
       "meaning": "пусть всё пройдёт хорошо!",
@@ -4625,6 +6200,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μεγάλος / μεγάλη / μεγάλο",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "μεγάλος / μεγάλη / μεγάλο",
       "transcription": "[meˈɣalos / meˈɣali / meˈɣalo]",
       "meaning": "большой; старший",
@@ -4634,6 +6212,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο μήνας",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο μήνας",
       "transcription": "[o ˈminas]",
       "meaning": "месяц",
@@ -4643,6 +6225,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο μηχανικός / η μηχανικός",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο μηχανικός / η μηχανικός",
       "transcription": "[o mihaniˈkos / i mihaniˈkos]",
       "meaning": "инженер; механик",
@@ -4652,6 +6238,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "μικρός / μικρή / μικρό",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "μικρός / μικρή / μικρό",
       "transcription": "[miˈkros / miˈkri / miˈkro]",
       "meaning": "маленький; младший",
@@ -4661,6 +6250,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Νομική",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "η Νομική",
       "transcription": "[i nomiˈki]",
       "meaning": "юридический факультет",
@@ -4670,6 +6262,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο νοσηλευτής",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο νοσηλευτής",
       "transcription": "[o nosilefˈtis]",
       "meaning": "медбрат",
@@ -4679,6 +6275,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η νοσηλεύτρια",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "η νοσηλεύτρια",
       "transcription": "[i nosiˈleftria]",
       "meaning": "медсестра",
@@ -4688,6 +6288,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η νοσοκόμα",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "η νοσοκόμα",
       "transcription": "[i nosoˈkoma]",
       "meaning": "медсестра",
@@ -4697,6 +6301,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το νοσοκομείο",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το νοσοκομείο",
       "transcription": "[to nosokoˈmio]",
       "meaning": "больница",
@@ -4706,6 +6314,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο νοσοκόμος",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο νοσοκόμος",
       "transcription": "[o nosoˈkomos]",
       "meaning": "медбрат",
@@ -4715,6 +6327,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "τα Οικονομικά",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "τα Οικονομικά",
       "transcription": "[ta ikonomiˈka]",
       "meaning": "экономика, экономические науки",
@@ -4724,6 +6339,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "πάνω στην ώρα",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "πάνω στην ώρα",
       "transcription": "[ˈpano stin ˈora]",
       "meaning": "как раз вовремя",
@@ -4733,6 +6351,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ποιος / ποια / ποιο",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ποιος / ποια / ποιο",
       "transcription": "[ˈpios / ˈpia / ˈpio]",
       "meaning": "кто? какой?",
@@ -4742,6 +6364,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "Πόσων χρονών είσαι;",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "Πόσων χρονών είσαι;",
       "transcription": "[ˈposon hroˈnon ˈise]",
       "meaning": "сколько тебе лет?",
@@ -4751,6 +6377,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η πρεσβεία",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "η πρεσβεία",
       "transcription": "[i presˈvia]",
       "meaning": "посольство",
@@ -4760,6 +6390,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο πωλητής",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο πωλητής",
       "transcription": "[o poliˈtis]",
       "meaning": "продавец",
@@ -4769,6 +6403,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σαλόνι",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "το σαλόνι",
       "transcription": "[to saˈloni]",
       "meaning": "гостиная",
@@ -4778,6 +6415,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "σε λίγο",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "σε λίγο",
       "transcription": "[se ˈliɣo]",
       "meaning": "скоро; через немного времени",
@@ -4787,6 +6427,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η σερβιτόρα",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "η σερβιτόρα",
       "transcription": "[i serviˈtora]",
       "meaning": "официантка",
@@ -4796,6 +6440,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο σερβιτόρος",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο σερβιτόρος",
       "transcription": "[o serviˈtoros]",
       "meaning": "официант",
@@ -4805,6 +6453,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σουπερμάρκετ",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το σουπερμάρκετ",
       "transcription": "[to superˈmarket]",
       "meaning": "супермаркет",
@@ -4814,6 +6466,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το σπίτι",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το σπίτι",
       "transcription": "[to ˈspiti]",
       "meaning": "дом",
@@ -4823,6 +6479,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η σύζυγος",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "η σύζυγος",
       "transcription": "[i ˈsiziɣos]",
       "meaning": "супруга",
@@ -4832,6 +6491,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο συμφοιτητής",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "ο συμφοιτητής",
       "transcription": "[o simfitiˈtis]",
       "meaning": "однокурсник",
@@ -4841,6 +6503,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η συμφοιτήτρια",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "η συμφοιτήτρια",
       "transcription": "[i simfiˈtitria]",
       "meaning": "однокурсница",
@@ -4850,6 +6515,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το συνεργείο",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το συνεργείο",
       "transcription": "[to sinerˈyio]",
       "meaning": "автомастерская",
@@ -4859,6 +6528,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο συνταξιούχος / η συνταξιούχος",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο συνταξιούχος / η συνταξιούχος",
       "transcription": "[o sindaksiˈuhos / i sindaksiˈuhos]",
       "meaning": "пенсионер / пенсионерка",
@@ -4868,6 +6541,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η ταινία",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "η ταινία",
       "transcription": "[i teˈnia]",
       "meaning": "фильм",
@@ -4877,6 +6553,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο ταμίας / η ταμίας",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο ταμίας / η ταμίας",
       "transcription": "[o taˈmias / i taˈmias]",
       "meaning": "кассир",
@@ -4886,6 +6566,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο ταξιτζής",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο ταξιτζής",
       "transcription": "[o taksiˈdzis]",
       "meaning": "таксист",
@@ -4895,6 +6579,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η ταξιτζού",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "η ταξιτζού",
       "transcription": "[i taksiˈdzu]",
       "meaning": "таксистка",
@@ -4904,6 +6592,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο τεχνικός / η τεχνικός",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο τεχνικός / η τεχνικός",
       "transcription": "[o tehniˈkos / i tehniˈkos]",
       "meaning": "техник",
@@ -4913,6 +6605,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο τραγουδιστής",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο τραγουδιστής",
       "transcription": "[o traɣuðiˈstis]",
       "meaning": "певец",
@@ -4922,6 +6618,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η τραγουδίστρια",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "η τραγουδίστρια",
       "transcription": "[i traɣuˈðistria]",
       "meaning": "певица",
@@ -4931,6 +6631,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο υπάλληλος / η υπάλληλος",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο υπάλληλος / η υπάλληλος",
       "transcription": "[o iˈpalilos / i iˈpalilos]",
       "meaning": "сотрудник / сотрудница",
@@ -4940,6 +6644,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "το φαρμακείο",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "το φαρμακείο",
       "transcription": "[to farmaˈkio]",
       "meaning": "аптека",
@@ -4949,6 +6657,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο φαρμακοποιός / η φαρμακοποιός",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο φαρμακοποιός / η φαρμακοποιός",
       "transcription": "[o farmakopiˈos / i farmakopiˈos]",
       "meaning": "фармацевт",
@@ -4958,6 +6670,9 @@ window.GREEK_VOCABULARY = {
     {
       "id": "η Φιλολογία",
       "lesson": "09",
+      "lessons": [
+        "09"
+      ],
       "greek": "η Φιλολογία",
       "transcription": "[i filoloˈyia]",
       "meaning": "филология",
@@ -4967,6 +6682,10 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο φοιτητής",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο φοιτητής",
       "transcription": "[o fitiˈtis]",
       "meaning": "студент",
@@ -4976,10 +6695,542 @@ window.GREEK_VOCABULARY = {
     {
       "id": "ο χρόνος",
       "lesson": "09",
+      "lessons": [
+        "09",
+        "10"
+      ],
       "greek": "ο χρόνος",
       "transcription": "[o ˈhronos]",
       "meaning": "год",
       "note": "τα χρόνια [ta ˈhronya]; возраст: χρονών [hroˈnon]",
+      "core": true
+    },
+    {
+      "id": "ανάβω",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ανάβω",
+      "transcription": "[aˈnavo]",
+      "meaning": "зажигать; включать",
+      "note": "ανάβει [aˈnavi] — он / она; модель Α1",
+      "core": true
+    },
+    {
+      "id": "ο αστροναύτης / η αστροναύτης",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο αστροναύτης / η αστροναύτης",
+      "transcription": "[o astroˈnaftis / i astroˈnaftis]",
+      "meaning": "астронавт",
+      "note": "οι αστροναύτες [i astroˈnaftes]",
+      "core": false
+    },
+    {
+      "id": "το βαρέλι",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "το βαρέλι",
+      "transcription": "[to vaˈreli]",
+      "meaning": "бочка",
+      "note": "τα βαρέλια [ta vaˈrelya]",
+      "core": false
+    },
+    {
+      "id": "το γυμναστήριο",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "το γυμναστήριο",
+      "transcription": "[to yimnaˈstirio]",
+      "meaning": "спортзал",
+      "note": "τα γυμναστήρια [ta yimnaˈstiria]",
+      "core": true
+    },
+    {
+      "id": "η γυμναστική",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "η γυμναστική",
+      "transcription": "[i yimnastiˈki]",
+      "meaning": "гимнастика; физические упражнения",
+      "note": "название деятельности; в этом значении учим единственное число",
+      "core": true
+    },
+    {
+      "id": "ο διάβολος",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο διάβολος",
+      "transcription": "[o ðiˈavolos]",
+      "meaning": "дьявол",
+      "note": "οι διάβολοι [i ðiˈavoli]",
+      "core": false
+    },
+    {
+      "id": "ο δικαστής / η δικαστής",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο δικαστής / η δικαστής",
+      "transcription": "[o ðikaˈstis / i ðikaˈstis]",
+      "meaning": "судья",
+      "note": "οι δικαστές [i ðikaˈstes]",
+      "core": false
+    },
+    {
+      "id": "το δόντι",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "το δόντι",
+      "transcription": "[to ˈðondi]",
+      "meaning": "зуб",
+      "note": "τα δόντια [ta ˈðondya]",
+      "core": true
+    },
+    {
+      "id": "εκεί",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "εκεί",
+      "transcription": "[eˈki]",
+      "meaning": "там",
+      "note": "наречие; в вопросе «кто там работает?»",
+      "core": true
+    },
+    {
+      "id": "το έτος",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "το έτος",
+      "transcription": "[to ˈetos]",
+      "meaning": "год",
+      "note": "τα έτη [ta ˈeti]",
+      "core": false
+    },
+    {
+      "id": "η ηλικία",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "η ηλικία",
+      "transcription": "[i iliˈkia]",
+      "meaning": "возраст",
+      "note": "οι ηλικίες [i iliˈkies]",
+      "core": true
+    },
+    {
+      "id": "καθαρίζω",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "καθαρίζω",
+      "transcription": "[kaθaˈrizo]",
+      "meaning": "чистить; убирать",
+      "note": "καθαρίζει [kaθaˈrizi] — он / она; модель Α1",
+      "core": true
+    },
+    {
+      "id": "ο καθαριστής",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο καθαριστής",
+      "transcription": "[o kaθariˈstis]",
+      "meaning": "уборщик",
+      "note": "οι καθαριστές [i kaθariˈstes]",
+      "core": true
+    },
+    {
+      "id": "η καθαρίστρια",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "η καθαρίστρια",
+      "transcription": "[i kaθaˈristria]",
+      "meaning": "уборщица",
+      "note": "οι καθαρίστριες [i kaθaˈristries]",
+      "core": true
+    },
+    {
+      "id": "ο καμηλάρης",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο καμηλάρης",
+      "transcription": "[o kamiˈlaris]",
+      "meaning": "погонщик верблюдов",
+      "note": "οι καμηλάρηδες [i kamiˈlariðes]",
+      "core": false
+    },
+    {
+      "id": "η κατοικία",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "η κατοικία",
+      "transcription": "[i katiˈkia]",
+      "meaning": "жильё; место жительства",
+      "note": "οι κατοικίες [i katiˈkies]",
+      "core": false
+    },
+    {
+      "id": "η κούπα",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "η κούπα",
+      "transcription": "[i ˈkupa]",
+      "meaning": "чашка; кружка",
+      "note": "οι κούπες [i ˈkupes]",
+      "core": false
+    },
+    {
+      "id": "κουρεύω",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "κουρεύω",
+      "transcription": "[kuˈrevo]",
+      "meaning": "стричь",
+      "note": "κουρεύει [kuˈrevi] — он / она; модель Α1",
+      "core": true
+    },
+    {
+      "id": "το μαγαζί",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "το μαγαζί",
+      "transcription": "[to maɣaˈzi]",
+      "meaning": "магазин",
+      "note": "τα μαγαζιά [ta maɣaˈzya]",
+      "core": true
+    },
+    {
+      "id": "τα μαλλιά",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "τα μαλλιά",
+      "transcription": "[ta maˈlya]",
+      "meaning": "волосы",
+      "note": "το μαλλί [to maˈli]",
+      "core": true
+    },
+    {
+      "id": "ο οδοντίατρος / η οδοντίατρος",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο οδοντίατρος / η οδοντίατρος",
+      "transcription": "[o oðoˈndiatros / i oðoˈndiatros]",
+      "meaning": "стоматолог",
+      "note": "οι οδοντίατροι [i oðoˈndiatri]",
+      "core": true
+    },
+    {
+      "id": "η οικογενειακή κατάσταση",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "η οικογενειακή κατάσταση",
+      "transcription": "[i ikoyeniaˈki kaˈtastasi]",
+      "meaning": "семейное положение",
+      "note": "οι οικογενειακές καταστάσεις [i ikoyeniaˈkes kataˈstasis]",
+      "core": true
+    },
+    {
+      "id": "ο παπάς",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο παπάς",
+      "transcription": "[o paˈpas]",
+      "meaning": "священник",
+      "note": "οι παπάδες [i paˈpaðes]",
+      "core": false
+    },
+    {
+      "id": "το παπί",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "το παπί",
+      "transcription": "[to paˈpi]",
+      "meaning": "утёнок",
+      "note": "τα παπιά [ta paˈpya]",
+      "core": false
+    },
+    {
+      "id": "η πάπια",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "η πάπια",
+      "transcription": "[i ˈpapya]",
+      "meaning": "утка",
+      "note": "οι πάπιες [i ˈpapyes]",
+      "core": false
+    },
+    {
+      "id": "η πέτρα",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "η πέτρα",
+      "transcription": "[i ˈpetra]",
+      "meaning": "камень",
+      "note": "οι πέτρες [i ˈpetres]",
+      "core": false
+    },
+    {
+      "id": "το ποδάρι",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "το ποδάρι",
+      "transcription": "[to poˈðari]",
+      "meaning": "нога; ножка (разговорное)",
+      "note": "τα ποδάρια [ta poˈðarya]",
+      "core": false
+    },
+    {
+      "id": "ο πρόσφυγας",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο πρόσφυγας",
+      "transcription": "[o ˈprosfiɣas]",
+      "meaning": "беженец",
+      "note": "οι πρόσφυγες [i ˈprosfiɣes]",
+      "core": false
+    },
+    {
+      "id": "το προφίλ",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "το προφίλ",
+      "transcription": "[to proˈfil]",
+      "meaning": "профиль",
+      "note": "τα προφίλ [ta proˈfil]",
+      "core": false
+    },
+    {
+      "id": "ο πυροσβέστης / η πυροσβέστης",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο πυροσβέστης / η πυροσβέστης",
+      "transcription": "[o piroˈsvestis / i piroˈsvestis]",
+      "meaning": "пожарный",
+      "note": "οι πυροσβέστες [i piroˈsvestes]",
+      "core": false
+    },
+    {
+      "id": "το ρούχο",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "το ρούχο",
+      "transcription": "[to ˈruho]",
+      "meaning": "предмет одежды",
+      "note": "τα ρούχα [ta ˈruha]",
+      "core": true
+    },
+    {
+      "id": "σβήνω",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "σβήνω",
+      "transcription": "[ˈsvino]",
+      "meaning": "гасить; выключать",
+      "note": "σβήνει [ˈsvini] — он / она; модель Α1",
+      "core": true
+    },
+    {
+      "id": "το ταχυδρομείο",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "το ταχυδρομείο",
+      "transcription": "[to tahiðroˈmio]",
+      "meaning": "почта; почтовое отделение",
+      "note": "τα ταχυδρομεία [ta tahiðroˈmia]",
+      "core": true
+    },
+    {
+      "id": "ο ταχυδρόμος / η ταχυδρόμος",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο ταχυδρόμος / η ταχυδρόμος",
+      "transcription": "[o tahiˈðromos / i tahiˈðromos]",
+      "meaning": "почтальон",
+      "note": "οι ταχυδρόμοι [i tahiˈðromi]",
+      "core": true
+    },
+    {
+      "id": "το τιγράκι",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "το τιγράκι",
+      "transcription": "[to tiˈɣraki]",
+      "meaning": "тигрёнок",
+      "note": "τα τιγράκια [ta tiˈɣrakya]",
+      "core": false
+    },
+    {
+      "id": "η φακή",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "η φακή",
+      "transcription": "[i faˈki]",
+      "meaning": "чечевица",
+      "note": "οι φακές [i faˈkes]",
+      "core": false
+    },
+    {
+      "id": "ο φούρναρης",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο φούρναρης",
+      "transcription": "[o ˈfurnaris]",
+      "meaning": "пекарь",
+      "note": "οι φουρνάρηδες [i furˈnariðes]",
+      "core": true
+    },
+    {
+      "id": "η φουρνάρισσα",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "η φουρνάρισσα",
+      "transcription": "[i furˈnarisa]",
+      "meaning": "пекарь, женщина",
+      "note": "οι φουρνάρισσες [i furˈnarises]",
+      "core": true
+    },
+    {
+      "id": "ο φούρνος",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο φούρνος",
+      "transcription": "[o ˈfurnos]",
+      "meaning": "пекарня; печь",
+      "note": "οι φούρνοι [i ˈfurni]",
+      "core": true
+    },
+    {
+      "id": "το φροντιστήριο",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "το φροντιστήριο",
+      "transcription": "[to frondiˈstirio]",
+      "meaning": "центр дополнительных занятий; подготовительные курсы",
+      "note": "τα φροντιστήρια [ta frondiˈstiria]",
+      "core": true
+    },
+    {
+      "id": "ο χορευτής",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο χορευτής",
+      "transcription": "[o horefˈtis]",
+      "meaning": "танцор",
+      "note": "οι χορευτές [i horefˈtes]",
+      "core": false
+    },
+    {
+      "id": "η χορεύτρια",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "η χορεύτρια",
+      "transcription": "[i hoˈreftria]",
+      "meaning": "танцовщица",
+      "note": "οι χορεύτριες [i hoˈreftries]",
+      "core": false
+    },
+    {
+      "id": "χορεύω",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "χορεύω",
+      "transcription": "[hoˈrevo]",
+      "meaning": "танцевать",
+      "note": "χορεύει [hoˈrevi] — он / она; модель Α1",
+      "core": true
+    },
+    {
+      "id": "χτενίζω",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "χτενίζω",
+      "transcription": "[hteˈnizo]",
+      "meaning": "причёсывать",
+      "note": "χτενίζει [hteˈnizi] — он / она; модель Α1",
       "core": true
     }
   ]

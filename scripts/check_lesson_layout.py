@@ -15,6 +15,7 @@ LESSONS = [
     'lesson-07-current.md',
     'lesson-08-current.md',
     'lesson-09-current.md',
+    'lesson-10-current.md',
 ]
 EXPECTED = ['Что освоить', 'Разбор', 'Практика перед домашкой',
             'Домашнее задание']
@@ -32,7 +33,7 @@ def main():
             if target.startswith('https://'):
                 assert urlparse(target).hostname in {'www.youtube.com', 'youtube.com', 'youtu.be'}, target
             elif not target.startswith('#'):
-                assert (path.parent / target.split('#')[0]).exists(), (name, target)
+                assert (path.parent / target.split('#')[0].split('?')[0]).exists(), (name, target)
         assert text.count('.md-button') == 3, name
         assert '.md-button download' not in text, name
         assert f'lesson-{number:02}-phone-cards.pdf' in text, name

@@ -175,6 +175,14 @@ def render_all(lessons: dict[str, list[Word]]) -> str:
 
 def render_data(lessons: dict[str, list[Word]]) -> str:
     words = [word for lesson in lessons.values() for word in lesson]
+    memberships = {word.greek: [word.lesson] for word in words}
+    for lesson, ids in read_reviews(lessons).items():
+        for word_id in ids:
+            memberships[word_id].append(lesson)
+    training_sets = {
+        lesson: [word for word in words if lesson in memberships[word.greek]]
+        for lesson in lessons
+    }
     payload = {
         "source": "docs/vocabulary/lesson-*.md",
         "total": len(words),
@@ -184,12 +192,13 @@ def render_data(lessons: dict[str, list[Word]]) -> str:
                 "total": len(lesson_words),
                 "core": sum(word.core for word in lesson_words),
             }
-            for lesson, lesson_words in lessons.items()
+            for lesson, lesson_words in training_sets.items()
         },
         "words": [
             {
                 "id": word.greek,
                 "lesson": word.lesson,
+                "lessons": memberships[word.greek],
                 "greek": word.greek,
                 "transcription": plain(word.transcription_md),
                 "meaning": plain(word.meaning_md),
@@ -204,6 +213,27 @@ def render_data(lessons: dict[str, list[Word]]) -> str:
         + json.dumps(payload, ensure_ascii=False, indent=2)
         + ";\n"
     )
+
+
+def read_reviews(lessons: dict[str, list[Word]]) -> dict[str, list[str]]:
+    """Explicit repetitions live in the lesson vocabulary, not duplicated rows."""
+    originals = {word.greek: word.lesson for rows in lessons.values() for word in rows}
+    reviews = {}
+    for lesson in lessons:
+        path = VOCAB_DIR / f"lesson-{lesson}.md"
+        markers = re.findall(r"<!-- trainer-review: (.*?) -->", path.read_text(), re.S)
+        if len(markers) > 1:
+            raise ValueError(f"{path}: несколько списков повторения")
+        ids = json.loads(markers[0]) if markers else []
+        if not isinstance(ids, list) or any(not isinstance(item, str) for item in ids):
+            raise ValueError(f"{path}: повторение должно быть списком словарных идентификаторов")
+        if len(ids) != len(set(ids)):
+            raise ValueError(f"{path}: повторы внутри списка повторения")
+        for item in ids:
+            if item not in originals or originals[item] >= lesson:
+                raise ValueError(f"{path}: «{item}» не найдено в предыдущих уроках")
+        reviews[lesson] = ids
+    return reviews
 
 
 def main() -> int:
