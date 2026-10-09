@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 VOCAB_DIR = ROOT / "docs" / "vocabulary"
 ALL_PATH = VOCAB_DIR / "all.md"
 DATA_PATH = ROOT / "docs" / "assets" / "data" / "vocabulary-data.js"
+TOPIC_DIR = ROOT / "scripts" / "topic-data"
 
 HEADING_RE = re.compile(r"^##\s+(.+?)\s+\{\s*#([a-z0-9-]+)\s*\}\s*$")
 LESSON_RE = re.compile(r"lesson-(\d{2})\.md$")
@@ -187,6 +188,7 @@ def render_data(lessons: dict[str, list[Word]]) -> str:
         "source": "docs/vocabulary/lesson-*.md",
         "total": len(words),
         "core": sum(word.core for word in words),
+        "topics": read_topics(lessons),
         "lessons": {
             lesson: {
                 "total": len(lesson_words),
@@ -213,6 +215,20 @@ def render_data(lessons: dict[str, list[Word]]) -> str:
         + json.dumps(payload, ensure_ascii=False, indent=2)
         + ";\n"
     )
+
+
+def read_topics(lessons: dict[str, list[Word]]) -> dict:
+    """Topics select existing lemmas; they never create another vocabulary source."""
+    known = {word.greek: word for rows in lessons.values() for word in rows}
+    topics = {}
+    for path in sorted(TOPIC_DIR.glob("*.json")):
+        topic = json.loads(path.read_text())
+        ids = [item for group in topic["groups"] for item in group["ids"]]
+        if len(ids) != len(set(ids)) or any(item not in known for item in ids):
+            raise ValueError(f"{path}: duplicate or unknown vocabulary ids: {set(ids) - set(known)}")
+        topics[path.stem] = {"title": topic["title"], "ids": ids, "total": len(ids),
+                             "core": sum(known[item].core for item in ids)}
+    return topics
 
 
 def read_reviews(lessons: dict[str, list[Word]]) -> dict[str, list[str]]:

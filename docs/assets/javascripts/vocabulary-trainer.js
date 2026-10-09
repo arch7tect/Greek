@@ -10,13 +10,14 @@
   }
 
   const lessonContainer = root.querySelector("#vocabulary-trainer-lessons");
-  const lessonButtons = Object.keys(vocabulary.lessons).sort().map((lesson) => {
+  const sets = { ...vocabulary.lessons, ...vocabulary.topics };
+  const lessonButtons = Object.keys(sets).sort().map((lesson) => {
     const button = document.createElement("button");
     const count = document.createElement("span");
     button.type = "button";
     button.dataset.vocabularyLesson = lesson;
     button.setAttribute("aria-pressed", "false");
-    button.append(`Урок ${lesson} `);
+    button.append(vocabulary.topics?.[lesson] ? "Профессии " : `Урок ${lesson} `);
     count.dataset.vocabularyCount = lesson;
     button.append(count);
     lessonContainer.append(button);
@@ -54,8 +55,9 @@
   const articlePattern = /^(ο|η|το|οι|τα)\s+/;
 
   const firstLesson = lessonButtons[0]?.dataset.vocabularyLesson;
-  let activeLesson = new URLSearchParams(window.location.search).get("lesson") || firstLesson;
-  if (!Object.hasOwn(vocabulary.lessons, activeLesson)) activeLesson = firstLesson;
+  const params = new URLSearchParams(window.location.search);
+  let activeLesson = params.get("topic") || params.get("lesson") || firstLesson;
+  if (!Object.hasOwn(sets, activeLesson)) activeLesson = firstLesson;
   let activeScope = "core";
   const requestedDirection = new URLSearchParams(window.location.search).get("direction");
   let activeDirection = directionButtons.some((button) => button.dataset.vocabularyDirection === requestedDirection)
@@ -165,10 +167,15 @@
 
   function selectedWords() {
     return vocabulary.words.filter((word) => (
-      (word.lessons || [word.lesson]).includes(activeLesson)
+      belongsToSet(word)
       && (activeScope === "all" || word.core)
       && (activeDirection !== "article" || articlePattern.test(word.greek))
     ));
+  }
+
+  function belongsToSet(word) {
+    const topic = vocabulary.topics?.[activeLesson];
+    return topic ? topic.ids.includes(word.id) : (word.lessons || [word.lesson]).includes(activeLesson);
   }
 
   function setPressed(buttons, active) {
@@ -178,10 +185,10 @@
   }
 
   function updateCounts() {
-    Object.entries(vocabulary.lessons).forEach(([lesson, counts]) => {
+    Object.entries(sets).forEach(([lesson, counts]) => {
       const target = root.querySelector(`[data-vocabulary-count="${lesson}"]`);
       if (!target) return;
-      const count = activeScope === "core" ? counts.core : counts.total;
+      const count = activeScope === "all" ? counts.total : counts.core;
       target.textContent = `(${count})`;
     });
   }
@@ -277,6 +284,8 @@
   }
 
   function startSession() {
+    setPressed(scopeButtons, scopeButtons.find((button) => button.dataset.vocabularyScope === activeScope));
+    reset.textContent = "Сбросить прогресс набора в этом режиме";
     resetPanel.hidden = true;
     reset.setAttribute("aria-expanded", "false");
     progressState = progressStore.get(activeDirection);
@@ -345,7 +354,8 @@
   restart.addEventListener("click", startSession);
   reset.addEventListener("click", () => {
     const direction = directionButtons.find((button) => button.dataset.vocabularyDirection === activeDirection).textContent;
-    resetDescription.textContent = `Начать урок ${activeLesson} заново в режиме «${direction}»? Сбросятся основные и дополнительные слова этого урока. Другие уроки и режимы сохранятся.`;
+    const title = vocabulary.topics?.[activeLesson]?.title || `Урок ${activeLesson}`;
+    resetDescription.textContent = `Начать «${title}» заново в режиме «${direction}»? Сбросятся все слова набора, включая дополнительные. Их результаты изменятся и в других наборах, где эти слова встречаются. Другие слова и направления сохранятся.`;
     resetPanel.hidden = false;
     reset.setAttribute("aria-expanded", "true");
     resetConfirm.focus();
@@ -356,7 +366,7 @@
     reset.focus();
   });
   resetConfirm.addEventListener("click", () => {
-    progressStore.reset(activeDirection, vocabulary.words.filter((word) => word.lesson === activeLesson).map((word) => word.id));
+    progressStore.reset(activeDirection, vocabulary.words.filter(belongsToSet).map((word) => word.id));
     startSession();
   });
   hint.addEventListener("click", () => {

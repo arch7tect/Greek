@@ -4,6 +4,8 @@
 упражнениях или была дана в задании.
 
 Практика: [тренажёр слов по урокам](../training/vocabulary.md).
+К диктанту: [профессии и места работы](../memory/professions.md) ·
+[тематический тренажёр](../training/vocabulary.md?topic=professions).
 
 ## Что учить
 
