@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 593,
-  "core": 348,
+  "total": 595,
+  "core": 350,
   "topics": {
     "professions": {
       "title": "Профессии и места работы",
@@ -32,6 +32,8 @@ window.GREEK_VOCABULARY = {
         "η μανάβισσα",
         "ο ταμίας / η ταμίας",
         "ο φαρμακοποιός / η φαρμακοποιός",
+        "ο προγραμματιστής",
+        "η πληροφορική",
         "ο γραμματέας / η γραμματέας",
         "ο υπάλληλος / η υπάλληλος",
         "ο δικηγόρος / η δικηγόρος",
@@ -89,8 +91,8 @@ window.GREEK_VOCABULARY = {
         "το θέατρο",
         "το σπίτι"
       ],
-      "total": 82,
-      "core": 57
+      "total": 84,
+      "core": 59
     }
   },
   "lessons": {
@@ -131,8 +133,8 @@ window.GREEK_VOCABULARY = {
       "core": 50
     },
     "10": {
-      "total": 116,
-      "core": 76
+      "total": 118,
+      "core": 78
     }
   },
   "words": [
@@ -7109,6 +7111,18 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "η πληροφορική",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "η πληροφορική",
+      "transcription": "[i pliroforiˈki]",
+      "meaning": "информатика; сфера IT",
+      "note": "название области; в этом значении единственное число",
+      "core": true
+    },
+    {
       "id": "το ποδάρι",
       "lesson": "10",
       "lessons": [
@@ -7119,6 +7133,18 @@ window.GREEK_VOCABULARY = {
       "meaning": "нога; ножка (разговорное)",
       "note": "τα ποδάρια [ta poˈðarya]",
       "core": false
+    },
+    {
+      "id": "ο προγραμματιστής",
+      "lesson": "10",
+      "lessons": [
+        "10"
+      ],
+      "greek": "ο προγραμματιστής",
+      "transcription": "[o proɣramatiˈstis]",
+      "meaning": "программист",
+      "note": "οι προγραμματιστές [i proɣramatiˈstes]; женщина: η προγραμματίστρια [i proɣramaˈtistria], мн. οι προγραμματίστριες [i proɣramaˈtistries]",
+      "core": true
     },
     {
       "id": "ο πρόσφυγας",

@@ -17,7 +17,7 @@ test("lesson repetitions reuse stable vocabulary ids and accurate counts", async
   assert.equal(doctor.lesson, "07");
   assert.ok(doctor.lessons.includes("10"));
   assert.equal(data.words.filter(word => word.id === doctor.id).length, 1);
-  assert.equal(data.lessons["10"].total, 116);
+  assert.equal(data.lessons["10"].total, 118);
   const source = await readFile("docs/assets/javascripts/vocabulary-trainer.js", "utf8");
   assert.ok(source.includes("(word.lessons || [word.lesson]).includes(activeLesson)"));
 });
@@ -30,17 +30,23 @@ test("dictation topic contains only existing unique nouns and covers people and 
   const selection = JSON.parse(await readFile("scripts/topic-data/professions.json", "utf8"));
   const expected = selection.groups.flatMap(group => group.ids);
   assert.deepEqual([...topic.ids], expected);
-  assert.equal(topic.total, 82);
+  assert.equal(topic.total, 84);
   assert.equal(new Set(topic.ids).size, topic.total);
   for (const id of topic.ids) {
     assert.ok(data.words.some(word => word.id === id));
     assert.match(id, /^(ο|η|το) /u);
   }
-  for (const id of ["ο γυμναστής", "η γυμνάστρια", "το γυμναστήριο", "ο φούρναρης", "ο φούρνος", "η κομμώτρια", "η πωλήτρια"]) {
+  for (const id of ["ο γυμναστής", "η γυμνάστρια", "το γυμναστήριο", "ο φούρναρης", "ο φούρνος", "η κομμώτρια", "η πωλήτρια", "ο προγραμματιστής", "η πληροφορική"]) {
     assert.ok(topic.ids.includes(id), id);
   }
   for (const id of ["η ηλικία", "η τίγρη", "ο πρόσφυγας", "η σύζυγος"]) {
     assert.ok(!topic.ids.includes(id), id);
+  }
+  for (const id of ["η πληροφορική", "ο προγραμματιστής"]) {
+    const word = data.words.find(word => word.id === id);
+    assert.equal(word.core, true);
+    assert.ok(word.lessons.includes("10"));
+    assert.equal(data.words.filter(word => word.id === id).length, 1);
   }
   const source = await readFile("docs/assets/javascripts/vocabulary-trainer.js", "utf8");
   assert.ok(source.includes('params.get("topic")'));
