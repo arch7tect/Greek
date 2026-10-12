@@ -24,6 +24,8 @@
     return button;
   });
   const scopeButtons = [...root.querySelectorAll("[data-vocabulary-scope]")];
+  const coverageButtons = [...root.querySelectorAll("[data-vocabulary-coverage]")];
+  const coverageControls = root.querySelector("#vocabulary-trainer-coverage");
   const directionButtons = [...root.querySelectorAll("[data-vocabulary-direction]")];
   const ratingButtons = [...root.querySelectorAll("[data-vocabulary-rating]")];
   const restart = root.querySelector("#vocabulary-trainer-restart");
@@ -59,6 +61,8 @@
   let activeLesson = params.get("topic") || params.get("lesson") || firstLesson;
   if (!Object.hasOwn(sets, activeLesson)) activeLesson = firstLesson;
   let activeScope = "core";
+  let activeCoverage = "new";
+  const selection = window.GreekVocabularySelection;
   const requestedDirection = new URLSearchParams(window.location.search).get("direction");
   let activeDirection = directionButtons.some((button) => button.dataset.vocabularyDirection === requestedDirection)
     ? requestedDirection : "greek-to-russian";
@@ -174,8 +178,7 @@
   }
 
   function belongsToSet(word) {
-    const topic = vocabulary.topics?.[activeLesson];
-    return topic ? topic.ids.includes(word.id) : (word.lessons || [word.lesson]).includes(activeLesson);
+    return selection.belongsToSet(word, activeLesson, activeCoverage, vocabulary.topics);
   }
 
   function setPressed(buttons, active) {
@@ -185,10 +188,14 @@
   }
 
   function updateCounts() {
-    Object.entries(sets).forEach(([lesson, counts]) => {
+    Object.keys(sets).forEach((lesson) => {
       const target = root.querySelector(`[data-vocabulary-count="${lesson}"]`);
       if (!target) return;
-      const count = activeScope === "all" ? counts.total : counts.core;
+      const count = vocabulary.words.filter((word) => (
+        selection.belongsToSet(word, lesson, activeCoverage, vocabulary.topics)
+        && (activeScope === "all" || word.core)
+        && (activeDirection !== "article" || articlePattern.test(word.greek))
+      )).length;
       target.textContent = `(${count})`;
     });
   }
@@ -230,11 +237,13 @@
 
   function finish() {
     current = null;
-    promptLabel.textContent = shownCount ? "Сессия завершена" : "На сегодня всё";
-    prompt.textContent = shownCount ? `Показано карточек: ${shownCount}` : "Нет карточек к повторению";
+    const empty = selectedWords().length === 0;
+    promptLabel.textContent = shownCount ? "Сессия завершена" : empty ? "Набор пуст" : "На сегодня всё";
+    prompt.textContent = shownCount ? `Показано карточек: ${shownCount}` : empty ? "Нет слов с выбранными фильтрами" : "Нет карточек к повторению";
     context.textContent = shownCount
       ? "Карточки со сроком в будущем вернутся позднее."
-      : "Выберите другой урок или вернитесь после следующего срока повторения.";
+      : empty ? "Попробуйте «С повторением», «Все слова» или другое направление."
+        : "Можно включить «С повторением», сбросить прогресс набора или вернуться позднее.";
     hint.hidden = true;
     hintText.textContent = "";
     reveal.hidden = true;
@@ -255,11 +264,11 @@
     if (activeDirection === "article") {
       promptLabel.textContent = "Вспомните артикль";
       prompt.textContent = articlePrompt(current);
-      context.textContent = `${current.meaning} · Урок ${current.lesson}`;
+      context.textContent = `${current.meaning} · ${selection.originLabel(current, activeLesson, vocabulary.topics)}`;
     } else {
       promptLabel.textContent = greekFirst ? "Вспомните значение" : "Вспомните греческое слово";
       prompt.textContent = greekFirst ? current.greek : current.meaning;
-      context.textContent = `Урок ${current.lesson}`;
+      context.textContent = selection.originLabel(current, activeLesson, vocabulary.topics);
     }
     hint.hidden = !greekFirst;
     hintText.textContent = "";
@@ -284,6 +293,8 @@
   }
 
   function startSession() {
+    coverageControls.hidden = Boolean(vocabulary.topics?.[activeLesson]);
+    setPressed(coverageButtons, coverageButtons.find((button) => button.dataset.vocabularyCoverage === activeCoverage));
     setPressed(scopeButtons, scopeButtons.find((button) => button.dataset.vocabularyScope === activeScope));
     reset.textContent = "Сбросить прогресс набора в этом режиме";
     resetPanel.hidden = true;
@@ -340,6 +351,12 @@
       startSession();
     });
   });
+  coverageButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeCoverage = button.dataset.vocabularyCoverage;
+      startSession();
+    });
+  });
   directionButtons.forEach((button) => {
     if (button.dataset.vocabularyDirection === activeDirection) setPressed(directionButtons, button);
     button.addEventListener("click", () => {
@@ -355,7 +372,9 @@
   reset.addEventListener("click", () => {
     const direction = directionButtons.find((button) => button.dataset.vocabularyDirection === activeDirection).textContent;
     const title = vocabulary.topics?.[activeLesson]?.title || `Урок ${activeLesson}`;
-    resetDescription.textContent = `Начать «${title}» заново в режиме «${direction}»? Сбросятся все слова набора, включая дополнительные. Их результаты изменятся и в других наборах, где эти слова встречаются. Другие слова и направления сохранятся.`;
+    const coverage = vocabulary.topics?.[activeLesson] ? "тематический набор"
+      : activeCoverage === "new" ? "только новые слова урока" : "слова урока с повторением";
+    resetDescription.textContent = `Начать «${title}» заново в режиме «${direction}» (${coverage})? Сбросятся все слова этой выборки, включая дополнительные и другие артикли. Их результаты изменятся и в других наборах, где эти слова встречаются. Другие слова и направления сохранятся.`;
     resetPanel.hidden = false;
     reset.setAttribute("aria-expanded", "true");
     resetConfirm.focus();

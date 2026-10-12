@@ -60,7 +60,7 @@ test("lesson repetitions reuse stable vocabulary ids and accurate counts", async
   assert.equal(data.words.filter(word => word.id === doctor.id).length, 1);
   assert.equal(data.lessons["10"].total, 118);
   const source = await readFile("docs/assets/javascripts/vocabulary-trainer.js", "utf8");
-  assert.ok(source.includes("(word.lessons || [word.lesson]).includes(activeLesson)"));
+  assert.ok(source.includes("selection.belongsToSet(word, activeLesson, activeCoverage, vocabulary.topics)"));
 });
 
 test("dictation topic contains only existing unique nouns and covers people and places", async () => {
