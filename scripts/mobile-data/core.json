@@ -196,5 +196,18 @@
       "Особые женские формы:<br/>μοντέρνα / σκούρα / γκρίζα<br/>[moˈnderna / ˈskura / ˈgriza]<br/>современная / тёмная / серая",
       "φρέσκια / γλυκιά [ˈfreskya / ɣliˈkya]<br/>свежая / сладкая"
     ]
+  },
+  {
+    "title": "Профессии и места работы",
+    "sources": ["docs/lessons/lesson-09-current.md", "docs/lessons/lesson-10-current.md", "scripts/mobile-data/lesson-09.json", "scripts/mobile-data/lesson-10.json"],
+    "rows": [
+      "ο δάσκαλος → στο σχολείο<br/>[o ˈðaskalos → sto shoˈlio]<br/>учитель → в школе",
+      "ο / η γιατρός → στο νοσοκομείο<br/>[o / i yaˈtros → sto nosokoˈmio]<br/>врач → в больнице",
+      "ο σερβιτόρος → στο εστιατόριο<br/>[o serviˈtoros → sto estiaˈtorio]<br/>официант → в ресторане",
+      "ο πωλητής → στο κατάστημα<br/>[o poliˈtis → sto kaˈtastima]<br/>продавец → в магазине",
+      "ο κομμωτής → στο κομμωτήριο<br/>[o komoˈtis → sto komoˈtirio]<br/>парикмахер → в парикмахерской",
+      "Είμαι προγραμματιστής.<br/>[ˈime proɣramatiˈstis] — Я программист.<br/>Δουλεύω στην πληροφορική.<br/>[ðuˈlevo stin pliroforiˈki] — Работаю в IT."
+    ],
+    "note": "Профессия: Είμαι… [ˈime] — Я… (без артикля).<br/>Место: Δουλεύω… [ðuˈlevo] — Работаю…<br/>Пары — примеры, не единственное место работы. IT — сфера, не место."
   }
 ]

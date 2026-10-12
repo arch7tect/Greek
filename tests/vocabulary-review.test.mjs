@@ -23,12 +23,26 @@ test("lesson 11 covers every taught adjective without duplicating known lemmas",
   const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-11.json", "utf8"));
   assert.equal(cards.length, 4);
   const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
-  assert.equal(core.length, 12);
+  assert.equal(core.length, 13);
   assert.ok(core[11].sources.includes("docs/lessons/lesson-11-current.md"));
   const lesson = await readFile("docs/lessons/lesson-11-current.md", "utf8");
   assert.ok(lesson.includes("если успеешь"));
 });
 
+
+test("core professions card is a small source-backed selection", async () => {
+  const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
+  const card = core[12];
+  assert.equal(card.title, "Профессии и места работы");
+  assert.equal(card.rows.length, 6);
+  for (const source of card.sources) await readFile(source, "utf8");
+  const content = card.rows.join("\n");
+  for (const word of ["δάσκαλος", "γιατρός", "σερβιτόρος", "πωλητής", "κομμωτής", "προγραμματιστής", "πληροφορική"]) {
+    assert.ok(content.includes(word), word);
+  }
+  assert.ok(card.rows.every(row => row.includes("[") && row.includes("]")));
+  assert.ok(card.note.includes("IT — сфера, не место"));
+});
 
 test("lesson repetitions reuse stable vocabulary ids and accurate counts", async () => {
   const context = { window: {} };
