@@ -85,4 +85,3 @@
 [Полный разбор и слова урока 11](../../lessons/lesson-11-current.md) ·
 [Короткая памятка](../../memory/lesson-11-current.md) ·
 [Задания](../../homework/lesson-11-current.md).
-

@@ -19,4 +19,3 @@
 
 [Домашка](../homework/lesson-11-current.md) ·
 [Тренажёр](../training/vocabulary.md?lesson=11).
-

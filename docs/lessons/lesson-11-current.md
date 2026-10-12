@@ -301,4 +301,3 @@
 
 [Памятка урока](../memory/lesson-11-current.md) ·
 [Сквозные карточки](../memory/core.md).
-
