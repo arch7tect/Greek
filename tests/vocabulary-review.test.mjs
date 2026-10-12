@@ -3,6 +3,33 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 import vm from "node:vm";
 
+
+test("lesson 11 covers every taught adjective without duplicating known lemmas", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);
+  const data = context.window.GREEK_VOCABULARY;
+  const words = data.words.filter(word => word.lessons.includes("11"));
+  const adjectives = ["καλός","κακός","μεγάλος","μικρός","όμορφος","άσχημος","φτηνός","ακριβός","ψηλός","κοντός","χοντρός","λεπτός","ζεστός","καθαρός","βρώμικος","εύκολος","δύσκολος","φτωχός","έξυπνος","γεμάτος","έτοιμος","ανοιχτός","κλειστός","γρήγορος","αργός","ευγενικός","αυστηρός","ήσυχος","απλός","στενός","καινούργιος","νέος","παλιός","πλούσιος","ωραίος","κρύος","άδειος","μοντέρνος","σκούρος","γκρίζος","φρέσκος","γλυκός","ηλικιωμένος"];
+  for (const lemma of adjectives) {
+    assert.ok(words.some(word => word.greek.split(" / ")[0] === lemma), lemma);
+  }
+  assert.equal(adjectives.length, 43);
+  assert.equal(data.words.filter(word => word.lesson === "11").length, 56);
+  assert.equal(words.length, 103);
+  for (const lemma of ["η τυρόπιτα", "το κορίτσι", "το ποτήρι", "η φίλη",
+                       "η εβδομάδα", "εκείνος / εκείνη / εκείνο"]) {
+    assert.ok(words.some(word => word.greek === lemma), lemma);
+  }
+  const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-11.json", "utf8"));
+  assert.equal(cards.length, 4);
+  const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
+  assert.equal(core.length, 12);
+  assert.ok(core[11].sources.includes("docs/lessons/lesson-11-current.md"));
+  const lesson = await readFile("docs/lessons/lesson-11-current.md", "utf8");
+  assert.ok(lesson.includes("если успеешь"));
+});
+
+
 test("lesson repetitions reuse stable vocabulary ids and accurate counts", async () => {
   const context = { window: {} };
   vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);

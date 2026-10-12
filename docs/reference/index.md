@@ -14,5 +14,6 @@
   - [Настоящее время: глаголы первого спряжения](grammar/present-tense-a.md)
   - [Предлоги с винительным](grammar/prepositions-accusative.md)
   - [Артикли в именительном падеже](grammar/nominative-articles.md)
+  - [Прилагательные: род и модели Ε1 / Ε2](grammar/adjectives-e1-e2.md)
 
 Раздел будет расти по мере разбора учебных материалов.

@@ -93,6 +93,7 @@ nav:
       - Урок 08 — семья, отношения и «чей?»: lessons/lesson-08-current.md
       - Урок 09 — профессии и возраст: lessons/lesson-09-current.md
       - Урок 10 — работа и рассказ о себе: lessons/lesson-10-current.md
+      - Урок 11 — прилагательные: lessons/lesson-11-current.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -108,6 +109,7 @@ nav:
       - Настоящее время, тип Β1: reference/grammar/present-tense-b1.md
       - Предлоги с винительным: reference/grammar/prepositions-accusative.md
       - Артикли в именительном падеже: reference/grammar/nominative-articles.md
+      - Прилагательные Ε1 и Ε2: reference/grammar/adjectives-e1-e2.md
   - Словарь:
       - vocabulary/index.md
       - Общий словарь: vocabulary/all.md
@@ -121,6 +123,7 @@ nav:
       - Урок 08 — новые слова: vocabulary/lesson-08.md
       - Урок 09 — новые слова: vocabulary/lesson-09.md
       - Урок 10 — новые слова и повторение: vocabulary/lesson-10.md
+      - Урок 11 — прилагательные и предметы: vocabulary/lesson-11.md
   - Коротко для памяти:
       - memory/index.md
       - Главное — сквозные карточки: memory/core.md
@@ -137,6 +140,7 @@ nav:
       - Урок 08: memory/lesson-08-current.md
       - Урок 09: memory/lesson-09-current.md
       - Урок 10: memory/lesson-10-current.md
+      - Урок 11: memory/lesson-11-current.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -150,6 +154,7 @@ nav:
           - К уроку 08: homework/lesson-08-current.md
           - К уроку 09: homework/lesson-09-current.md
           - К уроку 10: homework/lesson-10-current.md
+          - К уроку 11: homework/lesson-11-current.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md
