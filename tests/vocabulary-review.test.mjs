@@ -30,6 +30,25 @@ test("lesson 11 covers every taught adjective without duplicating known lemmas",
 });
 
 
+test("lesson 12 separates its new words and preserves the corrected assignment and listening key", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);
+  const data = context.window.GREEK_VOCABULARY;
+  assert.equal(data.words.filter(word => word.lesson === "12").length, 23);
+  assert.equal(data.lessons["12"].total, 106);
+  for (const id of ["το ποδήλατο", "ο αναπτήρας", "η ομπρέλα", "το πιάτο", "το ρολόι", "το λεπτό", "οδηγώ", "ο οδηγός ταξί"]) {
+    assert.ok(data.words.some(word => word.id === id && word.lesson === "12"), id);
+  }
+  const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-12.json", "utf8"));
+  assert.equal(cards.length, 3);
+  const homework = await readFile("docs/homework/lesson-12-current.md", "utf8");
+  assert.ok(homework.includes("с. 22 №6"));
+  assert.ok(homework.includes('src="../../assets/audio/lesson-12-exercise-15.mp3"'));
+  assert.ok(homework.includes('??? note "Ключ и объяснения'));
+  assert.ok(homework.includes("Είμαι οδηγός ταξί."));
+  assert.ok((await readFile("docs/assets/audio/lesson-12-exercise-15.mp3")).length > 0);
+});
+
 test("core professions card is a small source-backed selection", async () => {
   const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
   const card = core[12];
