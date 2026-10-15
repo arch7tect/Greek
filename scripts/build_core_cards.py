@@ -112,7 +112,7 @@ def build_print():
     c.setTitle('Главное · памятка A4')
     page_w, page_h = A4
     # Two topics per column, measured independently; no automatic font shrinking.
-    layout = [((0, 1), (2, 6)), ((3, 7), (4, 5)), ((8, 9), (10,)), ((11, 13), (12,))]
+    layout = [((0, 1), (2, 6)), ((3, 7), (4, 12)), ((8, 9), (10,)), ((11, 13), (5,))]
     assert sorted(i for page in layout for col in page for i in col) == list(range(len(CARDS)))
     for page_number, page in enumerate(layout, 1):
         c.setFont('CoreBold', 15)
@@ -126,7 +126,7 @@ def build_print():
                 bottom = card(c, CARDS[idx], idx + 1, x, top, width, 10.3, draw=False)
                 assert bottom > 40, (CARDS[idx]['title'], bottom)
                 card(c, CARDS[idx], idx + 1, x, top, width, 10.3)
-                top = bottom - 16
+                top = bottom - 10
         c.setFont('Core', 10)
         c.drawRightString(page_w - 28, 22, f'{page_number} / {len(layout)}')
         c.showPage()
