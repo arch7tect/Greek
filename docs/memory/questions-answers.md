@@ -9,7 +9,7 @@
 
 Разборы: [знакомство](../lessons/lesson-03-introductions-and-eimai.md), [общение и жильё](../lessons/lesson-04-current.md), [запись на занятия](../lessons/lesson-05-current.md#registration), [языки и учёба](../lessons/lesson-06-current.md), [семья](../lessons/lesson-08-current.md), [профессия и возраст](../lessons/lesson-09-current.md).
 
-Значения маленьких слов в вопросах — на [сквозной карточке №14 «Вопросительные слова»](../assets/mobile/core/card-14.png).
+Значения маленьких слов в вопросах — на [сквозной карточке №8 «Вопросительные слова»](../assets/mobile/core/card-8.png).
 Не путай вопросительное `τι` `[ti]` — «что?» — с артиклем `τη` `[ti]`.
 Предлоги — отдельная тема: [карточка №7](../assets/mobile/core/card-7.png).
 

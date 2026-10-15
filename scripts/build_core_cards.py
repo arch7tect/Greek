@@ -26,6 +26,8 @@ pdfmetrics.registerFont(TTFont('Core', str(FONT_ROOT / 'poppler/poppler/fonts/De
 pdfmetrics.registerFont(TTFont('CoreBold', str(FONT_ROOT / 'libreoffice-headless/libreoffice/LibreOfficeDev.app/Contents/Resources/fonts/truetype/DejaVuSans-Bold.ttf')))
 pdfmetrics.registerFontFamily('Core', normal='Core', bold='CoreBold')
 CARDS = json.loads((ROOT / 'scripts/mobile-data/core.json').read_text())
+questions = next(i for i, data in enumerate(CARDS) if data['title'] == 'Вопросительные слова')
+CARDS.insert(7, CARDS.pop(questions))
 OUT = ROOT / 'output/pdf'
 PUBLIC = ROOT / 'docs/assets/mobile/core'
 OUT.mkdir(parents=True, exist_ok=True)
@@ -112,7 +114,7 @@ def build_print():
     c.setTitle('Главное · памятка A4')
     page_w, page_h = A4
     # Two topics per column, measured independently; no automatic font shrinking.
-    layout = [((0, 1), (2, 6)), ((3, 7), (4, 12)), ((8, 9), (10,)), ((11, 13), (5,))]
+    layout = [((0, 1), (2, 8)), ((6,), (7,)), ((9, 10), (11, 3)), ((4, 13), (5, 12))]
     assert sorted(i for page in layout for col in page for i in col) == list(range(len(CARDS)))
     for page_number, page in enumerate(layout, 1):
         c.setFont('CoreBold', 15)
