@@ -20,7 +20,8 @@
 [карточка 15 «Время»](../assets/mobile/core/card-15.png).
 [Тренажёр «Время»](../training/vocabulary.md?topic=time) учит слова и готовые формулы
 в обоих направлениях перевода и письменно.
-Календарь пока повторяем здесь: не дублируем все названия ещё в одном наборе.
+Дни и месяцы также собраны в [сквозной карточке 16 «Календарь»](../assets/mobile/core/card-16.png).
+[Тренажёр «Календарь»](../training/vocabulary.md?topic=calendar) — названия и формы ответа «когда?».
 
 [Домашка](../homework/lesson-13-current.md) · [Словарь](../vocabulary/lesson-13.md) ·
 [Тренажёр](../training/vocabulary.md?lesson=13).

@@ -3,7 +3,9 @@
 Опора к [уроку 13](../../lessons/lesson-13-current.md): часы, неделя, месяцы и сезоны.
 [Карточки](../../memory/lesson-13-current.md) · [Домашка](../../homework/lesson-13-current.md) ·
 [Сквозная карточка «Время»](../../assets/mobile/core/card-15.png) ·
-[Тренажёр «Время»](../../training/vocabulary.md?topic=time).
+[Тренажёр «Время»](../../training/vocabulary.md?topic=time) ·
+[Карточка «Календарь»](../../assets/mobile/core/card-16.png) ·
+[Тренажёр «Календарь»](../../training/vocabulary.md?topic=calendar).
 
 ## Какой вопрос задаём
 

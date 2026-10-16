@@ -241,5 +241,39 @@
       "σε μισή ώρα [se miˈsi ˈora]<br/>через полчаса — отсчёт от сейчас"
     ],
     "note": "Часы — ж. р.: μία / τρεις / τέσσερις<br/>[ˈmia / tris / ˈteseris]. 2 и 5–12 не меняются.<br/>στη [sti] — в 1 час (ед. ч.).<br/>στις [stis] — в 2 и больше (мн. ч.).<br/>και [ke] +; παρά [paˈra] − минуты."
+  },
+  {
+    "title": "Календарь: дни и месяцы",
+    "sources": ["docs/lessons/lesson-13-current.md", "scripts/mobile-data/lesson-13.json", "docs/reference/grammar/time-and-calendar.md"],
+    "columns": 2,
+    "column_split": 12,
+    "print_inline_rows": true,
+    "rows": [
+      "<b>Дни: когда?</b>",
+      "пн · τη Δευτέρα<br/>[ti ðefˈtera]",
+      "вт · την Τρίτη<br/>[tin ˈtriti]",
+      "ср · την Τετάρτη<br/>[tin teˈtarti]",
+      "чт · την Πέμπτη<br/>[tin ˈpempti]",
+      "пт · την Παρασκευή<br/>[tin paraskeˈvi]",
+      "сб · το Σάββατο<br/>[to ˈsavato]",
+      "вс · την Κυριακή<br/>[tin kiryaˈki]",
+      "Πότε; [ˈpote]<br/>Когда?",
+      "Когда? Без σε [se].",
+      "ο Μάρτιος → τον Μάρτιο<br/>[o ˈmartios → ton ˈmartio]<br/>март → в марте",
+      "Месяц: без -ς [s].",
+      "<b>Месяцы: τον [ton]</b>",
+      "янв · Ιανουάριο<br/>[yanuˈario]",
+      "фев · Φεβρουάριο<br/>[fevruˈario]",
+      "мар · Μάρτιο<br/>[ˈmartio]",
+      "апр · Απρίλιο<br/>[aˈprilio]",
+      "май · Μάιο<br/>[ˈmaio]",
+      "июн · Ιούνιο<br/>[ˈiunio]",
+      "июл · Ιούλιο<br/>[ˈiulio]",
+      "авг · Αύγουστο<br/>[ˈavɣusto]",
+      "сен · Σεπτέμβριο<br/>[sepˈtemvrio]",
+      "окт · Οκτώβριο<br/>[oˈktovrio]",
+      "ноя · Νοέμβριο<br/>[noˈemvrio]",
+      "дек · Δεκέμβριο<br/>[ðeˈkemvrio]"
+    ]
   }
 ]

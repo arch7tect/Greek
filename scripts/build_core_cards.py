@@ -34,6 +34,8 @@ OUT.mkdir(parents=True, exist_ok=True)
 PUBLIC.mkdir(parents=True, exist_ok=True)
 INK = '#203835'
 ACCENT = '#166B5E'
+PRINT_LAYOUT = [((0, 1), (2, 3)), ((4, 5), (6,)),
+                ((7, 8), (9,)), ((10, 11), (12,)), ((13, 14), (15,))]
 
 
 def paragraph(c, text, x, top, width, size, color=INK, draw=True):
@@ -54,6 +56,8 @@ def card(c, data, index, x, top, width, size, draw=True):
         y = paragraph(c, data['intro'], x, y, width, size, draw=draw) - size * .7
     columns = data.get('columns', 1)
     rows = data['rows']
+    if size < 15 and (data.get('print_inline_rows') or width > 400) and not data.get('paired_rows'):
+        rows = [row.replace('<br/>', ' ') for row in rows]
     gap = size * .5
     if data.get('paired_rows'):
         left_width = width * .65
@@ -63,7 +67,7 @@ def card(c, data, index, x, top, width, size, draw=True):
             y = min(left_y, right_y) - gap
     elif columns == 2:
         col_width = (width - size) / 2
-        split = (len(rows) + 1) // 2
+        split = data.get('column_split', (len(rows) + 1) // 2)
         bottoms = []
         for col, items in enumerate((rows[:split], rows[split:])):
             cy = y
@@ -113,22 +117,25 @@ def build_print():
     c = canvas.Canvas(str(path), pagesize=A4)
     c.setTitle('Главное · памятка A4')
     page_w, page_h = A4
-    # Two topics per column, measured independently; no automatic font shrinking.
-    layout = [((0, 1), (2, 8)), ((6,), (7, 14)), ((9, 10), (11, 3)), ((4, 13), (5, 12))]
-    assert sorted(i for page in layout for col in page for i in col) == list(range(len(CARDS)))
+    # Read rows left to right, then move down. Single-card rows span the page.
+    # Validate reading order, not only coverage; never shrink text to fit.
+    layout = PRINT_LAYOUT
+    assert [i for page in layout for row in page for i in row] == list(range(len(CARDS)))
     for page_number, page in enumerate(layout, 1):
         c.setFont('CoreBold', 15)
         c.setFillColor(colors.HexColor(ACCENT))
         c.drawString(28, page_h - 32, 'ГЛАВНОЕ · ПОВТОРЯТЬ РЕГУЛЯРНО')
-        for col in range(2):
-            x = 28 + col * ((page_w - 56) / 2 + 6)
-            width = (page_w - 68) / 2
-            top = page_h - 63
-            for idx in page[col]:
+        top = page_h - 63
+        for row in page:
+            bottoms = []
+            for col, idx in enumerate(row):
+                x = 28 + col * ((page_w - 56) / 2 + 6)
+                width = page_w - 56 if len(row) == 1 else (page_w - 68) / 2
                 bottom = card(c, CARDS[idx], idx + 1, x, top, width, 10.3, draw=False)
                 assert bottom > 40, (CARDS[idx]['title'], bottom)
                 card(c, CARDS[idx], idx + 1, x, top, width, 10.3)
-                top = bottom - 10
+                bottoms.append(bottom)
+            top = min(bottoms) - 16
         c.setFont('Core', 10)
         c.drawRightString(page_w - 28, 22, f'{page_number} / {len(layout)}')
         c.showPage()
@@ -142,7 +149,7 @@ def main():
             assert (ROOT / source).is_file(), source
     phone, printed = build_phone(), build_print()
     assert len(PdfReader(phone).pages) == len(CARDS)
-    assert len(PdfReader(printed).pages) == (len(CARDS) + 3) // 4
+    assert len(PdfReader(printed).pages) == len(PRINT_LAYOUT)
     shutil.copy2(phone, ROOT / 'docs/assets/mobile/core-phone-cards.pdf')
     shutil.copy2(printed, ROOT / 'docs/assets/print/core-study-card-a4.pdf')
     poppler = os.environ.get('PDFTOPPM', str(RUNTIME / 'bin/override/pdftoppm'))
@@ -167,7 +174,7 @@ figure{margin:0}img{display:block;width:100%;height:auto}figcaption{padding:8px 
 </style><header><h1>Главное</h1><p>Опорные темы для регулярного повторения.</p>
 <p><a href="../core-phone-cards.pdf">PDF для телефона</a> · <a href="../../print/core-study-card-a4.pdf">A4 для печати</a> · <a href="../../../memory/core/">К памятке</a></p></header><main>'''+figures+'</main></html>'
     (PUBLIC / 'index.html').write_text(document)
-    print(f'Built {phone} ({len(CARDS)} pages), {printed} ({(len(CARDS) + 3) // 4} pages), and online preview.')
+    print(f'Built {phone} ({len(CARDS)} pages), {printed} ({len(PRINT_LAYOUT)} pages), and online preview.')
 
 
 if __name__ == '__main__':

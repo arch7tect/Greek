@@ -1,8 +1,53 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 771,
-  "core": 503,
+  "total": 789,
+  "core": 521,
   "topics": {
+    "calendar": {
+      "title": "Календарь",
+      "ids": [
+        "η Δευτέρα",
+        "η Τρίτη",
+        "η Τετάρτη",
+        "η Πέμπτη",
+        "η Παρασκευή",
+        "το Σάββατο",
+        "η Κυριακή",
+        "ο Ιανουάριος",
+        "ο Φεβρουάριος",
+        "ο Μάρτιος",
+        "ο Απρίλιος",
+        "ο Μάιος",
+        "ο Ιούνιος",
+        "ο Ιούλιος",
+        "ο Αύγουστος",
+        "ο Σεπτέμβριος",
+        "ο Οκτώβριος",
+        "ο Νοέμβριος",
+        "ο Δεκέμβριος",
+        "τη Δευτέρα",
+        "την Τρίτη",
+        "την Τετάρτη",
+        "την Πέμπτη",
+        "την Παρασκευή",
+        "την Κυριακή",
+        "τον Ιανουάριο",
+        "τον Φεβρουάριο",
+        "τον Μάρτιο",
+        "τον Απρίλιο",
+        "τον Μάιο",
+        "τον Ιούνιο",
+        "τον Ιούλιο",
+        "τον Αύγουστο",
+        "τον Σεπτέμβριο",
+        "τον Οκτώβριο",
+        "τον Νοέμβριο",
+        "τον Δεκέμβριο",
+        "πότε"
+      ],
+      "total": 38,
+      "core": 38
+    },
     "professions": {
       "title": "Профессии и места работы",
       "ids": [
@@ -168,8 +213,8 @@ window.GREEK_VOCABULARY = {
       "core": 95
     },
     "13": {
-      "total": 146,
-      "core": 121
+      "total": 164,
+      "core": 139
     }
   },
   "words": [
@@ -9360,8 +9405,8 @@ window.GREEK_VOCABULARY = {
       ],
       "greek": "το Σάββατο",
       "transcription": "[to ˈsavato]",
-      "meaning": "суббота",
-      "note": "τα Σάββατα [ta ˈsavata]; «в субботу» — та же форма",
+      "meaning": "суббота; в субботу",
+      "note": "τα Σάββατα [ta ˈsavata]; название и ответ «когда?» совпадают",
       "core": true
     },
     {
@@ -9473,6 +9518,18 @@ window.GREEK_VOCABULARY = {
       "core": false
     },
     {
+      "id": "τη Δευτέρα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τη Δευτέρα",
+      "transcription": "[ti ðefˈtera]",
+      "meaning": "в понедельник",
+      "note": "ответ «когда?», винительный",
+      "core": true
+    },
+    {
       "id": "η τηλεόραση",
       "lesson": "13",
       "lessons": [
@@ -9482,6 +9539,66 @@ window.GREEK_VOCABULARY = {
       "transcription": "[i tileˈorasi]",
       "meaning": "телевидение; телевизор",
       "note": "οι τηλεοράσεις [i tileoˈrasis]",
+      "core": true
+    },
+    {
+      "id": "την Κυριακή",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "την Κυριακή",
+      "transcription": "[tin kiryaˈki]",
+      "meaning": "в воскресенье",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "την Παρασκευή",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "την Παρασκευή",
+      "transcription": "[tin paraskeˈvi]",
+      "meaning": "в пятницу",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "την Πέμπτη",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "την Πέμπτη",
+      "transcription": "[tin ˈpempti]",
+      "meaning": "в четверг",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "την Τετάρτη",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "την Τετάρτη",
+      "transcription": "[tin teˈtarti]",
+      "meaning": "в среду",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "την Τρίτη",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "την Τρίτη",
+      "transcription": "[tin ˈtriti]",
+      "meaning": "во вторник",
+      "note": "ответ «когда?»",
       "core": true
     },
     {
@@ -9506,6 +9623,150 @@ window.GREEK_VOCABULARY = {
       "transcription": "[ti ˈora]",
       "meaning": "Во сколько?",
       "note": "вопрос о времени события",
+      "core": true
+    },
+    {
+      "id": "τον Απρίλιο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τον Απρίλιο",
+      "transcription": "[ton aˈprilio]",
+      "meaning": "в апреле",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "τον Αύγουστο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τον Αύγουστο",
+      "transcription": "[ton ˈavɣusto]",
+      "meaning": "в августе",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "τον Δεκέμβριο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τον Δεκέμβριο",
+      "transcription": "[ton ðeˈkemvrio]",
+      "meaning": "в декабре",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "τον Ιανουάριο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τον Ιανουάριο",
+      "transcription": "[ton yanuˈario]",
+      "meaning": "в январе",
+      "note": "ответ «когда?», мужской род, без конечного -ς",
+      "core": true
+    },
+    {
+      "id": "τον Ιούλιο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τον Ιούλιο",
+      "transcription": "[ton ˈiulio]",
+      "meaning": "в июле",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "τον Ιούνιο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τον Ιούνιο",
+      "transcription": "[ton ˈiunio]",
+      "meaning": "в июне",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "τον Μάιο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τον Μάιο",
+      "transcription": "[ton ˈmaio]",
+      "meaning": "в мае",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "τον Μάρτιο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τον Μάρτιο",
+      "transcription": "[ton ˈmartio]",
+      "meaning": "в марте",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "τον Νοέμβριο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τον Νοέμβριο",
+      "transcription": "[ton noˈemvrio]",
+      "meaning": "в ноябре",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "τον Οκτώβριο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τον Οκτώβριο",
+      "transcription": "[ton oˈktovrio]",
+      "meaning": "в октябре",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "τον Σεπτέμβριο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τον Σεπτέμβριο",
+      "transcription": "[ton sepˈtemvrio]",
+      "meaning": "в сентябре",
+      "note": "ответ «когда?»",
+      "core": true
+    },
+    {
+      "id": "τον Φεβρουάριο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τον Φεβρουάριο",
+      "transcription": "[ton fevruˈario]",
+      "meaning": "в феврале",
+      "note": "ответ «когда?»",
       "core": true
     },
     {
