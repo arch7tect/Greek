@@ -107,6 +107,17 @@ test("time topic trains core formulas and preserves standard mode selection", as
   assert.ok(source.includes("vocabulary.topics[lesson].title"));
 });
 
+test("core prepositions distinguish place from future time interval", async () => {
+  const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
+  const card = core.find(card => card.title === "Артикли и предлоги");
+  const text = card.rows.join(" ");
+  assert.ok(text.includes("место: в / на / к; время: через"));
+  assert.ok(text.includes("σε μία ώρα [se ˈmia ˈora] — через час"));
+  assert.ok(card.sources.includes("scripts/mobile-data/lesson-13.json"));
+  const reference = await readFile("docs/reference/grammar/prepositions-accusative.md", "utf8");
+  for (const marker of ["#se-time", "σε μισή ώρα", "στις τρεις", "через два дня"]) assert.ok(reference.includes(marker));
+});
+
 test("calendar topic covers all days, months and accusative answers without duplicate Saturday", async () => {
   const context = { window: {} };
   vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);
