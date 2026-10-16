@@ -7,6 +7,7 @@
 - [Приветствия и знакомство](greetings-and-introductions.md)
 - [Числа от 0 до 10](numbers-0-10.md)
 - [Числа от 11 до 100](numbers-11-100.md)
+- [Время события и календарь](grammar/time-and-calendar.md)
 - [Грамматика](grammar/index.md)
   - [Глагол `είμαι` `[ˈime]` — «быть»](grammar/eimai.md)
   - [Личные местоимения и принадлежность](grammar/personal-pronouns.md)

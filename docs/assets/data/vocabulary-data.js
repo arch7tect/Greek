@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 674,
-  "core": 422,
+  "total": 762,
+  "core": 494,
   "topics": {
     "professions": {
       "title": "Профессии и места работы",
@@ -143,6 +143,10 @@ window.GREEK_VOCABULARY = {
     "12": {
       "total": 106,
       "core": 95
+    },
+    "13": {
+      "total": 137,
+      "core": 112
     }
   },
   "words": [
@@ -1189,7 +1193,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "02",
       "lessons": [
         "02",
-        "12"
+        "12",
+        "13"
       ],
       "greek": "είμαι",
       "transcription": "[ˈime]",
@@ -1274,7 +1279,8 @@ window.GREEK_VOCABULARY = {
       "id": "και",
       "lesson": "02",
       "lessons": [
-        "02"
+        "02",
+        "13"
       ],
       "greek": "και",
       "transcription": "[ke]",
@@ -2077,7 +2083,8 @@ window.GREEK_VOCABULARY = {
       "id": "ακριβώς",
       "lesson": "04",
       "lessons": [
-        "04"
+        "04",
+        "13"
       ],
       "greek": "ακριβώς",
       "transcription": "[akriˈvos]",
@@ -2161,7 +2168,8 @@ window.GREEK_VOCABULARY = {
       "id": "δύο",
       "lesson": "04",
       "lessons": [
-        "04"
+        "04",
+        "13"
       ],
       "greek": "δύο",
       "transcription": "[ˈðio]",
@@ -2246,7 +2254,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "04",
       "lessons": [
         "04",
-        "12"
+        "12",
+        "13"
       ],
       "greek": "έχω",
       "transcription": "[ˈeho]",
@@ -2307,7 +2316,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "04",
       "lessons": [
         "04",
-        "12"
+        "12",
+        "13"
       ],
       "greek": "κάνω",
       "transcription": "[ˈkano]",
@@ -2491,7 +2501,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "04",
       "lessons": [
         "04",
-        "12"
+        "12",
+        "13"
       ],
       "greek": "πηγαίνω",
       "transcription": "[piˈyeno]",
@@ -2527,7 +2538,8 @@ window.GREEK_VOCABULARY = {
       "id": "πού",
       "lesson": "04",
       "lessons": [
-        "04"
+        "04",
+        "13"
       ],
       "greek": "πού",
       "transcription": "[pu]",
@@ -2552,7 +2564,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "04",
       "lessons": [
         "04",
-        "12"
+        "12",
+        "13"
       ],
       "greek": "σήμερα",
       "transcription": "[ˈsimera]",
@@ -2588,7 +2601,8 @@ window.GREEK_VOCABULARY = {
       "id": "τέσσερα",
       "lesson": "04",
       "lessons": [
-        "04"
+        "04",
+        "13"
       ],
       "greek": "τέσσερα",
       "transcription": "[ˈtesera]",
@@ -2600,7 +2614,8 @@ window.GREEK_VOCABULARY = {
       "id": "τι",
       "lesson": "04",
       "lessons": [
-        "04"
+        "04",
+        "13"
       ],
       "greek": "τι",
       "transcription": "[ti]",
@@ -2612,7 +2627,8 @@ window.GREEK_VOCABULARY = {
       "id": "τρία",
       "lesson": "04",
       "lessons": [
-        "04"
+        "04",
+        "13"
       ],
       "greek": "τρία",
       "transcription": "[ˈtria]",
@@ -2625,7 +2641,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "04",
       "lessons": [
         "04",
-        "12"
+        "12",
+        "13"
       ],
       "greek": "τώρα",
       "transcription": "[ˈtora]",
@@ -2834,7 +2851,8 @@ window.GREEK_VOCABULARY = {
       "id": "βλέπω",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "13"
       ],
       "greek": "βλέπω",
       "transcription": "[ˈvlepo]",
@@ -2933,7 +2951,8 @@ window.GREEK_VOCABULARY = {
       "id": "δεκαπέντε",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "13"
       ],
       "greek": "δεκαπέντε",
       "transcription": "[ðekaˈpende]",
@@ -3031,7 +3050,8 @@ window.GREEK_VOCABULARY = {
       "id": "δώδεκα",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "13"
       ],
       "greek": "δώδεκα",
       "transcription": "[ˈðoðeka]",
@@ -3079,7 +3099,8 @@ window.GREEK_VOCABULARY = {
       "id": "το εισιτήριο",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "13"
       ],
       "greek": "το εισιτήριο",
       "transcription": "[to isiˈtirio]",
@@ -3127,7 +3148,8 @@ window.GREEK_VOCABULARY = {
       "id": "έντεκα",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "13"
       ],
       "greek": "έντεκα",
       "transcription": "[ˈendeka]",
@@ -3288,7 +3310,8 @@ window.GREEK_VOCABULARY = {
       "id": "ο κινηματογράφος",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "13"
       ],
       "greek": "ο κινηματογράφος",
       "transcription": "[o kinimatoˈɣrafos]",
@@ -3336,7 +3359,8 @@ window.GREEK_VOCABULARY = {
       "id": "το κυλικείο",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "13"
       ],
       "greek": "το κυλικείο",
       "transcription": "[to kiliˈkio]",
@@ -3480,7 +3504,8 @@ window.GREEK_VOCABULARY = {
       "id": "το πανεπιστήμιο",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "13"
       ],
       "greek": "το πανεπιστήμιο",
       "transcription": "[to panepiˈstimio]",
@@ -3552,7 +3577,8 @@ window.GREEK_VOCABULARY = {
       "id": "πίνω",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "13"
       ],
       "greek": "πίνω",
       "transcription": "[ˈpino]",
@@ -3564,7 +3590,8 @@ window.GREEK_VOCABULARY = {
       "id": "πότε",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "13"
       ],
       "greek": "πότε",
       "transcription": "[ˈpote]",
@@ -3685,7 +3712,8 @@ window.GREEK_VOCABULARY = {
       "id": "τελειώνω",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "13"
       ],
       "greek": "τελειώνω",
       "transcription": "[teliˈono]",
@@ -3758,7 +3786,8 @@ window.GREEK_VOCABULARY = {
       "id": "τριάντα",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "13"
       ],
       "greek": "τριάντα",
       "transcription": "[triˈanda]",
@@ -4063,7 +4092,8 @@ window.GREEK_VOCABULARY = {
       "id": "για",
       "lesson": "06",
       "lessons": [
-        "06"
+        "06",
+        "13"
       ],
       "greek": "για",
       "transcription": "[ya]",
@@ -4101,7 +4131,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "06",
       "lessons": [
         "06",
-        "11"
+        "11",
+        "13"
       ],
       "greek": "η δουλειά",
       "transcription": "[i ðuˈlya]",
@@ -4246,7 +4277,8 @@ window.GREEK_VOCABULARY = {
       "id": "λέω",
       "lesson": "06",
       "lessons": [
-        "06"
+        "06",
+        "13"
       ],
       "greek": "λέω",
       "transcription": "[ˈleo]",
@@ -4595,7 +4627,8 @@ window.GREEK_VOCABULARY = {
       "id": "τραγουδάω",
       "lesson": "06",
       "lessons": [
-        "06"
+        "06",
+        "13"
       ],
       "greek": "τραγουδάω",
       "transcription": "[traɣuˈðao]",
@@ -5187,7 +5220,8 @@ window.GREEK_VOCABULARY = {
       "id": "συχνά",
       "lesson": "07",
       "lessons": [
-        "07"
+        "07",
+        "13"
       ],
       "greek": "συχνά",
       "transcription": "[sihˈna]",
@@ -5249,7 +5283,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "07",
       "lessons": [
         "07",
-        "11"
+        "11",
+        "13"
       ],
       "greek": "το φαγητό",
       "transcription": "[to fayiˈto]",
@@ -5386,7 +5421,8 @@ window.GREEK_VOCABULARY = {
       "id": "βγαίνω",
       "lesson": "08",
       "lessons": [
-        "08"
+        "08",
+        "13"
       ],
       "greek": "βγαίνω",
       "transcription": "[ˈvɣeno]",
@@ -5499,7 +5535,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "08",
       "lessons": [
         "08",
-        "11"
+        "11",
+        "13"
       ],
       "greek": "η ζέστη",
       "transcription": "[i ˈzesti]",
@@ -5523,7 +5560,8 @@ window.GREEK_VOCABULARY = {
       "id": "το καλοκαίρι",
       "lesson": "08",
       "lessons": [
-        "08"
+        "08",
+        "13"
       ],
       "greek": "το καλοκαίρι",
       "transcription": "[to kaloˈkeri]",
@@ -5572,7 +5610,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "08",
       "lessons": [
         "08",
-        "11"
+        "11",
+        "13"
       ],
       "greek": "το κρύο",
       "transcription": "[to ˈkrio]",
@@ -5636,7 +5675,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "08",
       "lessons": [
         "08",
-        "11"
+        "11",
+        "13"
       ],
       "greek": "η μουσική",
       "transcription": "[i musiˈki]",
@@ -5673,7 +5713,8 @@ window.GREEK_VOCABULARY = {
       "id": "ξεκινάω",
       "lesson": "08",
       "lessons": [
-        "08"
+        "08",
+        "13"
       ],
       "greek": "ξεκινάω",
       "transcription": "[ksekiˈnao]",
@@ -5746,7 +5787,8 @@ window.GREEK_VOCABULARY = {
       "id": "προτιμάω",
       "lesson": "08",
       "lessons": [
-        "08"
+        "08",
+        "13"
       ],
       "greek": "προτιμάω",
       "transcription": "[protiˈmao]",
@@ -5770,7 +5812,8 @@ window.GREEK_VOCABULARY = {
       "id": "το σαββατοκύριακο",
       "lesson": "08",
       "lessons": [
-        "08"
+        "08",
+        "13"
       ],
       "greek": "το σαββατοκύριακο",
       "transcription": "[to savatokiˈriako]",
@@ -5842,7 +5885,8 @@ window.GREEK_VOCABULARY = {
       "id": "η στάση",
       "lesson": "08",
       "lessons": [
-        "08"
+        "08",
+        "13"
       ],
       "greek": "η στάση",
       "transcription": "[i ˈstasi]",
@@ -5991,7 +6035,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "09",
       "lessons": [
         "09",
-        "11"
+        "11",
+        "13"
       ],
       "greek": "ανοίγω",
       "transcription": "[aˈniɣo]",
@@ -6404,7 +6449,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "09",
       "lessons": [
         "09",
-        "10"
+        "10",
+        "13"
       ],
       "greek": "ο μήνας",
       "transcription": "[o ˈminas]",
@@ -6609,7 +6655,8 @@ window.GREEK_VOCABULARY = {
       "id": "σε λίγο",
       "lesson": "09",
       "lessons": [
-        "09"
+        "09",
+        "13"
       ],
       "greek": "σε λίγο",
       "transcription": "[se ˈliɣo]",
@@ -6894,7 +6941,8 @@ window.GREEK_VOCABULARY = {
       "lessons": [
         "09",
         "10",
-        "12"
+        "12",
+        "13"
       ],
       "greek": "ο χρόνος",
       "transcription": "[o ˈhronos]",
@@ -6942,7 +6990,8 @@ window.GREEK_VOCABULARY = {
       "id": "το γυμναστήριο",
       "lesson": "10",
       "lessons": [
-        "10"
+        "10",
+        "13"
       ],
       "greek": "το γυμναστήριο",
       "transcription": "[to yimnaˈstirio]",
@@ -7621,7 +7670,8 @@ window.GREEK_VOCABULARY = {
       "id": "η εβδομάδα",
       "lesson": "11",
       "lessons": [
-        "11"
+        "11",
+        "13"
       ],
       "greek": "η εβδομάδα",
       "transcription": "[i evðoˈmaða]",
@@ -7884,7 +7934,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "11",
       "lessons": [
         "11",
-        "12"
+        "12",
+        "13"
       ],
       "greek": "η μέρα",
       "transcription": "[i ˈmera]",
@@ -7998,7 +8049,8 @@ window.GREEK_VOCABULARY = {
       "id": "το ποτό",
       "lesson": "11",
       "lessons": [
-        "11"
+        "11",
+        "13"
       ],
       "greek": "το ποτό",
       "transcription": "[to poˈto]",
@@ -8248,7 +8300,8 @@ window.GREEK_VOCABULARY = {
       "id": "το λεπτό",
       "lesson": "12",
       "lessons": [
-        "12"
+        "12",
+        "13"
       ],
       "greek": "το λεπτό",
       "transcription": "[to leˈpto]",
@@ -8434,6 +8487,1062 @@ window.GREEK_VOCABULARY = {
       "transcription": "[os]",
       "meaning": "в качестве; как",
       "note": "δουλεύω ως φιλόλογος [ðuˈlevo os fiˈloloɣos] — работаю филологом",
+      "core": true
+    },
+    {
+      "id": "ακούω",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ακούω",
+      "transcription": "[aˈkuo]",
+      "meaning": "слушаю; слышу",
+      "note": "ακούς [aˈkus] — слушаешь",
+      "core": true
+    },
+    {
+      "id": "αλλάζω",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "αλλάζω",
+      "transcription": "[aˈlazo]",
+      "meaning": "меняю; меняюсь",
+      "note": "αλλάζει ο χρόνος [aˈlazi o ˈhronos] — сменяется год",
+      "core": true
+    },
+    {
+      "id": "άλλος / άλλη / άλλο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "άλλος / άλλη / άλλο",
+      "transcription": "[ˈalos / ˈali / ˈalo]",
+      "meaning": "другой",
+      "note": "в диалоге «другое предложение»",
+      "core": true
+    },
+    {
+      "id": "η ανατολή",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η ανατολή",
+      "transcription": "[i anatoˈli]",
+      "meaning": "восход",
+      "note": "οι ανατολές [i anatoˈles]; подпись внизу PDF 1",
+      "core": false
+    },
+    {
+      "id": "η άνοιξη",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η άνοιξη",
+      "transcription": "[i ˈaniksi]",
+      "meaning": "весна",
+      "note": "οι ανοίξεις [i aˈniksis]; την άνοιξη [tin ˈaniksi]",
+      "core": true
+    },
+    {
+      "id": "το απόγευμα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το απόγευμα",
+      "transcription": "[to aˈpoyevma]",
+      "meaning": "время после полудня",
+      "note": "τα απογεύματα [ta apoˈyevmata]",
+      "core": true
+    },
+    {
+      "id": "απόψε",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "απόψε",
+      "transcription": "[aˈpopse]",
+      "meaning": "сегодня вечером; этой ночью",
+      "note": "не любое время сегодня",
+      "core": true
+    },
+    {
+      "id": "ο Απρίλιος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο Απρίλιος",
+      "transcription": "[o aˈprilios]",
+      "meaning": "апрель",
+      "note": "οι Απρίλιοι [i aˈprilii]; τον Απρίλιο [ton aˈprilio]",
+      "core": true
+    },
+    {
+      "id": "αργά",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "αργά",
+      "transcription": "[arˈɣa]",
+      "meaning": "поздно",
+      "note": "в распорядке «сплю допоздна»",
+      "core": true
+    },
+    {
+      "id": "ο Αύγουστος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο Αύγουστος",
+      "transcription": "[o ˈavɣustos]",
+      "meaning": "август",
+      "note": "οι Αύγουστοι [i ˈavɣusti]; τον Αύγουστο [ton ˈavɣusto]",
+      "core": true
+    },
+    {
+      "id": "αύριο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "αύριο",
+      "transcription": "[ˈavrio]",
+      "meaning": "завтра",
+      "note": "без артикля",
+      "core": true
+    },
+    {
+      "id": "το βράδυ",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το βράδυ",
+      "transcription": "[to ˈvraði]",
+      "meaning": "вечер; вечером",
+      "note": "τα βράδια [ta ˈvraðya]",
+      "core": true
+    },
+    {
+      "id": "βρέχει",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "βρέχει",
+      "transcription": "[ˈvrehi]",
+      "meaning": "идёт дождь",
+      "note": "безличная погодная форма; не личное «я»",
+      "core": true
+    },
+    {
+      "id": "τα γενέθλια",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τα γενέθλια",
+      "transcription": "[ta yeˈneθlya]",
+      "meaning": "день рождения",
+      "note": "только множественное; τα γενέθλιά μου [ta yeˈneθlya mu]",
+      "core": true
+    },
+    {
+      "id": "γρήγορα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "γρήγορα",
+      "transcription": "[ˈɣriɣora]",
+      "meaning": "быстро",
+      "note": "наречие; в диалоге о еде",
+      "core": true
+    },
+    {
+      "id": "ο Δεκέμβριος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο Δεκέμβριος",
+      "transcription": "[o ðeˈkemvrios]",
+      "meaning": "декабрь",
+      "note": "οι Δεκέμβριοι [i ðeˈkemvrii]; τον Δεκέμβριο [ton ðeˈkemvrio]",
+      "core": true
+    },
+    {
+      "id": "η Δευτέρα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η Δευτέρα",
+      "transcription": "[i ðefˈtera]",
+      "meaning": "понедельник",
+      "note": "οι Δευτέρες [i ðefˈteres]; τη Δευτέρα [ti ðefˈtera] — в понедельник",
+      "core": true
+    },
+    {
+      "id": "το δευτερόλεπτο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το δευτερόλεπτο",
+      "transcription": "[to ðefteˈrolepto]",
+      "meaning": "секунда",
+      "note": "τα δευτερόλεπτα [ta ðefteˈrolepta]",
+      "core": false
+    },
+    {
+      "id": "οι διακοπές",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "οι διακοπές",
+      "transcription": "[i ðiakoˈpes]",
+      "meaning": "отпуск; каникулы",
+      "note": "множественное; πηγαίνω διακοπές [piˈyeno ðiakoˈpes]",
+      "core": true
+    },
+    {
+      "id": "η δύση",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η δύση",
+      "transcription": "[i ˈðisi]",
+      "meaning": "закат",
+      "note": "οι δύσεις [i ˈðisis]; подпись внизу PDF 1",
+      "core": false
+    },
+    {
+      "id": "η εξέταση",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η εξέταση",
+      "transcription": "[i eˈksetasi]",
+      "meaning": "экзамен",
+      "note": "οι εξετάσεις [i ekseˈtasis] — экзамены",
+      "core": true
+    },
+    {
+      "id": "εργάσιμος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "εργάσιμος",
+      "transcription": "[erˈɣasimos]",
+      "meaning": "рабочий; рабочий день",
+      "note": "εργάσιμη / εργάσιμο [erˈɣasimi / erˈɣasimo]; τις εργάσιμες μέρες [tis erˈɣasimes ˈmeres] — в рабочие дни, пометка PDF 3",
+      "core": false
+    },
+    {
+      "id": "ετοιμάζω",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ετοιμάζω",
+      "transcription": "[etiˈmazo]",
+      "meaning": "готовлю; подготавливаю",
+      "note": "в упражнении готовлю урок, не еду",
+      "core": true
+    },
+    {
+      "id": "ευχαρίστως",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ευχαρίστως",
+      "transcription": "[efhaˈristos]",
+      "meaning": "с удовольствием",
+      "note": "ответ на приглашение; не «спасибо»",
+      "core": true
+    },
+    {
+      "id": "η ηλεκτρονική μουσική",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η ηλεκτρονική μουσική",
+      "transcription": "[i ilektroˈniki musiˈki]",
+      "meaning": "электронная музыка",
+      "note": "обычно без множественного в этом значении",
+      "core": false
+    },
+    {
+      "id": "το ηλιοβασίλεμα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το ηλιοβασίλεμα",
+      "transcription": "[to iliovaˈsilema]",
+      "meaning": "закат",
+      "note": "τα ηλιοβασιλέματα [ta iliovasiˈlemata]; синоним",
+      "core": false
+    },
+    {
+      "id": "η θάλασσα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η θάλασσα",
+      "transcription": "[i ˈθalasa]",
+      "meaning": "море",
+      "note": "οι θάλασσες [i ˈθalases]",
+      "core": true
+    },
+    {
+      "id": "ο Ιανουάριος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο Ιανουάριος",
+      "transcription": "[o yanuˈarios]",
+      "meaning": "январь",
+      "note": "οι Ιανουάριοι [i yanuˈarii]; τον Ιανουάριο [ton yanuˈario] — в январе",
+      "core": true
+    },
+    {
+      "id": "η ιδέα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η ιδέα",
+      "transcription": "[i iˈðea]",
+      "meaning": "идея",
+      "note": "οι ιδέες [i iˈðees]",
+      "core": true
+    },
+    {
+      "id": "ο Ιούλιος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο Ιούλιος",
+      "transcription": "[o ˈiulios]",
+      "meaning": "июль",
+      "note": "οι Ιούλιοι [i ˈiulii]; τον Ιούλιο [ton ˈiulio]",
+      "core": true
+    },
+    {
+      "id": "ο Ιούνιος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο Ιούνιος",
+      "transcription": "[o ˈiunios]",
+      "meaning": "июнь",
+      "note": "οι Ιούνιοι [i ˈiunii]; τον Ιούνιο [ton ˈiunio]",
+      "core": true
+    },
+    {
+      "id": "καλή επιτυχία",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "καλή επιτυχία",
+      "transcription": "[kaˈli epitiˈhia]",
+      "meaning": "успехов; удачи",
+      "note": "синонимичное пожелание в пометке учителя, PDF 1",
+      "core": false
+    },
+    {
+      "id": "καλή τύχη",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "καλή τύχη",
+      "transcription": "[kaˈli ˈtihi]",
+      "meaning": "удачи",
+      "note": "пожелание перед экзаменом",
+      "core": true
+    },
+    {
+      "id": "κανονίζω",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "κανονίζω",
+      "transcription": "[kanoˈnizo]",
+      "meaning": "договариваюсь; организую",
+      "note": "κανονίζουμε [kanoˈnizume] — договариваемся",
+      "core": true
+    },
+    {
+      "id": "το καρναβάλι",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το καρναβάλι",
+      "transcription": "[to karnaˈvali]",
+      "meaning": "карнавал",
+      "note": "τα καρναβάλια [ta karnaˈvalya]",
+      "core": false
+    },
+    {
+      "id": "κατά",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "κατά",
+      "transcription": "[kaˈta]",
+      "meaning": "около; приблизительно",
+      "note": "о времени κατά τις τρεις [kaˈta tis tris]",
+      "core": true
+    },
+    {
+      "id": "κοιμάμαι",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "κοιμάμαι",
+      "transcription": "[kiˈmame]",
+      "meaning": "сплю",
+      "note": "κοιμάσαι [kiˈmase] — спишь; не обычная модель на -ω",
+      "core": true
+    },
+    {
+      "id": "η Κυριακή",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η Κυριακή",
+      "transcription": "[i kiryaˈki]",
+      "meaning": "воскресенье",
+      "note": "οι Κυριακές [i kiryaˈkes]; την Κυριακή [tin kiryaˈki]",
+      "core": true
+    },
+    {
+      "id": "η λαϊκή",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η λαϊκή",
+      "transcription": "[i laiˈki]",
+      "meaning": "уличный рынок",
+      "note": "οι λαϊκές [i laiˈkes]; сокращённое название рынка",
+      "core": true
+    },
+    {
+      "id": "το λεπτάκι",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το λεπτάκι",
+      "transcription": "[to leˈptaki]",
+      "meaning": "минутка",
+      "note": "τα λεπτάκια [ta leˈptakya]; ένα λεπτάκι [ˈena leˈptaki] — минутку",
+      "core": false
+    },
+    {
+      "id": "ο Μάιος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο Μάιος",
+      "transcription": "[o ˈmaios]",
+      "meaning": "май",
+      "note": "οι Μάιοι [i ˈmaii]; τον Μάιο [ton ˈmaio]",
+      "core": true
+    },
+    {
+      "id": "ο Μάρτιος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο Μάρτιος",
+      "transcription": "[o ˈmartios]",
+      "meaning": "март",
+      "note": "οι Μάρτιοι [i ˈmartii]; τον Μάρτιο [ton ˈmartio]",
+      "core": true
+    },
+    {
+      "id": "μεθαύριο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "μεθαύριο",
+      "transcription": "[meˈθavrio]",
+      "meaning": "послезавтра",
+      "note": "без артикля",
+      "core": true
+    },
+    {
+      "id": "τα μεσάνυχτα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τα μεσάνυχτα",
+      "transcription": "[ta meˈsanihta]",
+      "meaning": "полночь; в полночь",
+      "note": "употребляется во множественном числе",
+      "core": true
+    },
+    {
+      "id": "το μεσημέρι",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το μεσημέρι",
+      "transcription": "[to mesiˈmeri]",
+      "meaning": "полдень; середина дня",
+      "note": "τα μεσημέρια [ta mesiˈmerya]",
+      "core": true
+    },
+    {
+      "id": "μετά",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "μετά",
+      "transcription": "[meˈta]",
+      "meaning": "после; потом",
+      "note": "не путать с «около»",
+      "core": true
+    },
+    {
+      "id": "μέχρι",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "μέχρι",
+      "transcription": "[ˈmehri]",
+      "meaning": "до",
+      "note": "μέχρι αργά [ˈmehri arˈɣa] — допоздна",
+      "core": true
+    },
+    {
+      "id": "μισός / μισή / μισό",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "μισός / μισή / μισό",
+      "transcription": "[miˈsos / miˈsi / miˈso]",
+      "meaning": "половина; половинный",
+      "note": "на часах και μισή [ke miˈsi]",
+      "core": true
+    },
+    {
+      "id": "το μπάνιο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το μπάνιο",
+      "transcription": "[to ˈbanyo]",
+      "meaning": "купание",
+      "note": "τα μπάνια [ta ˈbanya]; πάω για μπάνιο [ˈpao ya ˈbanyo] — иду купаться",
+      "core": true
+    },
+    {
+      "id": "ο Νοέμβριος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο Νοέμβριος",
+      "transcription": "[o noˈemvrios]",
+      "meaning": "ноябрь",
+      "note": "οι Νοέμβριοι [i noˈemvrii]; τον Νοέμβριο [ton noˈemvrio]",
+      "core": true
+    },
+    {
+      "id": "η νύχτα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η νύχτα",
+      "transcription": "[i ˈnihta]",
+      "meaning": "ночь",
+      "note": "οι νύχτες [i ˈnihtes]; τη νύχτα [ti ˈnihta] — ночью",
+      "core": true
+    },
+    {
+      "id": "νωρίς",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "νωρίς",
+      "transcription": "[noˈris]",
+      "meaning": "рано",
+      "note": "противопоставлено «поздно»",
+      "core": true
+    },
+    {
+      "id": "τα ξημερώματα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τα ξημερώματα",
+      "transcription": "[ta ksimeˈromata]",
+      "meaning": "рассвет; ранним утром",
+      "note": "множественное число; пример 05:00",
+      "core": true
+    },
+    {
+      "id": "ο Οκτώβριος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο Οκτώβριος",
+      "transcription": "[o oˈktovrios]",
+      "meaning": "октябрь",
+      "note": "οι Οκτώβριοι [i oˈktovrii]; τον Οκτώβριο [ton oˈktovrio]",
+      "core": true
+    },
+    {
+      "id": "η ονομαστική γιορτή",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η ονομαστική γιορτή",
+      "transcription": "[i onomastiˈki yorˈti]",
+      "meaning": "именины",
+      "note": "οι ονομαστικές γιορτές [i onomastiˈkes yorˈtes]",
+      "core": false
+    },
+    {
+      "id": "παρά",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "παρά",
+      "transcription": "[paˈra]",
+      "meaning": "без; до следующего часа",
+      "note": "τρεις παρά τέταρτο [tris paˈra ˈtetarto] — 2:45",
+      "core": true
+    },
+    {
+      "id": "η παραλία",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η παραλία",
+      "transcription": "[i paraˈlia]",
+      "meaning": "пляж; побережье",
+      "note": "οι παραλίες [i paraˈlies]",
+      "core": true
+    },
+    {
+      "id": "η Παρασκευή",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η Παρασκευή",
+      "transcription": "[i paraskeˈvi]",
+      "meaning": "пятница",
+      "note": "οι Παρασκευές [i paraskeˈves]; την Παρασκευή [tin paraskeˈvi]",
+      "core": true
+    },
+    {
+      "id": "πάω",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "πάω",
+      "transcription": "[ˈpao]",
+      "meaning": "иду; еду",
+      "note": "вариант «идти»; πας / πάμε [pas / ˈpame] — идёшь / идём",
+      "core": true
+    },
+    {
+      "id": "η Πέμπτη",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η Πέμπτη",
+      "transcription": "[i ˈpempti]",
+      "meaning": "четверг",
+      "note": "οι Πέμπτες [i ˈpemptes]; την Πέμπτη [tin ˈpempti]",
+      "core": true
+    },
+    {
+      "id": "πέρσι",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "πέρσι",
+      "transcription": "[ˈpersi]",
+      "meaning": "в прошлом году",
+      "note": "дополнительный раздел файла",
+      "core": false
+    },
+    {
+      "id": "το ποδόσφαιρο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το ποδόσφαιρο",
+      "transcription": "[to poˈðosfero]",
+      "meaning": "футбол",
+      "note": "название спорта, без обычного множественного",
+      "core": true
+    },
+    {
+      "id": "πριν",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "πριν",
+      "transcription": "[prin]",
+      "meaning": "до; прежде",
+      "note": "πριν το μεσημέρι [prin to mesiˈmeri] — до полудня",
+      "core": true
+    },
+    {
+      "id": "η πρόταση",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η πρόταση",
+      "transcription": "[i ˈprotasi]",
+      "meaning": "предложение; идея",
+      "note": "οι προτάσεις [i proˈtasis]; здесь не грамматическое предложение",
+      "core": true
+    },
+    {
+      "id": "προχτές / προχθές",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "προχτές / προχθές",
+      "transcription": "[proˈhtes / proˈhθes]",
+      "meaning": "позавчера",
+      "note": "равнозначные варианты",
+      "core": false
+    },
+    {
+      "id": "το πρωί",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το πρωί",
+      "transcription": "[to proˈi]",
+      "meaning": "утро; утром",
+      "note": "τα πρωινά [ta proiˈna]; не завтрак",
+      "core": true
+    },
+    {
+      "id": "το ραντεβού",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το ραντεβού",
+      "transcription": "[to randeˈvu]",
+      "meaning": "встреча; назначенное время",
+      "note": "τα ραντεβού [ta randeˈvu]; не изменяется",
+      "core": true
+    },
+    {
+      "id": "το Σάββατο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το Σάββατο",
+      "transcription": "[to ˈsavato]",
+      "meaning": "суббота",
+      "note": "τα Σάββατα [ta ˈsavata]; «в субботу» — та же форма",
+      "core": true
+    },
+    {
+      "id": "ο Σεπτέμβριος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο Σεπτέμβριος",
+      "transcription": "[o sepˈtemvrios]",
+      "meaning": "сентябрь",
+      "note": "οι Σεπτέμβριοι [i sepˈtemvrii]; τον Σεπτέμβριο [ton sepˈtemvrio]",
+      "core": true
+    },
+    {
+      "id": "η συναυλία",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η συναυλία",
+      "transcription": "[i sinavˈlia]",
+      "meaning": "концерт",
+      "note": "οι συναυλίες [i sinavˈlies]",
+      "core": true
+    },
+    {
+      "id": "το τεστ",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το τεστ",
+      "transcription": "[to test]",
+      "meaning": "тест",
+      "note": "τα τεστ [ta test]; не изменяется",
+      "core": true
+    },
+    {
+      "id": "η Τετάρτη",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η Τετάρτη",
+      "transcription": "[i teˈtarti]",
+      "meaning": "среда",
+      "note": "οι Τετάρτες [i teˈtartes]; την Τετάρτη [tin teˈtarti]",
+      "core": true
+    },
+    {
+      "id": "το τέταρτο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το τέταρτο",
+      "transcription": "[to ˈtetarto]",
+      "meaning": "четверть часа",
+      "note": "τα τέταρτα [ta ˈtetarta]; 15 минут",
+      "core": true
+    },
+    {
+      "id": "η τζαζ",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η τζαζ",
+      "transcription": "[i dzaz]",
+      "meaning": "джаз",
+      "note": "название музыки, обычно без множественного",
+      "core": false
+    },
+    {
+      "id": "η τηλεόραση",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η τηλεόραση",
+      "transcription": "[i tileˈorasi]",
+      "meaning": "телевидение; телевизор",
+      "note": "οι τηλεοράσεις [i tileoˈrasis]",
+      "core": true
+    },
+    {
+      "id": "τόσο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τόσο",
+      "transcription": "[ˈtoso]",
+      "meaning": "так; настолько",
+      "note": "τόσο νωρίς [ˈtoso noˈris] — так рано",
+      "core": false
+    },
+    {
+      "id": "τρέχω",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τρέχω",
+      "transcription": "[ˈtreho]",
+      "meaning": "бегу; спешу",
+      "note": "в диалоге спешит на тест",
+      "core": true
+    },
+    {
+      "id": "η Τρίτη",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η Τρίτη",
+      "transcription": "[i ˈtriti]",
+      "meaning": "вторник",
+      "note": "οι Τρίτες [i ˈtrites]; την Τρίτη [tin ˈtriti]",
+      "core": true
+    },
+    {
+      "id": "τρώω",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τρώω",
+      "transcription": "[ˈtroo]",
+      "meaning": "ем",
+      "note": "τρώμε [ˈtrome] — мы едим",
+      "core": true
+    },
+    {
+      "id": "ο Φεβρουάριος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο Φεβρουάριος",
+      "transcription": "[o fevruˈarios]",
+      "meaning": "февраль",
+      "note": "οι Φεβρουάριοι [i fevruˈarii]; τον Φεβρουάριο [ton fevruˈario]",
+      "core": true
+    },
+    {
+      "id": "φέτος",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "φέτος",
+      "transcription": "[ˈfetos]",
+      "meaning": "в этом году",
+      "note": "дополнительный раздел файла",
+      "core": false
+    },
+    {
+      "id": "το φθινόπωρο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "το φθινόπωρο",
+      "transcription": "[to fθiˈnoporo]",
+      "meaning": "осень",
+      "note": "τα φθινόπωρα [ta fθiˈnopora]; «осенью» — та же форма",
+      "core": true
+    },
+    {
+      "id": "τα χαράματα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τα χαράματα",
+      "transcription": "[ta haˈramata]",
+      "meaning": "заря; на заре",
+      "note": "множественное число; дополнение файла",
+      "core": false
+    },
+    {
+      "id": "ο χειμώνας",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "ο χειμώνας",
+      "transcription": "[o hiˈmonas]",
+      "meaning": "зима",
+      "note": "οι χειμώνες [i hiˈmones]; τον χειμώνα [ton hiˈmona]",
+      "core": true
+    },
+    {
+      "id": "χιονίζει",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "χιονίζει",
+      "transcription": "[hioˈnizi]",
+      "meaning": "идёт снег",
+      "note": "безличная погодная форма",
+      "core": true
+    },
+    {
+      "id": "τα Χριστούγεννα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τα Χριστούγεννα",
+      "transcription": "[ta hriˈstuyena]",
+      "meaning": "Рождество",
+      "note": "множественное число",
+      "core": true
+    },
+    {
+      "id": "χτες / χθες",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "χτες / χθες",
+      "transcription": "[htes / hθes]",
+      "meaning": "вчера",
+      "note": "равнозначные варианты",
+      "core": true
+    },
+    {
+      "id": "η ώρα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "η ώρα",
+      "transcription": "[i ˈora]",
+      "meaning": "час; время",
+      "note": "οι ώρες [i ˈores]",
       "core": true
     }
   ]

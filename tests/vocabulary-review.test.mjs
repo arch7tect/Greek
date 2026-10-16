@@ -23,7 +23,7 @@ test("lesson 11 covers every taught adjective without duplicating known lemmas",
   const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-11.json", "utf8"));
   assert.equal(cards.length, 4);
   const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
-  assert.equal(core.length, 13);
+  assert.equal(core.length, 14);
   assert.ok(core[11].sources.includes("docs/lessons/lesson-11-current.md"));
   const lesson = await readFile("docs/lessons/lesson-11-current.md", "utf8");
   assert.ok(lesson.includes("если успеешь"));
@@ -61,6 +61,26 @@ test("core professions card is a small source-backed selection", async () => {
   }
   assert.ok(card.rows.every(row => row.includes("[") && row.includes("]")));
   assert.ok(card.note.includes("IT — сфера, не место"));
+});
+
+test("lesson 13 includes calendar, the full supplied dialogue and the exact written assignment", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);
+  const data = context.window.GREEK_VOCABULARY;
+  const newWords = data.words.filter(word => word.lesson === "13");
+  assert.equal(newWords.length, 88);
+  assert.equal(newWords.filter(word => word.core).length, 72);
+  assert.equal(data.lessons["13"].total, 137);
+  for (const id of ["η Δευτέρα", "η Κυριακή", "ο Ιανουάριος", "ο Δεκέμβριος", "η άνοιξη", "ο χειμώνας", "παρά", "η ώρα", "τρώω", "ακούω", "βρέχει", "χιονίζει"]) {
+    assert.ok(newWords.some(word => word.id === id), id);
+  }
+  const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-13.json", "utf8"));
+  assert.equal(cards.length, 5);
+  assert.equal(cards[3].rows.length, 12);
+  const homework = await readFile("docs/homework/lesson-13-current.md", "utf8");
+  for (const marker of ["с. 26 №2", "144: №14 и №15", "№16: письменно", "Πότε πάει για μπάνιο στη θάλασσα;"]) assert.ok(homework.includes(marker), marker);
+  const lesson = await readFile("docs/lessons/lesson-13-current.md", "utf8");
+  for (const phrase of ["Πού πας πρωί πρωί;", "Ποιος τραγουδάει;", "Καλή τύχη στις εξετάσεις!", "Τον Δεκέμβριο είναι τα Χριστούγεννα."]) assert.ok(lesson.includes(phrase), phrase);
 });
 
 test("lesson repetitions reuse stable vocabulary ids and accurate counts", async () => {

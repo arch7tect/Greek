@@ -36,10 +36,11 @@
 | 10 · работа, возраст и рассказ о себе | [3 карточки](../assets/mobile/lesson-10-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-10-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-10/index.html) |
 | 11 · прилагательные и противоположности | [4 карточки](../assets/mobile/lesson-11-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-11-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-11/index.html) |
 | 12 · описываем людей и предметы | [3 карточки](../assets/mobile/lesson-12-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-12-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-12/index.html) |
+| 13 · время и календарь | [5 карточек](../assets/mobile/lesson-13-phone-cards.pdf) | [А4 — 2 страницы](../assets/print/lesson-13-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-13/index.html) |
 
 Состав и источники: [урок 01](lesson-01.md), [урок 02](lesson-02.md),
 [урок 03](lesson-03-current.md), [урок 04](lesson-04-current.md), [урок 05](lesson-05-current.md),
 [урок 06](lesson-06-current.md), [урок 07](lesson-07-current.md), [урок 08](lesson-08-current.md),
 [урок 09](lesson-09-current.md), [урок 10](lesson-10-current.md),
-[урок 11](lesson-11-current.md), [урок 12](lesson-12-current.md).
+[урок 11](lesson-11-current.md), [урок 12](lesson-12-current.md), [урок 13](lesson-13-current.md).
 Карточки предназначены для повторения и не заменяют аудио.
