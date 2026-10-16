@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 762,
-  "core": 494,
+  "total": 771,
+  "core": 503,
   "topics": {
     "professions": {
       "title": "Профессии и места работы",
@@ -93,6 +93,29 @@ window.GREEK_VOCABULARY = {
       ],
       "total": 84,
       "core": 59
+    },
+    "time": {
+      "title": "Время",
+      "ids": [
+        "Τι ώρα είναι;",
+        "Τι ώρα;",
+        "δύο ακριβώς",
+        "δύο και τέταρτο",
+        "δύο και μισή",
+        "τρεις παρά τέταρτο",
+        "στη μία",
+        "στις τρεις",
+        "σε μισή ώρα",
+        "η ώρα",
+        "το λεπτό",
+        "το τέταρτο",
+        "μισός / μισή / μισό",
+        "παρά",
+        "ακριβώς",
+        "και"
+      ],
+      "total": 16,
+      "core": 16
     }
   },
   "lessons": {
@@ -145,8 +168,8 @@ window.GREEK_VOCABULARY = {
       "core": 95
     },
     "13": {
-      "total": 137,
-      "core": 112
+      "total": 146,
+      "core": 121
     }
   },
   "words": [
@@ -8718,6 +8741,42 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "δύο ακριβώς",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "δύο ακριβώς",
+      "transcription": "[ˈðio akriˈvos]",
+      "meaning": "ровно два часа (2:00)",
+      "note": "время сейчас, без предлога",
+      "core": true
+    },
+    {
+      "id": "δύο και μισή",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "δύο και μισή",
+      "transcription": "[ˈðio ke miˈsi]",
+      "meaning": "половина третьего (2:30)",
+      "note": "два плюс половина часа",
+      "core": true
+    },
+    {
+      "id": "δύο και τέταρτο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "δύο και τέταρτο",
+      "transcription": "[ˈðio ke ˈtetarto]",
+      "meaning": "четверть третьего (2:15)",
+      "note": "два плюс четверть часа",
+      "core": true
+    },
+    {
       "id": "η δύση",
       "lesson": "13",
       "lessons": [
@@ -9306,6 +9365,18 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "σε μισή ώρα",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "σε μισή ώρα",
+      "transcription": "[se miˈsi ˈora]",
+      "meaning": "через полчаса",
+      "note": "отсчёт от сейчас, не «в полчаса»",
+      "core": true
+    },
+    {
       "id": "ο Σεπτέμβριος",
       "lesson": "13",
       "lessons": [
@@ -9315,6 +9386,30 @@ window.GREEK_VOCABULARY = {
       "transcription": "[o sepˈtemvrios]",
       "meaning": "сентябрь",
       "note": "οι Σεπτέμβριοι [i sepˈtemvrii]; τον Σεπτέμβριο [ton sepˈtemvrio]",
+      "core": true
+    },
+    {
+      "id": "στη μία",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "στη μία",
+      "transcription": "[sti ˈmia]",
+      "meaning": "в час (1:00)",
+      "note": "время события, единственное число",
+      "core": true
+    },
+    {
+      "id": "στις τρεις",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "στις τρεις",
+      "transcription": "[stis tris]",
+      "meaning": "в три часа (3:00)",
+      "note": "время события, множественное число",
       "core": true
     },
     {
@@ -9390,6 +9485,30 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "Τι ώρα είναι;",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "Τι ώρα είναι;",
+      "transcription": "[ti ˈora ˈine]",
+      "meaning": "Который час?",
+      "note": "вопрос о времени сейчас",
+      "core": true
+    },
+    {
+      "id": "Τι ώρα;",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "Τι ώρα;",
+      "transcription": "[ti ˈora]",
+      "meaning": "Во сколько?",
+      "note": "вопрос о времени события",
+      "core": true
+    },
+    {
       "id": "τόσο",
       "lesson": "13",
       "lessons": [
@@ -9400,6 +9519,18 @@ window.GREEK_VOCABULARY = {
       "meaning": "так; настолько",
       "note": "τόσο νωρίς [ˈtoso noˈris] — так рано",
       "core": false
+    },
+    {
+      "id": "τρεις παρά τέταρτο",
+      "lesson": "13",
+      "lessons": [
+        "13"
+      ],
+      "greek": "τρεις παρά τέταρτο",
+      "transcription": "[tris paˈra ˈtetarto]",
+      "meaning": "без четверти три (2:45)",
+      "note": "вычитаем из следующего часа",
+      "core": true
     },
     {
       "id": "τρέχω",

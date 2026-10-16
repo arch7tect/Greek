@@ -23,7 +23,7 @@ test("lesson 11 covers every taught adjective without duplicating known lemmas",
   const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-11.json", "utf8"));
   assert.equal(cards.length, 4);
   const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
-  assert.equal(core.length, 14);
+  assert.equal(core.length, 15);
   assert.ok(core[11].sources.includes("docs/lessons/lesson-11-current.md"));
   const lesson = await readFile("docs/lessons/lesson-11-current.md", "utf8");
   assert.ok(lesson.includes("если успеешь"));
@@ -68,9 +68,9 @@ test("lesson 13 includes calendar, the full supplied dialogue and the exact writ
   vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);
   const data = context.window.GREEK_VOCABULARY;
   const newWords = data.words.filter(word => word.lesson === "13");
-  assert.equal(newWords.length, 88);
-  assert.equal(newWords.filter(word => word.core).length, 72);
-  assert.equal(data.lessons["13"].total, 137);
+  assert.equal(newWords.length, 97);
+  assert.equal(newWords.filter(word => word.core).length, 81);
+  assert.equal(data.lessons["13"].total, 146);
   for (const id of ["η Δευτέρα", "η Κυριακή", "ο Ιανουάριος", "ο Δεκέμβριος", "η άνοιξη", "ο χειμώνας", "παρά", "η ώρα", "τρώω", "ακούω", "βρέχει", "χιονίζει"]) {
     assert.ok(newWords.some(word => word.id === id), id);
   }
@@ -81,6 +81,26 @@ test("lesson 13 includes calendar, the full supplied dialogue and the exact writ
   for (const marker of ["с. 26 №2", "144: №14 и №15", "№16: письменно", "Πότε πάει για μπάνιο στη θάλασσα;"]) assert.ok(homework.includes(marker), marker);
   const lesson = await readFile("docs/lessons/lesson-13-current.md", "utf8");
   for (const phrase of ["Πού πας πρωί πρωί;", "Ποιος τραγουδάει;", "Καλή τύχη στις εξετάσεις!", "Τον Δεκέμβριο είναι τα Χριστούγεννα."]) assert.ok(lesson.includes(phrase), phrase);
+});
+
+test("time topic trains core formulas and preserves standard mode selection", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);
+  const data = context.window.GREEK_VOCABULARY;
+  const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
+  const card = core.find(card => card.title === "Время: который час и во сколько");
+  assert.equal(card.rows.length, 7);
+  assert.ok(card.sources.includes("scripts/mobile-data/lesson-13.json"));
+  const topic = data.topics.time;
+  assert.equal(topic.title, "Время");
+  assert.equal(topic.total, 16);
+  assert.equal(new Set(topic.ids).size, 16);
+  for (const id of ["Τι ώρα είναι;", "Τι ώρα;", "δύο και μισή", "τρεις παρά τέταρτο", "στη μία", "στις τρεις", "σε μισή ώρα"]) {
+    assert.ok(topic.ids.includes(id), id);
+    assert.ok(data.words.some(word => word.id === id && word.core && word.lesson === "13"), id);
+  }
+  const source = await readFile("docs/assets/javascripts/vocabulary-trainer.js", "utf8");
+  assert.ok(source.includes("vocabulary.topics[lesson].title"));
 });
 
 test("lesson repetitions reuse stable vocabulary ids and accurate counts", async () => {

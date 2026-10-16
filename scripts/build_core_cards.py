@@ -114,7 +114,7 @@ def build_print():
     c.setTitle('Главное · памятка A4')
     page_w, page_h = A4
     # Two topics per column, measured independently; no automatic font shrinking.
-    layout = [((0, 1), (2, 8)), ((6,), (7,)), ((9, 10), (11, 3)), ((4, 13), (5, 12))]
+    layout = [((0, 1), (2, 8)), ((6, 14), (7,)), ((9, 10), (11, 3)), ((4, 13), (5, 12))]
     assert sorted(i for page in layout for col in page for i in col) == list(range(len(CARDS)))
     for page_number, page in enumerate(layout, 1):
         c.setFont('CoreBold', 15)

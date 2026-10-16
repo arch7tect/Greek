@@ -1,7 +1,9 @@
 # Время события и календарь
 
 Опора к [уроку 13](../../lessons/lesson-13-current.md): часы, неделя, месяцы и сезоны.
-[Карточки](../../memory/lesson-13-current.md) · [Домашка](../../homework/lesson-13-current.md).
+[Карточки](../../memory/lesson-13-current.md) · [Домашка](../../homework/lesson-13-current.md) ·
+[Сквозная карточка «Время»](../../assets/mobile/core/card-15.png) ·
+[Тренажёр «Время»](../../training/vocabulary.md?topic=time).
 
 ## Какой вопрос задаём
 

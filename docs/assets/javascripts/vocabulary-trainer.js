@@ -17,7 +17,7 @@
     button.type = "button";
     button.dataset.vocabularyLesson = lesson;
     button.setAttribute("aria-pressed", "false");
-    button.append(vocabulary.topics?.[lesson] ? "Профессии " : `Урок ${lesson} `);
+    button.append(vocabulary.topics?.[lesson] ? `${vocabulary.topics[lesson].title} ` : `Урок ${lesson} `);
     count.dataset.vocabularyCount = lesson;
     button.append(count);
     lessonContainer.append(button);
