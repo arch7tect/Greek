@@ -90,6 +90,7 @@ test("time topic trains core formulas and preserves standard mode selection", as
   const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
   const card = core.find(card => card.title === "Время: который час и во сколько");
   assert.equal(card.rows.length, 7);
+  for (const marker of ["π.μ. = πριν το μεσημέρι", "[prin to mesiˈmeri]", "μ.μ. = μετά το μεσημέρι", "[meˈta to mesiˈmeri]"]) assert.ok(card.print_note_extra.includes(marker), marker);
   assert.ok(card.sources.includes("scripts/mobile-data/lesson-13.json"));
   for (const marker of ["2 и 5–12 не меняются", "στη [sti]", "στις [stis]", "ед. ч.", "мн. ч."]) assert.ok(card.note.includes(marker), marker);
   const lessonCards = JSON.parse(await readFile("scripts/mobile-data/lesson-13.json", "utf8"));

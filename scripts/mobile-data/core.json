@@ -230,6 +230,7 @@
   },
   {
     "title": "Время: который час и во сколько",
+    "print_note_extra": "π.μ. = πριν το μεσημέρι<br/>[prin to mesiˈmeri] — до полудня.<br/>μ.μ. = μετά το μεσημέρι<br/>[meˈta to mesiˈmeri] — после полудня.",
     "sources": ["docs/lessons/lesson-13-current.md", "docs/reference/grammar/time-and-calendar.md", "scripts/mobile-data/lesson-13.json"],
     "rows": [
       "Τι ώρα είναι; [ti ˈora ˈine]<br/>Который час? → Είναι… [ˈine] — Сейчас…",

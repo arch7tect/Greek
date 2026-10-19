@@ -80,9 +80,12 @@ def card(c, data, index, x, top, width, size, draw=True):
     else:
         for item in rows:
             y = paragraph(c, item, x, y, width, size, draw=draw) - gap
-    if data.get('note'):
+    note = data.get('note', '')
+    if size < 15 and data.get('print_note_extra'):
+        note += '<br/>' + data['print_note_extra']
+    if note:
         y -= size * .35
-        y = paragraph(c, data['note'], x, y, width, size, draw=draw)
+        y = paragraph(c, note, x, y, width, size, draw=draw)
     return y
 
 
