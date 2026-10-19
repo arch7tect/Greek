@@ -98,6 +98,10 @@ test("time topic trains core formulas and preserves standard mode selection", as
   const dayNotes = lessonCards[1].notes.join(" ");
   assert.ok(dayNotes.includes("π.μ. ≠ английское p.m."));
   assert.ok(dayNotes.includes("23:05 = 11:05 μ.μ."));
+  for (const marker of ["12:30", "17:00", "21:00", "το μεσημέρι", "το απόγευμα", "το βράδυ"]) {
+    assert.ok(card.note.includes(marker), marker);
+    assert.ok(dayNotes.includes(marker), marker);
+  }
   for (const marker of ["2 и 5–12", "στη [sti]", "στις [stis]"]) assert.ok(notes.includes(marker), marker);
   const topic = data.topics.time;
   assert.equal(topic.title, "Время");

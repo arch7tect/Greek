@@ -8625,8 +8625,8 @@ window.GREEK_VOCABULARY = {
       ],
       "greek": "το απόγευμα",
       "transcription": "[to aˈpoyevma]",
-      "meaning": "время после полудня",
-      "note": "τα απογεύματα [ta apoˈyevmata]",
+      "meaning": "время после обеда, ближе к вечеру",
+      "note": "τα απογεύματα [ta apoˈyevmata]; пример 17:00; не вся половина суток после 12:00",
       "core": true
     },
     {
