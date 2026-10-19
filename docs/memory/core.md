@@ -34,7 +34,7 @@ A4: читай блоки **слева направо, затем вниз**. Н
 | 13. Прилагательные | Род по существительному; две модели и особые женские формы | [Правило](../reference/grammar/adjectives-e1-e2.md), [урок 11](../lessons/lesson-11-current.md) |
 | [14. Профессии и места работы](../assets/mobile/core/card-14.png) | Пять основных пар; программист и работа в IT | [Урок 09](../lessons/lesson-09-current.md), [урок 10](../lessons/lesson-10-current.md#my-work) |
 | [15. Время](../assets/mobile/core/card-15.png) | Который час / во сколько / через; ровно, четверть, половина, «без» | [Правило](../reference/grammar/time-and-calendar.md), [тренажёр «Время»](../training/vocabulary.md?topic=time) |
-| [16. Календарь](../assets/mobile/core/card-16.png) | Семь дней и двенадцать месяцев; формы ответа «когда?» | [Урок 13](../lessons/lesson-13-current.md#week), [тренажёр «Календарь»](../training/vocabulary.md?topic=calendar) |
+| [16. Календарь](../assets/mobile/core/card-16.png) | Семь дней, двенадцать месяцев и четыре времени года; формы ответа «когда?» | [Урок 13](../lessons/lesson-13-current.md#week), [тренажёр «Календарь»](../training/vocabulary.md?topic=calendar) |
 
 Карточка 14 — короткая выборка. [Полный тематический набор и тренажёр](professions.md)
 остаются для подготовки к диктанту; [вопросы о работе](questions-answers.md) — в сборнике вопросов.

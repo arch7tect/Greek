@@ -143,11 +143,12 @@ test("calendar topic covers all days, months and accusative answers without dupl
     assert.ok(data.words.some(word => word.id === id && word.lesson === "13"));
   }
   const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
-  const card = core.find(card => card.title === "Календарь: дни и месяцы");
+  const card = core.find(card => card.title === "Календарь: дни, месяцы, сезоны");
   assert.equal(card.columns, 2);
   assert.ok(card.sources.includes("scripts/mobile-data/lesson-13.json"));
   const rows = card.rows.join(" ");
   for (const marker of ["Δευτέρα", "Κυριακή", "Ιανουάριο", "Δεκέμβριο", "Без σε"]) assert.ok(rows.includes(marker));
+  for (const marker of ["την άνοιξη", "[tin ˈaniksi]", "το καλοκαίρι", "[to kaloˈkeri]", "το φθινόπωρο", "[to fθiˈnoporo]", "τον χειμώνα", "[ton hiˈmona]"]) assert.ok(rows.includes(marker), marker);
 });
 
 test("lesson repetitions reuse stable vocabulary ids and accurate counts", async () => {
