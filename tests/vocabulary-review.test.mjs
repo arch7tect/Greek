@@ -23,7 +23,7 @@ test("lesson 11 covers every taught adjective without duplicating known lemmas",
   const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-11.json", "utf8"));
   assert.equal(cards.length, 4);
   const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
-  assert.equal(core.length, 16);
+  assert.equal(core.length, 19);
   assert.ok(core[11].sources.includes("docs/lessons/lesson-11-current.md"));
   const lesson = await readFile("docs/lessons/lesson-11-current.md", "utf8");
   assert.ok(lesson.includes("если успеешь"));
@@ -149,6 +149,21 @@ test("calendar topic covers all days, months and accusative answers without dupl
   const rows = card.rows.join(" ");
   for (const marker of ["Δευτέρα", "Κυριακή", "Ιανουάριο", "Δεκέμβριο", "Без σε"]) assert.ok(rows.includes(marker));
   for (const marker of ["την άνοιξη", "[tin ˈaniksi]", "το καλοκαίρι", "[to kaloˈkeri]", "το φθινόπωρο", "[to fθiˈnoporo]", "τον χειμώνα", "[ton hiˈmona]"]) assert.ok(rows.includes(marker), marker);
+});
+
+test("lesson 14 includes weather, AB verbs and frequency with explicit review", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);
+  const data = context.window.GREEK_VOCABULARY;
+  const fresh = data.words.filter(word => word.lesson === "14");
+  assert.equal(fresh.length, 50);
+  assert.equal(fresh.filter(word => word.core).length, 45);
+  for (const id of ["φταίω", "καίω", "κλαίω", "η βροχή", "συνήθως", "ποτέ", "το δέντρο", "ανθίζω"]) assert.ok(fresh.some(word => word.id === id), id);
+  for (const id of ["πάω", "ακούω", "λέω", "τρώω", "ο χειμώνας"]) assert.ok(data.words.find(word => word.id === id).lessons.includes("14"), id);
+  const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-14.json", "utf8"));
+  assert.equal(cards.length, 4);
+  const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
+  for (const title of ["Короткие глаголы АВ", "Погода", "Как часто: от никогда до всегда"]) assert.ok(core.some(card => card.title === title));
 });
 
 test("lesson repetitions reuse stable vocabulary ids and accurate counts", async () => {

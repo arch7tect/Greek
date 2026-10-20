@@ -35,7 +35,8 @@ PUBLIC.mkdir(parents=True, exist_ok=True)
 INK = '#203835'
 ACCENT = '#166B5E'
 PRINT_LAYOUT = [((0, 1), (2, 3)), ((4, 5), (6,)),
-                ((7, 8), (9,)), ((10, 11), (12,)), ((13, 14), (15,))]
+                ((7, 8), (9,)), ((10, 11), (12,)), ((13, 14), (15,)),
+                ((16, 17), (18,))]
 
 
 def paragraph(c, text, x, top, width, size, color=INK, draw=True):

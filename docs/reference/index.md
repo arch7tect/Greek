@@ -2,6 +2,8 @@
 
 Проверенные и устойчивые знания, не зависящие от конкретного урока.
 
+- [Короткие глаголы АВ](grammar/present-tense-ab.md)
+
 - [Как читать транскрипцию](transcription.md)
 - [Алфавит и чтение](alphabet-and-reading.md)
 - [Приветствия и знакомство](greetings-and-introductions.md)

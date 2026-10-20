@@ -277,5 +277,51 @@
       "ноя · Νοέμβριο<br/>[noˈemvrio]",
       "дек · Δεκέμβριο<br/>[ðeˈkemvrio]"
     ]
+  },
+  {
+    "title": "Короткие глаголы АВ",
+    "sources": ["docs/lessons/lesson-14-current.md", "docs/reference/grammar/present-tense-ab.md", "scripts/mobile-data/lesson-14.json"],
+    "intro": "Порядок: я · ты · он/она · мы · вы · они.",
+    "rows": [
+      "<b>Идти: πάω / πας / πάει / πάμε / πάτε / πάνε</b><br/>[ˈpao / pas / ˈpai / ˈpame / ˈpate / ˈpane]",
+      "<b>Есть: τρώω / τρως / τρώει / τρώμε / τρώτε / τρώνε</b><br/>[ˈtroo / tros / ˈtroi / ˈtrome / ˈtrote / ˈtrone]",
+      "<b>Слышать: ακούω / ακούς / ακούει / ακούμε / ακούτε / ακούνε</b><br/>[aˈkuo / aˈkus / aˈkui / aˈkume / aˈkute / aˈkune]",
+      "<b>Сказать: λέω / λες / λέει / λέμε / λέτε / λένε</b><br/>[ˈleo / les / ˈlei / ˈleme / ˈlete / ˈlene]"
+    ],
+    "note": "«Ты» — короткое -ς [s], не -εις [is].<br/>πάω = πηγαίνω [ˈpao = piˈyeno].<br/>Πάμε; [ˈpame] — Пойдём?<br/>«Я и…» → мы; «ты и…» → вы."
+  },
+  {
+    "title": "Погода",
+    "sources": ["docs/lessons/lesson-14-current.md", "scripts/mobile-data/lesson-14.json"],
+    "rows": [
+      "<b>Τι καιρό κάνει; [ti keˈro ˈkani]</b><br/>Какая погода?",
+      "βρέχει [ˈvrehi] — идёт дождь",
+      "χιονίζει [hioˈnizi] — идёт снег",
+      "κάνει κρύο [ˈkani ˈkrio] — холодно",
+      "κάνει ζέστη [ˈkani ˈzesti] — жарко",
+      "έχει ήλιο [ˈehi ˈilio] — солнечно",
+      "έχει συννεφιά [ˈehi sineˈfya] — облачно",
+      "έχει αέρα [ˈehi aˈera] — ветрено",
+      "φυσάει [fiˈsai] — дует ветер",
+      "έχει δροσιά [ˈehi ðroˈsya] — прохладно"
+    ],
+    "note": "η βροχή [i vroˈhi] — дождь (название).<br/>βρέχει [ˈvrehi] — идёт дождь (действие).<br/>Солнечно не обязательно жарко."
+  },
+  {
+    "title": "Как часто: от никогда до всегда",
+    "sources": ["docs/lessons/lesson-14-current.md", "scripts/mobile-data/lesson-14.json"],
+    "rows": [
+      "<b>Πόσο συχνά; [ˈposo siˈhna]</b><br/>Как часто?",
+      "ποτέ [poˈte] — никогда",
+      "σχεδόν ποτέ [sheˈðon poˈte] — почти никогда",
+      "σπάνια [ˈspanya] — редко",
+      "μερικές φορές [meriˈkes foˈres] — иногда",
+      "συχνά [siˈhna] — часто",
+      "συνήθως [siˈniθos] — обычно",
+      "σχεδόν πάντα [sheˈðon ˈpanda] — почти всегда",
+      "πάντα [ˈpanda] — всегда",
+      "κάθε μέρα [ˈkaθe ˈmera] — каждый день"
+    ],
+    "note": "Δεν δουλεύω ποτέ την Κυριακή.<br/>[ðen ðuˈlevo poˈte tin kiryaˈki]<br/>Никогда не работаю в воскресенье.<br/>ποτέ [poˈte] требует δεν [ðen].<br/>πότε [ˈpote] — когда? Другое ударение."
   }
 ]
