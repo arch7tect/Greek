@@ -22,12 +22,7 @@ test("lesson 11 covers every taught adjective without duplicating known lemmas",
   }
   const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-11.json", "utf8"));
   assert.equal(cards.length, 4);
-  assert.ok(cards[0].rows.some(row => row[0] === "Ο ήλιος λάμπει." && row[1] === "o ˈilios ˈlambi"));
-  const shine = fresh.find(word => word.id === "λάμπω");
-  assert.ok(shine.core);
-  assert.ok(shine.note.includes("λάμπει [ˈlambi]"));
   const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
-  assert.ok(core.find(card => card.title === "Погода").rows.some(row => row.includes("Ο ήλιος λάμπει.")));
   assert.equal(core.length, 20);
   assert.ok(core[11].sources.includes("docs/lessons/lesson-11-current.md"));
   const lesson = await readFile("docs/lessons/lesson-11-current.md", "utf8");
@@ -167,7 +162,12 @@ test("lesson 14 includes weather, AB verbs and frequency with explicit review", 
   for (const id of ["πάω", "ακούω", "λέω", "τρώω", "ο χειμώνας"]) assert.ok(data.words.find(word => word.id === id).lessons.includes("14"), id);
   const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-14.json", "utf8"));
   assert.equal(cards.length, 4);
+  assert.ok(cards[0].rows.some(row => row[0] === "Ο ήλιος λάμπει." && row[1] === "o ˈilios ˈlambi"));
+  const shine = fresh.find(word => word.id === "λάμπω");
+  assert.ok(shine.core);
+  assert.ok(shine.note.includes("λάμπει [ˈlambi]"));
   const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
+  assert.ok(core.find(card => card.title === "Погода").rows.some(row => row.includes("Ο ήλιος λάμπει.")));
   for (const title of ["Короткие глаголы АВ", "Погода", "Как часто: от никогда до всегда"]) assert.ok(core.some(card => card.title === title));
 });
 
