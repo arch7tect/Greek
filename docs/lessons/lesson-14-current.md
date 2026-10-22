@@ -2,6 +2,7 @@
 
 [A4 для печати](../assets/print/lesson-14-study-card-a4.pdf){ .md-button }
 [Карточки для телефона — PDF](../assets/mobile/lesson-14-phone-cards.pdf){ .md-button }
+[Тренажёр: погода и занятия](../training/vocabulary.md?topic=weather)
 
 [Карточки онлайн](../assets/mobile/lesson-14/index.html) ·
 [Памятка](../memory/lesson-14-current.md) ·

@@ -228,6 +228,14 @@ def read_topics(lessons: dict[str, list[Word]]) -> dict:
             raise ValueError(f"{path}: duplicate or unknown vocabulary ids: {set(ids) - set(known)}")
         topics[path.stem] = {"title": topic["title"], "ids": ids, "total": len(ids),
                              "core": sum(known[item].core for item in ids)}
+        if topic.get("afterLesson"):
+            if topic["afterLesson"] not in lessons:
+                raise ValueError(f"{path}: unknown afterLesson")
+            topics[path.stem]["afterLesson"] = topic["afterLesson"]
+        if topic.get("directions"):
+            if set(topic["directions"]) - {"greek-to-russian", "russian-to-greek", "writing", "article"}:
+                raise ValueError(f"{path}: unknown direction")
+            topics[path.stem]["directions"] = topic["directions"]
     return topics
 
 

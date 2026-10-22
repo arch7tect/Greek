@@ -3,6 +3,7 @@
 [A4 — 2 страницы](../assets/print/lesson-14-study-card-a4.pdf){ .md-button }
 [Телефон — 4 карточки](../assets/mobile/lesson-14-phone-cards.pdf){ .md-button }
 [Смотреть онлайн](../assets/mobile/lesson-14/index.html){ .md-button }
+[Тренажёр: погода и занятия](../training/vocabulary.md?topic=weather){ .md-button }
 
 | Карточка | Что повторять |
 |---|---|

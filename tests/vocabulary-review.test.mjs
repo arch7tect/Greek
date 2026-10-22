@@ -156,8 +156,8 @@ test("lesson 14 includes weather, AB verbs and frequency with explicit review", 
   vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);
   const data = context.window.GREEK_VOCABULARY;
   const fresh = data.words.filter(word => word.lesson === "14");
-  assert.equal(fresh.length, 50);
-  assert.equal(fresh.filter(word => word.core).length, 45);
+  assert.equal(fresh.length, 68);
+  assert.equal(fresh.filter(word => word.core).length, 63);
   for (const id of ["φταίω", "καίω", "κλαίω", "η βροχή", "συνήθως", "ποτέ", "το δέντρο", "ανθίζω"]) assert.ok(fresh.some(word => word.id === id), id);
   for (const id of ["πάω", "ακούω", "λέω", "τρώω", "ο χειμώνας"]) assert.ok(data.words.find(word => word.id === id).lessons.includes("14"), id);
   const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-14.json", "utf8"));
@@ -177,6 +177,30 @@ test("core activities card selects learned phrases including swimming and skiing
   assert.equal(card.rows.length, 9);
   assert.ok(card.sources.includes("scripts/mobile-data/lesson-14.json"));
   for (const phrase of ["κάνω μπάνιο στη θάλασσα", "[ˈkano ˈbanyo sti ˈθalasa]", "κάνω σκι", "[ˈkano ski]", "πάω βόλτα", "πάω για ψώνια", "πάω για ύπνο"]) assert.ok(card.rows.join(" ").includes(phrase), phrase);
+});
+
+test("weather topic covers all months, seasons and assigned activities in three directions", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);
+  const data = context.window.GREEK_VOCABULARY;
+  const topic = data.topics.weather;
+  assert.equal(topic.total, 70);
+  assert.equal(topic.core, 70);
+  assert.equal(new Set(topic.ids).size, 70);
+  assert.equal(topic.afterLesson, "14");
+  assert.deepEqual([...topic.directions], ["greek-to-russian", "russian-to-greek", "writing"]);
+  const spec = JSON.parse(await readFile("scripts/topic-data/weather.json", "utf8"));
+  assert.equal(spec.groups.find(group => group.title === "Месяцы").ids.length, 12);
+  assert.equal(spec.groups.find(group => group.title === "Когда: месяцы").ids.length, 12);
+  for (const id of ["την άνοιξη", "τον χειμώνα", "το καλοκαίρι", "το φθινόπωρο",
+    "κάνω μπάνιο στη θάλασσα", "κάνω σκι", "πίνω κρύο νερό", "τρώω παγωτό",
+    "ο ήλιος λάμπει", "τρώμε παγωτά", "πηγαίνουμε για κολύμπι στη θάλασσα", "κάνω διακοπές",
+    "τα λουλούδια ανθίζουν", "τα δέντρα πρασινίζουν"]) {
+    assert.ok(topic.ids.includes(id), id);
+    assert.equal(data.words.filter(word => word.id === id).length, 1, id);
+  }
+  const { compare, variants } = await import("../docs/assets/javascripts/vocabulary-writing.js").then(module => module.default);
+  for (const id of topic.ids) assert.equal(compare(id, variants(id)).kind, "correct", id);
 });
 
 test("lesson repetitions reuse stable vocabulary ids and accurate counts", async () => {

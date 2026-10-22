@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 839,
-  "core": 566,
+  "total": 857,
+  "core": 584,
   "topics": {
     "calendar": {
       "title": "Календарь",
@@ -161,6 +161,89 @@ window.GREEK_VOCABULARY = {
       ],
       "total": 16,
       "core": 16
+    },
+    "weather": {
+      "title": "Погода, сезоны и занятия",
+      "ids": [
+        "η άνοιξη",
+        "το καλοκαίρι",
+        "το φθινόπωρο",
+        "ο χειμώνας",
+        "την άνοιξη",
+        "τον χειμώνα",
+        "ο Ιανουάριος",
+        "ο Φεβρουάριος",
+        "ο Μάρτιος",
+        "ο Απρίλιος",
+        "ο Μάιος",
+        "ο Ιούνιος",
+        "ο Ιούλιος",
+        "ο Αύγουστος",
+        "ο Σεπτέμβριος",
+        "ο Οκτώβριος",
+        "ο Νοέμβριος",
+        "ο Δεκέμβριος",
+        "τον Ιανουάριο",
+        "τον Φεβρουάριο",
+        "τον Μάρτιο",
+        "τον Απρίλιο",
+        "τον Μάιο",
+        "τον Ιούνιο",
+        "τον Ιούλιο",
+        "τον Αύγουστο",
+        "τον Σεπτέμβριο",
+        "τον Οκτώβριο",
+        "τον Νοέμβριο",
+        "τον Δεκέμβριο",
+        "Τι καιρό κάνει;",
+        "κάνει ζέστη",
+        "κάνει κρύο",
+        "βρέχει",
+        "χιονίζει",
+        "έχει ήλιο",
+        "έχει συννεφιά",
+        "έχει αέρα",
+        "έχει δροσιά",
+        "ο ήλιος λάμπει",
+        "φυσάω",
+        "ο καιρός",
+        "η βροχή",
+        "το χιόνι",
+        "ο ήλιος",
+        "το σύννεφο",
+        "ο αέρας",
+        "η λιακάδα",
+        "η συννεφιά",
+        "η δροσιά",
+        "κάνω μπάνιο στη θάλασσα",
+        "κάνω σκι",
+        "πίνω κρύο νερό",
+        "τρώω παγωτό",
+        "τρώμε παγωτά",
+        "πηγαίνουμε για κολύμπι στη θάλασσα",
+        "κάνω διακοπές",
+        "το παγωτό",
+        "το νερό",
+        "το σκι",
+        "το κολύμπι",
+        "οι διακοπές",
+        "αρχίζουν τα πρωτοβρόχια",
+        "πέφτουν φύλλα από τα δέντρα",
+        "αρχίζουν τα σχολεία",
+        "γιορτάζουμε τα Χριστούγεννα",
+        "την άνοιξη όλα είναι πολύχρωμα",
+        "τα λουλούδια ανθίζουν",
+        "τα δέντρα πρασινίζουν",
+        "η φύση είναι πανέμορφη"
+      ],
+      "total": 70,
+      "core": 70,
+      "afterLesson": "14",
+      "directions": [
+        "greek-to-russian",
+        "russian-to-greek",
+        "writing"
+      ]
     }
   },
   "lessons": {
@@ -217,8 +300,8 @@ window.GREEK_VOCABULARY = {
       "core": 139
     },
     "14": {
-      "total": 107,
-      "core": 90
+      "total": 125,
+      "core": 108
     }
   },
   "words": [
@@ -5664,8 +5747,8 @@ window.GREEK_VOCABULARY = {
       ],
       "greek": "το καλοκαίρι",
       "transcription": "[to kaloˈkeri]",
-      "meaning": "лето",
-      "note": "τα καλοκαίρια [ta kaloˈkeria]",
+      "meaning": "лето; летом",
+      "note": "τα καλοκαίρια [ta kaloˈkeria]; «летом» — та же форма, без предлога",
       "core": true
     },
     {
@@ -9919,8 +10002,8 @@ window.GREEK_VOCABULARY = {
       ],
       "greek": "το φθινόπωρο",
       "transcription": "[to fθiˈnoporo]",
-      "meaning": "осень",
-      "note": "τα φθινόπωρα [ta fθiˈnopora]; «осенью» — та же форма",
+      "meaning": "осень; осенью",
+      "note": "τα φθινόπωρα [ta fθiˈnopora]; «осенью» — та же форма, без предлога",
       "core": true
     },
     {
@@ -10035,6 +10118,30 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "αρχίζουν τα πρωτοβρόχια",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "αρχίζουν τα πρωτοβρόχια",
+      "transcription": "[arˈhizun ta protoˈvrohya]",
+      "meaning": "начинаются первые осенние дожди",
+      "note": "список к видео",
+      "core": true
+    },
+    {
+      "id": "αρχίζουν τα σχολεία",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "αρχίζουν τα σχολεία",
+      "transcription": "[arˈhizun ta shoˈlia]",
+      "meaning": "начинается учёба в школах",
+      "note": "список к видео",
+      "core": true
+    },
+    {
       "id": "η βροχή",
       "lesson": "14",
       "lessons": [
@@ -10059,6 +10166,18 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "γιορτάζουμε τα Χριστούγεννα",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "γιορτάζουμε τα Χριστούγεννα",
+      "transcription": "[yorˈtazume ta hriˈstuyena]",
+      "meaning": "мы празднуем Рождество",
+      "note": "список к видео",
+      "core": true
+    },
+    {
       "id": "γιορτάζω",
       "lesson": "14",
       "lessons": [
@@ -10068,6 +10187,18 @@ window.GREEK_VOCABULARY = {
       "transcription": "[yorˈtazo]",
       "meaning": "праздную",
       "note": "γιορτάζουμε [yorˈtazume] — празднуем",
+      "core": true
+    },
+    {
+      "id": "τα δέντρα πρασινίζουν",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "τα δέντρα πρασινίζουν",
+      "transcription": "[ta ˈðendra prasiˈnizun]",
+      "meaning": "деревья зеленеют",
+      "note": "список к видео",
       "core": true
     },
     {
@@ -10155,6 +10286,18 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "ο ήλιος λάμπει",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "ο ήλιος λάμπει",
+      "transcription": "[o ˈilios ˈlambi]",
+      "meaning": "солнце светит",
+      "note": "список преподавателя к видео",
+      "core": true
+    },
+    {
       "id": "ο καιρός",
       "lesson": "14",
       "lessons": [
@@ -10212,6 +10355,42 @@ window.GREEK_VOCABULARY = {
       "transcription": "[ˈkani ˈkrio]",
       "meaning": "холодно",
       "note": "безличная погодная фраза",
+      "core": true
+    },
+    {
+      "id": "κάνω διακοπές",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "κάνω διακοπές",
+      "transcription": "[ˈkano ðiakoˈpes]",
+      "meaning": "я отдыхаю в отпуске / на каникулах",
+      "note": "список к видео; не «еду»",
+      "core": true
+    },
+    {
+      "id": "κάνω μπάνιο στη θάλασσα",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "κάνω μπάνιο στη θάλασσα",
+      "transcription": "[ˈkano ˈbanyo sti ˈθalasa]",
+      "meaning": "я купаюсь в море",
+      "note": "фото №8",
+      "core": true
+    },
+    {
+      "id": "κάνω σκι",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "κάνω σκι",
+      "transcription": "[ˈkano ski]",
+      "meaning": "я катаюсь на лыжах",
+      "note": "фото №8",
       "core": true
     },
     {
@@ -10287,6 +10466,18 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "τα λουλούδια ανθίζουν",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "τα λουλούδια ανθίζουν",
+      "transcription": "[ta luˈluðya anˈθizun]",
+      "meaning": "цветы цветут",
+      "note": "список к видео",
+      "core": true
+    },
+    {
       "id": "μερικές φορές",
       "lesson": "14",
       "lessons": [
@@ -10359,6 +10550,18 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "πέφτουν φύλλα από τα δέντρα",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "πέφτουν φύλλα από τα δέντρα",
+      "transcription": "[ˈpeftun ˈfila aˈpo ta ˈðendra]",
+      "meaning": "падают листья с деревьев",
+      "note": "список к видео",
+      "core": true
+    },
+    {
       "id": "πέφτω",
       "lesson": "14",
       "lessons": [
@@ -10368,6 +10571,30 @@ window.GREEK_VOCABULARY = {
       "transcription": "[ˈpefto]",
       "meaning": "падаю",
       "note": "πέφτουν φύλλα [ˈpeftun ˈfila] — падают листья",
+      "core": true
+    },
+    {
+      "id": "πηγαίνουμε για κολύμπι στη θάλασσα",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "πηγαίνουμε για κολύμπι στη θάλασσα",
+      "transcription": "[piˈyenume ya koˈlimbi sti ˈθalasa]",
+      "meaning": "мы идём купаться в море",
+      "note": "список к видео; цель движения",
+      "core": true
+    },
+    {
+      "id": "πίνω κρύο νερό",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "πίνω κρύο νερό",
+      "transcription": "[ˈpino ˈkrio neˈro]",
+      "meaning": "я пью холодную воду",
+      "note": "фото №8",
       "core": true
     },
     {
@@ -10539,6 +10766,30 @@ window.GREEK_VOCABULARY = {
       "core": true
     },
     {
+      "id": "την άνοιξη",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "την άνοιξη",
+      "transcription": "[tin ˈaniksi]",
+      "meaning": "весной",
+      "note": "ответ «когда?»; без предлога",
+      "core": true
+    },
+    {
+      "id": "την άνοιξη όλα είναι πολύχρωμα",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "την άνοιξη όλα είναι πολύχρωμα",
+      "transcription": "[tin ˈaniksi ˈola ˈine poˈlihroma]",
+      "meaning": "весной всё разноцветное",
+      "note": "список к видео",
+      "core": true
+    },
+    {
       "id": "Τι καιρό κάνει;",
       "lesson": "14",
       "lessons": [
@@ -10548,6 +10799,42 @@ window.GREEK_VOCABULARY = {
       "transcription": "[ti keˈro ˈkani]",
       "meaning": "Какая погода?",
       "note": "с σήμερα [ˈsimera] — сегодня",
+      "core": true
+    },
+    {
+      "id": "τον χειμώνα",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "τον χειμώνα",
+      "transcription": "[ton hiˈmona]",
+      "meaning": "зимой",
+      "note": "ответ «когда?»; без предлога",
+      "core": true
+    },
+    {
+      "id": "τρώμε παγωτά",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "τρώμε παγωτά",
+      "transcription": "[ˈtrome paɣoˈta]",
+      "meaning": "мы едим мороженое",
+      "note": "список к видео; форма «мы»",
+      "core": true
+    },
+    {
+      "id": "τρώω παγωτό",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "τρώω παγωτό",
+      "transcription": "[ˈtroo paɣoˈto]",
+      "meaning": "я ем мороженое",
+      "note": "фото №8",
       "core": true
     },
     {
@@ -10584,6 +10871,18 @@ window.GREEK_VOCABULARY = {
       "transcription": "[i ˈfisi]",
       "meaning": "природа",
       "note": "οι φύσεις [i ˈfisis]; в этом значении обычно ед. ч.",
+      "core": true
+    },
+    {
+      "id": "η φύση είναι πανέμορφη",
+      "lesson": "14",
+      "lessons": [
+        "14"
+      ],
+      "greek": "η φύση είναι πανέμορφη",
+      "transcription": "[i ˈfisi ˈine paˈnemorfi]",
+      "meaning": "природа очень красивая",
+      "note": "список к видео",
       "core": true
     },
     {

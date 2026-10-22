@@ -11,7 +11,13 @@
 
   const lessonContainer = root.querySelector("#vocabulary-trainer-lessons");
   const sets = { ...vocabulary.lessons, ...vocabulary.topics };
-  const lessonButtons = Object.keys(sets).sort().map((lesson) => {
+  const orderedSets = Object.keys(vocabulary.lessons).sort().flatMap((lesson) => [
+    lesson,
+    ...Object.keys(vocabulary.topics || {}).filter((topic) => vocabulary.topics[topic].afterLesson === lesson),
+  ]);
+  orderedSets.push(...Object.keys(vocabulary.topics || {}).sort()
+    .filter((topic) => !vocabulary.topics[topic].afterLesson));
+  const lessonButtons = orderedSets.map((lesson) => {
     const button = document.createElement("button");
     const count = document.createElement("span");
     button.type = "button";
@@ -293,6 +299,12 @@
   }
 
   function startSession() {
+    const allowedDirections = vocabulary.topics?.[activeLesson]?.directions;
+    directionButtons.forEach((button) => {
+      button.hidden = Boolean(allowedDirections && !allowedDirections.includes(button.dataset.vocabularyDirection));
+    });
+    if (allowedDirections && !allowedDirections.includes(activeDirection)) activeDirection = "greek-to-russian";
+    setPressed(directionButtons, directionButtons.find((button) => button.dataset.vocabularyDirection === activeDirection));
     coverageControls.hidden = Boolean(vocabulary.topics?.[activeLesson]);
     setPressed(coverageButtons, coverageButtons.find((button) => button.dataset.vocabularyCoverage === activeCoverage));
     setPressed(scopeButtons, scopeButtons.find((button) => button.dataset.vocabularyScope === activeScope));
