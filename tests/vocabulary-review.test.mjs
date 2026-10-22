@@ -22,7 +22,12 @@ test("lesson 11 covers every taught adjective without duplicating known lemmas",
   }
   const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-11.json", "utf8"));
   assert.equal(cards.length, 4);
+  assert.ok(cards[0].rows.some(row => row[0] === "Ο ήλιος λάμπει." && row[1] === "o ˈilios ˈlambi"));
+  const shine = fresh.find(word => word.id === "λάμπω");
+  assert.ok(shine.core);
+  assert.ok(shine.note.includes("λάμπει [ˈlambi]"));
   const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
+  assert.ok(core.find(card => card.title === "Погода").rows.some(row => row.includes("Ο ήλιος λάμπει.")));
   assert.equal(core.length, 20);
   assert.ok(core[11].sources.includes("docs/lessons/lesson-11-current.md"));
   const lesson = await readFile("docs/lessons/lesson-11-current.md", "utf8");
