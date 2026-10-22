@@ -23,7 +23,7 @@ test("lesson 11 covers every taught adjective without duplicating known lemmas",
   const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-11.json", "utf8"));
   assert.equal(cards.length, 4);
   const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
-  assert.equal(core.length, 19);
+  assert.equal(core.length, 20);
   assert.ok(core[11].sources.includes("docs/lessons/lesson-11-current.md"));
   const lesson = await readFile("docs/lessons/lesson-11-current.md", "utf8");
   assert.ok(lesson.includes("если успеешь"));
@@ -164,6 +164,14 @@ test("lesson 14 includes weather, AB verbs and frequency with explicit review", 
   assert.equal(cards.length, 4);
   const core = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
   for (const title of ["Короткие глаголы АВ", "Погода", "Как часто: от никогда до всегда"]) assert.ok(core.some(card => card.title === title));
+});
+
+test("core activities card selects learned phrases including swimming and skiing", async () => {
+  const cards = JSON.parse(await readFile("scripts/mobile-data/core.json", "utf8"));
+  const card = cards.find(card => card.title === "Занятия и отдых: что я делаю");
+  assert.equal(card.rows.length, 9);
+  assert.ok(card.sources.includes("scripts/mobile-data/lesson-14.json"));
+  for (const phrase of ["κάνω μπάνιο στη θάλασσα", "[ˈkano ˈbanyo sti ˈθalasa]", "κάνω σκι", "[ˈkano ski]", "πάω βόλτα", "πάω για ψώνια", "πάω για ύπνο"]) assert.ok(card.rows.join(" ").includes(phrase), phrase);
 });
 
 test("lesson repetitions reuse stable vocabulary ids and accurate counts", async () => {
