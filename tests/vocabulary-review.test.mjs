@@ -179,6 +179,34 @@ test("core activities card selects learned phrases including swimming and skiing
   for (const phrase of ["κάνω μπάνιο στη θάλασσα", "[ˈkano ˈbanyo sti ˈθalasa]", "κάνω σκι", "[ˈkano ski]", "πάω βόλτα", "πάω για ψώνια", "πάω για ύπνο"]) assert.ok(card.rows.join(" ").includes(phrase), phrase);
 });
 
+test("lesson 15 covers frequency and the precise four-part assignment", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);
+  const data = context.window.GREEK_VOCABULARY;
+  const fresh = data.words.filter(word => word.lesson === "15");
+  assert.equal(fresh.length, 24);
+  assert.equal(fresh.filter(word => word.core).length, 24);
+  for (const id of ["παραγγέλνω", "γυρίζω", "επιστρέφω", "κάνω ντους", "παίρνω έναν υπνάκο", "η φορά", "όταν"]) {
+    assert.ok(fresh.some(word => word.id === id), id);
+  }
+  for (const id of ["κοιμάμαι", "περνάω", "ποτέ", "συνήθως", "κάνει ζέστη"]) {
+    const word = data.words.find(word => word.id === id);
+    assert.ok(word.lessons.includes("15"), id);
+    assert.notEqual(word.lesson, "15", id);
+  }
+  const cards = JSON.parse(await readFile("scripts/mobile-data/lesson-15.json", "utf8"));
+  assert.equal(cards.length, 2);
+  assert.ok(cards[0].rows.some(row => row[0].includes("Δεν βλέπω ποτέ")));
+  const homework = await readFile("docs/homework/lesson-15-current.md", "utf8");
+  for (const text of ["12 пропусков", "восемь предложений", "четыре ответа", "девять строк", "следующему четвергу", "70 записей"]) {
+    assert.ok(homework.includes(text), text);
+  }
+  const lesson = await readFile("docs/lessons/lesson-15-current.md", "utf8");
+  assert.ok(lesson.includes("Вся таблица привычек"));
+  assert.ok(lesson.includes("παραγγέλνω φαγητό απ’ έξω"));
+  assert.ok(lesson.includes("γύρω στα μεσάνυχτα"));
+});
+
 test("weather topic covers all months, seasons and assigned activities in three directions", async () => {
   const context = { window: {} };
   vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);

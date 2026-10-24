@@ -97,6 +97,7 @@ nav:
       - Урок 12 — описания и беседа: lessons/lesson-12-current.md
       - Урок 13 — время и календарь: lessons/lesson-13-current.md
       - Урок 14 — погода и привычки: lessons/lesson-14-current.md
+      - Урок 15 — распорядок и частотность: lessons/lesson-15-current.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -112,6 +113,7 @@ nav:
       - Настоящее время, первое спряжение: reference/grammar/present-tense-a.md
       - Настоящее время, тип Β1: reference/grammar/present-tense-b1.md
       - Короткие глаголы АВ: reference/grammar/present-tense-ab.md
+      - Частотность и отрицание: reference/grammar/frequency.md
       - Предлоги с винительным: reference/grammar/prepositions-accusative.md
       - Артикли в именительном падеже: reference/grammar/nominative-articles.md
       - Прилагательные Ε1 и Ε2: reference/grammar/adjectives-e1-e2.md
@@ -132,6 +134,7 @@ nav:
       - Урок 12 — описания и беседа: vocabulary/lesson-12.md
       - Урок 13 — время и календарь: vocabulary/lesson-13.md
       - Урок 14 — погода и привычки: vocabulary/lesson-14.md
+      - Урок 15 — распорядок и частотность: vocabulary/lesson-15.md
   - Коротко для памяти:
       - memory/index.md
       - Главное — сквозные карточки: memory/core.md
@@ -152,6 +155,7 @@ nav:
       - Урок 12: memory/lesson-12-current.md
       - Урок 13: memory/lesson-13-current.md
       - Урок 14: memory/lesson-14-current.md
+      - Урок 15: memory/lesson-15-current.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -169,6 +173,7 @@ nav:
           - К уроку 12: homework/lesson-12-current.md
           - К уроку 13: homework/lesson-13-current.md
           - К уроку 14: homework/lesson-14-current.md
+          - К уроку 15: homework/lesson-15-current.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md
