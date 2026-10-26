@@ -17,7 +17,7 @@
 занятия — на [карточке 20](../assets/mobile/core/card-20.png); отдельные дубликаты не нужны.
 
 К диктанту: [погода](../assets/mobile/core/card-18.png) и
-[письменный тренажёр](../training/vocabulary.md?topic=weather&direction=writing).
+[письменный тренажёр к диктанту](../training/vocabulary.md?topic=weather-dictation&direction=writing).
 
 [Домашка](../homework/lesson-15-current.md) · [Словарь](../vocabulary/lesson-15.md) ·
 [Тренажёр урока](../training/vocabulary.md?lesson=15).

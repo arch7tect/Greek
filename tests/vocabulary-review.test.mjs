@@ -184,6 +184,24 @@ test("core activities card selects learned phrases including swimming and skiing
   for (const phrase of ["κάνω μπάνιο στη θάλασσα", "[ˈkano ˈbanyo sti ˈθalasa]", "κάνω σκι", "[ˈkano ski]", "πάω βόλτα", "πάω για ψώνια", "πάω για ύπνο"]) assert.ok(card.rows.join(" ").includes(phrase), phrase);
 });
 
+test("weather dictation is a focused reusable set with writing and no calendar or activities", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);
+  const data = context.window.GREEK_VOCABULARY;
+  const topic = data.topics["weather-dictation"];
+  assert.equal(topic.total, 22);
+  assert.equal(new Set(topic.ids).size, 22);
+  assert.equal(topic.afterLesson, "15");
+  assert.deepEqual([...topic.directions], ["greek-to-russian", "russian-to-greek", "writing"]);
+  for (const id of ["κάνει ζέστη", "έχει ήλιο", "ο ήλιος λάμπει", "βρέχει", "χιονίζει", "η βροχή", "το χιόνι"]) assert.ok(topic.ids.includes(id), id);
+  for (const id of ["ο Ιανουάριος", "το πρωί", "ο χειμώνας", "κάνω σκι", "πίνω κρύο νερό"]) assert.ok(!topic.ids.includes(id), id);
+  const { compare, variants } = await import("../docs/assets/javascripts/vocabulary-writing.js").then(module => module.default);
+  for (const id of topic.ids) {
+    assert.ok(data.words.some(word => word.id === id), id);
+    assert.equal(compare(id, variants(id)).kind, "correct", id);
+  }
+});
+
 test("lesson 15 covers frequency and the precise four-part assignment", async () => {
   const context = { window: {} };
   vm.runInNewContext(await readFile("docs/assets/data/vocabulary-data.js", "utf8"), context);
@@ -203,7 +221,7 @@ test("lesson 15 covers frequency and the precise four-part assignment", async ()
   assert.equal(cards.length, 2);
   assert.ok(cards[0].rows.some(row => row[0].includes("Δεν βλέπω ποτέ")));
   const homework = await readFile("docs/homework/lesson-15-current.md", "utf8");
-  for (const text of ["12 пропусков", "восемь предложений", "четыре ответа", "девять строк", "следующему четвергу", "70 записей"]) {
+  for (const text of ["12 пропусков", "восемь предложений", "четыре ответа", "девять строк", "следующему четвергу", "22 знакомых слова"]) {
     assert.ok(homework.includes(text), text);
   }
   const lesson = await readFile("docs/lessons/lesson-15-current.md", "utf8");
