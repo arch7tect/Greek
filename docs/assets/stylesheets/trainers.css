@@ -30,6 +30,19 @@
 
 .trainer button {
   font: inherit;
+  font-weight: 600;
+  line-height: 1.35;
+  box-shadow: 0 2px 0 var(--md-default-fg-color--lightest);
+  transition: background-color 120ms, border-color 120ms, box-shadow 120ms;
+}
+
+.trainer button:focus-visible {
+  outline: 3px solid var(--md-primary-fg-color);
+  outline-offset: 3px;
+}
+
+.trainer button:active:not(:disabled) {
+  box-shadow: none;
 }
 
 .trainer__controls button,
@@ -38,16 +51,16 @@
   min-height: 2.5rem;
   padding: 0.5rem 0.8rem;
   color: var(--md-default-fg-color);
-  background: var(--md-default-bg-color);
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 0.25rem;
+  background: var(--md-code-bg-color);
+  border: 2px solid var(--md-default-fg-color--light);
+  border-radius: 0.4rem;
   cursor: pointer;
 }
 
 .trainer__mode-fieldset {
   min-width: 0;
   flex: 1 1 32rem;
-  margin: 0;
+  margin: 0 0 0.75rem;
   padding: 0;
   border: 0;
 }
@@ -163,6 +176,11 @@
   border-color: var(--md-typeset-a-color);
 }
 
+.trainer button:hover:not(:disabled):not([aria-pressed="true"]) {
+  background: var(--md-accent-fg-color--transparent);
+  border-color: var(--md-typeset-a-color);
+}
+
 .trainer__choice span {
   color: var(--md-default-fg-color--light);
 }
@@ -178,6 +196,7 @@
 
 .trainer button:disabled {
   cursor: default;
+  box-shadow: none;
 }
 
 .trainer__unknown {
@@ -212,9 +231,9 @@
   min-height: 2.5rem;
   padding: 0.5rem 0.8rem;
   color: var(--md-default-fg-color);
-  background: var(--md-default-bg-color);
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 0.25rem;
+  background: var(--md-code-bg-color);
+  border: 2px solid var(--md-default-fg-color--light);
+  border-radius: 0.4rem;
   cursor: pointer;
 }
 
@@ -329,5 +348,9 @@
   .vocabulary-trainer__two-modes,
   .vocabulary-trainer__ratings {
     grid-template-columns: 1fr;
+  }
+
+  .vocabulary-trainer__lessons {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
