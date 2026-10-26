@@ -106,8 +106,13 @@ test("time topic trains core formulas and preserves standard mode selection", as
   for (const marker of ["2 и 5–12", "στη [sti]", "στις [stis]"]) assert.ok(notes.includes(marker), marker);
   const topic = data.topics.time;
   assert.equal(topic.title, "Время");
-  assert.equal(topic.total, 16);
-  assert.equal(new Set(topic.ids).size, 16);
+  assert.equal(topic.total, 22);
+  assert.equal(new Set(topic.ids).size, 22);
+  for (const id of ["το πρωί", "το μεσημέρι", "το απόγευμα", "το βράδυ", "τα μεσάνυχτα", "τα ξημερώματα"]) {
+    assert.ok(topic.ids.includes(id), id);
+    assert.ok(data.words.find(word => word.id === id).lessons.includes("15"), id);
+  }
+  assert.ok(core.find(card => card.title === "Занятия и отдых: что я делаю").note.includes("το πρωί [to proˈi]"));
   for (const id of ["Τι ώρα είναι;", "Τι ώρα;", "δύο και μισή", "τρεις παρά τέταρτο", "στη μία", "στις τρεις", "σε μισή ώρα"]) {
     assert.ok(topic.ids.includes(id), id);
     assert.ok(data.words.some(word => word.id === id && word.core && word.lesson === "13"), id);

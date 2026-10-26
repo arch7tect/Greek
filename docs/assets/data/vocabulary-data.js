@@ -142,6 +142,12 @@ window.GREEK_VOCABULARY = {
     "time": {
       "title": "Время",
       "ids": [
+        "το πρωί",
+        "το μεσημέρι",
+        "το απόγευμα",
+        "το βράδυ",
+        "τα μεσάνυχτα",
+        "τα ξημερώματα",
         "Τι ώρα είναι;",
         "Τι ώρα;",
         "δύο ακριβώς",
@@ -159,8 +165,8 @@ window.GREEK_VOCABULARY = {
         "ακριβώς",
         "και"
       ],
-      "total": 16,
-      "core": 16
+      "total": 22,
+      "core": 22
     },
     "weather": {
       "title": "Погода, сезоны и занятия",
@@ -304,8 +310,8 @@ window.GREEK_VOCABULARY = {
       "core": 108
     },
     "15": {
-      "total": 77,
-      "core": 72
+      "total": 83,
+      "core": 78
     }
   },
   "words": [
@@ -8766,7 +8772,8 @@ window.GREEK_VOCABULARY = {
       "id": "το απόγευμα",
       "lesson": "13",
       "lessons": [
-        "13"
+        "13",
+        "15"
       ],
       "greek": "το απόγευμα",
       "transcription": "[to aˈpoyevma]",
@@ -8842,7 +8849,8 @@ window.GREEK_VOCABULARY = {
       "id": "το βράδυ",
       "lesson": "13",
       "lessons": [
-        "13"
+        "13",
+        "15"
       ],
       "greek": "το βράδυ",
       "transcription": "[to ˈvraði]",
@@ -9270,7 +9278,8 @@ window.GREEK_VOCABULARY = {
       "id": "τα μεσάνυχτα",
       "lesson": "13",
       "lessons": [
-        "13"
+        "13",
+        "15"
       ],
       "greek": "τα μεσάνυχτα",
       "transcription": "[ta meˈsanihta]",
@@ -9282,7 +9291,8 @@ window.GREEK_VOCABULARY = {
       "id": "το μεσημέρι",
       "lesson": "13",
       "lessons": [
-        "13"
+        "13",
+        "15"
       ],
       "greek": "το μεσημέρι",
       "transcription": "[to mesiˈmeri]",
@@ -9382,7 +9392,8 @@ window.GREEK_VOCABULARY = {
       "id": "τα ξημερώματα",
       "lesson": "13",
       "lessons": [
-        "13"
+        "13",
+        "15"
       ],
       "greek": "τα ξημερώματα",
       "transcription": "[ta ksimeˈromata]",
@@ -9543,7 +9554,8 @@ window.GREEK_VOCABULARY = {
       "id": "το πρωί",
       "lesson": "13",
       "lessons": [
-        "13"
+        "13",
+        "15"
       ],
       "greek": "το πρωί",
       "transcription": "[to proˈi]",
