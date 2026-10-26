@@ -1,5 +1,7 @@
 site_name: Мой греческий
 site_description: Персональная вики по изучению новогреческого языка
+hooks:
+  - scripts/version_assets.py
 exclude_docs: |
   page-templates/**
 
