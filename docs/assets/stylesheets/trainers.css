@@ -241,6 +241,24 @@
   margin-top: 0.75rem;
 }
 
+.trainer .trainer__next,
+#vocabulary-trainer-reveal,
+#vocabulary-trainer-check,
+#vocabulary-trainer-next {
+  color: var(--md-primary-bg-color);
+  background: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+}
+
+.trainer .trainer__next:hover:not(:disabled),
+#vocabulary-trainer-reveal:hover:not(:disabled),
+#vocabulary-trainer-check:hover:not(:disabled),
+#vocabulary-trainer-next:hover:not(:disabled) {
+  color: var(--md-accent-bg-color);
+  background: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}
+
 .vocabulary-trainer__hint {
   min-height: 1.5rem;
   margin-top: 0.5rem;
