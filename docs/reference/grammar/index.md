@@ -11,6 +11,7 @@
 - [Предлоги с винительным: από, σε, με, για](prepositions-accusative.md)
 - [Артикли в именительном падеже](nominative-articles.md)
 - [Прилагательные: род и модели Ε1 / Ε2](adjectives-e1-e2.md)
+- [Кто / какой, этот / тот](question-and-demonstrative-pronouns.md)
 
 Страница правила обычно содержит:
 

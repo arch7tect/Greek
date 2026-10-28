@@ -129,3 +129,6 @@
 - [Материалы урока 04](../../lessons/lesson-04-numbers-and-residence.md#lesson-04-materials).
 - [Материалы урока 09](../../lessons/lesson-09-family-and-possessives.md#lesson-09-materials),
   слайды 4–8 и упражнение 4 рабочей тетради.
+
+Указательное «этот / тот» и вопрос «кто / какой?» подробно разобраны в
+[правиле урока 16](question-and-demonstrative-pronouns.md).

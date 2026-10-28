@@ -214,13 +214,13 @@
   },
   {
     "title": "Вопросительные слова",
-    "sources": ["docs/memory/questions-answers.md", "docs/lessons/lesson-04-current.md", "docs/lessons/lesson-08-current.md", "docs/vocabulary/lesson-05.md", "scripts/mobile-data/lesson-04.json", "scripts/mobile-data/lesson-11.json"],
+    "sources": ["docs/memory/questions-answers.md", "docs/lessons/lesson-04-current.md", "docs/lessons/lesson-08-current.md", "docs/vocabulary/lesson-05.md", "scripts/mobile-data/lesson-04.json", "scripts/mobile-data/lesson-11.json", "docs/lessons/lesson-16-current.md", "scripts/mobile-data/lesson-16.json"],
     "rows": [
       "<b>τι [ti] — что?</b><br/>Τι κάνεις; [ti ˈkanis] — Как дела?",
       "<b>πού [pu] — где? куда?</b><br/>Πού μένεις; [pu ˈmenis] — Где живёшь?",
       "<b>από πού [aˈpo pu] — откуда?</b><br/>Предлог «из» + вопрос «где». Само από [aˈpo] — не вопросительное слово.",
       "<b>πώς [pos] — как?</b><br/>Πώς σε λένε; [pos se ˈlene]<br/>Как тебя зовут?",
-      "<b>ποιος / ποια / ποιο [pyos / pya / pyo]</b><br/>Кто? какой / какая / какое?<br/>Выбираем по роду того, о ком спрашиваем.",
+      "<b>ποιος / ποια / ποιο [pyos / pya / pyo]</b><br/>Кто? какой / какая / какое?<br/>Мн.: ποιοι / ποιες / ποια [pyi / pyes / pya].",
       "<b>με ποιον [me pyon] — с кем?</b><br/>Με ποιον μένεις; [me pyon ˈmenis]<br/>С кем ты живёшь?",
       "<b>πόσο [ˈposo] — сколько?</b><br/>πόσα παιδιά [ˈposa peˈðya] — сколько детей?<br/>πόσων χρονών [ˈposon hroˈnon] — сколько лет?",
       "<b>πότε [ˈpote] — когда?</b><br/>τι ώρα [ti ˈora] — во сколько?",
