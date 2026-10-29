@@ -48,6 +48,29 @@ window.GREEK_VOCABULARY = {
       "total": 38,
       "core": 38
     },
+    "frequency": {
+      "title": "Как часто?",
+      "ids": [
+        "ποτέ",
+        "σχεδόν ποτέ",
+        "σπάνια",
+        "μερικές φορές",
+        "καμιά φορά / κάπου κάπου / πότε πότε",
+        "συχνά",
+        "πολλές φορές",
+        "συνήθως",
+        "σχεδόν πάντα",
+        "πάντα"
+      ],
+      "total": 10,
+      "core": 10,
+      "afterLesson": "15",
+      "directions": [
+        "greek-to-russian",
+        "russian-to-greek",
+        "writing"
+      ]
+    },
     "professions": {
       "title": "Профессии и места работы",
       "ids": [

@@ -1,5 +1,8 @@
 # Частотность: когда, как часто и никогда
 
+[Тренажёр «Как часто?»](../../training/vocabulary.md?topic=frequency) —
+перевод в обе стороны и письменное повторение знакомых слов.
+
 По таблицам и примерам [урока 15](../../lessons/lesson-15-current.md#frequency)
 и [урока 14](../../lessons/lesson-14-current.md#frequency).
 
