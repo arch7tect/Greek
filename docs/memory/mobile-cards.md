@@ -3,7 +3,7 @@
 Для регулярного повторения — [«Главное»: 20 сквозных карточек](core.md).
 Один общий набор вместо ежедневного перечитывания карточек всех уроков:
 [PDF для телефона](../assets/mobile/core-phone-cards.pdf),
-[A4 — 5 страниц](../assets/print/core-study-card-a4.pdf),
+[A4 — 6 страниц](../assets/print/core-study-card-a4.pdf),
 [просмотр онлайн](../assets/mobile/core/index.html).
 
 ## Карточки по урокам
@@ -40,10 +40,11 @@
 | 14 · погода и привычки | [4 карточки](../assets/mobile/lesson-14-phone-cards.pdf) | [А4 — 2 страницы](../assets/print/lesson-14-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-14/index.html) |
 | 15 · распорядок и частотность | [2 карточки](../assets/mobile/lesson-15-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-15-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-15/index.html) |
 | 16 · кто / какой и этот / тот | [2 карточки](../assets/mobile/lesson-16-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-16-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-16/index.html) |
+| 17 · предлоги и распорядок | [2 карточки](../assets/mobile/lesson-17-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-17-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-17/index.html) |
 
 Состав и источники: [урок 01](lesson-01.md), [урок 02](lesson-02.md),
 [урок 03](lesson-03-current.md), [урок 04](lesson-04-current.md), [урок 05](lesson-05-current.md),
 [урок 06](lesson-06-current.md), [урок 07](lesson-07-current.md), [урок 08](lesson-08-current.md),
 [урок 09](lesson-09-current.md), [урок 10](lesson-10-current.md),
-[урок 11](lesson-11-current.md), [урок 12](lesson-12-current.md), [урок 13](lesson-13-current.md), [урок 14](lesson-14-current.md), [урок 15](lesson-15-current.md), [урок 16](lesson-16-current.md).
+[урок 11](lesson-11-current.md), [урок 12](lesson-12-current.md), [урок 13](lesson-13-current.md), [урок 14](lesson-14-current.md), [урок 15](lesson-15-current.md), [урок 16](lesson-16-current.md), [урок 17](lesson-17-current.md).
 Карточки предназначены для повторения и не заменяют аудио.

@@ -101,6 +101,7 @@ nav:
       - Урок 14 — погода и привычки: lessons/lesson-14-current.md
       - Урок 15 — распорядок и частотность: lessons/lesson-15-current.md
       - Урок 16 — кто, какой, этот и тот: lessons/lesson-16-current.md
+      - Урок 17 — глаголы АВ, распорядок и предлоги: lessons/lesson-17-current.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -140,6 +141,7 @@ nav:
       - Урок 14 — погода и привычки: vocabulary/lesson-14.md
       - Урок 15 — распорядок и частотность: vocabulary/lesson-15.md
       - Урок 16 — местоимения и предметы: vocabulary/lesson-16.md
+      - Урок 17 — действия и распорядок: vocabulary/lesson-17.md
   - Коротко для памяти:
       - memory/index.md
       - Главное — сквозные карточки: memory/core.md
@@ -162,6 +164,7 @@ nav:
       - Урок 14: memory/lesson-14-current.md
       - Урок 15: memory/lesson-15-current.md
       - Урок 16: memory/lesson-16-current.md
+      - Урок 17: memory/lesson-17-current.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -181,6 +184,7 @@ nav:
           - К уроку 14: homework/lesson-14-current.md
           - К уроку 15: homework/lesson-15-current.md
           - К уроку 16: homework/lesson-16-current.md
+          - К уроку 17: homework/lesson-17-current.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md
