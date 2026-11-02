@@ -327,7 +327,7 @@
   },
   {
     "title": "Занятия и отдых: что я делаю",
-    "sources": ["docs/lessons/lesson-14-current.md", "scripts/mobile-data/lesson-14.json", "docs/homework/lesson-13-current.md"],
+    "sources": ["docs/lessons/lesson-14-current.md", "scripts/mobile-data/lesson-14.json", "docs/homework/lesson-13-current.md", "docs/lessons/lesson-15-current.md", "scripts/mobile-data/lesson-15.json"],
     "rows": [
       "<b>κάνω μπάνιο στη θάλασσα</b><br/>[ˈkano ˈbanyo sti ˈθalasa] — купаюсь в море",
       "<b>κάνω σκι</b> [ˈkano ski]<br/>катаюсь на лыжах",
@@ -339,6 +339,6 @@
       "πάω για ύπνο [ˈpao ya ˈipno]<br/>иду спать",
       "κάνω σπορ [ˈkano spor]<br/>занимаюсь спортом"
     ],
-    "note": "Готовые сочетания в форме «я».<br/>κάνω [ˈkano] — делаю; πάω [ˈpao] — иду / еду.<br/><b>Когда? Без σε [se]:</b><br/>το πρωί [to proˈi] — утром<br/>το μεσημέρι [to mesiˈmeri] — днём, в полдень<br/>το απόγευμα [to aˈpoɣevma] — после обеда<br/>το βράδυ [to ˈvraði] — вечером"
+    "note": "<b>Когда? Без σε [se]:</b><br/>το πρωί [to proˈi] — утром<br/>το μεσημέρι [to mesiˈmeri] — днём, в полдень<br/>το απόγευμα [to aˈpoɣevma] — после обеда<br/>το βράδυ [to ˈvraði] — вечером<br/><b>νωρίς [noˈris] — рано · αργά [arˈɣa] — поздно</b>"
   }
 ]
