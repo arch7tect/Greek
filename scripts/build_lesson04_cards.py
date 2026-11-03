@@ -19,7 +19,7 @@ from pypdf import PdfReader
 from build_mobile_cards import ROOT, DATA, F, font, bold, small, wrap, package
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--lesson', type=int, choices=[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], default=4)
+parser.add_argument('--lesson', type=int, choices=[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], default=4)
 lesson = parser.parse_args().lesson
 slug = f'lesson-{lesson:02d}'
 cards = json.loads((DATA / f'{slug}.json').read_text())
@@ -147,6 +147,9 @@ if lesson == 16:
 if lesson == 17:
     layouts = [[[0], [1]]]
     titles = ['ПРЕДЛОГИ И РАСПОРЯДОК']
+if lesson == 18:
+    layouts = [[[0, 1], [2, 3]]]
+    titles = ['СОН, УТРО И БОЛЬШИЕ ЧИСЛА']
 for page, sections in enumerate(layouts, 1):
     c.setFont('DVB', 17)
     c.setFillColor(HexColor('#18383B'))
@@ -197,6 +200,8 @@ for page, sections in enumerate(layouts, 1):
         source = 'Вопросительные и указательные местоимения · именительный падеж'
     if lesson == 17:
         source = 'Конспект 17: предлоги, рассказ о неделе · короткие опоры'
+    if lesson == 18:
+        source = 'Конспект 18 · учебник с. 86-87, 89'
     c.drawString(M, 25, source)
     print_hint = ' · двусторонняя печать по длинному краю' if len(layouts) > 1 else ''
     c.drawRightString(W - M, 13, f'{page}/{len(layouts)} · А4 · 100%' + print_hint)

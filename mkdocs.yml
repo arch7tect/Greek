@@ -102,6 +102,7 @@ nav:
       - Урок 15 — распорядок и частотность: lessons/lesson-15-current.md
       - Урок 16 — кто, какой, этот и тот: lessons/lesson-16-current.md
       - Урок 17 — глаголы АВ, распорядок и предлоги: lessons/lesson-17-current.md
+      - Урок 18 — письмо, сон и большие числа: lessons/lesson-18-current.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -109,6 +110,7 @@ nav:
       - Приветствия и знакомство: reference/greetings-and-introductions.md
       - Числа от 0 до 10: reference/numbers-0-10.md
       - Числа от 11 до 100: reference/numbers-11-100.md
+      - Числа больше ста: reference/numbers-over-100.md
       - Время и календарь: reference/grammar/time-and-calendar.md
       - Грамматика: reference/grammar/index.md
       - Глагол είμαι — «быть»: reference/grammar/eimai.md
@@ -118,6 +120,7 @@ nav:
       - Настоящее время, первое спряжение: reference/grammar/present-tense-a.md
       - Настоящее время, тип Β1: reference/grammar/present-tense-b1.md
       - Короткие глаголы АВ: reference/grammar/present-tense-ab.md
+      - Сон и утренние действия: reference/grammar/sleep-and-daily-routine.md
       - Частотность и отрицание: reference/grammar/frequency.md
       - Предлоги с винительным: reference/grammar/prepositions-accusative.md
       - Артикли в именительном падеже: reference/grammar/nominative-articles.md
@@ -142,6 +145,7 @@ nav:
       - Урок 15 — распорядок и частотность: vocabulary/lesson-15.md
       - Урок 16 — местоимения и предметы: vocabulary/lesson-16.md
       - Урок 17 — действия и распорядок: vocabulary/lesson-17.md
+      - Урок 18 — письмо, утро и числа: vocabulary/lesson-18.md
   - Коротко для памяти:
       - memory/index.md
       - Главное — сквозные карточки: memory/core.md
@@ -165,6 +169,7 @@ nav:
       - Урок 15: memory/lesson-15-current.md
       - Урок 16: memory/lesson-16-current.md
       - Урок 17: memory/lesson-17-current.md
+      - Урок 18: memory/lesson-18-current.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -185,6 +190,7 @@ nav:
           - К уроку 15: homework/lesson-15-current.md
           - К уроку 16: homework/lesson-16-current.md
           - К уроку 17: homework/lesson-17-current.md
+          - К уроку 18: homework/lesson-18-current.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md

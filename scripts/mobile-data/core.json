@@ -340,5 +340,49 @@
       "κάνω σπορ [ˈkano spor]<br/>занимаюсь спортом"
     ],
     "note": "<b>Когда? Без σε [se]:</b><br/>το πρωί [to proˈi] — утром<br/>το μεσημέρι [to mesiˈmeri] — днём, в полдень<br/>το απόγευμα [to aˈpoɣevma] — после обеда<br/>το βράδυ [to ˈvraði] — вечером<br/><b>νωρίς [noˈris] — рано · αργά [arˈɣa] — поздно</b>"
+  },
+
+  {
+    "title": "Сон и утро",
+    "sources": [
+      "docs/lessons/lesson-18-current.md",
+      "docs/reference/grammar/sleep-and-daily-routine.md",
+      "scripts/mobile-data/lesson-18.json"
+    ],
+    "rows": [
+      "<b>κοιμάμαι / κοιμάσαι / κοιμάται</b><br/>[kiˈmame / kiˈmase / kiˈmate]<br/>я сплю / ты спишь / он, она спит",
+      "<b>κοιμόμαστε</b> [kiˈmomaste] — мы спим",
+      "<b>κοιμόσαστε / κοιμάστε</b><br/>[kiˈmosaste / kiˈmaste] — вы спите",
+      "<b>κοιμούνται</b> [kiˈmunde] — они спят",
+      "ξυπνάω [ksipˈnao] — просыпаюсь<br/>σηκώνομαι [siˈkonome] — встаю",
+      "πλένομαι [ˈplenome] — моюсь<br/>ντύνομαι [ˈdinome] — одеваюсь",
+      "ετοιμάζομαι [etiˈmazome] — собираюсь",
+      "βουρτσίζω τα δόντια μου<br/>[vurˈtsizo ta ˈðondya mu] — чищу зубы"
+    ],
+    "note": "Не подставляй обычные окончания группы А.<br/>κοιμάμαι αργά [kiˈmame arˈɣa]<br/>поздно ложусь спать."
+  },
+  {
+    "title": "Числа больше ста",
+    "sources": [
+      "docs/lessons/lesson-18-current.md",
+      "docs/reference/numbers-over-100.md",
+      "scripts/mobile-data/lesson-18.json"
+    ],
+    "columns": 2,
+    "column_split": 5,
+    "rows": [
+      "100 · εκατό [ekaˈto]<br/>101 · εκατόν ένα [ekaˈton ˈena]",
+      "200 · διακόσια [ðiaˈkosia]<br/>300 · τριακόσια [triaˈkosia]",
+      "400 · τετρακόσια [tetraˈkosia]<br/>500 · πεντακόσια [pendaˈkosia]",
+      "600 · εξακόσια [eksaˈkosia]<br/>700 · εφτακόσια [eftaˈkosia]",
+      "800 · οχτακόσια [ohtaˈkosia]<br/>900 · εννιακόσια [enyaˈkosia]",
+      "1000 · χίλια [ˈhilya]",
+      "2000 · δύο χιλιάδες<br/>[ˈðio hiˈlyaðes]",
+      "3000 · τρεις χιλιάδες<br/>[tris hiˈlyaðes]",
+      "4000 · τέσσερις χιλιάδες<br/>[ˈteseris hiˈlyaðes]",
+      "1 000 000 · ένα εκατομμύριο<br/>[ˈena ekatoˈmirio]",
+      "3 000 000 · τρία εκατομμύρια<br/>[ˈtria ekatoˈmiria]"
+    ],
+    "note": "χιλιάδες [hiˈlyaðes] — женский род:<br/>εξακόσιες χιλιάδες [eksaˈkosies hiˈlyaðes] — 600 000.<br/>Сотни + десятки + единицы: без «и».<br/>Варианты: επτακόσια / οκτακόσια [eptaˈkosia / oktaˈkosia] — 700 / 800."
   }
 ]

@@ -17,6 +17,7 @@ WORK = 'taxidi-stin-ellada-1-workbook.pdf'
 GRAMMAR = 'afto-akrivos-a.pdf'
 # Verified assignments and printed/PDF mappings: docs/homework/lesson-*.md.
 PACKS = {
+    '18': [(MAIN, [77, 78, 80])],
     '17': [('../homework/17/lesson-17-homework-exercise.png', [1]),
            ('../lessons/17/lesson-17-workbook-revised.pdf', [9])],
     '16': [(WORK, [14, 19]), ('../lessons/16/lesson-16-workbook-revised.pdf', [6])],
