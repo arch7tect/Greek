@@ -24,6 +24,7 @@ LESSONS = [
     'lesson-16-current.md',
     'lesson-17-current.md',
     'lesson-18-current.md',
+    'lesson-19-current.md',
 ]
 EXPECTED = ['Что освоить', 'Разбор', 'Практика перед домашкой',
             'Домашнее задание']

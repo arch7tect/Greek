@@ -103,6 +103,7 @@ nav:
       - Урок 16 — кто, какой, этот и тот: lessons/lesson-16-current.md
       - Урок 17 — глаголы АВ, распорядок и предлоги: lessons/lesson-17-current.md
       - Урок 18 — письмо, сон и большие числа: lessons/lesson-18-current.md
+      - Урок 19 — транспорт и винительный: lessons/lesson-19-current.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -123,6 +124,7 @@ nav:
       - Сон и утренние действия: reference/grammar/sleep-and-daily-routine.md
       - Частотность и отрицание: reference/grammar/frequency.md
       - Предлоги с винительным: reference/grammar/prepositions-accusative.md
+      - Винительный единственного числа: reference/grammar/accusative-singular.md
       - Артикли в именительном падеже: reference/grammar/nominative-articles.md
       - Прилагательные Ε1 и Ε2: reference/grammar/adjectives-e1-e2.md
   - Словарь:
@@ -146,6 +148,7 @@ nav:
       - Урок 16 — местоимения и предметы: vocabulary/lesson-16.md
       - Урок 17 — действия и распорядок: vocabulary/lesson-17.md
       - Урок 18 — письмо, утро и числа: vocabulary/lesson-18.md
+      - Урок 19 — транспорт и винительный: vocabulary/lesson-19.md
   - Коротко для памяти:
       - memory/index.md
       - Главное — сквозные карточки: memory/core.md
@@ -170,6 +173,7 @@ nav:
       - Урок 16: memory/lesson-16-current.md
       - Урок 17: memory/lesson-17-current.md
       - Урок 18: memory/lesson-18-current.md
+      - Урок 19: memory/lesson-19-current.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -191,6 +195,7 @@ nav:
           - К уроку 16: homework/lesson-16-current.md
           - К уроку 17: homework/lesson-17-current.md
           - К уроку 18: homework/lesson-18-current.md
+          - К уроку 19: homework/lesson-19-current.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md

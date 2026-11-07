@@ -1,9 +1,9 @@
 # Карточки для телефона
 
-Для регулярного повторения — [«Главное»: 22 сквозные карточки](core.md).
+Для регулярного повторения — [«Главное»: 24 сквозные карточки](core.md).
 Один общий набор вместо ежедневного перечитывания карточек всех уроков:
 [PDF для телефона](../assets/mobile/core-phone-cards.pdf),
-[A4 — 7 страниц](../assets/print/core-study-card-a4.pdf),
+[A4 — 8 страниц](../assets/print/core-study-card-a4.pdf),
 [просмотр онлайн](../assets/mobile/core/index.html).
 
 ## Карточки по урокам
@@ -42,10 +42,11 @@
 | 16 · кто / какой и этот / тот | [2 карточки](../assets/mobile/lesson-16-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-16-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-16/index.html) |
 | 17 · предлоги и распорядок | [2 карточки](../assets/mobile/lesson-17-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-17-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-17/index.html) |
 | 18 · сон, утро и числа | [4 карточки](../assets/mobile/lesson-18-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-18-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-18/index.html) |
+| 19 · транспорт и винительный | [4 карточки](../assets/mobile/lesson-19-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-19-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-19/index.html) |
 
 Состав и источники: [урок 01](lesson-01.md), [урок 02](lesson-02.md),
 [урок 03](lesson-03-current.md), [урок 04](lesson-04-current.md), [урок 05](lesson-05-current.md),
 [урок 06](lesson-06-current.md), [урок 07](lesson-07-current.md), [урок 08](lesson-08-current.md),
 [урок 09](lesson-09-current.md), [урок 10](lesson-10-current.md),
-[урок 11](lesson-11-current.md), [урок 12](lesson-12-current.md), [урок 13](lesson-13-current.md), [урок 14](lesson-14-current.md), [урок 15](lesson-15-current.md), [урок 16](lesson-16-current.md), [урок 17](lesson-17-current.md), [урок 18](lesson-18-current.md).
+[урок 11](lesson-11-current.md), [урок 12](lesson-12-current.md), [урок 13](lesson-13-current.md), [урок 14](lesson-14-current.md), [урок 15](lesson-15-current.md), [урок 16](lesson-16-current.md), [урок 17](lesson-17-current.md), [урок 18](lesson-18-current.md), [урок 19](lesson-19-current.md).
 Карточки предназначены для повторения и не заменяют аудио.
