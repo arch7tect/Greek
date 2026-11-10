@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 1043,
-  "core": 753,
+  "total": 1082,
+  "core": 781,
   "topics": {
     "calendar": {
       "title": "Календарь",
@@ -386,6 +386,10 @@ window.GREEK_VOCABULARY = {
     "19": {
       "total": 157,
       "core": 137
+    },
+    "20": {
+      "total": 90,
+      "core": 68
     }
   },
   "words": [
@@ -394,7 +398,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "01",
       "lessons": [
         "01",
-        "19"
+        "19",
+        "20"
       ],
       "greek": "το αεροπλάνο",
       "transcription": "[to aeroˈplano]",
@@ -513,7 +518,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "01",
       "lessons": [
         "01",
-        "11"
+        "11",
+        "20"
       ],
       "greek": "ο δρόμος",
       "transcription": "[o ˈðromos]",
@@ -528,7 +534,8 @@ window.GREEK_VOCABULARY = {
         "01",
         "10",
         "17",
-        "18"
+        "18",
+        "20"
       ],
       "greek": "το θέατρο",
       "transcription": "[to ˈθeatro]",
@@ -732,7 +739,8 @@ window.GREEK_VOCABULARY = {
       "lessons": [
         "01",
         "14",
-        "19"
+        "19",
+        "20"
       ],
       "greek": "το μετρό",
       "transcription": "[to meˈtro]",
@@ -1161,7 +1169,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "02",
       "lessons": [
         "02",
-        "16"
+        "16",
+        "20"
       ],
       "greek": "αυτός / αυτή / αυτό",
       "transcription": "[afˈtos / afˈti / afˈto]",
@@ -1305,7 +1314,8 @@ window.GREEK_VOCABULARY = {
       "id": "το γκαράζ",
       "lesson": "02",
       "lessons": [
-        "02"
+        "02",
+        "20"
       ],
       "greek": "το γκαράζ",
       "transcription": "[to gaˈraz]",
@@ -1911,7 +1921,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "02",
       "lessons": [
         "02",
-        "19"
+        "19",
+        "20"
       ],
       "greek": "το πλοίο",
       "transcription": "[to ˈplio]",
@@ -2986,7 +2997,8 @@ window.GREEK_VOCABULARY = {
       "lessons": [
         "04",
         "16",
-        "17"
+        "17",
+        "20"
       ],
       "greek": "φεύγω",
       "transcription": "[ˈfevɣo]",
@@ -3446,7 +3458,8 @@ window.GREEK_VOCABULARY = {
         "05",
         "13",
         "17",
-        "19"
+        "19",
+        "20"
       ],
       "greek": "το εισιτήριο",
       "transcription": "[to isiˈtirio]",
@@ -3629,7 +3642,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "05",
       "lessons": [
         "05",
-        "19"
+        "19",
+        "20"
       ],
       "greek": "η κάρτα",
       "transcription": "[i ˈkarta]",
@@ -3654,7 +3668,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "05",
       "lessons": [
         "05",
-        "10"
+        "10",
+        "20"
       ],
       "greek": "η καφετέρια",
       "transcription": "[i kafeˈteria]",
@@ -3753,7 +3768,8 @@ window.GREEK_VOCABULARY = {
       "id": "μάλιστα",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "20"
       ],
       "greek": "μάλιστα",
       "transcription": "[ˈmalista]",
@@ -3765,7 +3781,8 @@ window.GREEK_VOCABULARY = {
       "id": "ο μαρκαδόρος",
       "lesson": "05",
       "lessons": [
-        "05"
+        "05",
+        "20"
       ],
       "greek": "ο μαρκαδόρος",
       "transcription": "[o markaˈðoros]",
@@ -4032,7 +4049,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "05",
       "lessons": [
         "05",
-        "18"
+        "18",
+        "20"
       ],
       "greek": "το σουβλάκι",
       "transcription": "[to suˈvlaki]",
@@ -4145,7 +4163,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "05",
       "lessons": [
         "05",
-        "19"
+        "19",
+        "20"
       ],
       "greek": "το τρένο",
       "transcription": "[to ˈtreno]",
@@ -4222,7 +4241,8 @@ window.GREEK_VOCABULARY = {
       "lessons": [
         "05",
         "11",
-        "19"
+        "19",
+        "20"
       ],
       "greek": "ο χάρτης",
       "transcription": "[o ˈhartis]",
@@ -4526,7 +4546,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "06",
       "lessons": [
         "06",
-        "11"
+        "11",
+        "20"
       ],
       "greek": "δυστυχώς",
       "transcription": "[ðistiˈhos]",
@@ -5376,7 +5397,8 @@ window.GREEK_VOCABULARY = {
       "lessons": [
         "07",
         "11",
-        "12"
+        "12",
+        "20"
       ],
       "greek": "η κοπέλα",
       "transcription": "[i koˈpela]",
@@ -5836,7 +5858,8 @@ window.GREEK_VOCABULARY = {
         "08",
         "11",
         "12",
-        "19"
+        "19",
+        "20"
       ],
       "greek": "το αυτοκίνητο",
       "transcription": "[to aftoˈkinito]",
@@ -6071,7 +6094,8 @@ window.GREEK_VOCABULARY = {
         "08",
         "17",
         "18",
-        "19"
+        "19",
+        "20"
       ],
       "greek": "το λεωφορείο",
       "transcription": "[to leofoˈrio]",
@@ -6243,7 +6267,8 @@ window.GREEK_VOCABULARY = {
       "lessons": [
         "08",
         "13",
-        "18"
+        "18",
+        "20"
       ],
       "greek": "προτιμάω",
       "transcription": "[protiˈmao]",
@@ -6351,7 +6376,8 @@ window.GREEK_VOCABULARY = {
         "08",
         "13",
         "18",
-        "19"
+        "19",
+        "20"
       ],
       "greek": "η στάση",
       "transcription": "[i ˈstasi]",
@@ -7070,7 +7096,8 @@ window.GREEK_VOCABULARY = {
         "09",
         "10",
         "11",
-        "16"
+        "16",
+        "20"
       ],
       "greek": "ποιος / ποια / ποιο",
       "transcription": "[pyos / pya / pyo]",
@@ -7492,7 +7519,8 @@ window.GREEK_VOCABULARY = {
       "id": "η γυμναστική",
       "lesson": "10",
       "lessons": [
-        "10"
+        "10",
+        "20"
       ],
       "greek": "η γυμναστική",
       "transcription": "[i yimnastiˈki]",
@@ -8186,7 +8214,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "11",
       "lessons": [
         "11",
-        "16"
+        "16",
+        "20"
       ],
       "greek": "εκείνος / εκείνη / εκείνο",
       "transcription": "[eˈkinos / eˈkini / eˈkino]",
@@ -8370,7 +8399,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "11",
       "lessons": [
         "11",
-        "16"
+        "16",
+        "20"
       ],
       "greek": "κλείνω",
       "transcription": "[ˈklino]",
@@ -9021,7 +9051,8 @@ window.GREEK_VOCABULARY = {
       "id": "ως",
       "lesson": "12",
       "lessons": [
-        "12"
+        "12",
+        "20"
       ],
       "greek": "ως",
       "transcription": "[os]",
@@ -9359,7 +9390,8 @@ window.GREEK_VOCABULARY = {
       "id": "ετοιμάζω",
       "lesson": "13",
       "lessons": [
-        "13"
+        "13",
+        "20"
       ],
       "greek": "ετοιμάζω",
       "transcription": "[etiˈmazo]",
@@ -9494,7 +9526,8 @@ window.GREEK_VOCABULARY = {
       "id": "κανονίζω",
       "lesson": "13",
       "lessons": [
-        "13"
+        "13",
+        "20"
       ],
       "greek": "κανονίζω",
       "transcription": "[kanoˈnizo]",
@@ -9665,7 +9698,8 @@ window.GREEK_VOCABULARY = {
       "lesson": "13",
       "lessons": [
         "13",
-        "19"
+        "19",
+        "20"
       ],
       "greek": "μέχρι",
       "transcription": "[ˈmehri]",
@@ -11589,7 +11623,8 @@ window.GREEK_VOCABULARY = {
         "15",
         "16",
         "18",
-        "19"
+        "19",
+        "20"
       ],
       "greek": "περίπου",
       "transcription": "[peˈripu]",
@@ -12959,7 +12994,8 @@ window.GREEK_VOCABULARY = {
       "id": "η αποβάθρα",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "η αποβάθρα",
       "transcription": "[i apoˈvaθra]",
@@ -12995,7 +13031,8 @@ window.GREEK_VOCABULARY = {
       "id": "το βαγόνι",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "το βαγόνι",
       "transcription": "[to vaˈɣoni]",
@@ -13019,7 +13056,8 @@ window.GREEK_VOCABULARY = {
       "id": "η βαλίτσα",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "η βαλίτσα",
       "transcription": "[i vaˈlitsa]",
@@ -13043,7 +13081,8 @@ window.GREEK_VOCABULARY = {
       "id": "η γραμμή",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "η γραμμή",
       "transcription": "[i ɣraˈmi]",
@@ -13055,7 +13094,8 @@ window.GREEK_VOCABULARY = {
       "id": "η διαδρομή",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "η διαδρομή",
       "transcription": "[i ðiaðroˈmi]",
@@ -13067,7 +13107,8 @@ window.GREEK_VOCABULARY = {
       "id": "διαρκώ",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "διαρκώ",
       "transcription": "[ðiarˈko]",
@@ -13091,7 +13132,8 @@ window.GREEK_VOCABULARY = {
       "id": "το εκδοτήριο",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "το εκδοτήριο",
       "transcription": "[to ekðoˈtirio]",
@@ -13115,7 +13157,8 @@ window.GREEK_VOCABULARY = {
       "id": "ο επιβάτης",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "ο επιβάτης",
       "transcription": "[o epiˈvatis]",
@@ -13151,7 +13194,8 @@ window.GREEK_VOCABULARY = {
       "id": "ο ηλεκτρικός",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "ο ηλεκτρικός",
       "transcription": "[o ilektriˈkos]",
@@ -13211,7 +13255,8 @@ window.GREEK_VOCABULARY = {
       "id": "κανονικός",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "κανονικός",
       "transcription": "[kanoniˈkos]",
@@ -13259,7 +13304,8 @@ window.GREEK_VOCABULARY = {
       "id": "κοστίζω",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "κοστίζω",
       "transcription": "[koˈstizo]",
@@ -13331,7 +13377,8 @@ window.GREEK_VOCABULARY = {
       "id": "η μηνιαία κάρτα",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "η μηνιαία κάρτα",
       "transcription": "[i miniˈea ˈkarta]",
@@ -13451,7 +13498,8 @@ window.GREEK_VOCABULARY = {
       "id": "ο προαστιακός",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "ο προαστιακός",
       "transcription": "[o proastiaˈkos]",
@@ -13487,7 +13535,8 @@ window.GREEK_VOCABULARY = {
       "id": "ο σιδηρόδρομος",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "ο σιδηρόδρομος",
       "transcription": "[o siðiˈroðromos]",
@@ -13499,7 +13548,8 @@ window.GREEK_VOCABULARY = {
       "id": "ο σταθμός",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "ο σταθμός",
       "transcription": "[o staθˈmos]",
@@ -13535,7 +13585,8 @@ window.GREEK_VOCABULARY = {
       "id": "το ταξί",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "το ταξί",
       "transcription": "[to taˈksi]",
@@ -13547,7 +13598,8 @@ window.GREEK_VOCABULARY = {
       "id": "το τραμ",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "το τραμ",
       "transcription": "[to tram]",
@@ -13559,7 +13611,8 @@ window.GREEK_VOCABULARY = {
       "id": "το τρόλεϊ",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "το τρόλεϊ",
       "transcription": "[to ˈtroley]",
@@ -13583,7 +13636,8 @@ window.GREEK_VOCABULARY = {
       "id": "φοιτητικός",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "φοιτητικός",
       "transcription": "[fitiˈtikos]",
@@ -13595,7 +13649,8 @@ window.GREEK_VOCABULARY = {
       "id": "φτάνω",
       "lesson": "19",
       "lessons": [
-        "19"
+        "19",
+        "20"
       ],
       "greek": "φτάνω",
       "transcription": "[ˈftano]",
@@ -13625,6 +13680,474 @@ window.GREEK_VOCABULARY = {
       "transcription": "[htiˈpao]",
       "meaning": "ударяю; пробиваю билет",
       "note": "χτυπάω το εισιτήριο [htiˈpao to isiˈtirio] — валидирую билет",
+      "core": true
+    },
+    {
+      "id": "το άγχος",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "το άγχος",
+      "transcription": "[to ˈaŋhos]",
+      "meaning": "тревога; стресс",
+      "note": "τα άγχη [ta ˈaŋhi]",
+      "core": true
+    },
+    {
+      "id": "αγχωμένος",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "αγχωμένος",
+      "transcription": "[aŋhoˈmenos]",
+      "meaning": "встревоженный; напряжённый",
+      "note": "αγχωμένη [aŋhoˈmeni]",
+      "core": true
+    },
+    {
+      "id": "ο αερολιμένας",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "ο αερολιμένας",
+      "transcription": "[o aeroliˈmenas]",
+      "meaning": "аэропорт",
+      "note": "οι αερολιμένες [i aeroliˈmenes]; официальное",
+      "core": false
+    },
+    {
+      "id": "το άλμπουμ",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "το άλμπουμ",
+      "transcription": "[to ˈalbum]",
+      "meaning": "альбом",
+      "note": "τα άλμπουμ [ta ˈalbum]",
+      "core": true
+    },
+    {
+      "id": "το αμάξι",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "το αμάξι",
+      "transcription": "[to aˈmaksi]",
+      "meaning": "машина",
+      "note": "τα αμάξια [ta aˈmaksya]; разговорное",
+      "core": true
+    },
+    {
+      "id": "αναχωρώ",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "αναχωρώ",
+      "transcription": "[anahoˈro]",
+      "meaning": "отправляюсь; отбываю",
+      "note": "αναχωρεί [anahoˈri] — отправляется",
+      "core": true
+    },
+    {
+      "id": "απλό εισιτήριο",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "απλό εισιτήριο",
+      "transcription": "[aˈplo isiˈtirio]",
+      "meaning": "билет в одну сторону",
+      "note": "τα απλά εισιτήρια [ta aˈpla isiˈtiria]",
+      "core": true
+    },
+    {
+      "id": "το γκάλοπ",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "το γκάλοπ",
+      "transcription": "[to ˈgalop]",
+      "meaning": "опрос",
+      "note": "τα γκάλοπ [ta ˈgalop]; несклоняемое",
+      "core": false
+    },
+    {
+      "id": "γύρω",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "γύρω",
+      "transcription": "[ˈyiro]",
+      "meaning": "вокруг; около",
+      "note": "γύρω στις τρεις [ˈyiro stis tris] — около трёх",
+      "core": true
+    },
+    {
+      "id": "ο δημοσιογράφος",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "ο δημοσιογράφος",
+      "transcription": "[o ðimosioˈɣrafos]",
+      "meaning": "журналист",
+      "note": "οι δημοσιογράφοι [i ðimosioˈɣrafi]",
+      "core": true
+    },
+    {
+      "id": "διαλέγω",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "διαλέγω",
+      "transcription": "[ðiaˈleɣo]",
+      "meaning": "выбираю",
+      "note": "—",
+      "core": true
+    },
+    {
+      "id": "εισιτήριο με επιστροφή",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "εισιτήριο με επιστροφή",
+      "transcription": "[isiˈtirio me epistroˈfi]",
+      "meaning": "билет туда и обратно",
+      "note": "τα εισιτήρια με επιστροφή [ta isiˈtiria me epistroˈfi]",
+      "core": true
+    },
+    {
+      "id": "έκπληκτος",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "έκπληκτος",
+      "transcription": "[ˈekpliktos]",
+      "meaning": "удивлённый",
+      "note": "έκπληκτη [ˈekplikti]",
+      "core": true
+    },
+    {
+      "id": "η έκπληξη",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "η έκπληξη",
+      "transcription": "[i ˈekpliksi]",
+      "meaning": "удивление; сюрприз",
+      "note": "οι εκπλήξεις [i ekˈpliksis]",
+      "core": false
+    },
+    {
+      "id": "ο ελεγκτής",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "ο ελεγκτής",
+      "transcription": "[o eleŋˈktis]",
+      "meaning": "контролёр",
+      "note": "οι ελεγκτές [i eleŋˈktes]",
+      "core": false
+    },
+    {
+      "id": "ενθουσιασμένος",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "ενθουσιασμένος",
+      "transcription": "[enθusiazˈmenos]",
+      "meaning": "воодушевлённый",
+      "note": "ενθουσιασμένη [enθusiazˈmeni]",
+      "core": false
+    },
+    {
+      "id": "ενοχλημένος",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "ενοχλημένος",
+      "transcription": "[enohliˈmenos]",
+      "meaning": "раздражённый; обеспокоенный",
+      "note": "ενοχλημένη [enohliˈmeni]",
+      "core": false
+    },
+    {
+      "id": "εξυπηρετώ",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "εξυπηρετώ",
+      "transcription": "[eksipireˈto]",
+      "meaning": "обслуживаю",
+      "note": "εξυπηρετεί [eksipireˈti] — обслуживает",
+      "core": true
+    },
+    {
+      "id": "το εξωτερικό",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "το εξωτερικό",
+      "transcription": "[to eksoteriˈko]",
+      "meaning": "зарубежье; внешняя часть",
+      "note": "τα εξωτερικά [ta eksoteriˈka]; в значении «зарубежье» — ед. ч.",
+      "core": false
+    },
+    {
+      "id": "το εσωτερικό",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "το εσωτερικό",
+      "transcription": "[to esoteriˈko]",
+      "meaning": "внутренняя часть; территория внутри страны",
+      "note": "τα εσωτερικά [ta esoteriˈka]; в значении «внутри страны» — ед. ч.",
+      "core": false
+    },
+    {
+      "id": "έως",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "έως",
+      "transcription": "[ˈeos]",
+      "meaning": "до",
+      "note": "в интервале времени",
+      "core": false
+    },
+    {
+      "id": "ζητάω",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "ζητάω",
+      "transcription": "[ziˈtao]",
+      "meaning": "прошу; ищу",
+      "note": "—",
+      "core": true
+    },
+    {
+      "id": "θα ήθελα",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "θα ήθελα",
+      "transcription": "[θa ˈiθela]",
+      "meaning": "я хотел бы; я хотела бы",
+      "note": "вежливая просьба при покупке",
+      "core": true
+    },
+    {
+      "id": "θυμωμένος",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "θυμωμένος",
+      "transcription": "[θimoˈmenos]",
+      "meaning": "сердитый",
+      "note": "θυμωμένη [θimoˈmeni]",
+      "core": true
+    },
+    {
+      "id": "ίδιος",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "ίδιος",
+      "transcription": "[ˈiðios]",
+      "meaning": "тот же; одинаковый",
+      "note": "ίδια / ίδιο [ˈiðya / ˈiðyo]",
+      "core": true
+    },
+    {
+      "id": "το καράβι",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "το καράβι",
+      "transcription": "[to kaˈravi]",
+      "meaning": "корабль; судно",
+      "note": "τα καράβια [ta kaˈravya]",
+      "core": true
+    },
+    {
+      "id": "κουρασμένος",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "κουρασμένος",
+      "transcription": "[kurazˈmenos]",
+      "meaning": "уставший",
+      "note": "κουρασμένη [kurazˈmeni]",
+      "core": true
+    },
+    {
+      "id": "το λιμάνι",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "το λιμάνι",
+      "transcription": "[to liˈmani]",
+      "meaning": "порт",
+      "note": "τα λιμάνια [ta liˈmanya]",
+      "core": true
+    },
+    {
+      "id": "το μηχάνημα",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "το μηχάνημα",
+      "transcription": "[to miˈhanima]",
+      "meaning": "устройство; автомат",
+      "note": "τα μηχανήματα [ta mihaˈnimata]",
+      "core": false
+    },
+    {
+      "id": "νυσταγμένος",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "νυσταγμένος",
+      "transcription": "[nistazˈmenos]",
+      "meaning": "сонный",
+      "note": "νυσταγμένη [nistazˈmeni]",
+      "core": true
+    },
+    {
+      "id": "οικονομική θέση",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "οικονομική θέση",
+      "transcription": "[ikonomiˈki ˈθesi]",
+      "meaning": "экономкласс; место экономкласса",
+      "note": "οι οικονομικές θέσεις [i ikonomiˈkes ˈθesis]",
+      "core": true
+    },
+    {
+      "id": "παραδοσιακός",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "παραδοσιακός",
+      "transcription": "[paraðosiaˈkos]",
+      "meaning": "традиционный",
+      "note": "παραδοσιακή / παραδοσιακό [paraðosiaˈki / paraðosiaˈko]",
+      "core": true
+    },
+    {
+      "id": "ο πελάτης",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "ο πελάτης",
+      "transcription": "[o peˈlatis]",
+      "meaning": "клиент",
+      "note": "οι πελάτες [i peˈlates]",
+      "core": true
+    },
+    {
+      "id": "σοβαρός",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "σοβαρός",
+      "transcription": "[sovaˈros]",
+      "meaning": "серьёзный",
+      "note": "σοβαρή / σοβαρό [sovaˈri / sovaˈro]",
+      "core": true
+    },
+    {
+      "id": "στεναχωρημένος",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "στεναχωρημένος",
+      "transcription": "[stenahoriˈmenos]",
+      "meaning": "расстроенный",
+      "note": "στεναχωρημένη [stenahoriˈmeni]",
+      "core": true
+    },
+    {
+      "id": "το στρες",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "το στρες",
+      "transcription": "[to stres]",
+      "meaning": "стресс",
+      "note": "обычно ед. ч.",
+      "core": false
+    },
+    {
+      "id": "σύντομος",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "σύντομος",
+      "transcription": "[ˈsindomos]",
+      "meaning": "короткий; недолгий",
+      "note": "σύντομη / σύντομο [ˈsindomi / ˈsindomo]",
+      "core": true
+    },
+    {
+      "id": "το ταξιδιωτικό γραφείο",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "το ταξιδιωτικό γραφείο",
+      "transcription": "[to taksiðiotiˈko ɣraˈfio]",
+      "meaning": "туристическое агентство",
+      "note": "τα ταξιδιωτικά γραφεία [ta taksiðiotiˈka ɣraˈfia]",
+      "core": true
+    },
+    {
+      "id": "χρησιμοποιώ",
+      "lesson": "20",
+      "lessons": [
+        "20"
+      ],
+      "greek": "χρησιμοποιώ",
+      "transcription": "[hrisimopiˈo]",
+      "meaning": "использую",
+      "note": "χρησιμοποιεί [hrisimopiˈi] — использует",
       "core": true
     }
   ]

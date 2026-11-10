@@ -104,6 +104,7 @@ nav:
       - Урок 17 — глаголы АВ, распорядок и предлоги: lessons/lesson-17-current.md
       - Урок 18 — письмо, сон и большие числа: lessons/lesson-18-current.md
       - Урок 19 — транспорт и винительный: lessons/lesson-19-current.md
+      - Урок 20 — билеты и местоимения: lessons/lesson-20-current.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -149,6 +150,7 @@ nav:
       - Урок 17 — действия и распорядок: vocabulary/lesson-17.md
       - Урок 18 — письмо, утро и числа: vocabulary/lesson-18.md
       - Урок 19 — транспорт и винительный: vocabulary/lesson-19.md
+      - Урок 20 — билеты, расписание и настроение: vocabulary/lesson-20.md
   - Коротко для памяти:
       - memory/index.md
       - Главное — сквозные карточки: memory/core.md
@@ -174,6 +176,7 @@ nav:
       - Урок 17: memory/lesson-17-current.md
       - Урок 18: memory/lesson-18-current.md
       - Урок 19: memory/lesson-19-current.md
+      - Урок 20: memory/lesson-20-current.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -196,6 +199,7 @@ nav:
           - К уроку 17: homework/lesson-17-current.md
           - К уроку 18: homework/lesson-18-current.md
           - К уроку 19: homework/lesson-19-current.md
+          - К уроку 20: homework/lesson-20-current.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md
