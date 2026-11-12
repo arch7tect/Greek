@@ -42,7 +42,7 @@ A4: читай блоки **слева направо, затем вниз**. Н
 | [21. Сон и утро](../assets/mobile/core/card-21.png) | Шесть форм «спать», просыпаюсь / встаю, моюсь, одеваюсь и собираюсь | [Урок 18](../lessons/lesson-18-current.md#sleep), [правило](../reference/grammar/sleep-and-daily-routine.md) |
 | [22. Числа больше ста](../assets/mobile/core/card-22.png) | Сотни, тысяча и тысячи, миллион; согласование рода | [Урок 18](../lessons/lesson-18-current.md#numbers), [правило](../reference/numbers-over-100.md) |
 | [23. Винительный](../assets/mobile/core/card-23.png) | Дополнение, предлоги, мужские окончания и имена | [Урок 19](../lessons/lesson-19-current.md#accusative), [правило](../reference/grammar/accusative-singular.md) |
-| [24. Транспорт](../assets/mobile/core/card-24.png) | На чём еду, где выхожу, пешком, билет | [Урок 19](../lessons/lesson-19-current.md#route) |
+| [24. Транспорт](../assets/mobile/core/card-24.png) | На чём еду, где выхожу, пешком, билет, «и» и «или» | [Урок 19](../lessons/lesson-19-current.md#route) |
 
 Карточка 14 — короткая выборка. [Полный тематический набор и тренажёр](professions.md)
 остаются для подготовки к диктанту; [вопросы о работе](questions-answers.md) — в сборнике вопросов.

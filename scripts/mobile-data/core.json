@@ -419,8 +419,9 @@
   {
     "title": "Транспорт и маршрут",
     "sources": [
+      "docs/lessons/lesson-17-current.md",
       "docs/lessons/lesson-19-current.md",
-      "docs/lessons/lesson-19-current.md",
+      "docs/lessons/lesson-20-current.md",
       "scripts/mobile-data/lesson-19.json"
     ],
     "rows": [
@@ -434,6 +435,6 @@
       "<b>Πόσο κάνει το εισιτήριο;</b><br/>[ˈposo ˈkani to isiˈtirio] — Сколько стоит билет?",
       "<b>χτυπάω το εισιτήριο</b><br/>[htiˈpao to isiˈtirio] — пробиваю билет"
     ],
-    "note": "από [aˈpo] — от / через · προς [pros] — в направлении<br/>μέχρι [ˈmehri] — до · για [ya] — для / до (маршрут)"
+    "note": "<b>και [ke] — и · ή [i] — или</b><br/>κάρτα και εισιτήριο [ˈkarta ke isiˈtirio]<br/>проездной и билет<br/>κάρτα ή εισιτήριο [ˈkarta i isiˈtirio]<br/>проездной или билет"
   }
 ]
