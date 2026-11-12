@@ -90,20 +90,33 @@
   },
   {
     "title": "Артикли и предлоги",
-    "sources": ["docs/reference/grammar/nominative-articles.md", "docs/reference/grammar/prepositions-accusative.md", "docs/lessons/lesson-13-current.md", "scripts/mobile-data/lesson-13.json"],
-    "rows": [
-      "<b>Мужской</b>: ο / ένας [o / ˈenas]<br/>Часто -ος, -ης, -ας [os, is, as]",
-      "<b>Женский</b>: η / μία [i / ˈmia]<br/>Часто -α, -η [a, i]",
-      "<b>Средний</b>: το / ένα [to / ˈena]<br/>Часто -ο, -ι, -μα [o, i, ma]",
-      "<b>Мн. ч.: ο / η → οι [o / i → i]</b><br/>το → τα [to → ta] (кто? что?)",
-      "<b>После предлога — винительный:</b><br/>ο → τον [o → ton] · η → τη(ν) [i → ti(n)]<br/>το → το [to → to]. Артикль не переводим.",
-      "ο πατέρας [o paˈteras] — отец<br/>με τον πατέρα [me ton paˈtera] — с отцом",
-      "<b>από [aˈpo] — из / от</b><br/>από τη Γερμανία [aˈpo ti yermaˈnia]<br/>из Германии",
-      "<b>σε [se] — место: в / на / к; время: через</b><br/>στη Γερμανία [sti yermaˈnia] — в Германии<br/>σε μία ώρα [se ˈmia ˈora] — через час",
-      "<b>με [me] — с</b><br/>με τη μητέρα [me ti miˈtera] — с мамой",
-      "<b>για [ya] — для / о</b><br/>για τη μητέρα μου [ya ti miˈtera mu]<br/>для моей мамы / о моей маме"
+    "sources": [
+      "docs/reference/grammar/nominative-articles.md",
+      "docs/reference/grammar/prepositions-accusative.md",
+      "docs/vocabulary/lesson-12.md",
+      "docs/lessons/lesson-13-current.md",
+      "docs/lessons/lesson-15-current.md",
+      "docs/lessons/lesson-16-current.md",
+      "docs/lessons/lesson-18-current.md",
+      "docs/lessons/lesson-19-current.md",
+      "docs/lessons/lesson-20-current.md",
+      "docs/homework/lesson-20-current.md"
     ],
-    "note": "Только σε + τον → στον [se + ton → ston].<br/>Τον λένε… [ton ˈlene] — Его зовут…<br/>τον [ton] — местоимение «его»."
+    "print_inline_rows": true,
+    "rows": [
+      "<b>Артикли</b> · ο / η / το [o / i / to]<br/>ένας / μία / ένα [ˈenas / ˈmia / ˈena]<br/>Мн. ч.: οι / τα [i / ta]",
+      "τον / τη(ν) / το [ton / ti(n) / to] — вин.<br/>σε [se] + артикль → στον / στη(ν) / στο<br/>[ston / sti(n) / sto]",
+      "<b>σε</b> [se] · где? куда? через сколько?<br/>στον σταθμό [ston staθˈmo] — на станции / на станцию",
+      "<b>με</b> [me] · с кем? с чем? на чём?<br/>με τρένο [me ˈtreno] — на поезде",
+      "<b>για</b> [ya] · для чего? для кого? о чём?<br/>για δουλειά [ya ðuˈlya] — на работу",
+      "<b>από</b> [aˈpo] · откуда? через что?",
+      "<b>προς</b> [pros] · в какую сторону?",
+      "<b>μέχρι</b> [ˈmehri] · докуда? до скольких? → до<br/><b>ως / έως</b> [os / ˈeos] · до скольких? → до",
+      "<b>πριν / πριν από</b> [prin / prin aˈpo] · до чего?<br/><b>μετά</b> [meˈta] · после чего?",
+      "<b>κατά / γύρω</b> [kaˈta / ˈyiro] · около скольких?<br/><b>παρά</b> [paˈra] · без скольких минут?",
+      "<b>δίπλα σε / κοντά σε</b> [ˈðipla se / koˈnda se]<br/>рядом с чем?<br/><b>κάτω από</b> [ˈkato aˈpo] · под чем?",
+      "<b>ως</b> [os] · в качестве кого? · <b>σαν</b> [san] · как кто / что?"
+    ]
   },
   {
     "title": "Числа: от нуля до ста",

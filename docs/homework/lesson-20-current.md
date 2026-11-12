@@ -9,7 +9,7 @@
 
 ## С. 32, №2 — транспорт и билеты { #transport }
 
-Перед упражнением повтори [карточку о билетах](../assets/mobile/lesson-20/lesson-20-card-02.png) и [разбор лексики](../lessons/lesson-20-current.md#tickets).
+Перед упражнением повтори [карточку о билетах](../assets/mobile/lesson-20/lesson-20-card-02.png) и [сквозную карточку о предлогах](../assets/mobile/core/card-7.png). [Разбор лексики](../lessons/lesson-20-current.md#tickets)
 
 Заполни семь пропусков словами из рамки. Первый пункт сделан как пример.
 
