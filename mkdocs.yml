@@ -105,6 +105,7 @@ nav:
       - Урок 18 — письмо, сон и большие числа: lessons/lesson-18-current.md
       - Урок 19 — транспорт и винительный: lessons/lesson-19-current.md
       - Урок 20 — билеты и местоимения: lessons/lesson-20-current.md
+      - Урок 21 — глаголы Β2, театр и фото: lessons/lesson-21-current.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -121,6 +122,7 @@ nav:
       - Происхождение и место жительства: reference/grammar/origin-and-residence.md
       - Настоящее время, первое спряжение: reference/grammar/present-tense-a.md
       - Настоящее время, тип Β1: reference/grammar/present-tense-b1.md
+      - Настоящее время, тип Β2: reference/grammar/present-tense-b2.md
       - Короткие глаголы АВ: reference/grammar/present-tense-ab.md
       - Сон и утренние действия: reference/grammar/sleep-and-daily-routine.md
       - Частотность и отрицание: reference/grammar/frequency.md
@@ -151,6 +153,7 @@ nav:
       - Урок 18 — письмо, утро и числа: vocabulary/lesson-18.md
       - Урок 19 — транспорт и винительный: vocabulary/lesson-19.md
       - Урок 20 — билеты, расписание и настроение: vocabulary/lesson-20.md
+      - Урок 21 — глаголы Β2, театр и фото: vocabulary/lesson-21.md
   - Коротко для памяти:
       - memory/index.md
       - Главное — сквозные карточки: memory/core.md
@@ -177,6 +180,7 @@ nav:
       - Урок 18: memory/lesson-18-current.md
       - Урок 19: memory/lesson-19-current.md
       - Урок 20: memory/lesson-20-current.md
+      - Урок 21: memory/lesson-21-current.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -200,6 +204,7 @@ nav:
           - К уроку 18: homework/lesson-18-current.md
           - К уроку 19: homework/lesson-19-current.md
           - К уроку 20: homework/lesson-20-current.md
+          - К уроку 21: homework/lesson-21-current.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md
