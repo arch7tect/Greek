@@ -1,7 +1,7 @@
 window.GREEK_VOCABULARY = {
   "source": "docs/vocabulary/lesson-*.md",
-  "total": 1109,
-  "core": 808,
+  "total": 1110,
+  "core": 809,
   "topics": {
     "calendar": {
       "title": "Календарь",
@@ -392,8 +392,8 @@ window.GREEK_VOCABULARY = {
       "core": 68
     },
     "21": {
-      "total": 79,
-      "core": 68
+      "total": 80,
+      "core": 69
     }
   },
   "words": [
@@ -14204,6 +14204,18 @@ window.GREEK_VOCABULARY = {
       "transcription": "[hrisimopiˈo]",
       "meaning": "использую",
       "note": "χρησιμοποιεί [hrisimopiˈi] — использует",
+      "core": true
+    },
+    {
+      "id": "το αεροδρόμιο",
+      "lesson": "21",
+      "lessons": [
+        "21"
+      ],
+      "greek": "το αεροδρόμιο",
+      "transcription": "[to aeroˈðromio]",
+      "meaning": "аэропорт",
+      "note": "τα αεροδρόμια [ta aeroˈðromia]; στο αεροδρόμιο [sto aeroˈðromio] — в аэропорт или в аэропорту",
       "core": true
     },
     {
