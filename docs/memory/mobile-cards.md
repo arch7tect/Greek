@@ -1,6 +1,6 @@
 # Карточки для телефона
 
-Для регулярного повторения — [«Главное»: 24 сквозные карточки](core.md).
+Для регулярного повторения — [«Главное»: 25 сквозных карточек](core.md).
 Один общий набор вместо ежедневного перечитывания карточек всех уроков:
 [PDF для телефона](../assets/mobile/core-phone-cards.pdf),
 [A4 — 8 страниц](../assets/print/core-study-card-a4.pdf),
@@ -45,6 +45,7 @@
 | 19 · транспорт и винительный | [4 карточки](../assets/mobile/lesson-19-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-19-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-19/index.html) |
 | 20 · билеты и местоимения | [4 карточки](../assets/mobile/lesson-20-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-20-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-20/index.html) |
 | 21 · глаголы Β2, театр и фото | [4 карточки](../assets/mobile/lesson-21-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-21-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-21/index.html) |
+| 23 · вкусы и повторение | [4 карточки](../assets/mobile/lesson-23-phone-cards.pdf) | [А4 — 1 страница](../assets/print/lesson-23-study-card-a4.pdf) | [Смотреть](../assets/mobile/lesson-23/index.html) |
 
 Состав и источники: [урок 01](lesson-01.md), [урок 02](lesson-02.md),
 [урок 03](lesson-03-current.md), [урок 04](lesson-04-current.md), [урок 05](lesson-05-current.md),

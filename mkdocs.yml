@@ -106,6 +106,7 @@ nav:
       - Урок 19 — транспорт и винительный: lessons/lesson-19-current.md
       - Урок 20 — билеты и местоимения: lessons/lesson-20-current.md
       - Урок 21 — глаголы Β2, театр и фото: lessons/lesson-21-current.md
+      - Урок 23 — вкусы и повторение: lessons/lesson-23-current.md
   - Справочник:
       - reference/index.md
       - Как читать транскрипцию: reference/transcription.md
@@ -116,6 +117,7 @@ nav:
       - Числа больше ста: reference/numbers-over-100.md
       - Время и календарь: reference/grammar/time-and-calendar.md
       - Грамматика: reference/grammar/index.md
+      - Что нравится: reference/grammar/likes.md
       - Глагол είμαι — «быть»: reference/grammar/eimai.md
       - Личные местоимения: reference/grammar/personal-pronouns.md
       - Кто, какой, этот и тот: reference/grammar/question-and-demonstrative-pronouns.md
@@ -154,6 +156,7 @@ nav:
       - Урок 19 — транспорт и винительный: vocabulary/lesson-19.md
       - Урок 20 — билеты, расписание и настроение: vocabulary/lesson-20.md
       - Урок 21 — глаголы Β2, театр и фото: vocabulary/lesson-21.md
+      - Урок 23 — вкусы и свободное время: vocabulary/lesson-23.md
   - Коротко для памяти:
       - memory/index.md
       - Главное — сквозные карточки: memory/core.md
@@ -181,6 +184,7 @@ nav:
       - Урок 19: memory/lesson-19-current.md
       - Урок 20: memory/lesson-20-current.md
       - Урок 21: memory/lesson-21-current.md
+      - Урок 23: memory/lesson-23-current.md
   - Практика:
       - Домашние задания:
           - homework/index.md
@@ -205,6 +209,7 @@ nav:
           - К уроку 19: homework/lesson-19-current.md
           - К уроку 20: homework/lesson-20-current.md
           - К уроку 21: homework/lesson-21-current.md
+          - К уроку 23: homework/lesson-23-current.md
       - Тренажёры:
           - training/index.md
           - Буквы и буквосочетания: training/alphabet-and-combinations.md

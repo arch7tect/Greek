@@ -27,12 +27,14 @@ LESSONS = [
     'lesson-19-current.md',
     'lesson-20-current.md',
     'lesson-21-current.md',
+    'lesson-23-current.md',
 ]
 EXPECTED = ['Что освоить', 'Разбор', 'Практика перед домашкой',
             'Домашнее задание']
 
 def main():
-    for number, name in enumerate(LESSONS, 1):
+    for name in LESSONS:
+        number = int(name.split("-")[1])
         path = DOCS / 'lessons' / name
         text = path.read_text()
         headings = [re.sub(r'\s*\{.*', '', h) for h in re.findall(r'^## (.+)$', text, re.M)]
